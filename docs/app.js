@@ -1,5 +1,5 @@
 async function load() {
-  const res = await fetch("../data/videos.json");
+  const res = await fetch("data/videos.json");   // now points inside /docs
   const data = await res.json();
 
   const teamSet   = new Set(data.map(v => v.team).filter(Boolean));
