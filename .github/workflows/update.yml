@@ -7,17 +7,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: Configure YT_API_KEY
+    environment: YT_API_KEY              # 👈 must match the environment name exactly
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install pipenv
-      - run: pipenv install --deploy system
-      - run: pip install -r requirements.txt
-      - run: python src/fetch_videos.py
+      - run: pipenv install --deploy --system
+      - name: Run scraper
+        run: python src/fetch_videos.py
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
       - name: Commit & push if changed
