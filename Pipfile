@@ -1,0 +1,22 @@
+[[package]]
+name = "google-api-python-client"
+version = "*"
+
+[[package]]
+name = "python-dateutil"
+version = "*"
+
+[[package]]
+name = "hltv-async-api"
+version = "*"
+
+[[package]]
+name = "beautifulsoup4"
+version = "*"
+
+[[package]]
+name = "lxml"
+version = "*"
+
+[requires]
+python_version = "3.12"
