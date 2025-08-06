@@ -1,0 +1,4 @@
+google-api-python-client==2.*
+python-dateutil
+requests
+hltv==3.*          # unofficial HLTV scraper :contentReference[oaicite:0]{index=0}
