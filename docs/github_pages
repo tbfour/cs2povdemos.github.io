@@ -1,0 +1,2 @@
+YT_API_KEY      # YouTube Data API v3 key
+GH_PAT          # a fine-grained Personal Access Token with “contents:write” for self-commits
