@@ -65,3 +65,13 @@ iframe{width:100%;aspect-ratio:16/9;border:none;border-radius:.65rem .65rem 0 0}
   background:var(--card-bg);color:var(--fg);cursor:pointer;
 }
 .pager button:disabled{opacity:.35;cursor:not-allowed}
+
+.filter-block{
+  display:flex;flex-direction:column;gap:.25rem
+}
+.search{
+  padding:.25rem .5rem;font-size:.75rem;
+  border:1px solid rgba(0,0,0,.12);
+  border-radius:.4rem;background:var(--card-bg);color:var(--fg);
+}
+.search::placeholder{opacity:.6;font-style:italic}
