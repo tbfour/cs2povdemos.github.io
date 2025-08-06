@@ -20,6 +20,10 @@ jobs:
       - run: pipenv install --deploy --system
       - name: Run scraper
         run: python src/fetch_videos.py
+      - name: Copy JSON into docs
+        run: |
+          mkdir -p docs/data
+          cp data/videos.json docs/data/videos.json
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
 
@@ -27,7 +31,9 @@ jobs:
       - name: Commit & push updated videos.json
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: data/videos.json
+          file_pattern: |
+            data/videos.json
+            docs/data/videos.json
           branch: main                    # or refs/heads/main both work
           commit_message: "bot: refresh catalogue ${{ github.run_number }} [skip ci]"
           push_options: '--force'
