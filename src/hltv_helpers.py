@@ -1,5 +1,5 @@
 # src/hltv_helpers.py
-from hltv_async_api.sync import Hltv          # NEW
+from hltv_async_api import Hltv          # NEW
 hltv = Hltv()                                 # lightweight; 1-2 requests
 
 def get_team(player_name: str) -> str | None:
