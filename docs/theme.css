@@ -75,3 +75,12 @@ iframe{width:100%;aspect-ratio:16/9;border:none;border-radius:.65rem .65rem 0 0}
   border-radius:.4rem;background:var(--card-bg);color:var(--fg);
 }
 .search::placeholder{opacity:.6;font-style:italic}
+
+/* search inputs */
+.filter{display:flex;flex-direction:column;gap:.25rem}
+.filter input{
+  padding:.32rem .55rem;font-size:.8rem;font-family:inherit;
+  border:1px solid rgba(0,0,0,.15);border-radius:.4rem;
+  background:var(--card-bg);color:var(--fg);
+}
+.filter input::placeholder{opacity:.55;font-style:italic}
