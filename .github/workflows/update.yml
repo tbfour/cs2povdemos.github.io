@@ -10,6 +10,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      YT_API_KEY: ${{ secrets.YT_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -19,6 +21,8 @@ jobs:
       - run: pipenv install --deploy --system
       - name: Run scraper
         run: python src/fetch_videos.py
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
       - name: Copy JSON into docs
         run: |
           mkdir -p docs/data
