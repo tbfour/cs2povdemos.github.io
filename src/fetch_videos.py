@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 from dateutil.parser import isoparse
 from pathlib import Path
 import json, os, re, datetime as dt
-from hltv import HLTV
+from hltv_async_api.sync import Hltv 
 
 YT_KEY    = os.getenv("YT_API_KEY")
 CHANNELS  = {
@@ -34,12 +34,13 @@ def parse_title(t):
     player = re.split(r"[-|]|vs", t)[0].strip()
     return player, map_hit
 
-def enrich_player(player_name):
-    hltv = HLTV()
+hltv = Hltv()                                # reuse one instance per run
+
+def enrich_player(player_name: str) -> str | None:
+"""Return the player’s current team (or None) using HLTV."""
     try:
-        pl = hltv.search_players(player_name, size=1)[0]
-        pinfo = hltv.get_player(pl['id'])
-        return pinfo["team"]["name"]
+        match = hltv.search_players(player_name, size=1)
+        return match[0]["team"]["name"] if match else None
     except Exception:
         return None
 
