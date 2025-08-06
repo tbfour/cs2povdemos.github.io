@@ -1,24 +1,13 @@
 """
-Build data/videos.json for your CS2 POV library.
+Rebuild data/videos.json for your CS2 POV site.
 
-Workflow
---------
-1. Use `cs_rankings.HLTVRankings()` to fetch the current HLTV Top-50 team
-   ranking (1 request; no Cloudflare scraping).
-2. Extract every roster nickname → whitelist  (and remember each
-   nickname’s team name).
-3. Scan YouTube uploads on the configured channels (last 18 months).
-4. A video’s `player` field is set to the first whitelist nickname that
-   appears in its title (case-insensitive exact match).  If no nickname
-   appears, player/team stay **None** but the video is still kept.
-5. A nickname must occur in **≥ 10** videos to reach the dropdown;
-   others are nulled out.
-6. Result is written to `data/videos.json`, newest-first.
-
-You only need to:
-• `pip install cs_rankings`  (or add to your `Pipfile`)
-• make sure `YT_API_KEY` is supplied in the workflow step that runs this
-  script.
+• Pull the current top team ranking from eupeutro’s HLTV API.
+• Build a whitelist of player nicknames and remember each nickname’s team.
+• Scan uploads on the configured YouTube channels (last 18 months).
+• A video’s player field is set only if its title contains a whitelist nickname.
+  Videos without a pro name are still kept, but player/team remain None.
+• A nickname must appear in ≥10 videos in the window to reach the dropdown.
+• Output written to docs/data/videos.json (newest first).
 """
 
 from googleapiclient.discovery import build
@@ -26,11 +15,11 @@ from dateutil.parser import isoparse
 from pathlib import Path
 from collections import Counter
 import datetime as dt
-import json, os, re
+import json, os, re, requests, asyncio
 
-from cs_rankings import HLTVRankings   # <— new dependency
+from hltv_async_api import Hltv  # for nickname → team lookup
 
-# ────────────────────────────── Config ──────────────────────────────────
+# ── secrets & channels ──────────────────────────────────────────────────
 YT_KEY = os.getenv("YT_API_KEY")
 if not YT_KEY:
     raise RuntimeError("YT_API_KEY not set")
@@ -41,129 +30,164 @@ CHANNELS = {
     "nebula":         "@NebulaCS2",
 }
 
+# 18‑month cutoff (timezone-aware to avoid TypeError)
 CUTOFF = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=18 * 30)
 
-MAPS = {
-    "mirage", "inferno", "nuke", "ancient", "anubis",
-    "vertigo", "overpass", "dust2"
-}
+MAPS = {"mirage","inferno","nuke","ancient","anubis",
+        "vertigo","overpass","dust2"}
 
 BLACKLIST = MAPS | {
-    "faceit", "pov", "demo", "highlights", "highlight", "ranked",
-    "cs2", "vs", "clutch"
+    "faceit","pov","demo","highlights","highlight","ranked",
+    "cs2","vs","clutch"
 }
 
 TOKEN = re.compile(r"[A-Za-z0-9_\-]{3,16}")
 
-# ────────────────── Step 1: build whitelist from HLTV ───────────────────
-def get_whitelist() -> tuple[set[str], dict[str, str]]:
-    """Return (whitelist, nickname→team) from HLTV top-50 teams."""
-    client = HLTVRankings()
-    ranking = client.get_ranking(max_rank=50)     # one API call
-    client.close()
+# Endpoint for eupeutro’s HLTV API (change if self-hosting)
+API_BASE = "https://hltv-api.onrender.com/api"
 
-    names: set[str] = set()
-    nick_to_team: dict[str, str] = {}
+# ── fetch & cache whitelist ─────────────────────────────────────────────
+WL_FILE = Path("docs/data/whitelist.json")
 
-    for team in ranking:
-        team_name = team["name"]
-        for entry in team["players"]:
-            nick = entry   # HLTVRankings returns plain nicks in 'players'
-            names.add(nick)
-            nick_to_team[nick] = team_name
-    return names, nick_to_team
+def fetch_whitelist_live() -> set[str]:
+    """
+    Pull top team ranking from the HLTV API and extract all player names.
+    """
+    try:
+        url = f"{API_BASE}/ranking?type=team&offset=0"
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        teams = response.json()["data"]
+        names = {p["playerName"] for team in teams for p in team["ranking"]}
+        return names
+    except Exception as e:
+        print(f"[warn] HLTV API fetch failed: {e}")
+        return set()
 
-# ──────────────── YouTube helper functions (unchanged) ─────────────────
-def resolve_channel_id(yapi, handle_or_id: str) -> str | None:
-    if handle_or_id.startswith("UC"):
-        return handle_or_id
-    res = yapi.search().list(
-        q=handle_or_id.lstrip("@"), type="channel",
-        part="snippet", maxResults=1
-    ).execute()
-    return res["items"][0]["id"]["channelId"] if res["items"] else None
+def get_whitelist() -> set[str]:
+    """
+    Return the current whitelist. Use cached whitelist.json if API fails.
+    """
+    live = fetch_whitelist_live()
+    if live:
+        WL_FILE.parent.mkdir(parents=True, exist_ok=True)
+        WL_FILE.write_text(json.dumps(sorted(live)))
+        return live
+    if WL_FILE.exists():
+        print("[info] using cached whitelist")
+        return set(json.loads(WL_FILE.read_text()))
+    print("[warn] no whitelist available; player dropdown will be empty")
+    return set()
 
+# ── HLTV nickname→team lookup (cached) ──────────────────────────────────
+_cache: dict[str, tuple[str,str] | None] = {}
 
-def upload_playlist_id(yapi, channel_id: str) -> str | None:
-    cd = yapi.channels().list(
-        id=channel_id, part="contentDetails"
-    ).execute()
-    if cd["items"]:
-        return cd["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+async def _hltv_lookup(tag: str) -> tuple[str,str] | None:
+    async with Hltv(timeout=2) as api:
+        res = await api.search_players(tag, size=1)
+        if res:
+            nick = res[0]["name"]
+            team = res[0]["team"]["name"]
+            return nick, team
+        return None
+
+def first_valid_player(tokens: list[str], whitelist_lc: set[str]) -> tuple[str,str] | None:
+    """
+    Return (nickname, team) if a token is on the whitelist and resolves via HLTV.
+    """
+    for tok in tokens:
+        lo = tok.lower()
+        if lo in BLACKLIST or lo not in whitelist_lc:
+            continue
+        if tok not in _cache:
+            try:
+                _cache[tok] = asyncio.run(_hltv_lookup(tok))
+            except Exception:
+                _cache[tok] = None
+        return _cache[tok]
     return None
 
+# ── YouTube helpers ─────────────────────────────────────────────────────
+def chan_id(y, handle_or_id: str) -> str | None:
+    if handle_or_id.startswith("UC"):
+        return handle_or_id
+    r = y.search().list(q=handle_or_id.lstrip("@"), type="channel",
+                        part="snippet", maxResults=1).execute()
+    return r["items"][0]["id"]["channelId"] if r["items"] else None
 
-def scan_channel(yapi, upl_id: str):
+def uploads_pl(y, cid: str) -> str | None:
+    r = y.channels().list(id=cid, part="contentDetails").execute()
+    if r["items"]:
+        return r["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+
+def walk_pl(y, pl_id: str):
     token = None
     while True:
-        res = yapi.playlistItems().list(
-            playlistId=upl_id, part="snippet",
-            maxResults=50, pageToken=token
-        ).execute()
-        yield from res["items"]
-        token = res.get("nextPageToken")
+        r = y.playlistItems().list(playlistId=pl_id, part="snippet",
+                                   maxResults=50, pageToken=token).execute()
+        yield from r["items"]
+        token = r.get("nextPageToken")
         if not token:
             break
 
-# ──────────────────────────── Main routine ─────────────────────────────
+# ── main routine ────────────────────────────────────────────────────────
 def main() -> None:
-    whitelist, nick_to_team = get_whitelist()
+    whitelist = get_whitelist()
     whitelist_lc = {n.lower() for n in whitelist}
 
-    youtube = build("youtube", "v3", developerKey=YT_KEY)
-    videos: list[dict] = []
-    counter: Counter[str] = Counter()
+    yt = build("youtube", "v3", developerKey=YT_KEY)
+    vids, counter = [], Counter()
 
     for label, raw in CHANNELS.items():
-        cid = resolve_channel_id(youtube, raw)
+        cid = chan_id(yt, raw)
         if not cid:
             print(f"[warn] cannot resolve {raw!r}")
             continue
-        upl = upload_playlist_id(youtube, cid)
+        upl = uploads_pl(yt, cid)
         if not upl:
             print(f"[warn] no uploads playlist for {cid}")
             continue
 
-        for item in scan_channel(youtube, upl):
-            published = isoparse(item["snippet"]["publishedAt"])
-            if published < CUTOFF:
+        for it in walk_pl(yt, upl):
+            pub = isoparse(it["snippet"]["publishedAt"])
+            if pub < CUTOFF:
                 continue
 
-            title = item["snippet"]["title"]
+            title = it["snippet"]["title"]
             tokens = TOKEN.findall(title)
-            nick = next((t for t in tokens
-                         if t.lower() in whitelist_lc
-                         and t.lower() not in BLACKLIST),
-                        None)
+            hit = first_valid_player(tokens, whitelist_lc)
 
-            if nick:
-                counter[nick] += 1
+            player = team = None
+            if hit:
+                player, team = hit
+                counter[player] += 1
 
             lower = title.lower()
             game_map = next((m for m in MAPS if m in lower), None)
 
-            videos.append({
-                "id": item["snippet"]["resourceId"]["videoId"],
+            vids.append({
+                "id": it["snippet"]["resourceId"]["videoId"],
                 "title": title,
                 "channel": label,
-                "player": nick,
-                "team": nick_to_team.get(nick),
+                "player": player,
+                "team": team,
                 "map": game_map,
-                "published": published.isoformat()[:10],
+                "published": pub.isoformat()[:10],
             })
 
-    # keep only players who appear in ≥10 videos
+    # keep only players appearing in ≥10 videos
     keep = {p for p, n in counter.items() if n >= 10}
-    for vid in videos:
-        if vid["player"] not in keep:
-            vid["player"] = vid["team"] = None
+    for v in vids:
+        if v["player"] not in keep:
+            v["player"] = v["team"] = None
 
-    videos.sort(key=lambda v: v["published"], reverse=True)
+    vids.sort(key=lambda v: v["published"], reverse=True)
 
-    Path("data").mkdir(exist_ok=True)
-    Path("data/videos.json").write_text(json.dumps(videos, indent=2))
-    print(f"[info] wrote {len(videos)} videos "
-          f"({len(keep)} players in dropdown)")
+    # Write JSON into docs/data/ (ensure folder exists)
+    out_dir = Path("docs/data")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "videos.json").write_text(json.dumps(vids, indent=2))
+    print(f"[info] wrote {len(vids)} videos ({len(keep)} players in dropdown)")
 
 if __name__ == "__main__":
     main()
