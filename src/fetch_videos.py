@@ -5,7 +5,7 @@ import json, os, re, datetime as dt
 import asyncio
 from hltv_async_api import Hltv 
 
-YT_KEY    = os.getenv("YT_API_KEY")
+YT_KEY = os.getenv("YT_API_KEY")
 if not YT_KEY:
     raise RuntimeError("YT_API_KEY not found in env")
 
