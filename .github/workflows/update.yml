@@ -4,6 +4,9 @@ on:
     - cron:  '0 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,11 +27,11 @@ jobs:
       - name: Commit & push updated videos.json
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "bot: refresh catalogue ${{ github.run_number }} [skip ci]"
-          branch: ${{ github.ref }}
           file_pattern: data/videos.json
-          push_options: '--force'          # keep history linear (optional)
-          commit_user_name: 'tbfour-cs2povdemo-bot'
+          branch: main                    # or refs/heads/main both work
+          commit_message: "bot: refresh catalogue ${{ github.run_number }} [skip ci]"
+          push_options: '--force'
+          commit_user_name: 'tbfour'
           commit_user_email: 'taggertbaker@gmail.com'
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}   # fine-grained PAT (contents:write)
