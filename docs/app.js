@@ -3,46 +3,31 @@ async function load() {
   const res  = await fetch("data/videos.json");
   const data = await res.json();
 
-  // 2. Build filter sets --------------------------------------------------
-  const teamSet   = new Set(data.map(v => v.team).filter(Boolean));
-  const playerSet = new Set(data.map(v => v.player));
-  const mapSet    = new Set(data.map(v => v.map).filter(Boolean));
+  // 2. Build filter blocks -------------------------------------------------
+  const makeFilter = (key, label, set) => {
+    const container = document.createElement("div");
+    container.className = "filter";
 
-  // helper: create search+select pair
-  function makeFilter(id, labelText, values) {
-    const block = document.createElement("div");
-    block.className = "filter-block";
+    const input = document.createElement("input");
+    input.type = "text";
+    input.placeholder = `Search ${label}`;
+    input.dataset.key = key;
+    input.setAttribute("list", `${key}List`);
 
-    const search = document.createElement("input");
-    search.type  = "text";
-    search.placeholder = `Search ${labelText}`;
-    search.className   = "search";
+    const list = document.createElement("datalist");
+    list.id = `${key}List`;
+    [...set].sort().forEach(v => list.insertAdjacentHTML("beforeend", `<option value="${v}">`));
 
-    const select = document.createElement("select");
-    select.id = id;
-    select.innerHTML = `<option value="">${labelText} ↓</option>` +
-      [...values].sort().map(v => `<option>${v}</option>`).join("");
+    container.append(input, list);
+    document.querySelector(".filters").appendChild(container);
+    return input;
+  };
 
-    // live-filter options
-    search.addEventListener("input", () => {
-      const q = search.value.toLowerCase();
-      [...select.options].forEach(opt => {
-        opt.hidden = q && !opt.text.toLowerCase().includes(q);
-      });
-    });
-    // reset search when user picks an option
-    select.addEventListener("change", () => { search.value = ""; page = 0; render(); });
+  const teamInput   = makeFilter("team",   "Team",   new Set(data.map(v => v.team)));
+  const playerInput = makeFilter("player", "Player", new Set(data.map(v => v.player)));
+  const mapInput    = makeFilter("map",    "Map",    new Set(data.map(v => v.map)));
 
-    block.append(search, select);
-    document.querySelector(".filters").appendChild(block);
-    return select;
-  }
-
-  const teamSel   = makeFilter("team",   "Team",   teamSet);
-  const playerSel = makeFilter("player", "Player", playerSet);
-  const mapSel    = makeFilter("map",    "Map",    mapSet);
-
-  // 3. Pagination + render -----------------------------------------------
+  // 3. Pagination + render -------------------------------------------------
   let page = 0;
   const PAGE_SIZE = 15;
 
@@ -61,10 +46,13 @@ async function load() {
   prevBtn.onclick = () => { page--; render(); };
   nextBtn.onclick = () => { page++; render(); };
 
+  [teamInput, playerInput, mapInput].forEach(inp =>
+    inp.addEventListener("input", () => { page = 0; render(); }));
+
   function render() {
-    const t = teamSel.value,
-          p = playerSel.value,
-          m = mapSel.value;
+    const t = teamInput.value.trim();
+    const p = playerInput.value.trim();
+    const m = mapInput.value.trim();
 
     const filtered = data.filter(v =>
       (!t || v.team   === t) &&
@@ -80,15 +68,11 @@ async function load() {
     const wrap = document.getElementById("videos");
     wrap.innerHTML = "";
     slice.forEach(v => {
-      wrap.insertAdjacentHTML(
-        "beforeend",
+      wrap.insertAdjacentHTML("beforeend",
         `<div class="card">
            <iframe src="https://www.youtube.com/embed/${v.id}" allowfullscreen></iframe>
-           <div class="card-info">
-             <strong>${v.player}</strong> – ${v.map ?? "unknown"} (${v.team ?? "free-agent"})
-           </div>
-         </div>`
-      );
+           <div class="card-info">${v.title}</div>
+         </div>`);
     });
 
     pageInfo.textContent = `${page + 1} / ${maxPage + 1}`;
@@ -97,7 +81,7 @@ async function load() {
   }
   render();
 
-  // 4. Theme toggle -------------------------------------------------------
+  // 4. Theme toggle --------------------------------------------------------
   const btn  = document.getElementById("toggleTheme");
   const icon = document.getElementById("iconTheme");
 
