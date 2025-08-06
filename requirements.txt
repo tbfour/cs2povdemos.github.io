@@ -4,6 +4,7 @@ python-dateutil>=2
 
 # ---- HLTV wrapper ----
 hltv-async-api>=0.8        # modern, maintained
+requests>=2
 
 # ---- HTML parsing that HLTV wrapper needs ----
 beautifulsoup4
