@@ -6,6 +6,9 @@ import asyncio
 from hltv_async_api import Hltv 
 
 YT_KEY    = os.getenv("YT_API_KEY")
+if not YT_KEY:
+    raise RuntimeError("YT_API_KEY not found in env")
+
 CHANNELS  = {
     "lim":             "UC6eBEfV8x_Jc1IZ2Ftn8LwQ",
     "pov_highlights":  "UClkK9N8HreKW0vZQmlQ5Kvg",
