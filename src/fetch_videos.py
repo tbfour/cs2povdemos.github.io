@@ -2,6 +2,7 @@ from googleapiclient.discovery import build
 from dateutil.parser import isoparse
 from pathlib import Path
 import json, os, re, datetime as dt
+import asyncio
 from hltv_async_api import Hltv 
 
 YT_KEY    = os.getenv("YT_API_KEY")
@@ -34,15 +35,24 @@ def parse_title(t):
     player = re.split(r"[-|]|vs", t)[0].strip()
     return player, map_hit
 
-hltv = Hltv()                                # reuse one instance per run
+# --- HLTV lookup ----------------------------------------------------------
+_team_cache: dict[str, str | None] = {}
 
-def enrich_player(player_name: str) -> str | None:
-    """Return the player’s current team (or None) using HLTV."""
+async def _lookup(player: str) -> str | None:
+    async with Hltv(timeout=2, max_delay=1) as api:
+        res = await api.search_players(player, size=1)
+        return res[0]["team"]["name"] if res else None
+
+def enrich_player(player: str) -> str | None:
+    if player in _team_cache:                # hit the in-memory cache
+        return _team_cache[player]
     try:
-        match = hltv.search_players(player_name, size=1)
-        return match[0]["team"]["name"] if match else None
+        team = asyncio.run(_lookup(player))  # run the coroutine
     except Exception:
-        return None
+        team = None
+    _team_cache[player] = team               # memoise
+    return team
+# --------------------------------------------------------------------------
 
 def main():
     y = build("youtube", "v3", developerKey=YT_KEY)
