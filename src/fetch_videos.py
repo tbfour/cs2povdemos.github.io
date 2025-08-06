@@ -47,10 +47,28 @@ def scan_channel(y, upload_pl):
         if not nextp: break
     return vids
 
-def parse_title(t):
+# ── CS2 map list used by the title parser ────────────────────────────────────
+MAPS = {
+    "mirage",
+    "inferno",
+    "nuke",
+    "ancient",
+    "anubis",
+    "vertigo",
+    "overpass",
+    "dust2",
+}
+# ─────────────────────────────────────────────────────────────────────────────
+
+def parse_title(t: str) -> tuple[str, str | None]:
+    """
+    Very simple heuristic:
+      • player  = first token before '-', '|', or 'vs'
+      • map_hit = first known map substring found in lowercase title
+    """
     t_low = t.lower()
     map_hit = next((m for m in MAPS if m in t_low), None)
-    player = re.split(r"[-|]|vs", t)[0].strip()
+    player = re.split(r"[-|]|vs", t, maxsplit=1)[0].strip()
     return player, map_hit
 
 # --- HLTV lookup ----------------------------------------------------------
