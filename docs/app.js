@@ -1,28 +1,51 @@
 async function load() {
-  // ── 1. Fetch catalogue ────────────────────────────────────────────────
-  const res  = await fetch("data/videos.json");   // JSON lives inside /docs/data
+  // 1. Fetch catalogue ----------------------------------------------------
+  const res  = await fetch("data/videos.json");
   const data = await res.json();
 
-  // ── 2. Build filter dropdowns ─────────────────────────────────────────
+  // 2. Build filter sets --------------------------------------------------
   const teamSet   = new Set(data.map(v => v.team).filter(Boolean));
   const playerSet = new Set(data.map(v => v.player));
   const mapSet    = new Set(data.map(v => v.map).filter(Boolean));
 
-  const sel = (id, set) => {
-    const el = document.getElementById(id);
-    [...set].sort().forEach(v => el.insertAdjacentHTML("beforeend", `<option>${v}</option>`));
-    el.addEventListener("change", () => { page = 0; render(); });
-    return el;
-  };
-  const teamSel   = sel("team",   teamSet);
-  const playerSel = sel("player", playerSet);
-  const mapSel    = sel("map",    mapSet);
+  // helper: create search+select pair
+  function makeFilter(id, labelText, values) {
+    const block = document.createElement("div");
+    block.className = "filter-block";
 
-  // ── 3. Pagination + render ────────────────────────────────────────────
+    const search = document.createElement("input");
+    search.type  = "text";
+    search.placeholder = `Search ${labelText}`;
+    search.className   = "search";
+
+    const select = document.createElement("select");
+    select.id = id;
+    select.innerHTML = `<option value="">${labelText} ↓</option>` +
+      [...values].sort().map(v => `<option>${v}</option>`).join("");
+
+    // live-filter options
+    search.addEventListener("input", () => {
+      const q = search.value.toLowerCase();
+      [...select.options].forEach(opt => {
+        opt.hidden = q && !opt.text.toLowerCase().includes(q);
+      });
+    });
+    // reset search when user picks an option
+    select.addEventListener("change", () => { search.value = ""; page = 0; render(); });
+
+    block.append(search, select);
+    document.querySelector(".filters").appendChild(block);
+    return select;
+  }
+
+  const teamSel   = makeFilter("team",   "Team",   teamSet);
+  const playerSel = makeFilter("player", "Player", playerSet);
+  const mapSel    = makeFilter("map",    "Map",    mapSet);
+
+  // 3. Pagination + render -----------------------------------------------
   let page = 0;
   const PAGE_SIZE = 15;
 
-  // pager controls
   const pager = document.createElement("div");
   pager.className = "pager";
   pager.innerHTML = `
@@ -31,9 +54,9 @@ async function load() {
     <button id="nextPage">Next ›</button>`;
   document.body.appendChild(pager);
 
-  const prevBtn  = document.getElementById("prevPage");
-  const nextBtn  = document.getElementById("nextPage");
-  const pageInfo = document.getElementById("pageInfo");
+  const prevBtn  = pager.querySelector("#prevPage");
+  const nextBtn  = pager.querySelector("#nextPage");
+  const pageInfo = pager.querySelector("#pageInfo");
 
   prevBtn.onclick = () => { page--; render(); };
   nextBtn.onclick = () => { page++; render(); };
@@ -43,18 +66,15 @@ async function load() {
           p = playerSel.value,
           m = mapSel.value;
 
-    // filter first
     const filtered = data.filter(v =>
       (!t || v.team   === t) &&
       (!p || v.player === p) &&
       (!m || v.map    === m)
     );
 
-    // adjust page if filter shrank list
     const maxPage = Math.max(0, Math.ceil(filtered.length / PAGE_SIZE) - 1);
     page = Math.min(page, maxPage);
 
-    // slice for current page
     const slice = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
 
     const wrap = document.getElementById("videos");
@@ -71,14 +91,13 @@ async function load() {
       );
     });
 
-    // update pager
     pageInfo.textContent = `${page + 1} / ${maxPage + 1}`;
     prevBtn.disabled = page === 0;
     nextBtn.disabled = page === maxPage;
   }
-  render();   // initial draw
+  render();
 
-  // ── 4. Dark / light theme toggle ──────────────────────────────────────
+  // 4. Theme toggle -------------------------------------------------------
   const btn  = document.getElementById("toggleTheme");
   const icon = document.getElementById("iconTheme");
 
@@ -88,12 +107,11 @@ async function load() {
       ? '<path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>'
       : '<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.36 6.36l-1.42-1.42M6.05 6.05L4.64 4.64m0 13.72l1.41-1.41m12.73-12.73l-1.41 1.41M12 7a5 5 0 000 10a5 5 0 000-10z"/>';
   }
-
-  btn.addEventListener("click", () => {
+  btn.onclick = () => {
     const next = document.body.className.includes("dark") ? "theme-light" : "theme-dark";
     setTheme(next);
-  });
-  setTheme(document.body.className);   // initial
+  };
+  setTheme(document.body.className);
 }
 
 load();
