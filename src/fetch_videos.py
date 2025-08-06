@@ -9,16 +9,31 @@ YT_KEY = os.getenv("YT_API_KEY")
 if not YT_KEY:
     raise RuntimeError("YT_API_KEY not found in env")
 
-CHANNELS  = {
-    "lim":             "UC6eBEfV8x_Jc1IZ2Ftn8LwQ",
-    "pov_highlights":  "UClkK9N8HreKW0vZQmlQ5Kvg",
-    "nebula":          "UCQ3nz4Z_r5fR2aAlmLlgNOA",
+# ─── YouTube helpers ──────────────────────────────────────────────────────────
+CHANNELS = {                        # you can keep handles *or* raw IDs here
+    "lim":            "@lim-csgopov",
+    "pov_highlights": "@CSGOPOVDemosHighlights",
+    "nebula":         "@NebulaCS2",
 }
-MAPS = {"mirage","inferno","nuke","ancient","anubis","vertigo","overpass","dust2"}
 
-def get_upload_playlist_id(y, channel_id):
+def resolve_channel_id(y, handle_or_id: str) -> str | None:
+    """Turn a handle like '@lim-csgopov' into a UC-style channel ID."""
+    if handle_or_id.startswith("UC"):            # already an ID
+        return handle_or_id
+    res = y.search().list(
+        q=handle_or_id.lstrip("@"), type="channel",
+        part="snippet", maxResults=1
+    ).execute()
+    if res["items"]:
+        return res["items"][0]["id"]["channelId"]
+    return None
+
+def get_upload_playlist_id(y, channel_id: str) -> str | None:
     cd = y.channels().list(id=channel_id, part="contentDetails").execute()
-    return cd["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    if cd["items"]:
+        return cd["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    return None
+# ──────────────────────────────────────────────────────────────────────────────
 
 def scan_channel(y, upload_pl):
     vids, nextp = [], None
@@ -57,34 +72,52 @@ def enrich_player(player: str) -> str | None:
     return team
 # --------------------------------------------------------------------------
 
-def main():
+def main() -> None:
     y = build("youtube", "v3", developerKey=YT_KEY)
-    existing = json.loads(Path("data/videos.json").read_text()) if Path("data/videos.json").exists() else []
+
+    # load existing catalogue (if any)
+    existing_path = Path("data/videos.json")
+    existing = json.loads(existing_path.read_text()) if existing_path.exists() else []
     ids_seen = {v["id"] for v in existing}
 
-    for chan_name, chan_id in CHANNELS.items():
-        upl = get_upload_playlist_id(y, chan_id)
+    for label, raw_channel in CHANNELS.items():
+        cid = resolve_channel_id(y, raw_channel)
+        if not cid:
+            print(f"[warn] could not resolve channel {raw_channel!r} – skipping")
+            continue
+
+        upl = get_upload_playlist_id(y, cid)
+        if not upl:
+            print(f"[warn] no uploads playlist for channel {cid} – skipping")
+            continue
+
         for item in scan_channel(y, upl):
             vid = item["snippet"]["resourceId"]["videoId"]
-            if vid in ids_seen: continue
+            if vid in ids_seen:
+                continue
+
             title = item["snippet"]["title"]
             player, gmap = parse_title(title)
-            team  = enrich_player(player)
-            entry = {
-                "id": vid,
-                "title": title,
-                "channel": chan_name,
-                "player": player,
-                "team": team,
-                "map": gmap,
-                "published": item["snippet"]["publishedAt"][:10]
-            }
-            existing.append(entry)
+            team = enrich_player(player)
+
+            existing.append(
+                {
+                    "id": vid,
+                    "title": title,
+                    "channel": label,
+                    "player": player,
+                    "team": team,
+                    "map": gmap,
+                    "published": item["snippet"]["publishedAt"][:10],
+                }
+            )
             ids_seen.add(vid)
 
+    # sort newest → oldest
     existing.sort(key=lambda v: isoparse(v["published"]), reverse=True)
+
     Path("data").mkdir(exist_ok=True)
-    Path("data/videos.json").write_text(json.dumps(existing, indent=2))
+    existing_path.write_text(json.dumps(existing, indent=2))
 
 if __name__ == "__main__":
     main()
