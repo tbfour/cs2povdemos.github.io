@@ -1,4 +1,10 @@
-google-api-python-client==2.*
-python-dateutil
-requests
-hltv==3.*          # unofficial HLTV scraper :contentReference[oaicite:0]{index=0}
+# ---- YouTube & helpers ----
+google-api-python-client>=2
+python-dateutil>=2
+
+# ---- HLTV wrapper ----
+hltv-async-api>=0.8        # modern, maintained
+
+# ---- HTML parsing that HLTV wrapper needs ----
+beautifulsoup4
+lxml
