@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 from dateutil.parser import isoparse
 from pathlib import Path
 import json, os, re, datetime as dt
-from hltv_async_api.sync import Hltv 
+from hltv_async_api import Hltv 
 
 YT_KEY    = os.getenv("YT_API_KEY")
 CHANNELS  = {
