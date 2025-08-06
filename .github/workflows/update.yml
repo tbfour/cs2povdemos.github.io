@@ -19,13 +19,3 @@ jobs:
         run: python src/fetch_videos.py
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
-      - name: Commit & push if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "bot: update catalogue $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-          branch: ${{ github.ref }}
-          push_options: '--force'
-          commit_user_name: 'GitHub Action'
-          commit_user_email: 'action@github.com'
-          repository: ${{ github.repository }}
-          token: ${{ secrets.GH_PAT }}
