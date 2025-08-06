@@ -10,7 +10,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: YT_API_KEY              # 👈 must match the environment name exactly
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
