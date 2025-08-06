@@ -37,7 +37,7 @@ def parse_title(t):
 hltv = Hltv()                                # reuse one instance per run
 
 def enrich_player(player_name: str) -> str | None:
-"""Return the player’s current team (or None) using HLTV."""
+    """Return the player’s current team (or None) using HLTV."""
     try:
         match = hltv.search_players(player_name, size=1)
         return match[0]["team"]["name"] if match else None
