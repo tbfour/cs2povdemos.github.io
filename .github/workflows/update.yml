@@ -19,3 +19,17 @@ jobs:
         run: python src/fetch_videos.py
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
+
+        # ── Commit & push catalogue if it changed ────────────────────────────────────
+      - name: Commit & push updated videos.json
+        uses: tbfour/git-auto-commit-action@v5
+        with:
+          commit_message: "bot: refresh catalogue ${{ github.run_number }} [skip ci]"
+          branch: ${{ github.ref }}
+          file_pattern: data/videos.json
+          push_options: '--force'          # keep history linear (optional)
+          commit_user_name: 'tbfour-cs2povdemo-bot'
+          commit_user_email: 'taggertbaker@gmail.com'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}   # fine-grained PAT (contents:write)
+# ─────────────────────────────────────────────────────────────────────────────
