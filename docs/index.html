@@ -5,11 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>CS2 POV Library</title>
 
-  <!-- Inter font + Heroicons (for dark-mode toggle icon) -->
   <link rel="preconnect" href="https://rsms.me/">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-
-  <!-- Our minimal theme -->
   <link rel="stylesheet" href="theme.css" />
 </head>
 <body class="theme-auto">
@@ -18,14 +15,12 @@
     <h1>CS2 POV Library</h1>
 
     <div class="filters">
-      <select id="team"><option value="">Team ⬇</option></select>
-      <select id="player"><option value="">Player ⬇</option></select>
-      <select id="map"><option value="">Map ⬇</option></select>
-
-      <button id="toggleTheme" title="Toggle dark / light">
-        <svg id="iconTheme" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path /></svg>
-      </button>
+      <!-- Search boxes + datalists will be injected by app.js -->
     </div>
+
+    <button id="toggleTheme" title="Toggle dark / light">
+      <svg id="iconTheme" viewBox="0 0 24 24" fill="none"><path/></svg>
+    </button>
   </header>
 
   <main id="videos" class="grid"></main>
