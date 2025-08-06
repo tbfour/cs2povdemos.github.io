@@ -29,7 +29,7 @@ CHANNELS = {
     "nebula":         "@NebulaCS2",
 }
 
-CUTOFF = dt.datetime.utcnow() - dt.timedelta(days=18 * 30)   # ≈ 18 months
+CUTOFF = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=18 * 30)   # ≈ 18 months
 
 MAPS = {"mirage","inferno","nuke","ancient","anubis","vertigo","overpass","dust2"}
 BLACKLIST = MAPS | {
