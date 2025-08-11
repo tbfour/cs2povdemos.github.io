@@ -1,7 +1,8 @@
 name: Refresh catalogue
+
 on:
-  schedule:       # hourly
-    - cron:  '0 * * * *'
+  schedule:
+    - cron: '0 * * * *'   # hourly
   workflow_dispatch:
 
 permissions:
@@ -11,37 +12,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      YT_API_KEY: ${{ secrets.YT_API_KEY }}
+      YT_API_KEY: ${{ secrets.YT_API_KEY }}   # <-- available to scraper step
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install pipenv
-      - run: pipenv install --deploy --system
+
+      # Choose a single dep manager; here we use requirements.txt
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: Run scraper
         run: python src/fetch_videos.py
-        env:
-          YT_API_KEY: ${{ secrets.YT_API_KEY }}
-      - name: Copy JSON into docs
-        run: |
-          mkdir -p docs/data
-          cp data/videos.json docs/data/videos.json
-        env:
-          YT_API_KEY: ${{ secrets.YT_API_KEY }}
 
-        # ── Commit & push catalogue if it changed ────────────────────────────────────
       - name: Commit & push updated videos.json
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: |
-            data/videos.json
-            docs/data/videos.json
-          branch: main                    # or refs/heads/main both work
+          file_pattern: docs/data/videos.json
+          branch: main
           commit_message: "bot: refresh catalogue ${{ github.run_number }} [skip ci]"
-          push_options: '--force'
-          commit_user_name: 'tbfour'
-          commit_user_email: 'taggertbaker@gmail.com'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}   # fine-grained PAT (contents:write)
-# ─────────────────────────────────────────────────────────────────────────────
+          commit_user_name: tbfour-cs2povdemo-bot
+          commit_user_email: 107200677+tbfour@users.noreply.github.com
