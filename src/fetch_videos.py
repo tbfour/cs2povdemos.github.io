@@ -6,7 +6,8 @@ Rebuild docs/data/videos.json for your CS2 POV site.
 • Exclude YouTube Shorts:
     – duration <= 60s OR title contains "#shorts" (case-insensitive).
 • Assign player if a whitelist nickname is in the title.
-• Keep player in dropdown only if they appear in ≥ MIN_VIDEOS.
+• Keep player visible in dropdown only if they appear in ≥ MIN_VIDEOS.
+  (Team is kept even if player is hidden, so Team filter stays useful.)
 • Write newest-first to docs/data/videos.json.
 """
 
@@ -53,9 +54,12 @@ def fetch_top_players() -> tuple[set[str], dict[str,str]]:
         nick_to_team: dict[str, str] = {}
 
         for team in data:
+            # be tolerant to key names across deployments
             team_name = team.get("teamName") or team.get("name") or "unknown"
-            for p in team["ranking"]:
-                nick = p["playerName"]
+            for p in team.get("ranking", []):
+                nick = p.get("playerName")
+                if not nick:
+                    continue
                 whitelist.add(nick)
                 nick_to_team[nick] = team_name
         return whitelist, nick_to_team
@@ -77,30 +81,27 @@ def uploads_pl(y, cid: str) -> str | None:
         return r["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
 
 def walk_pl_pages(y, pl_id: str):
-    """Yield one page (list of items) at a time to batch-fetch details."""
     tok = None
     while True:
         r = y.playlistItems().list(playlistId=pl_id, part="snippet",
                                    maxResults=50, pageToken=tok).execute()
-        items = r["items"]
+        items = r.get("items", [])
         if items:
             yield items
         tok = r.get("nextPageToken")
         if not tok:
             break
 
-# ISO 8601 PT#H#M#S → seconds
+# ISO8601 PT#H#M#S → seconds
 def duration_to_seconds(iso_dur: str) -> int:
-    # Simple parser: extract hours, minutes, seconds
-    m = re.fullmatch(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso_dur)
+    m = re.fullmatch(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso_dur or "")
     if not m: return 0
     h = int(m.group(1) or 0)
-    m_ = int(m.group(2) or 0)
+    mi = int(m.group(2) or 0)
     s = int(m.group(3) or 0)
-    return h*3600 + m_*60 + s
+    return h*3600 + mi*60 + s
 
 def fetch_durations(y, ids: list[str]) -> dict[str,int]:
-    """Return {videoId: seconds} for up to 50 ids per call."""
     out: dict[str,int] = {}
     if not ids:
         return out
@@ -130,7 +131,6 @@ def main() -> None:
             continue
 
         for page in walk_pl_pages(yt, upl):
-            # Batch fetch durations for this page
             ids = [it["snippet"]["resourceId"]["videoId"] for it in page]
             durations = fetch_durations(yt, ids)
 
@@ -141,14 +141,15 @@ def main() -> None:
                     continue
 
                 title = it["snippet"]["title"]
-                # Shorts filter: explicit tag or short duration
                 if "#shorts" in title.lower() or durations.get(vid, 0) <= SHORTS_MAXS:
                     continue
 
                 tokens = TOKEN.findall(title)
                 nick = next((t for t in tokens
-                            if t.lower() in whitelist_lc and t.lower() not in BLACKLIST),
+                             if t.lower() in whitelist_lc and t.lower() not in BLACKLIST),
                             None)
+
+                team = nick_to_team.get(nick) if nick else None
                 if nick:
                     counter[nick] += 1
 
@@ -159,25 +160,24 @@ def main() -> None:
                     "id": vid,
                     "title": title,
                     "channel": label,
-                    "player": nick,
-                    "team": nick_to_team.get(nick),
+                    "player": nick,     # may be hidden from dropdown later
+                    "team": team,       # keep team even if player is hidden
                     "map": game_map,
                     "published": pub.isoformat()[:10],
                 })
 
-    # Keep only players who appear in ≥ MIN_VIDEOS; null others
+    # Hide players below threshold, but KEEP team values
     keep = {p for p, n in counter.items() if n >= MIN_VIDEOS}
     for v in vids:
-        if v["player"] not in keep:
-            v["player"] = v["team"] = None
+        if v.get("player") and v["player"] not in keep:
+            v["player"] = None
 
     vids.sort(key=lambda v: v["published"], reverse=True)
 
     out_dir = Path("docs/data")
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "videos.json").write_text(json.dumps(vids, indent=2))
-    print(f"[info] wrote {len(vids)} videos "
-          f"({len(keep)} players in dropdown)")
+    print(f"[info] wrote {len(vids)} videos ({len(keep)} players in dropdown)")
 
 if __name__ == "__main__":
     main()
