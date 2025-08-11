@@ -1,7 +1,8 @@
 async function load() {
   // 1. Fetch catalogue ----------------------------------------------------
-  const res  = await fetch("data/videos.json");
-  const data = await res.json();
+const res  = await fetch("data/videos.json");   // relative to /docs
+const data = await res.json();
+const players = [...new Set(data.map(v => v.player).filter(Boolean))].sort();
 
   // 2. Build filter blocks -------------------------------------------------
   const makeFilter = (key, label, set) => {
