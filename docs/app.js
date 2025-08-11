@@ -3,6 +3,7 @@
   // --------------------------- Load catalogue ---------------------------
   const res = await fetch("data/videos.json", { cache: "no-store" });
   const data = await res.json();
+  console.log("[app] loaded videos:", data.length);
 
   // Normalize fields so we never render literal "null"/"undefined"
   const norm = (v) => (v === null || v === undefined ? "" : String(v));
@@ -22,6 +23,56 @@
   const playerSet = new Set(data.map(v => v.player).filter(isReal));
   const mapSet    = new Set(data.map(v => v.map).filter(isReal));
 
+  // --------------------------- Fallback CSS ------------------------------
+  // Ensures cards are visible even if theme CSS doesn’t target our classes.
+  const style = document.createElement("style");
+  style.textContent = `
+    #videos.grid {
+      display: grid !important;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 18px;
+      padding: 16px 12px 32px;
+    }
+    .card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    }
+    .card iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      display: block;
+      background: #000;
+    }
+    .card-title { padding: 10px 12px 6px; font-weight: 600; }
+    .card-info  { padding: 0 12px 12px; opacity: 0.85; font-size: 0.95rem; }
+    .filters { display: grid; grid-auto-flow: column; gap: 10px; padding: 12px; align-items: center; }
+    .filters .filter input {
+      width: 100%;
+      background: rgba(0,0,0,0.25);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 8px;
+      padding: 8px 10px;
+      color: inherit;
+      outline: none;
+    }
+    .pager {
+      display: flex; gap: 10px; align-items: center; justify-content: center;
+      padding: 8px 0 40px;
+    }
+    .pager button {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: inherit;
+      border-radius: 8px; padding: 6px 10px; cursor: pointer;
+    }
+    .empty { padding: 32px; opacity: 0.8; text-align: center; }
+  `;
+  document.head.appendChild(style);
+
   // --------------------------- DOM helpers ------------------------------
   const $ = (sel, root = document) => root.querySelector(sel);
 
@@ -31,7 +82,7 @@
       const header = $("header") || document.body;
       wrap = document.createElement("div");
       wrap.className = "filters";
-      header.prepend(wrap);
+      header.appendChild(wrap);
     }
     return wrap;
   };
@@ -119,18 +170,19 @@
   }
 
   // --------------------------- Mount the grid ----------------------------
-  // Reuse existing #videos if present; otherwise create and insert one.
+  // Reuse existing #videos if present; otherwise create under the filters.
   let grid = document.getElementById("videos");
-  const created = !grid;
+  const filtersWrap = ensureFiltersContainer();
   if (!grid) {
     grid = document.createElement("div");
     grid.id = "videos";
+    filtersWrap.insertAdjacentElement("afterend", grid);
   }
   grid.classList.add("grid");
-  if (created) {
-    // Place the grid just before the pager so pager sits under it
-    document.body.insertBefore(grid, pager);
-  }
+  grid.style.display = "grid"; // override any hidden CSS
+
+  // Pager should sit under the grid
+  grid.insertAdjacentElement("afterend", pager);
 
   // --------------------------- Rendering ---------------------------------
   const exactOrEmpty = (val, setValues) => {
@@ -145,52 +197,51 @@
     const p = exactOrEmpty(playerInput.value, playerSet);
     const m = exactOrEmpty(mapInput.value,    mapSet);
 
-    return data.filter(v =>
+    const filtered = data.filter(v =>
       (!t || v.team   === t) &&
       (!p || v.player === p) &&
       (!m || v.map    === m)
     );
+    console.log("[app] filtered:", filtered.length, { t, p, m });
+    return filtered;
   }
 
   function render(goToPage = page) {
-    try {
-      const filtered = applyFilters();
+    const filtered = applyFilters();
 
-      const maxPage = Math.max(0, Math.ceil(filtered.length / PAGE_SIZE) - 1);
-      page = Math.min(Math.max(0, goToPage), maxPage);
+    const maxPage = Math.max(0, Math.ceil(filtered.length / PAGE_SIZE) - 1);
+    page = Math.min(Math.max(0, goToPage), maxPage);
 
-      const slice = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+    const slice = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+    console.log("[app] render page", page, "slice", slice.length);
 
-      grid.innerHTML = "";
-      if (!slice.length) {
-        grid.insertAdjacentHTML("beforeend",
-          `<div class="empty">No videos match your filters.</div>`);
-      } else {
-        slice.forEach(v => {
-          const info = [
-            v.player ? `<strong>${escapeHtml(v.player)}</strong>` : "",
-            v.map ? `${escapeHtml(v.map)}` : "",
-            v.team ? `${escapeHtml(v.team)}` : ""
-          ].filter(Boolean).join(" — ");
+    grid.innerHTML = "";
+    if (!slice.length) {
+      grid.insertAdjacentHTML("beforeend",
+        `<div class="empty">No videos match your filters.</div>`);
+    } else {
+      slice.forEach(v => {
+        const info = [
+          v.player ? `<strong>${escapeHtml(v.player)}</strong>` : "",
+          v.map ? `${escapeHtml(v.map)}` : "",
+          v.team ? `${escapeHtml(v.team)}` : ""
+        ].filter(Boolean).join(" — ");
 
-          grid.insertAdjacentHTML("beforeend", `
-            <div class="card">
-              <iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}"
-                      allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-              <div class="card-title">${escapeHtml(v.title)}</div>
-              ${info ? `<div class="card-info">${info}</div>` : ""}
-            </div>
-          `);
-        });
-      }
-
-      pageInfo.textContent = `${filtered.length ? page + 1 : 0} / ${maxPage + 1}`;
-      prevBtn.disabled = page === 0;
-      nextBtn.disabled = page === maxPage || filtered.length === 0;
-    } catch (e) {
-      console.error("Render error:", e);
-      grid.innerHTML = `<div class="empty">Failed to render videos.</div>`;
+        grid.insertAdjacentHTML("beforeend", `
+          <div class="card">
+            <iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}"
+                    allowfullscreen loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <div class="card-title">${escapeHtml(v.title)}</div>
+            ${info ? `<div class="card-info">${info}</div>` : ""}
+          </div>
+        `);
+      });
     }
+
+    pageInfo.textContent = `${filtered.length ? page + 1 : 0} / ${maxPage + 1}`;
+    prevBtn.disabled = page === 0;
+    nextBtn.disabled = page === maxPage || filtered.length === 0;
   }
 
   function escapeHtml(s) {
