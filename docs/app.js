@@ -3,12 +3,11 @@
   // --------------------------- Load catalogue ---------------------------
   const res = await fetch("data/videos.json", { cache: "no-store" });
   const data = await res.json();
-  console.log("[app] loaded videos:", data.length);
 
-  // Normalize fields so we never render literal "null"/"undefined"
+  // Normalize fields to avoid literal "null"/"undefined"
   const norm = (v) => (v === null || v === undefined ? "" : String(v));
   data.forEach(v => {
-    v.player    = norm(v.player);
+    v.player    = norm(v.player);     // kept for info row; not used for player filter now
     v.team      = norm(v.team);
     v.map       = norm(v.map);
     v.title     = norm(v.title);
@@ -17,61 +16,58 @@
     v.published = norm(v.published);
   });
 
-  // Build option sets (filter out empty/null/undefined)
+  // ---------------------- First-word player extraction -------------------
+  // Stopwords to avoid obvious non-player "first words"
+  const STOP = new Set([
+    "cs2","csgo","faceit","pov","demo","highlights","highlight",
+    "vs","clutch","the","a","an","of","on","for","and","or","with",
+    // common map names
+    "mirage","inferno","nuke","ancient","anubis","vertigo","overpass","dust2"
+  ]);
+
+  const firstToken = (title) => {
+    // first alnum/underscore/hyphen token
+    const m = title.match(/[A-Za-z0-9_-]+/);
+    return m ? m[0] : "";
+  };
+
+  // Precompute first word (lower) for each video
+  data.forEach(v => {
+    const tok = firstToken(v.title);
+    v._firstLower = tok.toLowerCase();
+    v._firstDisplay = tok; // original casing as appears in the title
+  });
+
+  // Count occurrences of first words, ignoring stopwords and empties
+  const counts = new Map();             // lower -> count
+  const displayFor = new Map();         // lower -> first seen display form
+  for (const v of data) {
+    const lower = v._firstLower;
+    if (!lower || STOP.has(lower)) continue;
+    counts.set(lower, (counts.get(lower) || 0) + 1);
+    if (!displayFor.has(lower)) displayFor.set(lower, v._firstDisplay);
+  }
+
+  // Only include names that appear > 7 times (i.e., >= 8)
+  const PLAYER_MIN = 8;
+  const playerLowerList = [...counts.entries()]
+    .filter(([lower, n]) => n >= PLAYER_MIN)
+    .map(([lower]) => lower);
+
+  // Build display list and a lookup map display -> lower
+  const displayToLower = new Map();
+  const playerDisplayList = playerLowerList
+    .map(lower => {
+      const disp = displayFor.get(lower) || lower;
+      displayToLower.set(disp, lower);
+      return disp;
+    })
+    .sort((a,b) => a.localeCompare(b));
+
+  // --------------------------- Option sets ------------------------------
   const isReal = (v) => v && v !== "null" && v !== "undefined";
   const teamSet   = new Set(data.map(v => v.team).filter(isReal));
-  const playerSet = new Set(data.map(v => v.player).filter(isReal));
   const mapSet    = new Set(data.map(v => v.map).filter(isReal));
-
-  // --------------------------- Fallback CSS ------------------------------
-  // Ensures cards are visible even if theme CSS doesn’t target our classes.
-  const style = document.createElement("style");
-  style.textContent = `
-    #videos.grid {
-      display: grid !important;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 18px;
-      padding: 16px 12px 32px;
-    }
-    .card {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.06);
-      border-radius: 14px;
-      overflow: hidden;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-    }
-    .card iframe {
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      border: 0;
-      display: block;
-      background: #000;
-    }
-    .card-title { padding: 10px 12px 6px; font-weight: 600; }
-    .card-info  { padding: 0 12px 12px; opacity: 0.85; font-size: 0.95rem; }
-    .filters { display: grid; grid-auto-flow: column; gap: 10px; padding: 12px; align-items: center; }
-    .filters .filter input {
-      width: 100%;
-      background: rgba(0,0,0,0.25);
-      border: 1px solid rgba(255,255,255,0.12);
-      border-radius: 8px;
-      padding: 8px 10px;
-      color: inherit;
-      outline: none;
-    }
-    .pager {
-      display: flex; gap: 10px; align-items: center; justify-content: center;
-      padding: 8px 0 40px;
-    }
-    .pager button {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.12);
-      color: inherit;
-      border-radius: 8px; padding: 6px 10px; cursor: pointer;
-    }
-    .empty { padding: 32px; opacity: 0.8; text-align: center; }
-  `;
-  document.head.appendChild(style);
 
   // --------------------------- DOM helpers ------------------------------
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -82,7 +78,7 @@
       const header = $("header") || document.body;
       wrap = document.createElement("div");
       wrap.className = "filters";
-      header.appendChild(wrap);
+      header.prepend(wrap);
     }
     return wrap;
   };
@@ -102,7 +98,7 @@
     const list = document.createElement("datalist");
     list.id = `${key}List`;
 
-    [...values].sort((a,b)=> a.localeCompare(b)).forEach(v => {
+    values.forEach(v => {
       const opt = document.createElement("option");
       opt.value = v;
       list.appendChild(opt);
@@ -115,9 +111,9 @@
   };
 
   // Create the three searchable dropdowns
-  const teamInput   = makeFilter("team",   "Team",   teamSet);
-  const playerInput = makeFilter("player", "Player", playerSet);
-  const mapInput    = makeFilter("map",    "Map",    mapSet);
+  const teamInput   = makeFilter("team",   "Team",   [...teamSet].sort());
+  const playerInput = makeFilter("player", "Player", playerDisplayList); // <-- new method
+  const mapInput    = makeFilter("map",    "Map",    [...mapSet].sort());
 
   // ESC clears; Enter applies
   [teamInput, playerInput, mapInput].forEach(inp => {
@@ -170,7 +166,6 @@
   }
 
   // --------------------------- Mount the grid ----------------------------
-  // Reuse existing #videos if present; otherwise create under the filters.
   let grid = document.getElementById("videos");
   const filtersWrap = ensureFiltersContainer();
   if (!grid) {
@@ -179,31 +174,30 @@
     filtersWrap.insertAdjacentElement("afterend", grid);
   }
   grid.classList.add("grid");
-  grid.style.display = "grid"; // override any hidden CSS
-
-  // Pager should sit under the grid
-  grid.insertAdjacentElement("afterend", pager);
 
   // --------------------------- Rendering ---------------------------------
-  const exactOrEmpty = (val, setValues) => {
+  // exact match to a provided option; otherwise treat as "no filter"
+  const exactOrEmpty = (val, optionsArray) => {
     const x = (val || "").trim();
     if (!x) return "";
-    const hit = [...setValues].find(v => v.toLowerCase() === x.toLowerCase());
-    return hit || ""; // treat non-exact entries as "no filter"
+    const hit = optionsArray.find(v => v.toLowerCase() === x.toLowerCase());
+    return hit || "";
   };
 
   function applyFilters() {
-    const t = exactOrEmpty(teamInput.value,   teamSet);
-    const p = exactOrEmpty(playerInput.value, playerSet);
-    const m = exactOrEmpty(mapInput.value,    mapSet);
+    // Team / Map filter from data fields
+    const t = exactOrEmpty(teamInput.value,   [...teamSet]);
+    const m = exactOrEmpty(mapInput.value,    [...mapSet]);
 
-    const filtered = data.filter(v =>
-      (!t || v.team   === t) &&
-      (!p || v.player === p) &&
-      (!m || v.map    === m)
+    // Player filter based on first-word method
+    const pDisplay = exactOrEmpty(playerInput.value, playerDisplayList);
+    const pLower = pDisplay ? (displayToLower.get(pDisplay) || pDisplay.toLowerCase()) : "";
+
+    return data.filter(v =>
+      (!t || v.team === t) &&
+      (!m || v.map  === m) &&
+      (!pLower || v._firstLower === pLower)
     );
-    console.log("[app] filtered:", filtered.length, { t, p, m });
-    return filtered;
   }
 
   function render(goToPage = page) {
@@ -213,7 +207,6 @@
     page = Math.min(Math.max(0, goToPage), maxPage);
 
     const slice = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
-    console.log("[app] render page", page, "slice", slice.length);
 
     grid.innerHTML = "";
     if (!slice.length) {
@@ -222,7 +215,7 @@
     } else {
       slice.forEach(v => {
         const info = [
-          v.player ? `<strong>${escapeHtml(v.player)}</strong>` : "",
+          v._firstDisplay ? `<strong>${escapeHtml(v._firstDisplay)}</strong>` : "",
           v.map ? `${escapeHtml(v.map)}` : "",
           v.team ? `${escapeHtml(v.team)}` : ""
         ].filter(Boolean).join(" — ");
@@ -250,5 +243,6 @@
     }[c]));
   }
 
+  // Initial render
   render(0);
 })();
