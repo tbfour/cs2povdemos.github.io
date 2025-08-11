@@ -88,8 +88,8 @@
     <span id="pageInfo"></span>
     <button id="nextPage">Next ›</button>`;
   document.body.appendChild(pager);
-  const prevBtn = $("#prevPage", pager);
-  const nextBtn = $("#nextPage", pager);
+  const prevBtn  = $("#prevPage", pager);
+  const nextBtn  = $("#nextPage", pager);
   const pageInfo = $("#pageInfo", pager);
 
   prevBtn.onclick = () => { if (page>0) { page--; render(); } };
@@ -118,18 +118,26 @@
     });
   }
 
-  // --------------------------- Rendering ---------------------------------
-  const grid = document.createElement("main");
-  grid.id = "videos";
-  grid.className = "grid";
-  if (!$("main.grid")) document.body.insertBefore(grid, pager);
+  // --------------------------- Mount the grid ----------------------------
+  // Reuse existing #videos if present; otherwise create and insert one.
+  let grid = document.getElementById("videos");
+  const created = !grid;
+  if (!grid) {
+    grid = document.createElement("div");
+    grid.id = "videos";
+  }
+  grid.classList.add("grid");
+  if (created) {
+    // Place the grid just before the pager so pager sits under it
+    document.body.insertBefore(grid, pager);
+  }
 
-  // Coerce input to an exact option; otherwise treat as "no filter"
+  // --------------------------- Rendering ---------------------------------
   const exactOrEmpty = (val, setValues) => {
     const x = (val || "").trim();
     if (!x) return "";
     const hit = [...setValues].find(v => v.toLowerCase() === x.toLowerCase());
-    return hit || "";
+    return hit || ""; // treat non-exact entries as "no filter"
   };
 
   function applyFilters() {
@@ -145,49 +153,51 @@
   }
 
   function render(goToPage = page) {
-    const filtered = applyFilters();
+    try {
+      const filtered = applyFilters();
 
-    // Pagination envelope
-    const maxPage = Math.max(0, Math.ceil(filtered.length / PAGE_SIZE) - 1);
-    page = Math.min(Math.max(0, goToPage), maxPage);
+      const maxPage = Math.max(0, Math.ceil(filtered.length / PAGE_SIZE) - 1);
+      page = Math.min(Math.max(0, goToPage), maxPage);
 
-    const slice = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+      const slice = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
 
-    grid.innerHTML = "";
-    if (!slice.length) {
-      grid.insertAdjacentHTML("beforeend",
-        `<div class="empty">No videos match your filters.</div>`);
-    } else {
-      slice.forEach(v => {
-        const info = [
-          v.player ? `<strong>${escapeHtml(v.player)}</strong>` : "",
-          v.map ? `${escapeHtml(v.map)}` : "",
-          v.team ? `${escapeHtml(v.team)}` : ""
-        ].filter(Boolean).join(" — ");
+      grid.innerHTML = "";
+      if (!slice.length) {
+        grid.insertAdjacentHTML("beforeend",
+          `<div class="empty">No videos match your filters.</div>`);
+      } else {
+        slice.forEach(v => {
+          const info = [
+            v.player ? `<strong>${escapeHtml(v.player)}</strong>` : "",
+            v.map ? `${escapeHtml(v.map)}` : "",
+            v.team ? `${escapeHtml(v.team)}` : ""
+          ].filter(Boolean).join(" — ");
 
-        grid.insertAdjacentHTML("beforeend", `
-          <div class="card">
-            <iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}"
-                    allowfullscreen loading="lazy"></iframe>
-            <div class="card-title">${escapeHtml(v.title)}</div>
-            ${info ? `<div class="card-info">${info}</div>` : ""}
-          </div>
-        `);
-      });
+          grid.insertAdjacentHTML("beforeend", `
+            <div class="card">
+              <iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}"
+                      allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+              <div class="card-title">${escapeHtml(v.title)}</div>
+              ${info ? `<div class="card-info">${info}</div>` : ""}
+            </div>
+          `);
+        });
+      }
+
+      pageInfo.textContent = `${filtered.length ? page + 1 : 0} / ${maxPage + 1}`;
+      prevBtn.disabled = page === 0;
+      nextBtn.disabled = page === maxPage || filtered.length === 0;
+    } catch (e) {
+      console.error("Render error:", e);
+      grid.innerHTML = `<div class="empty">Failed to render videos.</div>`;
     }
-
-    pageInfo.textContent = `${filtered.length ? page + 1 : 0} / ${maxPage + 1}`;
-    prevBtn.disabled = page === 0;
-    nextBtn.disabled = page === maxPage || filtered.length === 0;
   }
 
-  // Simple title escape
   function escapeHtml(s) {
     return s.replace(/[&<>"']/g, c => ({
       "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
     }[c]));
   }
 
-  // Initial render
   render(0);
 })();
