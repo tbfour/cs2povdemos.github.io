@@ -1,24 +1,26 @@
+// docs/app.js
 (async function () {
   // --------------------------- Load catalogue ---------------------------
   const res = await fetch("data/videos.json", { cache: "no-store" });
   const data = await res.json();
 
-  // Defensive normalization
-  const clean = (v) => (v === null || v === undefined ? "" : String(v));
+  // Normalize fields so we never render literal "null"/"undefined"
+  const norm = (v) => (v === null || v === undefined ? "" : String(v));
   data.forEach(v => {
-    v.player = clean(v.player);
-    v.team   = clean(v.team);
-    v.map    = clean(v.map);
-    v.title  = clean(v.title);
-    v.id     = clean(v.id);
-    v.channel= clean(v.channel);
-    v.published = clean(v.published);
+    v.player    = norm(v.player);
+    v.team      = norm(v.team);
+    v.map       = norm(v.map);
+    v.title     = norm(v.title);
+    v.id        = norm(v.id);
+    v.channel   = norm(v.channel);
+    v.published = norm(v.published);
   });
 
-  // Build option sets (remove null/empty)
-  const teamSet   = new Set(data.map(v => v.team).filter(Boolean));
-  const playerSet = new Set(data.map(v => v.player).filter(Boolean));
-  const mapSet    = new Set(data.map(v => v.map).filter(Boolean));
+  // Build option sets (filter out empty/null/undefined)
+  const isReal = (v) => v && v !== "null" && v !== "undefined";
+  const teamSet   = new Set(data.map(v => v.team).filter(isReal));
+  const playerSet = new Set(data.map(v => v.player).filter(isReal));
+  const mapSet    = new Set(data.map(v => v.map).filter(isReal));
 
   // --------------------------- DOM helpers ------------------------------
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -61,18 +63,18 @@
     return input;
   };
 
+  // Create the three searchable dropdowns
   const teamInput   = makeFilter("team",   "Team",   teamSet);
   const playerInput = makeFilter("player", "Player", playerSet);
   const mapInput    = makeFilter("map",    "Map",    mapSet);
 
-  // ESC clears the active input
+  // ESC clears; Enter applies
   [teamInput, playerInput, mapInput].forEach(inp => {
     inp.addEventListener("keydown", (e) => {
       if (e.key === "Escape") { inp.value = ""; render(0); }
       if (e.key === "Enter")  { render(0); }
     });
     inp.addEventListener("change", () => render(0));
-    inp.addEventListener("input",  () => {/* datalist updates automatically */});
   });
 
   // --------------------------- Pagination --------------------------------
@@ -122,16 +124,15 @@
   grid.className = "grid";
   if (!$("main.grid")) document.body.insertBefore(grid, pager);
 
+  // Coerce input to an exact option; otherwise treat as "no filter"
   const exactOrEmpty = (val, setValues) => {
     const x = (val || "").trim();
     if (!x) return "";
-    // enforce exact match to canonical option if present (case-insensitive)
     const hit = [...setValues].find(v => v.toLowerCase() === x.toLowerCase());
-    return hit || ""; // empty string means "no filter"
+    return hit || "";
   };
 
   function applyFilters() {
-    // Convert inputs to exact picks from the option sets
     const t = exactOrEmpty(teamInput.value,   teamSet);
     const p = exactOrEmpty(playerInput.value, playerSet);
     const m = exactOrEmpty(mapInput.value,    mapSet);
@@ -159,14 +160,15 @@
     } else {
       slice.forEach(v => {
         const info = [
-          v.player ? `<strong>${v.player}</strong>` : "",
-          v.map ? `${v.map}` : "",
-          v.team ? `${v.team}` : ""
+          v.player ? `<strong>${escapeHtml(v.player)}</strong>` : "",
+          v.map ? `${escapeHtml(v.map)}` : "",
+          v.team ? `${escapeHtml(v.team)}` : ""
         ].filter(Boolean).join(" — ");
 
         grid.insertAdjacentHTML("beforeend", `
           <div class="card">
-            <iframe src="https://www.youtube.com/embed/${v.id}" allowfullscreen loading="lazy"></iframe>
+            <iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}"
+                    allowfullscreen loading="lazy"></iframe>
             <div class="card-title">${escapeHtml(v.title)}</div>
             ${info ? `<div class="card-info">${info}</div>` : ""}
           </div>
