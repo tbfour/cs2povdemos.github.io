@@ -2,8 +2,12 @@ name: Refresh catalogue
 
 on:
   schedule:
-    - cron: '0 * * * *'   # hourly
+    - cron: '0 8 * * *'   # daily at 08:00 UTC (03:00 in Chicago during DST, 02:00 in winter)
   workflow_dispatch:
+
+concurrency:
+  group: refresh-catalogue
+  cancel-in-progress: true
 
 permissions:
   contents: write
