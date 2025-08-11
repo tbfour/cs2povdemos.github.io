@@ -40,7 +40,7 @@
   }
 
   // Only expose players that appear ≥8 times
-  const PLAYER_MIN = 8;
+  const PLAYER_MIN = 4;
   const strongPlayersLower = [...counts.entries()]
     .filter(([_, n]) => n >= PLAYER_MIN)
     .map(([lower]) => lower);
