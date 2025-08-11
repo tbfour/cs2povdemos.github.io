@@ -4,10 +4,10 @@
   const res = await fetch("data/videos.json", { cache: "no-store" });
   const data = await res.json();
 
-  // Normalize fields to avoid literal "null"/"undefined"
+  // Normalize to avoid literal "null"/"undefined"
   const norm = (v) => (v === null || v === undefined ? "" : String(v));
   data.forEach(v => {
-    v.player    = norm(v.player);     // kept for info row; not used for player filter now
+    v.player    = norm(v.player);
     v.team      = norm(v.team);
     v.map       = norm(v.map);
     v.title     = norm(v.title);
@@ -17,46 +17,37 @@
   });
 
   // ---------------------- First-word player extraction -------------------
-  // Stopwords to avoid obvious non-player "first words"
-  const STOP = new Set([
-    "cs2","csgo","faceit","pov","demo","highlights","highlight",
-    "vs","clutch","the","a","an","of","on","for","and","or","with",
-    // common map names
-    "mirage","inferno","nuke","ancient","anubis","vertigo","overpass","dust2"
-  ]);
-
+  // First token = first [A-Za-z0-9_-]+  (skips emojis like 🔥 and punctuation)
   const firstToken = (title) => {
-    // first alnum/underscore/hyphen token
     const m = title.match(/[A-Za-z0-9_-]+/);
     return m ? m[0] : "";
   };
 
-  // Precompute first word (lower) for each video
   data.forEach(v => {
     const tok = firstToken(v.title);
-    v._firstLower = tok.toLowerCase();
-    v._firstDisplay = tok; // original casing as appears in the title
+    v._firstLower   = tok.toLowerCase();
+    v._firstDisplay = tok; // keep original casing as seen in title
   });
 
-  // Count occurrences of first words, ignoring stopwords and empties
-  const counts = new Map();             // lower -> count
-  const displayFor = new Map();         // lower -> first seen display form
+  // Count occurrences of first words (ignore empty)
+  const counts = new Map();     // lower -> count
+  const displayFor = new Map(); // lower -> display
   for (const v of data) {
     const lower = v._firstLower;
-    if (!lower || STOP.has(lower)) continue;
+    if (!lower) continue;
     counts.set(lower, (counts.get(lower) || 0) + 1);
     if (!displayFor.has(lower)) displayFor.set(lower, v._firstDisplay);
   }
 
-  // Only include names that appear > 7 times (i.e., >= 8)
+  // Only expose players that appear ≥8 times
   const PLAYER_MIN = 8;
-  const playerLowerList = [...counts.entries()]
-    .filter(([lower, n]) => n >= PLAYER_MIN)
+  const strongPlayersLower = [...counts.entries()]
+    .filter(([_, n]) => n >= PLAYER_MIN)
     .map(([lower]) => lower);
 
-  // Build display list and a lookup map display -> lower
+  // Build display list and lookup
   const displayToLower = new Map();
-  const playerDisplayList = playerLowerList
+  const playerDisplayList = strongPlayersLower
     .map(lower => {
       const disp = displayFor.get(lower) || lower;
       displayToLower.set(disp, lower);
@@ -64,12 +55,12 @@
     })
     .sort((a,b) => a.localeCompare(b));
 
-  // --------------------------- Option sets ------------------------------
+  // --------------------------- Other option sets -------------------------
   const isReal = (v) => v && v !== "null" && v !== "undefined";
-  const teamSet   = new Set(data.map(v => v.team).filter(isReal));
-  const mapSet    = new Set(data.map(v => v.map).filter(isReal));
+  const teamSet = new Set(data.map(v => v.team).filter(isReal));
+  const mapSet  = new Set(data.map(v => v.map).filter(isReal));
 
-  // --------------------------- DOM helpers ------------------------------
+  // --------------------------- DOM helpers -------------------------------
   const $ = (sel, root = document) => root.querySelector(sel);
 
   const ensureFiltersContainer = () => {
@@ -97,7 +88,6 @@
 
     const list = document.createElement("datalist");
     list.id = `${key}List`;
-
     values.forEach(v => {
       const opt = document.createElement("option");
       opt.value = v;
@@ -110,17 +100,19 @@
     return input;
   };
 
-  // Create the three searchable dropdowns
+  // Build inputs
   const teamInput   = makeFilter("team",   "Team",   [...teamSet].sort());
-  const playerInput = makeFilter("player", "Player", playerDisplayList); // <-- new method
+  const playerInput = makeFilter("player", "Player", playerDisplayList);
   const mapInput    = makeFilter("map",    "Map",    [...mapSet].sort());
 
-  // ESC clears; Enter applies
+  // Prevent Enter from reloading page if inside a <form>
   [teamInput, playerInput, mapInput].forEach(inp => {
     inp.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") { inp.value = ""; render(0); }
-      if (e.key === "Enter")  { render(0); }
+      if (e.key === "Enter") { e.preventDefault(); render(0); }
+      if (e.key === "Escape") { e.preventDefault(); inp.value = ""; render(0); }
     });
+    // Live filtering as you type
+    inp.addEventListener("input",  () => render(0));
     inp.addEventListener("change", () => render(0));
   });
 
@@ -176,27 +168,38 @@
   grid.classList.add("grid");
 
   // --------------------------- Rendering ---------------------------------
-  // exact match to a provided option; otherwise treat as "no filter"
-  const exactOrEmpty = (val, optionsArray) => {
-    const x = (val || "").trim();
-    if (!x) return "";
-    const hit = optionsArray.find(v => v.toLowerCase() === x.toLowerCase());
-    return hit || "";
+  // Exact match to an option; otherwise substring match on first word
+  const pickExactOrSub = (val, optionsArray) => {
+    const q = (val || "").trim();
+    if (!q) return { mode: "none", value: "" };
+    const exact = optionsArray.find(v => v.toLowerCase() === q.toLowerCase());
+    return exact ? { mode: "exact", value: exact } : { mode: "sub", value: q.toLowerCase() };
   };
 
   function applyFilters() {
-    // Team / Map filter from data fields
-    const t = exactOrEmpty(teamInput.value,   [...teamSet]);
-    const m = exactOrEmpty(mapInput.value,    [...mapSet]);
+    // Team / Map use exact match against sets
+    const t = (teamInput.value || "").trim();
+    const m = (mapInput.value  || "").trim();
+    const teamExact = [...teamSet].find(v => v.toLowerCase() === t.toLowerCase()) || "";
+    const mapExact  = [...mapSet].find(v => v.toLowerCase()  === m.toLowerCase()) || "";
 
-    // Player filter based on first-word method
-    const pDisplay = exactOrEmpty(playerInput.value, playerDisplayList);
-    const pLower = pDisplay ? (displayToLower.get(pDisplay) || pDisplay.toLowerCase()) : "";
+    // Player: first-word logic
+    const playerPick = pickExactOrSub(playerInput.value, playerDisplayList);
+    let passesPlayer;
+    if (playerPick.mode === "none") {
+      passesPlayer = () => true;
+    } else if (playerPick.mode === "exact") {
+      const lower = (displayToLower.get(playerPick.value) || playerPick.value.toLowerCase());
+      passesPlayer = (v) => v._firstLower === lower;
+    } else {
+      const ql = playerPick.value; // lowercase substring
+      passesPlayer = (v) => v._firstLower.includes(ql);
+    }
 
     return data.filter(v =>
-      (!t || v.team === t) &&
-      (!m || v.map  === m) &&
-      (!pLower || v._firstLower === pLower)
+      (!teamExact || v.team === teamExact) &&
+      (!mapExact  || v.map  === mapExact)  &&
+      passesPlayer(v)
     );
   }
 
@@ -242,6 +245,24 @@
       "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
     }[c]));
   }
+
+  // Minimal CSS safety net (in case theme misses our classes)
+  (function injectFallbackCSS(){
+    const style = document.createElement("style");
+    style.textContent = `
+      #videos.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;padding:16px 12px 32px}
+      .card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:14px;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+      .card iframe{width:100%;aspect-ratio:16/9;border:0;background:#000;display:block}
+      .card-title{padding:10px 12px 6px;font-weight:600}
+      .card-info{padding:0 12px 12px;opacity:.85}
+      .filters{display:grid;grid-auto-flow:column;gap:10px;padding:12px;align-items:center}
+      .filters .filter input{width:100%;background:rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:8px 10px;color:inherit;outline:none}
+      .pager{display:flex;gap:10px;align-items:center;justify-content:center;padding:8px 0 40px}
+      .pager button{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:inherit;border-radius:8px;padding:6px 10px;cursor:pointer}
+      .empty{padding:32px;opacity:.8;text-align:center}
+    `;
+    document.head.appendChild(style);
+  })();
 
   // Initial render
   render(0);
