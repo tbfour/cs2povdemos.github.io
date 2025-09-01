@@ -1,5 +1,23 @@
 [
   {
+    "id": "fpWlgn0RhDo",
+    "title": "JamYoung Play Perfect World w/ATTACKER/kaze/Tiger/Ssalt (Ancient) | Aug 31, 2025 | CS2 POV/DEMO",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2025-09-01"
+  },
+  {
+    "id": "NUlq8z2iK7I",
+    "title": "kyousuke (34-16) FACEIT avg 3700 Elo rating: 1.89 (Mirage) | Aug 29, 2025 | CS2 POV/DEMO",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-08-31"
+  },
+  {
     "id": "uuoE2wEL8UE",
     "title": "\ud83d\udd25donk (33-13) Rating: 2.06 (mirage) | FACEIT EU | Aug 30, 2025 | CS2 POV",
     "channel": "lim",
@@ -14036,7 +14054,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "ancient",
+    "map": "mirage",
     "published": "2024-08-12"
   },
   {
@@ -19240,32 +19258,5 @@
     "team": null,
     "map": "anubis",
     "published": "2024-03-10"
-  },
-  {
-    "id": "ibECl9P26hI",
-    "title": "Perfect World zxl POV (37-23) (Inferno) | March 8, 2024 #cs2 #demo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-03-09"
-  },
-  {
-    "id": "VttV2YYNYqU",
-    "title": "CS2 POV | m0NESY (32-15) (mirage) | FACEIT Ranked | March 8, 2024 #cs2 #demo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-03-09"
-  },
-  {
-    "id": "_Ghe7hnI4dA",
-    "title": "CS2 POV Demo Cloud9 Ax1Le (21/12) vs Rare Atom (de_mirage) @ BLAST Premier Spring Showdown 2024",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-03-09"
   }
 ]
