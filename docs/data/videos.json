@@ -18,6 +18,15 @@
     "published": "2025-09-02"
   },
   {
+    "id": "rh6-DVNSC8I",
+    "title": "DONK Matches Against W0NDERFUL in Top FACEIT Lobby! donk POV with COMMs (Mirage)",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-09-02"
+  },
+  {
     "id": "lyqL5h0Px8A",
     "title": "Kyousuke POV with Keystrokes Visualized | 35-9 ADR193 rt3.26 (Ep.1) | Sep 1, 2025",
     "channel": "lim",
@@ -14099,7 +14108,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -19267,32 +19276,5 @@
     "team": null,
     "map": "mirage",
     "published": "2024-03-12"
-  },
-  {
-    "id": "hoBfL9WghzE",
-    "title": "CS2 POV | somebody w/s1mple/gxx/Lack1/jottAAA (ancient) | FACEIT Ranked | March 10, 2024 #cs2 #csgo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-03-11"
-  },
-  {
-    "id": "jMYst4uSp4Y",
-    "title": "FACEIT Ranked #1 | robo (33-10) solo Q (Anubis) | March 10, 2024 #cs2 #demo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-03-11"
-  },
-  {
-    "id": "t7uEVB2u-aE",
-    "title": "CS2 POV Demo Spirit Donk (24/12) vs Metizport (de_nuke) @ BLAST Premier Spring Showdown 2024",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2024-03-11"
   }
 ]
