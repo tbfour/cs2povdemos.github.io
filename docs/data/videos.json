@@ -1,5 +1,41 @@
 [
   {
+    "id": "Kbh1DjS6O6s",
+    "title": "CS2 POV Demo G2 HeavyGod (22/14) vs Spirit (de_mirage) @ BLAST Open London 2025",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-09-05"
+  },
+  {
+    "id": "Qgt4xiWx0mU",
+    "title": "molodoy (31-15) (Train) | FACEIT avg 3080 Elo | Sep 2, 2025",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2025-09-04"
+  },
+  {
+    "id": "f0eUhUtr1w0",
+    "title": "\ud83d\udd25donk (25-9) w/suns1de Rating: 2.06 (Mirage) | FACEIT EU | Sep 3, 2025 | CS2 POV",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-09-04"
+  },
+  {
+    "id": "kEVNwjY5e48",
+    "title": "broky (37-19) FaZe vs Vitality (nuke) | BLAST Open London 2025",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2025-09-04"
+  },
+  {
     "id": "pGyFF7oXIbo",
     "title": "broky (37-25) FaZe vs Vitality (Mirage) | BLAST Open London 2025",
     "channel": "lim",
@@ -5914,11 +5950,11 @@
   },
   {
     "id": "wzgmXnAMvFQ",
-    "title": "frozen (25-18)  FaZe vs Falcons (mirage) | PGL Bucharest 2025",
+    "title": "frozen (25-18)  FaZe vs Falcons (Ancient) | PGL Bucharest 2025",
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2025-04-13"
   },
   {
@@ -14126,7 +14162,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -19240,32 +19276,5 @@
     "team": null,
     "map": "mirage",
     "published": "2024-03-15"
-  },
-  {
-    "id": "e9sKQzF19qE",
-    "title": "CS2 POV | s1mple (22-8) (mirage) | FACEIT Ranked | Mar 12, 2024 #cs2 #demo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-03-13"
-  },
-  {
-    "id": "3BRNSIVkjI4",
-    "title": "NiKo drops 46Kills vs s1mple/electronic/perfecto @ FACEIT Ranked | March 13, 2024 #cs2 #demo #g2",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": null,
-    "published": "2024-03-13"
-  },
-  {
-    "id": "C8OLkSlIUyY",
-    "title": "CS2 POV | Jame (31-5) Solo Q (mirage) | FACEIT Ranked | Feb 23, 2024 #cs2 #demo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-03-13"
   }
 ]
