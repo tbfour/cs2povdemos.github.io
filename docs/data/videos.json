@@ -1,5 +1,41 @@
 [
   {
+    "id": "_Wqi0Fx-uNs",
+    "title": "ZywOo (33-11) Rating: 2.59 (Dust2) | FACEIT 5-stack | Sep 23, 2025 #cs2 #zywoo",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2025-09-24"
+  },
+  {
+    "id": "T6bP-uTRTZw",
+    "title": "kyousuke (30-15) FACEIT avg 3368 Elo (mirage) | #cs2 #kyousuke",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-09-23"
+  },
+  {
+    "id": "31XYbM1nFNE",
+    "title": "kl1m (23-3) MIBR vs 2GAME (Nuke) | ESL Challenger League S50 SA Cup 2 #kl1m #cs2 #mibr",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2025-09-23"
+  },
+  {
+    "id": "fThTePTs-HE",
+    "title": "kl1m (26-3) MIBR vs 2GAME (Train) | ESL Challenger League S50 SA Cup 2 #kl1m #cs2 #mibr",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2025-09-23"
+  },
+  {
     "id": "F-4VZD0ZaOI",
     "title": "YEKINDAR (25-16) FURIA vs The MongolZ (Nuke) | FISSURE Playground 2 #cs2 #furia #yekindar",
     "channel": "lim",
@@ -14801,7 +14837,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "ancient",
+    "map": "mirage",
     "published": "2024-08-12"
   },
   {
@@ -19384,32 +19420,5 @@
     "team": null,
     "map": "vertigo",
     "published": "2024-04-02"
-  },
-  {
-    "id": "ye4hEPhozhc",
-    "title": "CS2 POV | Navi Aleksib (19-13) vs FaZe (Ancient) | PGL CS2 Major Copenhagen 2024",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-04-01"
-  },
-  {
-    "id": "fdCdxoXcOok",
-    "title": "CS2 POV | FaZe ropz (16-4) vs Navi (mirage) | PGL CS2 Major Copenhagen 2024 #cs2 #faze",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-04-01"
-  },
-  {
-    "id": "n_rwcuD_CQk",
-    "title": "CS2 POV Demo NaVi b1t (23/7) vs FaZe (de_inferno) @ PGL CS2 Major Copenhagen 2024 GRAND FINAL",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-04-01"
   }
 ]
