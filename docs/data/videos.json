@@ -1,5 +1,14 @@
 [
   {
+    "id": "j1XctO3ZML4",
+    "title": "\ud83d\ude10kyousuke (52-19) with Keystrokes Visualized | rt:2.84 | FACEIT avg 3380 Elo (Ep.13)",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2025-09-28"
+  },
+  {
     "id": "rXzeI9H5AcI",
     "title": "First FPL Game | nocries (20-10) Rating:1.81 (Dust2) | FPL NA | Sep 26, 2025 #cs2 #nocries #faceit",
     "channel": "lim",
@@ -10,7 +19,7 @@
   },
   {
     "id": "VS9qYRhcx78",
-    "title": "s1mple (26013) SoloQ FACEIT avg 3545 Elo (Ancient) #cs2 #s1mple",
+    "title": "s1mple (26-13) SoloQ FACEIT avg 3545 Elo (Ancient) #cs2 #s1mple",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -14936,7 +14945,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -19429,23 +19438,5 @@
     "team": null,
     "map": "mirage",
     "published": "2024-04-07"
-  },
-  {
-    "id": "uSEPIOmf_ec",
-    "title": "ZywOo POV Rating:2.35 (Anubis) | FACEIT Ranked | Apr 4, 2024 | #cs2 #demo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-04-06"
-  },
-  {
-    "id": "J55R-m-1JPY",
-    "title": "CS2 POV | device (36-22) vs Twist Sweden Stack (mirage) | FACEIT Ranked | Apr 2, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-04-06"
   }
 ]
