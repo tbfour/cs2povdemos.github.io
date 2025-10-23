@@ -1,5 +1,32 @@
 [
   {
+    "id": "ttCEPjqmqxo",
+    "title": "15 y.o. yok1d 48 kills (NAVI Junior Sniper) (mirage) | avg 3630 Elo | Oct 21, 2025 #cs2 #yok1d",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-10-22"
+  },
+  {
+    "id": "RGUjl2jMlgI",
+    "title": "rain w/olofmeister + (brnz4n/insani) (mirage) | FACEIT avg 4000 Elo | Oct 20, 2025 #cs2 #rain",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-10-22"
+  },
+  {
+    "id": "f2nmStf-Rms",
+    "title": "CS2 POV Demo BC.Game S1mple (37/20) vs NOVAQ (de_mirage)",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-10-22"
+  },
+  {
     "id": "YT1qH2AeYeM",
     "title": "NiKo (23-17) SoloQ + COMMS (Dust2) | FACEIT avg 3730 Elo #cs2 #niko",
     "channel": "lim",
@@ -16016,7 +16043,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -19942,23 +19969,5 @@
     "team": null,
     "map": "inferno",
     "published": "2024-05-01"
-  },
-  {
-    "id": "PTwM-vD6Er8",
-    "title": "ZywOo (30-12) vs TheMongolz (mirage) | EPL S19 | Apr 28, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-04-30"
-  },
-  {
-    "id": "XluxRSp86gQ",
-    "title": "ZywOo (22-6) vs BB (mirage) | EPL S19 | Apr 25, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-04-30"
   }
 ]
