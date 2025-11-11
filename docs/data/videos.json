@@ -1,7 +1,16 @@
 [
   {
+    "id": "JGCydkLbiRI",
+    "title": "makazze (28-10) Rating: 2.23 (Mirage) | FACEIT avg 3050 Elo | Nov 7, 2025 #cs2 #navi #makazze",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-11-10"
+  },
+  {
     "id": "_s3fZ6l6oH4",
-    "title": "NiKo (20-17) Falcons vs MOUZ (Inferno) | IEM Chengdu 2025 #cs2 #m0nesy",
+    "title": "NiKo (20-17) Falcons vs MOUZ (Inferno) | IEM Chengdu 2025 #cs2 #NiKo",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -10,7 +19,7 @@
   },
   {
     "id": "_Q13X22AIic",
-    "title": "NiKo (14-9) Falcons vs MOUZ (Ancient) | IEM Chengdu 2025 #cs2 #m0nesy",
+    "title": "NiKo (14-9) Falcons vs MOUZ (Ancient) | IEM Chengdu 2025 #cs2 #NiKo",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -46,7 +55,7 @@
   },
   {
     "id": "RdZUxa8zw7s",
-    "title": "NIKO Plays Against Top SEA 5-Stack in FACEIT! niko POV with COMMs (Mirage)",
+    "title": "NIKO Destroys Top FACEIT Players! niko POV with COMMs (Mirage)",
     "channel": "nebula",
     "player": null,
     "team": null,
@@ -16799,7 +16808,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -20187,15 +20196,6 @@
     "published": "2024-05-20"
   },
   {
-    "id": "FamTlZtXP4M",
-    "title": "b1t/m0NESY/headtr1ck stack on FACEIT (Dust2) | May 17, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-05-20"
-  },
-  {
     "id": "NAUf5Q3xbPQ",
     "title": "CS2 POV Demo Astralis stavn (19/11) vs BIG (de_dust2) @ CCT Global Finals 2024",
     "channel": "pov_highlights",
@@ -20203,23 +20203,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-05-20"
-  },
-  {
-    "id": "jN-zn2dZADg",
-    "title": "ZywOo (25-12) (Dust2) | FACEIT Ranked | May 18, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-05-19"
-  },
-  {
-    "id": "R0kRqO-kA3Q",
-    "title": "Double ACE! donk (33-15) soloQ VOICE COMMS mirage POV | May 18, 2024 | #cs2 #demo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-05-19"
   }
 ]
