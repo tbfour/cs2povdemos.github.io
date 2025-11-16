@@ -1,11 +1,65 @@
 [
   {
+    "id": "TsdAJcTpe8I",
+    "title": "m0NESY (17-11) Falcons vs Vitality (Nuke) | BLAST Rivals 2025 Season 2 #cs2 #m0nesy",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2025-11-16"
+  },
+  {
+    "id": "-xvu_G3idgA",
+    "title": "YEKINDAR (22-8) FURIA vs paiN (Nuke) | BLAST Rivals 2025 Season 2 #cs2 #YEKINDAR",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2025-11-15"
+  },
+  {
+    "id": "WvWxjlCteKw",
+    "title": "m0NESY (25-12) Falcons vs Vitality (Inferno) | BLAST Rivals 2025 Season 2 #cs2 #m0nesy",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2025-11-15"
+  },
+  {
+    "id": "WkcZXr4_H4g",
+    "title": "KSCERATO (16-5) Rating: 2.18 FURIA vs paiN (Nuke) | BLAST Rivals 2025 Season 2 #cs2 #KSCERATO",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2025-11-15"
+  },
+  {
+    "id": "p65WUF56grg",
+    "title": "KSCERATO (30-16) Rating: 2.05 FURIA vs paiN (Overpass) | BLAST Rivals 2025 Season 2 #cs2 #KSCERATO",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2025-11-15"
+  },
+  {
     "id": "pKZx2thnYHw",
     "title": "kyousuke (35-16) w/kyxsan FACEIT SEA (Dust2) | Nov 14, 2025 #cs2 #kyousuke #falcons",
     "channel": "lim",
     "player": null,
     "team": null,
     "map": "dust2",
+    "published": "2025-11-15"
+  },
+  {
+    "id": "DhWDV06mYCM",
+    "title": "CS2 POV Demo Vitality ZywOo (24/13) vs Spirit (de_mirage) @ BLAST Rivals 2025 Season 2",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "mirage",
     "published": "2025-11-15"
   },
   {
@@ -20230,41 +20284,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-05-26"
-  },
-  {
-    "id": "9lEeP-HUH4I",
-    "title": "s1mple (22-5) (Ancient) | FACEIT Pro League | May 24, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-05-25"
-  },
-  {
-    "id": "vr8EJZPOml8",
-    "title": "donk (23-6) VOICE COMMS Mirage POV | May 24, 2024 | #cs2 #demo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-05-25"
-  },
-  {
-    "id": "dQglJBLwG3s",
-    "title": "m0NESY 30Kills w/b1t/YEKINDAR (Inferno) | FACEIT Ranked | May 21, 2024 #cs2 #demo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-05-24"
-  },
-  {
-    "id": "7iSYmWv-vHU",
-    "title": "CS2 POV Demo Eternal Fire XANTARES (19/8) vs Liquid (de_inferno) @ CCT Global Finals 2024",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-05-24"
   }
 ]
