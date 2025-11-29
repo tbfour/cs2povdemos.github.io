@@ -1,5 +1,14 @@
 [
   {
+    "id": "dB4IsfulsR8",
+    "title": "NiKo (26-8) SoloQ + VOICE COMMS (Train) | FACEIT EU avg 3033 Elo #cs2 #niko",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2025-11-29"
+  },
+  {
     "id": "bkuQNus9row",
     "title": "regali(17-5) FlyQuest vs Fluxo (Overpass) | StarLadder Budapest Major 2025 Stage 1 #FlyQuest #regali",
     "channel": "lim",
@@ -17411,7 +17420,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -20185,41 +20194,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-06-08"
-  },
-  {
-    "id": "sjRivfigNho",
-    "title": "\u30104K\u3011donk (53-24) rt:2.11 VOICE COMMS (Anubis) | Jun 6, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-06-07"
-  },
-  {
-    "id": "e_QE5EwJ4aM",
-    "title": "\u30104K\u3011Jame(28-7) rating:2.07 (Dust2) | FACEIT Ranked EU | Jun 2, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-06-06"
-  },
-  {
-    "id": "XrL0k1YTjRc",
-    "title": "\u30104K\u3011electroNic (28-11) rating:1.98 (mirage) | FACEIT Ranked EU | Jun 1, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-06-06"
-  },
-  {
-    "id": "fve8o6gdbfk",
-    "title": "CS2 POV Demo G2 m0NESY (24/11) vs FaZe (de_dust2) @ IEM Dallas 2024",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-06-06"
   }
 ]
