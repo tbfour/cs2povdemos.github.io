@@ -1,11 +1,47 @@
 [
   {
+    "id": "hTJCEXjnLWg",
+    "title": "s1mple (28-13) rating: 1.88 SoloQ avg 3048 Elo (Dust2) #cs2 #s1mple",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2025-12-02"
+  },
+  {
+    "id": "GvJiBYPFwM4",
+    "title": "\ud83d\udd25donk (22-7) w/Magnojez rating: 2.4 (mirage) | Dec 1, 2025 #cs2 #donk",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-12-01"
+  },
+  {
+    "id": "mpgkMS-6wiQ",
+    "title": "17 y.o. NAVI Junior - FAZERY (27-16) vs m0NESY (Nuke) | Nov 30, 2025 | CS2 POV/DEMO",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2025-12-01"
+  },
+  {
     "id": "bn2gNDIA8RQ",
     "title": "Sere1n (22-8) Rating: 1.93 (Mirage) | FACEIT NA avg 3100 Elo | Nov 29, 2025 #cs2 #pov",
     "channel": "lim",
     "player": null,
     "team": null,
     "map": "mirage",
+    "published": "2025-12-01"
+  },
+  {
+    "id": "wb1pq_1dZYs",
+    "title": "CS2 POV Demo FaZe jcobb (24/14) vs Aurora (de_dust2) @ StarLadder Budapest Major 2025 Stage 2",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "dust2",
     "published": "2025-12-01"
   },
   {
@@ -17465,7 +17501,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "ancient",
+    "map": "mirage",
     "published": "2024-08-12"
   },
   {
@@ -20196,24 +20232,6 @@
     "published": "2024-06-10"
   },
   {
-    "id": "Aq6Cq2lgF80",
-    "title": "\u30104K\u3011donk (45-21) rt:1.81 VOICE COMMS (Ancient) | Jun 9, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-06-10"
-  },
-  {
-    "id": "INOzRSAkT_Y",
-    "title": "LVG Starry (46-22) vs ATOX rating:1.85 (Inferno) | Jun 6, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-06-10"
-  },
-  {
     "id": "oiFq4-_ITfQ",
     "title": "CS2 POV Demo Astralis Device (21/6) vs BetBoom (de_nuke) @ YaLLa Compass 2024",
     "channel": "pov_highlights",
@@ -20221,14 +20239,5 @@
     "team": null,
     "map": "nuke",
     "published": "2024-06-10"
-  },
-  {
-    "id": "Ajwb997y5mI",
-    "title": "\u30104K\u3011donk (34-14) rt:1.98 VOICE COMMS (mirage) | FACEIT Ranked NA (English Subtitles) | Jun 2, 2024",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-06-09"
   }
 ]
