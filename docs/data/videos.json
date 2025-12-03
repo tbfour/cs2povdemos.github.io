@@ -1,11 +1,29 @@
 [
   {
+    "id": "H_XVZ_H8RTM",
+    "title": "\ud83d\udd25donk (41-15) w/Magnojez rating: 2.27 (Ancient) | Dec 3, 2025 #cs2 #donk",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2025-12-03"
+  },
+  {
     "id": "hTJCEXjnLWg",
     "title": "s1mple (28-13) rating: 1.88 SoloQ avg 3048 Elo (Dust2) #cs2 #s1mple",
     "channel": "lim",
     "player": null,
     "team": null,
     "map": "dust2",
+    "published": "2025-12-02"
+  },
+  {
+    "id": "U4ROp5roM-s",
+    "title": "DONK Crushes the #4 FACEIT Player! donk POV with COMMs (Ancient)",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": "ancient",
     "published": "2025-12-02"
   },
   {
@@ -17501,7 +17519,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -20185,59 +20203,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-06-11"
-  },
-  {
-    "id": "UnHwSWQkois",
-    "title": "\u30104K\u3011NiKo (22-19) vs juanflatroo/SENER1/makazze (Ancient) | Jun 9, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-06-11"
-  },
-  {
-    "id": "GxCemlFNCJo",
-    "title": "\u30104K\u3011b1t (26-8) rt:2.12 w/m0NESY (mirage) | FACEIT EU | Jun 9, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-06-11"
-  },
-  {
-    "id": "ZG7Ccxa_iz8",
-    "title": "\u30104K\u3011NiKo (22-9) rating:1.97 (Mirage) | FACEIT Ranked EU | Jun 9, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-06-11"
-  },
-  {
-    "id": "RnlyzoLuUsU",
-    "title": "\u30104K\u3011donk (24-11) rt:2.17 VOICE COMMS (Dust2) | Jun 9, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-06-10"
-  },
-  {
-    "id": "IUyNmKjL4ns",
-    "title": "\u30104K\u3011donk (32-8) rt:2.69 VOICE COMMS (Vertigo) | Jun 9, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "vertigo",
-    "published": "2024-06-10"
-  },
-  {
-    "id": "oiFq4-_ITfQ",
-    "title": "CS2 POV Demo Astralis Device (21/6) vs BetBoom (de_nuke) @ YaLLa Compass 2024",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2024-06-10"
   }
 ]
