@@ -1,5 +1,32 @@
 [
   {
+    "id": "4JCTAZjlTl0",
+    "title": "NOCRIES vs DONK in Top FACEIT Lobby! nocries POV with COMMs (Mirage)",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-12-11"
+  },
+  {
+    "id": "lb-AhjgZ31Y",
+    "title": "device (34-14) avg 3050 Elo (Dust2) | Dec 9, 2025 #cs2 #astralis #device #100t",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2025-12-10"
+  },
+  {
+    "id": "ZOk49ywdkps",
+    "title": "CS2 POV Demo Falcons m0NESY (21/4) vs G2 (de_inferno) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2025-12-10"
+  },
+  {
     "id": "kUdMT-l74fE",
     "title": "\ud83d\udd25donk vs nocries at FACEIT EU | Dec 9, 2025 #cs2 #pov #donk #nocries",
     "channel": "lim",
@@ -17825,7 +17852,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -20266,50 +20293,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-06-19"
-  },
-  {
-    "id": "mDLPxvMdyy0",
-    "title": "\u30104K\u3011donk (25-6) rating:2.38 (Anubis) | FACEIT Ranked EU | Jun 18, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-06-19"
-  },
-  {
-    "id": "F4nUPll-APs",
-    "title": "\u30104K\u3011s1mple(25-14) rt:1.75 (Anubis) | FACEIT Ranked EU | 2024.06.19 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-06-19"
-  },
-  {
-    "id": "6xop7ovtpA0",
-    "title": "\u30104K\u3011donk (32-16) rating:1.95 (Dust2) | FACEIT Ranked EU | Jun 18, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-06-19"
-  },
-  {
-    "id": "6e-7r6wyiUg",
-    "title": "\u30104K\u3011Jame w/Perfecto/electroNic/FL1T/PASHANOJ (mirage) | FACEIT Ranked EU | Jun 15, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-06-18"
-  },
-  {
-    "id": "h8VkQ9yLYa4",
-    "title": "CS2 POV Demo Spirit Donk (19/11) vs NaVi (de_nuke) @ BLAST Premier Spring Final 2024",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2024-06-18"
   }
 ]
