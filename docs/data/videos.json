@@ -1,5 +1,41 @@
 [
   {
+    "id": "7vN0tVjRgbc",
+    "title": "CS2 POV Demo Vitality Ropz (22/7) vs FaZe (de_overpass) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2025-12-16"
+  },
+  {
+    "id": "zIcsl4H2i6w",
+    "title": "f0rest (21-9) w/rain/olofmeister/friberg (Dust2) | FACEIT 3320 Elo | Dec 10, 2025 | CS2 POV/DEMO",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2025-12-15"
+  },
+  {
+    "id": "8VEHtswClBM",
+    "title": "device (30-16) avg 3280 Elo (Overpass) | Dec 15, 2025 #cs2 #astralis #device #100t",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2025-12-15"
+  },
+  {
+    "id": "NSrmBhB82zI",
+    "title": "\ud83d\udd25donk (43-21) SoloQ avg 3270 Elo (Dust2) | Dec 13, 2025 #cs2 #donk",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2025-12-15"
+  },
+  {
     "id": "3evJzRlDE4w",
     "title": "mezii (23-8) Vitality vs FaZe (Inferno) | StarLadder Budapest Major 2025 #cs2 #mezii",
     "channel": "lim",
@@ -20302,32 +20338,5 @@
     "team": null,
     "map": "inferno",
     "published": "2024-06-24"
-  },
-  {
-    "id": "Rd5RrhT45_8",
-    "title": "GEN.G heartZ (34-17) (Anubis) | 5EPL | #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-06-24"
-  },
-  {
-    "id": "EVXi17ctGsQ",
-    "title": "The MongolZ bLitz (29-17) (mirage) | CS2 - ESN League - Gold division | Jun 22, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-06-23"
-  },
-  {
-    "id": "haKaAJyxjrU",
-    "title": "CS2 POV Demo G2 NiKo (25/8) vs Spirit (de_ancient) @ BLAST Premier Spring Final 2024",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-06-23"
   }
 ]
