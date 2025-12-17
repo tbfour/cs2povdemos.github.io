@@ -1,5 +1,23 @@
 [
   {
+    "id": "PVB57WFQQ1w",
+    "title": "rain (24-9) w/olofmeister/f0rest (nuke) | FACEIT avg 3050 Elo | Dec 16, 2025 #cs2 #rain",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2025-12-17"
+  },
+  {
+    "id": "mTOuo_zIEAU",
+    "title": "device (23-9) avg 3000 Elo (Inferno) | Dec 16, 2025 #cs2 #astralis #device #100t",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2025-12-17"
+  },
+  {
     "id": "7vN0tVjRgbc",
     "title": "CS2 POV Demo Vitality Ropz (22/7) vs FaZe (de_overpass) @ StarLadder Budapest Major 2025",
     "channel": "pov_highlights",
@@ -18086,7 +18104,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -20311,32 +20329,5 @@
     "team": null,
     "map": "inferno",
     "published": "2024-06-25"
-  },
-  {
-    "id": "NYL7L8g0tzI",
-    "title": "jks (25-9) rt:2.06 w/SPUNJ/AZR/JustHarry (Dust2) | FACEIT Ranked | Jun 23, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-06-24"
-  },
-  {
-    "id": "_revoM3oIwc",
-    "title": "SPUNJ (28-20) w/jks/AZR/JustHarry (Dust2) | FACEIT Ranked EU | Jun 21, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-06-24"
-  },
-  {
-    "id": "XHkFwhWz-qE",
-    "title": "19 y.o. ICY (27-12) (Inferno) | FACEIT Ranked EU | Jun 4, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-06-24"
   }
 ]
