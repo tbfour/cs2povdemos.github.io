@@ -1,5 +1,32 @@
 [
   {
+    "id": "EFIhhQouTYU",
+    "title": "b1t (51-28) Rating: 1.80 (Dust2) | FACEIT 3480 Elo | Dec 18, 2025 | CS2 POV/DEMO",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2025-12-20"
+  },
+  {
+    "id": "Kj7favDfHnY",
+    "title": "magixx (31-8) FACEIT avg 2860 Elo (mirage) | Dec 18, 2025 | CS2 POV/DEMO",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-12-19"
+  },
+  {
+    "id": "99wqLsN3bKY",
+    "title": "MaiL09 (33-10) Rating 2.65 (Mirage) | FACEIT avg 3330 Elo | Dec 18, 2025 #mail09",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-12-19"
+  },
+  {
     "id": "SYwKbpJDSps",
     "title": "zont1x (31-22) SoloQ + VOICE COMMS (Overpass) | FACEIT 3400 ELO | Dec 18, 2025 | CS2 POV #spirit",
     "channel": "lim",
@@ -18140,7 +18167,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "ancient",
+    "map": "mirage",
     "published": "2024-08-12"
   },
   {
@@ -20320,23 +20347,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-06-29"
-  },
-  {
-    "id": "z9xa5p7p_zg",
-    "title": "malbsMd (27-10) rating:2.21 (Mirage) | FACEIT Ranked NA | Jun 23, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-06-27"
-  },
-  {
-    "id": "5UhJDfdMkp8",
-    "title": "CS2 POV Demo Eternal Fire XANTARES (21/11) vs BIG (de_anubis) @ YaLLa Compass 2024",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-06-27"
   }
 ]
