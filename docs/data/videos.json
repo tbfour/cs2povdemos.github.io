@@ -1,5 +1,50 @@
 [
   {
+    "id": "R_mNNHXi-u4",
+    "title": "14 y.o. FACEIT TOP1 - r0se (46-22) avg 3290 Elo Lobby (Ancient) | B8 Academy | #cs2 #r0se #POV",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-01-02"
+  },
+  {
+    "id": "czdb8Cu1EZI",
+    "title": "makazze (41-19) (Ancient) | Sashi Pro League #cs2 #NAVI #makazze",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-01-01"
+  },
+  {
+    "id": "arODVDsZudU",
+    "title": "jcobbb (29-17) Rating: 1.59 (Mirage) | FACEIT avg 3300 Elo | Jan 1, 2026 #faze #jcobbb",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-01-01"
+  },
+  {
+    "id": "ZIohdXaJJeQ",
+    "title": "Jimpphat (23-6) FACEIT 3260 ELO matchup (nuke) | Dec 31, 2025 | CS2 POV/DEMO",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-01-01"
+  },
+  {
+    "id": "XEHoTRj1P_4",
+    "title": "CS2 POV Demo Vitality ropz (31/20) vs Spirit (de_mirage) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-01-01"
+  },
+  {
     "id": "AtKVHqXlUnA",
     "title": "jcobbb POV with Keystrokes Visualized (mirage) FACEIT Ranked | (Ep.18)",
     "channel": "lim",
@@ -20196,33 +20241,6 @@
     "published": "2024-07-11"
   },
   {
-    "id": "AwO9VyHgUPo",
-    "title": "\u30104K\u3011EliGE vs Stewie2k (Dust2) | FACEIT Ranked NA | July 8, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-07-11"
-  },
-  {
-    "id": "eIqfqD5zyL4",
-    "title": "donk (30-15) Dust2 POV | FACEIT Ranked | July 9, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-07-11"
-  },
-  {
-    "id": "mU9FnC-IggM",
-    "title": "m0NESY w/Jame/electroNic/b1t/fozil vs jL/w0nderful (mirage) | July 8, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-11"
-  },
-  {
     "id": "Wtew8MIkFbc",
     "title": "CS2 POV Demo Spirit Donk (22/16) vs Na'Vi (de_dust2) @ BLAST Premier Spring Final 2024",
     "channel": "pov_highlights",
@@ -20230,32 +20248,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-07-11"
-  },
-  {
-    "id": "p0fUID5qxd0",
-    "title": "Aleksib (22-7) Rating:2.15 (Anubis) | FACEIT Ranked 2500ELO | July 8, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-07-10"
-  },
-  {
-    "id": "kViczpNYFbE",
-    "title": "m0NESY w/Jame/electroNic/b1t/fozil (Ancient) | FACEIT Ranked | July 8, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-07-10"
-  },
-  {
-    "id": "PFqqmp2VarM",
-    "title": "ZywOo (34-17) Nuke POV | FACEIT | July 9, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2024-07-10"
   }
 ]
