@@ -1,5 +1,50 @@
 [
   {
+    "id": "iwcDcliNP6A",
+    "title": "jcobbb (37-21) Rating: 1.63 (Mirage) | FACEIT avg 3390 Elo | Jan 3, 2026 #faze #jcobbb",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-01-04"
+  },
+  {
+    "id": "-WuVt5rRk7E",
+    "title": "s-chilla (34-12) SoloQ Rating: 2.66 (mirage) | FACEIT avg 3063 Elo | Jan 2, 2026 #cs2 #s-chilla",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-01-04"
+  },
+  {
+    "id": "T4iZsTUnrfU",
+    "title": "Double ACE! nocries (57-32) SoloQ (Dust2) | Jan 3, 2026 | #cs2 #nocries",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-01-03"
+  },
+  {
+    "id": "1Va6H4iShK0",
+    "title": "kyousuke (42-28) vs jcobbb avg 3360 Elo (Train) | Jan 3, 2026 #cs2 #kyousuke",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2026-01-03"
+  },
+  {
+    "id": "-37xeA_i3p4",
+    "title": "poiii (29-9) Alliance vs Prestige (Train) | DH Knockout Stockholm 2025 - Playoffs #cs2 #poiii #pov",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2026-01-03"
+  },
+  {
     "id": "TaOUDsA079w",
     "title": "s1mple (63-28) 5-stack avg 2017 Elo (Mirage) | Jan 2, 2025 #cs2 #s1mple",
     "channel": "lim",
@@ -18761,7 +18806,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "ancient",
+    "map": "mirage",
     "published": "2024-08-12"
   },
   {
@@ -20194,59 +20239,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-07-13"
-  },
-  {
-    "id": "jTeMfVrPFNQ",
-    "title": "\u30104K\u3011s1mple(31-13) (Anubis) | FACEIT Ranked | July 12, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-07-13"
-  },
-  {
-    "id": "DZTXRqJXcyI",
-    "title": "m0NESY (31-13)  soloQ Voice Comms (mirage) | July 12, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-13"
-  },
-  {
-    "id": "SHeVf_bf0SU",
-    "title": "donk (31-11) vs mezii nuke POV | FACEIT Ranked | July 11, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2024-07-12"
-  },
-  {
-    "id": "S4GACX0vuKc",
-    "title": "donk (23-12) mirage POV | FACEIT Ranked | July 11, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-12"
-  },
-  {
-    "id": "HXPrAsIjPkU",
-    "title": "donk (24-6) vs Krimbo/rigoN/tabseN (Dust2 POV) | July 11, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-07-12"
-  },
-  {
-    "id": "N8lmWm6TIeA",
-    "title": "Team Vitality on FACEIT Ranked - ZywOo POV (mirage) | FACEIT | July 10, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-12"
   }
 ]
