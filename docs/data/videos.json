@@ -19301,7 +19301,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "ancient",
+    "map": "mirage",
     "published": "2024-08-12"
   },
   {
@@ -20430,24 +20430,6 @@
     "published": "2024-07-21"
   },
   {
-    "id": "cgJrDuWrOhQ",
-    "title": "NAVI w0nderful (23-8) vs MOUZ (mirage) | Esports World Cup 2024 | July 20, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-21"
-  },
-  {
-    "id": "0TDL4rAe1TA",
-    "title": "\u30104K\u3011G2\u26a1m0NESY (17-12) vs VP (ancient) | July 20, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-07-21"
-  },
-  {
     "id": "ckZq76GeYao",
     "title": "CS2 POV Demo Virtus.Pro Jame (19/5) vs Vitality (de_inferno) @ Esports World Cup 2024",
     "channel": "pov_highlights",
@@ -20455,32 +20437,5 @@
     "team": null,
     "map": "inferno",
     "published": "2024-07-21"
-  },
-  {
-    "id": "hFeyFVTX1ro",
-    "title": "\u30104K\u3011G2 NiKo vs VP (ancient) | July 20, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-07-20"
-  },
-  {
-    "id": "bggaUFhh0_Y",
-    "title": "\u30104K\u3011G2 NiKo (26-6) rating:2.49 vs VP (dust2) | July 20, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-07-20"
-  },
-  {
-    "id": "2CA_fqzMiIY",
-    "title": "\u30104K\u3011jcobbb(33-15) (mirage) | FACEIT Ranked | July 15, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-20"
   }
 ]
