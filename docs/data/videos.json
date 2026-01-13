@@ -1,5 +1,14 @@
 [
   {
+    "id": "W6RwYLsXk2A",
+    "title": "DONK First FACEIT Game Back on Anubis! donk POV with COMMs (Anubis)",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-01-12"
+  },
+  {
     "id": "8IIhW2Buf48",
     "title": "\ud83d\udd25donk 51K w/magixx/suns1de (Mirage) | avg 3188 Elo | Jan 11, 2026 #cs2 #donk",
     "channel": "lim",
@@ -19301,7 +19310,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -20367,42 +20376,6 @@
     "published": "2024-07-22"
   },
   {
-    "id": "Z22cFPLufKA",
-    "title": "NAVI b1t (17-8) vs G2 (nuke) | Esports World Cup 2024 Grand Finals | July 21, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2024-07-22"
-  },
-  {
-    "id": "F_7sEDWTHn8",
-    "title": "NAVI b1t (19-9) vs G2 (Inferno) | Esports World Cup 2024 Grand Finals | July 21, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-07-22"
-  },
-  {
-    "id": "YlFEFZvGgiI",
-    "title": "\u30104K\u3011G2 NiKo vs NAVI (ancient) | July 21, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-07-22"
-  },
-  {
-    "id": "Log8OGRfDg8",
-    "title": "\u30104K\u3011G2 malbsMd vs VP (ancient) | July 20, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-07-22"
-  },
-  {
     "id": "rcavoBbUUHo",
     "title": "CS2 POV Demo NaVi b1t (19/9) vs G2 (de_inferno) @ Esports World Cup 2024 GRAND FINAL",
     "channel": "pov_highlights",
@@ -20410,32 +20383,5 @@
     "team": null,
     "map": "inferno",
     "published": "2024-07-22"
-  },
-  {
-    "id": "rRUqzJORIOE",
-    "title": "\u30104K\u3011donk (27-17) w/sh1ro/Magnojez Rating:1.7 (mirage POV) | July 20, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-21"
-  },
-  {
-    "id": "wfnZp-JXzz4",
-    "title": "\u30104K\u3011donk (25-9) w/sh1ro/Magnojez Rating:2.21 (mirage POV) | July 20, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-21"
-  },
-  {
-    "id": "ckZq76GeYao",
-    "title": "CS2 POV Demo Virtus.Pro Jame (19/5) vs Vitality (de_inferno) @ Esports World Cup 2024",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-07-21"
   }
 ]
