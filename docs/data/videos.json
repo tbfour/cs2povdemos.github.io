@@ -1,5 +1,77 @@
 [
   {
+    "id": "rR0XLeY8IC4",
+    "title": "Twistzz (28-9) w/NAF siuhy (mirage) | FACEIT Ranked | Jan 17 2026 #cs2 #Twistzz #faze",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-01-18"
+  },
+  {
+    "id": "gGBzCFWWGRM",
+    "title": "m0NESY (26-12) w/teses avg3560 Elo (mirage) | Jan 16, 2026 #cs2 #m0nesy",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-01-18"
+  },
+  {
+    "id": "9meT8fNR2bo",
+    "title": "electroNic (32-14) 5-stack (Anubis) | FACEIT Ranked | Jan 14, 2026 #cs2 #POV",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-01-18"
+  },
+  {
+    "id": "IXGRID3iUwQ",
+    "title": "makazze (31-10) avg 3630 Elo (Anubis) | FACEIT Ranked #cs2 #NAVI #makazze",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-01-18"
+  },
+  {
+    "id": "Te0gR5tiato",
+    "title": "m0NESY (29-11) w/teses avg3610 Elo (dust2) | Jan 16, 2026 #cs2 #m0nesy",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-01-18"
+  },
+  {
+    "id": "SJy7SMJ94Iw",
+    "title": "Twistzz (24-8) w/NAF (dust2) | FACEIT Ranked | Jan 16 2026 #cs2 #Twistzz #faze",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-01-18"
+  },
+  {
+    "id": "owGWEXG1dTQ",
+    "title": "MaiL09 (24-7) Rating 2.59 (Ancient) | FACEIT avg 3610 Elo | Jan 14, 2026 #mail09",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-01-18"
+  },
+  {
+    "id": "y2s37JfOOLQ",
+    "title": "Jimpphat (22-4) FACEIT 3600 ELO matchup (ancient) | Jan 5, 2026 | CS2 POV/DEMO",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-01-18"
+  },
+  {
     "id": "Sr2xlTsN1To",
     "title": "nocries (28-9) Rating: 2.46 (mirage) | Jan 14, 2026 | #cs2 #nocries",
     "channel": "lim",
@@ -8020,7 +8092,7 @@
   },
   {
     "id": "ioQnBpJoUoE",
-    "title": "KYOUSUKE destroys new Spirit player zweih in FACEIT! kyousuke POV with COMMs (Mirage)",
+    "title": "KYOUSUKE Destroys Tier 1 PROS in FACEIT! kyousuke POV with COMMs (Mirage)",
     "channel": "nebula",
     "player": null,
     "team": null,
@@ -20365,59 +20437,5 @@
     "team": null,
     "map": "nuke",
     "published": "2024-07-28"
-  },
-  {
-    "id": "--b3US_c68E",
-    "title": "New G2 FACEIT series 13: NiKo POV with Replay (mirage) | July 27, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-28"
-  },
-  {
-    "id": "sWAZJgILJVE",
-    "title": "\u30104K\u3011donk (35-13) w/Magnojez (Dust2 POV) | July 25, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-07-28"
-  },
-  {
-    "id": "uG7cN_HUqTM",
-    "title": "FPL?! b1t w/m0NESY/Topa (Ancient) | FACEIT Ranked EU | July 26, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-07-27"
-  },
-  {
-    "id": "Wg2O6VxshAs",
-    "title": "b1t (28-13) w/m0NESY/Topa (Mirage) | FACEIT Ranked EU | July 26, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-27"
-  },
-  {
-    "id": "O5x-i46B5Z0",
-    "title": "\u30104K\u3011ZywOo(21-8) (Inferno) | FACEIT Ranked | July 25, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-07-27"
-  },
-  {
-    "id": "SNh4TU-SoOU",
-    "title": "\u30104K\u3011donk 46Kills vs flamie/KaiR0N- (mirage) | July 25, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-07-27"
   }
 ]
