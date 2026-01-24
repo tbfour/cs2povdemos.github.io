@@ -1,5 +1,32 @@
 [
   {
+    "id": "iswNKjtjKK4",
+    "title": "ZywOo (20-13) Vitality vs GamerLegion (Dust2) | BLAST Bounty 2026 Season 1 #cs2 #zywoo",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-01-24"
+  },
+  {
+    "id": "7X6DZVSvE9E",
+    "title": "ropz POV | Vitality vs GamerLegion | Inferno | BLAST Bounty 2026 S1 Finals #cs2 #ropz",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-01-24"
+  },
+  {
+    "id": "_rtgqY3GlOg",
+    "title": "superflik (24-14) vs Jimpphat/PR (Ancient) | avg 3645 Elo | Jan 22, 2026 #cs2pov",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-01-23"
+  },
+  {
     "id": "xR1mgBEKvNk",
     "title": "donk NEW ANUBIS | SoloQ + FULL COMMS | Keystrokes ON | FACEIT Ranked | Ep.20 #cs2 #donk",
     "channel": "lim",
@@ -123,6 +150,15 @@
     "player": null,
     "team": null,
     "map": "overpass",
+    "published": "2026-01-20"
+  },
+  {
+    "id": "EePNbbfpUTs",
+    "title": "zweih (19-11) PV vs Astralis (Ancient) | BLAST Bounty 2026 Season 1 #cs2 #donk",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
     "published": "2026-01-20"
   },
   {
@@ -19940,7 +19976,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -20545,50 +20581,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-08-02"
-  },
-  {
-    "id": "AUYVEqvrFkM",
-    "title": "\u30104K\u3011FaZe ropz vs G2 (Ancient) | Aug 1, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-08-02"
-  },
-  {
-    "id": "2-z28iJRz3Y",
-    "title": "\u30104K\u3011G2 malbsMd vs FaZe (nuke) | Aug 1, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2024-08-02"
-  },
-  {
-    "id": "HY1C9FQmd_w",
-    "title": "\u30104K\u3011G2 NiKo vs FaZe (mirage) | Aug 1, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-08-01"
-  },
-  {
-    "id": "qLHVki-5t2M",
-    "title": "\u30104K\u3011kyousuke (26-14) w/donk/fen2k (mirage) | FACEIT Ranked | July 27, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-08-01"
-  },
-  {
-    "id": "pj4xI2cm_Ws",
-    "title": "\u30104K\u3011Liquid Twistzz (22-10) vs VP (Dust2) | BLAST Premier Fall Groups 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-08-01"
   }
 ]
