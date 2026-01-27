@@ -1,5 +1,23 @@
 [
   {
+    "id": "WTHKxtyzcbU",
+    "title": "m0NESY double ACE w/irbitka avg3260 Elo (Ancient) | Jan 26, 2026 #cs2 #m0nesy",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-01-27"
+  },
+  {
+    "id": "wT0AtzfTNCE",
+    "title": "Jame (16-9) PARIVISION vs Falcons (Inferno) | BLAST Bounty 2026 Season 1 Finals #cs2 #jame",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-01-26"
+  },
+  {
     "id": "6Cbeun8akdA",
     "title": "Jame (14-9) PARIVISION vs Falcons (Dust2) | BLAST Bounty 2026 Season 1 Finals #cs2 #jame",
     "channel": "lim",
@@ -312,15 +330,6 @@
     "player": null,
     "team": null,
     "map": "overpass",
-    "published": "2026-01-20"
-  },
-  {
-    "id": "EePNbbfpUTs",
-    "title": "zweih (19-11) PV vs Astralis (Ancient) | BLAST Bounty 2026 Season 1 #cs2 #donk",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
     "published": "2026-01-20"
   },
   {
@@ -20138,7 +20147,7 @@
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": "mirage",
+    "map": "ancient",
     "published": "2024-08-12"
   },
   {
@@ -20581,32 +20590,5 @@
     "team": null,
     "map": "anubis",
     "published": "2024-08-05"
-  },
-  {
-    "id": "4rQPl7bLKqQ",
-    "title": "\u30104K\u3011Tyloo Jee (23-14) vs GG (ANCIENT) | XSE Pro League 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-08-05"
-  },
-  {
-    "id": "QffGX-vZ5Lg",
-    "title": "\u30104K\u3011donk (29-17) w/Magnojez (ancient) | Aug 2, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-08-04"
-  },
-  {
-    "id": "yCTKvaE58_4",
-    "title": "\u30104K\u3011Magnojez (31-15) soloQ (mirage) | FACEIT Ranked | July 26, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-08-04"
   }
 ]
