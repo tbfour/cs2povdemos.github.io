@@ -1,5 +1,14 @@
 [
   {
+    "id": "iX0jqPFcjGk",
+    "title": "nocries (36-7) SoloQ Rating: 3.34\ud83d\ude2e (Anubis) | Feb 11, 2026 | #cs2 #nocries",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-02-12"
+  },
+  {
     "id": "-ESuAxCh_mk",
     "title": "mzinho (34-14) 5-stack (Inferno) | avg. 3230 Elo | Feb 11, 2026 | CS2 POV/DEMO",
     "channel": "lim",
@@ -20500,32 +20509,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-08-22"
-  },
-  {
-    "id": "wrJVC-kTSQo",
-    "title": "sh1ro 52Kills POV (mirage) | vs FACEIT LV10 2400ELO | Aug 17, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-08-21"
-  },
-  {
-    "id": "8t2vBedA7fM",
-    "title": "sh1ro 38-10 (Dust2) | vs FACEIT LV10 2100ELO | Aug 19, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-08-21"
-  },
-  {
-    "id": "l0rHgwEL2TY",
-    "title": "donk (32-13) w/sh1ro/baz Rating:2.4 (Dust2) | Aug 20, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-08-21"
   }
 ]
