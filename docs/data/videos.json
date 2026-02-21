@@ -1,5 +1,23 @@
 [
   {
+    "id": "6LpGy6cm9Fg",
+    "title": "Techno (26-10) w/cobrazera/mzinho (Nuke) | FACEIT avg 3520 Elo #cs2 #techno #pov",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-02-21"
+  },
+  {
+    "id": "ciuFzd5C_Xg",
+    "title": "f0rest (36-22) w/GeT_RiGhT (Mirage) | FACEIT 3213 Elo | Feb 17, 2026 #cs2 #f0rest #pov",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-02-20"
+  },
+  {
     "id": "qODb8a5oTlY",
     "title": "ZywOo (31-15) Rating: 2.0 (Overpass) | 5-Stack avg 3170 Elo | Feb 19, 2026 #cs2 #zywoo",
     "channel": "lim",
@@ -20484,33 +20502,6 @@
     "published": "2024-08-30"
   },
   {
-    "id": "3cWM8nzcdBs",
-    "title": "jks w/teammates and coach (Dust2) | FACEIT North America | Aug 29, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-08-30"
-  },
-  {
-    "id": "tDtZ8zcfmNk",
-    "title": "NiKo (28-12) Rating:1.64 (mirage) | Aug 29, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-08-30"
-  },
-  {
-    "id": "bGSKwmSVU7Q",
-    "title": "NiKo (35-11) Rating:2.35 (ANCIENT) | Aug 29, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-08-30"
-  },
-  {
     "id": "ktgVh1SY0Vo",
     "title": "CS2 POV Demo Eternal Fire XANTARES (20/5) vs 9 Pandas (de_anubis) @ BetBoom Dacha Belgrade Season 2",
     "channel": "pov_highlights",
@@ -20518,23 +20509,5 @@
     "team": null,
     "map": "anubis",
     "published": "2024-08-30"
-  },
-  {
-    "id": "FexO0o2ByDY",
-    "title": "s1mple plays Premier (21-5) (nuke) | Aug 26, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2024-08-29"
-  },
-  {
-    "id": "GqbqME6_otA",
-    "title": "ZywOo (26-15) Rating:1.59 (Anubis) | Aug 28, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-08-29"
   }
 ]
