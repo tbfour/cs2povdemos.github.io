@@ -1,11 +1,11 @@
 [
   {
     "id": "2snotPFqqOQ",
-    "title": "95 KILLS?! donk\ud83d\udd25Masterclass POV (3x ACES) | High Elo FACEIT | Full Game",
+    "title": "donk 95 KILLS SoloQ + VOICE COMMS (Anubis) | FACEIT EU 3800 ELO | Full Match POV",
     "channel": "lim",
     "player": null,
     "team": null,
-    "map": null,
+    "map": "anubis",
     "published": "2026-03-01"
   },
   {
@@ -20538,15 +20538,6 @@
     "published": "2024-09-08"
   },
   {
-    "id": "-2mUTZ7770Y",
-    "title": "NiKo w/m0NESY/huNter- vs kyousuke (Ancient) | Sep 6, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-09-08"
-  },
-  {
     "id": "Sd_ZwyPXe2w",
     "title": "CS2 POV Demo FaZe Ropz (21/8) vs Sangal (de_dust2) @ ESL Pro League Season 20",
     "channel": "pov_highlights",
@@ -20554,32 +20545,5 @@
     "team": null,
     "map": "dust2",
     "published": "2024-09-08"
-  },
-  {
-    "id": "hE6uTWRt4HQ",
-    "title": "ZywOo (32-18) Rating:2.06 (NUKE) | Sep 6, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2024-09-07"
-  },
-  {
-    "id": "pCemxO-jIAc",
-    "title": "\u30104K\u3011b1t w/fear10 VOICE COMMS (INFERNO) | Sep 5, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-09-07"
-  },
-  {
-    "id": "0PCJP1LhDAs",
-    "title": "xertioN (31-5) Rating:2.66 (MIRAGE) | FACEIT Ranked | Aug 26, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-09-07"
   }
 ]
