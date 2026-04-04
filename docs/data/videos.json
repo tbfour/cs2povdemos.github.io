@@ -1,7 +1,43 @@
 [
   {
+    "id": "KceXkcQCUVY",
+    "title": "\ud83d\udd25s1mple POV on Dust2 | FACEIT w/ aragornN",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-03"
+  },
+  {
+    "id": "mV0vJMCRsMI",
+    "title": "m0NESY POV on Dust2 | 28-16, 1.83 Rating | 3.4K Elo FACEIT",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-03"
+  },
+  {
+    "id": "1yo-aSsq_Ck",
+    "title": "donk POV vs Krimbo on Dust2 | 4K Elo FACEIT w/ magixx",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-03"
+  },
+  {
+    "id": "7Hb5eygQAJ8",
+    "title": "BELCHONOKK POV on Anubis | 33-8, 2.95 Rating w/zweih",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-04-03"
+  },
+  {
     "id": "EgWZRx2vjg8",
-    "title": "kyousuke (31-11) SoloQ Rating: 2.58 avg 4000 Elo (Dust2) | Apr 1, 2026 #cs2 #kyousuke",
+    "title": "kyousuke SoloQ POV on Dust2 | 31-11, 2.58 Rating | 4K Elo",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -10,7 +46,7 @@
   },
   {
     "id": "swmjrfUgGg8",
-    "title": "kyousuke (44-29) SoloQ avg 3550 Elo (Dust2) | Mar 31, 2026 #cs2 #kyousuke",
+    "title": "\ud83d\udd25kyousuke SoloQ POV on Dust2 | 44-29 | 3550 Elo",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -37,7 +73,7 @@
   },
   {
     "id": "4DdLScPFD2k",
-    "title": "donk POV w/magixx (Overpass) avg 3.9k\ud83d\udd25Elo | Mar 31, 2026 #cs2 #donk #pov",
+    "title": "donk POV w/magixx (Overpass) avg 3.9k\ud83d\udd25Elo",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -46,7 +82,7 @@
   },
   {
     "id": "WnT3goTHcSQ",
-    "title": "ZywOo (23-9) w/rewen (Mirage) | avg 3k Elo | Mar 31, 2026 #cs2 #zywoo",
+    "title": "ZywOo (23-9) w/rewen (Mirage) | avg 3k Elo",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -55,7 +91,7 @@
   },
   {
     "id": "Okjnnn_aubo",
-    "title": "\ud83d\udd25tN1R (52-28) SoloQ avg 3750 Elo (Anubis) | Mar 30, 2026 #cs2 #tn1r #spirit",
+    "title": "\ud83d\udd25tN1R (52-28) SoloQ avg 3750 Elo (Anubis)",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -64,7 +100,7 @@
   },
   {
     "id": "UIYgz5MBoT8",
-    "title": "donk POV w/magixx (Mirage) avg 4k\ud83d\udd25Elo | Mar 30, 2026 #cs2 #donk #pov",
+    "title": "donk & magixx on Mirage | 4K\ud83d\udd25Elo FACEIT POV",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -109,7 +145,7 @@
   },
   {
     "id": "JYnHcjisKko",
-    "title": "donk POV 4350 Elo Lobby (Nuke) Mar 29, 2026 #cs2 #donk #pov",
+    "title": "donk POV | High Elo Nuke Match in a 4350\ud83d\udd25FACEIT Lobby",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -127,7 +163,7 @@
   },
   {
     "id": "muGjue8-fIk",
-    "title": "aliStair (33-13) Rating: 2.38 (Inferno) FACEIT SEA | Mar 24, 2026 #cs2 #alistairpov",
+    "title": "aliStair POV on Inferno | 33-13, 2.38 Rating",
     "channel": "lim",
     "player": null,
     "team": null,
@@ -20187,15 +20223,6 @@
     "published": "2024-10-11"
   },
   {
-    "id": "UGYNivGmVIw",
-    "title": "Senzu (20-6) The MongolZ vs EF (Anubis) | IEM Rio 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-10-11"
-  },
-  {
     "id": "5zufHWCxEds",
     "title": "CS2 POV Demo FaZe frozen (19/9) vs Liquid (de_inferno) @ IEM Rio 2024",
     "channel": "pov_highlights",
@@ -20203,14 +20230,5 @@
     "team": null,
     "map": "inferno",
     "published": "2024-10-11"
-  },
-  {
-    "id": "HFq0evBoZGQ",
-    "title": "\ud83d\udd25s1mple (22-13) POV + donk (Anubis) | Oct 9, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-10-10"
   }
 ]
