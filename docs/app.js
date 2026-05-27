@@ -17,11 +17,11 @@
   const isReal = s => s && s !== "null" && s !== "undefined";
 
   // ── Build indexes ────────────────────────────────────────────────────
-  const byPlayer      = new Map();  // player  → video[]  (POV channels)
-  const playerTeam    = new Map();  // player  → team name
-  const byMapPOV      = new Map();  // map key → video[]  (POV channels)
-  const byMapStrategy = new Map();  // map key → video[]  (channel === "strategy")
-  const byMapUtility  = new Map();  // map key → video[]  (channel === "utility")
+  const byPlayer      = new Map();
+  const playerTeam    = new Map();
+  const byMapPOV      = new Map();
+  const byMapStrategy = new Map();
+  const byMapUtility  = new Map();
 
   const POV_CHANNELS = new Set(["lim", "pov_highlights", "nebula"]);
 
@@ -50,7 +50,7 @@
     }
   }
 
-  // ── Map config (always show all 7 regardless of count) ───────────────
+  // ── Map config ────────────────────────────────────────────────────────
   const ALL_MAPS = [
     { key: "mirage",   label: "Mirage",   bg: "linear-gradient(145deg,#d4a450,#7a4510)" },
     { key: "dust2",    label: "Dust 2",   bg: "linear-gradient(145deg,#dcc060,#8a6010)" },
@@ -62,8 +62,7 @@
   ];
 
   // ── State ─────────────────────────────────────────────────────────────
-  const PAGE  = 15;
-  const state = { tab: "players", player: null, map: null, page: 0 };
+  const state = { tab: "players", player: null, map: null };
 
   // ── DOM ───────────────────────────────────────────────────────────────
   const app  = document.getElementById("app");
@@ -74,7 +73,6 @@
     state.tab    = btn.dataset.tab;
     state.player = null;
     state.map    = null;
-    state.page   = 0;
     tabs.forEach(t => t.classList.toggle("active", t === btn));
     render();
   }));
@@ -121,7 +119,7 @@
         appendSectionTitle(meta?.label ?? map);
         appendVideoGrid(byMapPOV.get(map) || []);
       } else {
-        appendMapGrid(byMapPOV, "Maps");
+        appendMapGrid(byMapPOV);
       }
 
     } else if (tab === "strategy") {
@@ -131,7 +129,7 @@
         appendSectionTitle(meta?.label ?? map);
         appendVideoGrid(byMapStrategy.get(map) || []);
       } else {
-        appendMapGrid(byMapStrategy, "Strategy");
+        appendMapGrid(byMapStrategy);
       }
 
     } else { // utility
@@ -141,7 +139,7 @@
         appendSectionTitle(meta?.label ?? map);
         appendVideoGrid(byMapUtility.get(map) || []);
       } else {
-        appendMapGrid(byMapUtility, "Utility");
+        appendMapGrid(byMapUtility);
       }
     }
   }
@@ -184,14 +182,14 @@
         <div class="player-name">${esc(p)}</div>
         ${team ? `<div class="player-team">${esc(team)}</div>` : ""}
         <div class="player-count">${count} video${count !== 1 ? "s" : ""}</div>`;
-      card.addEventListener("click", () => { state.player = p; state.page = 0; render(); });
+      card.addEventListener("click", () => { state.player = p; render(); });
       grid.appendChild(card);
     }
     app.appendChild(grid);
   }
 
-  // ── Map grid (shared by Maps, Strategy, Utility tabs) ─────────────────
-  function appendMapGrid(mapIndex, tabLabel) {
+  // ── Map grid ──────────────────────────────────────────────────────────
+  function appendMapGrid(mapIndex) {
     const grid = document.createElement("div");
     grid.className = "card-grid map-grid";
     for (const m of ALL_MAPS) {
@@ -204,55 +202,92 @@
           <div class="map-label">${esc(m.label)}</div>
           <div class="map-count">${count} video${count !== 1 ? "s" : ""}</div>
         </div>`;
-      card.addEventListener("click", () => { state.map = m.key; state.page = 0; render(); });
+      card.addEventListener("click", () => { state.map = m.key; render(); });
       grid.appendChild(card);
     }
     app.appendChild(grid);
   }
 
-  // ── Video grid ────────────────────────────────────────────────────────
+  // ── Video grid with search ────────────────────────────────────────────
+  const PAGE = 15;
+
   function appendVideoGrid(vids) {
     if (!vids.length) {
       app.insertAdjacentHTML("beforeend", `<div class="empty">No videos found.</div>`);
       return;
     }
 
-    const maxPage = Math.max(0, Math.ceil(vids.length / PAGE) - 1);
-    state.page = Math.min(Math.max(0, state.page), maxPage);
-    const slice = vids.slice(state.page * PAGE, (state.page + 1) * PAGE);
+    // Search bar
+    const searchWrap = document.createElement("div");
+    searchWrap.className = "video-search-wrap";
+    searchWrap.innerHTML = `
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2" width="16" height="16">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input class="video-search" type="text" placeholder="Search videos…" autocomplete="off">`;
+    app.appendChild(searchWrap);
+    const input = searchWrap.querySelector(".video-search");
 
-    const grid = document.createElement("div");
-    grid.className = "card-grid video-grid";
-    for (const v of slice) {
-      const info = [
-        v.player ? `<strong>${esc(v.player)}</strong>` : "",
-        v.map    ? esc(v.map)  : "",
-        v.team   ? esc(v.team) : "",
-      ].filter(Boolean).join(" — ");
+    // Separate container so only the grid+pager is rebuilt on search/page change
+    const container = document.createElement("div");
+    app.appendChild(container);
 
-      const card = document.createElement("div");
-      card.className = "video-card";
-      card.innerHTML = `
-        <iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}"
-                allowfullscreen loading="lazy"
-                referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        <div class="card-title">${esc(v.title)}</div>
-        ${info ? `<div class="card-info">${info}</div>` : ""}`;
-      grid.appendChild(card);
+    let page = 0;
+
+    function renderGrid() {
+      const q        = input.value.trim().toLowerCase();
+      const filtered = q ? vids.filter(v => v.title.toLowerCase().includes(q)) : vids;
+      const maxPage  = Math.max(0, Math.ceil(filtered.length / PAGE) - 1);
+      page = Math.min(Math.max(0, page), maxPage);
+      const slice = filtered.slice(page * PAGE, (page + 1) * PAGE);
+
+      container.innerHTML = "";
+
+      if (!slice.length) {
+        container.insertAdjacentHTML("beforeend",
+          `<div class="empty">No videos match your search.</div>`);
+      } else {
+        const grid = document.createElement("div");
+        grid.className = "card-grid video-grid";
+        for (const v of slice) {
+          const info = [
+            v.player ? `<strong>${esc(v.player)}</strong>` : "",
+            v.map    ? esc(v.map)  : "",
+            v.team   ? esc(v.team) : "",
+          ].filter(Boolean).join(" — ");
+
+          const card = document.createElement("div");
+          card.className = "video-card";
+          card.innerHTML = `
+            <iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}"
+                    allowfullscreen loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <div class="card-title">${esc(v.title)}</div>
+            ${info ? `<div class="card-info">${info}</div>` : ""}`;
+          grid.appendChild(card);
+        }
+        container.appendChild(grid);
+      }
+
+      if (maxPage > 0) {
+        const pager = document.createElement("div");
+        pager.className = "pager";
+        pager.innerHTML = `
+          <button class="pager-prev" ${page === 0 ? "disabled" : ""}>‹ Prev</button>
+          <span class="pager-info">${filtered.length ? page + 1 : 0} / ${maxPage + 1}</span>
+          <button class="pager-next" ${page === maxPage ? "disabled" : ""}>Next ›</button>`;
+        pager.querySelector(".pager-prev").addEventListener("click", () => { page--; renderGrid(); });
+        pager.querySelector(".pager-next").addEventListener("click", () => { page++; renderGrid(); });
+        container.appendChild(pager);
+      }
     }
-    app.appendChild(grid);
 
-    if (maxPage > 0) {
-      const pager = document.createElement("div");
-      pager.className = "pager";
-      pager.innerHTML = `
-        <button class="pager-prev" ${state.page === 0 ? "disabled" : ""}>‹ Prev</button>
-        <span class="pager-info">${state.page + 1} / ${maxPage + 1}</span>
-        <button class="pager-next" ${state.page === maxPage ? "disabled" : ""}>Next ›</button>`;
-      pager.querySelector(".pager-prev").addEventListener("click", () => { state.page--; render(); });
-      pager.querySelector(".pager-next").addEventListener("click", () => { state.page++; render(); });
-      app.appendChild(pager);
-    }
+    input.addEventListener("input", () => { page = 0; renderGrid(); });
+    renderGrid();
+
+    // Auto-focus the search input
+    input.focus();
   }
 
   render();
