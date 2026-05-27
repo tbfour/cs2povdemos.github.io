@@ -1,10 +1,7 @@
 // docs/app.js
 (async function () {
   // ── Load data ────────────────────────────────────────────────────────
-  const [videos, teamsJson] = await Promise.all([
-    fetch("data/videos.json", { cache: "no-store" }).then(r => r.json()),
-    fetch("data/teams.json",  { cache: "no-store" }).then(r => r.json()).catch(() => []),
-  ]);
+  const videos = await fetch("data/videos.json", { cache: "no-store" }).then(r => r.json());
 
   const norm = v => (v == null ? "" : String(v));
   videos.forEach(v => {
@@ -13,39 +10,47 @@
     v.map       = norm(v.map);
     v.title     = norm(v.title);
     v.id        = norm(v.id);
+    v.channel   = norm(v.channel);
     v.published = norm(v.published);
   });
 
   const isReal = s => s && s !== "null" && s !== "undefined";
 
   // ── Build indexes ────────────────────────────────────────────────────
-  const byPlayer   = new Map();  // player  → video[]
-  const byTeam     = new Map();  // team    → Set<player>
-  const byMap      = new Map();  // map key → video[]
-  const playerTeam = new Map();  // player  → team name
+  const byPlayer      = new Map();  // player  → video[]  (POV channels)
+  const playerTeam    = new Map();  // player  → team name
+  const byMapPOV      = new Map();  // map key → video[]  (POV channels)
+  const byMapStrategy = new Map();  // map key → video[]  (channel === "strategy")
+  const byMapUtility  = new Map();  // map key → video[]  (channel === "utility")
+
+  const POV_CHANNELS = new Set(["lim", "pov_highlights", "nebula"]);
 
   for (const v of videos) {
-    if (isReal(v.player)) {
-      if (!byPlayer.has(v.player)) byPlayer.set(v.player, []);
-      byPlayer.get(v.player).push(v);
-      if (isReal(v.team) && !playerTeam.has(v.player)) playerTeam.set(v.player, v.team);
-    }
-    if (isReal(v.team) && isReal(v.player)) {
-      if (!byTeam.has(v.team)) byTeam.set(v.team, new Set());
-      byTeam.get(v.team).add(v.player);
-    }
-    if (isReal(v.map)) {
-      const key = v.map.toLowerCase().replace(/\s+/g, "");
-      if (!byMap.has(key)) byMap.set(key, []);
-      byMap.get(key).push(v);
+    const isPOV      = POV_CHANNELS.has(v.channel);
+    const isStrategy = v.channel === "strategy";
+    const isUtility  = v.channel === "utility";
+    const mapKey     = v.map.toLowerCase().replace(/\s+/g, "");
+
+    if (isPOV) {
+      if (isReal(v.player)) {
+        if (!byPlayer.has(v.player)) byPlayer.set(v.player, []);
+        byPlayer.get(v.player).push(v);
+        if (isReal(v.team) && !playerTeam.has(v.player)) playerTeam.set(v.player, v.team);
+      }
+      if (isReal(v.map)) {
+        if (!byMapPOV.has(mapKey)) byMapPOV.set(mapKey, []);
+        byMapPOV.get(mapKey).push(v);
+      }
+    } else if (isStrategy && isReal(v.map)) {
+      if (!byMapStrategy.has(mapKey)) byMapStrategy.set(mapKey, []);
+      byMapStrategy.get(mapKey).push(v);
+    } else if (isUtility && isReal(v.map)) {
+      if (!byMapUtility.has(mapKey)) byMapUtility.set(mapKey, []);
+      byMapUtility.get(mapKey).push(v);
     }
   }
 
-  // teams.json metadata (name, logo, players[])
-  const teamsMeta = new Map();
-  for (const t of teamsJson) teamsMeta.set(t.name, t);
-
-  // ── Map config (fixed set, always shown) ────────────────────────────
+  // ── Map config (always show all 7 regardless of count) ───────────────
   const ALL_MAPS = [
     { key: "mirage",   label: "Mirage",   bg: "linear-gradient(145deg,#d4a450,#7a4510)" },
     { key: "dust2",    label: "Dust 2",   bg: "linear-gradient(145deg,#dcc060,#8a6010)" },
@@ -58,9 +63,9 @@
 
   // ── State ─────────────────────────────────────────────────────────────
   const PAGE  = 15;
-  const state = { tab: "players", player: null, team: null, map: null, page: 0 };
+  const state = { tab: "players", player: null, map: null, page: 0 };
 
-  // ── DOM refs ─────────────────────────────────────────────────────────
+  // ── DOM ───────────────────────────────────────────────────────────────
   const app  = document.getElementById("app");
   const tabs = document.querySelectorAll(".tab[data-tab]");
 
@@ -68,7 +73,6 @@
     if (btn.dataset.tab === state.tab) return;
     state.tab    = btn.dataset.tab;
     state.player = null;
-    state.team   = null;
     state.map    = null;
     state.page   = 0;
     tabs.forEach(t => t.classList.toggle("active", t === btn));
@@ -96,20 +100,10 @@
       c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   }
 
-  function teamColor(name) {
-    let h = 0;
-    for (const c of name) h = (h * 31 + c.charCodeAt(0)) & 0xffffffff;
-    return `hsl(${Math.abs(h) % 360},55%,38%)`;
-  }
-
-  function teamInitials(name) {
-    return name.split(/\s+/).map(w => w[0] || "").join("").slice(0, 3).toUpperCase();
-  }
-
-  // ── Main render dispatcher ────────────────────────────────────────────
+  // ── Render dispatcher ─────────────────────────────────────────────────
   function render() {
     app.innerHTML = "";
-    const { tab, player, team, map } = state;
+    const { tab, player, map } = state;
 
     if (tab === "players") {
       if (player) {
@@ -120,35 +114,39 @@
         appendPlayerGrid([...byPlayer.keys()].sort());
       }
 
-    } else if (tab === "teams") {
-      if (team && player) {
-        appendBackBar(team, () => { state.player = null; render(); });
-        appendSectionTitle(player);
-        appendVideoGrid(byPlayer.get(player) || []);
-      } else if (team) {
-        appendBackBar("Teams", () => { state.team = null; render(); });
-        appendSectionTitle(team);
-        const teamPlayers = byTeam.has(team)
-          ? [...byTeam.get(team)].sort()
-          : (teamsMeta.get(team)?.players ?? []).slice().sort();
-        appendPlayerGrid(teamPlayers);
-      } else {
-        appendTeamGrid();
-      }
-
-    } else { // maps
+    } else if (tab === "maps") {
       if (map) {
         const meta = ALL_MAPS.find(m => m.key === map);
         appendBackBar("Maps", () => { state.map = null; render(); });
         appendSectionTitle(meta?.label ?? map);
-        appendVideoGrid(byMap.get(map) || []);
+        appendVideoGrid(byMapPOV.get(map) || []);
       } else {
-        appendMapGrid();
+        appendMapGrid(byMapPOV, "Maps");
+      }
+
+    } else if (tab === "strategy") {
+      if (map) {
+        const meta = ALL_MAPS.find(m => m.key === map);
+        appendBackBar("Strategy", () => { state.map = null; render(); });
+        appendSectionTitle(meta?.label ?? map);
+        appendVideoGrid(byMapStrategy.get(map) || []);
+      } else {
+        appendMapGrid(byMapStrategy, "Strategy");
+      }
+
+    } else { // utility
+      if (map) {
+        const meta = ALL_MAPS.find(m => m.key === map);
+        appendBackBar("Utility", () => { state.map = null; render(); });
+        appendSectionTitle(meta?.label ?? map);
+        appendVideoGrid(byMapUtility.get(map) || []);
+      } else {
+        appendMapGrid(byMapUtility, "Utility");
       }
     }
   }
 
-  // ── Back bar ──────────────────────────────────────────────────────────
+  // ── Back bar & section title ──────────────────────────────────────────
   function appendBackBar(label, onClick) {
     const bar = document.createElement("div");
     bar.className = "back-bar";
@@ -192,47 +190,12 @@
     app.appendChild(grid);
   }
 
-  // ── Team grid ─────────────────────────────────────────────────────────
-  function appendTeamGrid() {
-    const allTeams = new Set([...byTeam.keys(), ...teamsMeta.keys()]);
-    const teams = [...allTeams].sort();
-    if (!teams.length) {
-      app.insertAdjacentHTML("beforeend",
-        `<div class="empty">No team data yet — HLTV API may be unavailable.</div>`);
-      return;
-    }
-    const grid = document.createElement("div");
-    grid.className = "card-grid team-grid";
-    for (const t of teams) {
-      const meta    = teamsMeta.get(t) ?? {};
-      const players = byTeam.has(t) ? [...byTeam.get(t)] : (meta.players ?? []);
-      const card    = document.createElement("div");
-      card.className = "team-card";
-      const logoHtml = meta.logo
-        ? `<img class="team-logo-img" src="${esc(meta.logo)}" alt="" loading="lazy"
-               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
-        : "";
-      card.innerHTML = `
-        <div class="team-logo-wrap">
-          ${logoHtml}
-          <div class="team-logo-init" style="background:${teamColor(t)};${meta.logo ? "display:none" : ""}">
-            ${esc(teamInitials(t))}
-          </div>
-        </div>
-        <div class="team-name">${esc(t)}</div>
-        <div class="team-count">${players.length} player${players.length !== 1 ? "s" : ""}</div>`;
-      card.addEventListener("click", () => { state.team = t; state.page = 0; render(); });
-      grid.appendChild(card);
-    }
-    app.appendChild(grid);
-  }
-
-  // ── Map grid ──────────────────────────────────────────────────────────
-  function appendMapGrid() {
+  // ── Map grid (shared by Maps, Strategy, Utility tabs) ─────────────────
+  function appendMapGrid(mapIndex, tabLabel) {
     const grid = document.createElement("div");
     grid.className = "card-grid map-grid";
     for (const m of ALL_MAPS) {
-      const count = byMap.get(m.key)?.length ?? 0;
+      const count = mapIndex.get(m.key)?.length ?? 0;
       const card  = document.createElement("div");
       card.className = "map-card";
       card.style.background = m.bg;
@@ -292,6 +255,5 @@
     }
   }
 
-  // Initial render
   render();
 })();
