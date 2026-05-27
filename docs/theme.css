@@ -214,7 +214,27 @@ button {
   box-shadow: 0 2px 8px var(--card-shadow);
   opacity: 0; transform: translateY(8px);
   animation: fade .3s forwards;
+  position: relative;
 }
+
+/* ── Bookmark button ─────────────────────────────────────────────────── */
+.bookmark-btn {
+  position: absolute;
+  top: 8px; right: 8px;
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  background: rgba(0,0,0,.55);
+  border: none;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  color: rgba(255,255,255,.7);
+  backdrop-filter: blur(4px);
+  transition: background .15s, color .15s, transform .1s;
+  z-index: 1;
+}
+.bookmark-btn:hover    { background: rgba(0,0,0,.8); color: #fff; transform: scale(1.1); }
+.bookmark-btn.bookmarked { color: #fbbf24; }
+.bookmark-btn.bookmarked:hover { color: #f59e0b; }
 .video-card iframe {
   width: 100%; aspect-ratio: 16/9;
   border: none; display: block; background: #000;

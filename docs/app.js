@@ -16,6 +16,12 @@
 
   const isReal = s => s && s !== "null" && s !== "undefined";
 
+  // ── Bookmarks (persisted in localStorage) ────────────────────────────
+  const BOOKMARK_KEY = "cs2pov_bookmarks";
+  const bookmarks    = new Set(JSON.parse(localStorage.getItem(BOOKMARK_KEY) || "[]"));
+  const saveBookmarks = () =>
+    localStorage.setItem(BOOKMARK_KEY, JSON.stringify([...bookmarks]));
+
   // ── Build indexes ────────────────────────────────────────────────────
   const byPlayer      = new Map();
   const playerTeam    = new Map();
@@ -98,6 +104,23 @@
       c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   }
 
+  function makeBookmarkIcon(filled) {
+    const ns   = "http://www.w3.org/2000/svg";
+    const svg  = document.createElementNS(ns, "svg");
+    svg.setAttribute("viewBox", "0 0 24 24");
+    svg.setAttribute("width",  "15");
+    svg.setAttribute("height", "15");
+    svg.setAttribute("stroke", "currentColor");
+    svg.setAttribute("stroke-width", "2");
+    svg.setAttribute("fill", filled ? "currentColor" : "none");
+    svg.setAttribute("stroke-linecap", "round");
+    svg.setAttribute("stroke-linejoin", "round");
+    const p = document.createElementNS(ns, "path");
+    p.setAttribute("d", "M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z");
+    svg.appendChild(p);
+    return svg;
+  }
+
   // ── Render dispatcher ─────────────────────────────────────────────────
   function render() {
     app.innerHTML = "";
@@ -132,7 +155,7 @@
         appendMapGrid(byMapStrategy);
       }
 
-    } else { // utility
+    } else if (tab === "utility") {
       if (map) {
         const meta = ALL_MAPS.find(m => m.key === map);
         appendBackBar("Utility", () => { state.map = null; render(); });
@@ -140,6 +163,16 @@
         appendVideoGrid(byMapUtility.get(map) || []);
       } else {
         appendMapGrid(byMapUtility);
+      }
+
+    } else { // bookmarks
+      const saved = videos.filter(v => bookmarks.has(v.id));
+      appendSectionTitle(`Bookmarks${saved.length ? ` (${saved.length})` : ""}`);
+      if (!saved.length) {
+        app.insertAdjacentHTML("beforeend",
+          `<div class="empty">No bookmarks yet — click the ribbon icon on any video to save it.</div>`);
+      } else {
+        appendVideoGrid(saved);
       }
     }
   }
@@ -284,6 +317,22 @@
                     referrerpolicy="strict-origin-when-cross-origin"></iframe>
             <div class="card-title">${esc(v.title)}</div>
             ${info ? `<div class="card-info">${info}</div>` : ""}`;
+
+          // Bookmark button — DOM-built so it doesn't go through HTML parsing
+          const bmBtn = document.createElement("button");
+          bmBtn.className = "bookmark-btn" + (bookmarks.has(v.id) ? " bookmarked" : "");
+          bmBtn.title     = bookmarks.has(v.id) ? "Remove bookmark" : "Save to bookmarks";
+          bmBtn.appendChild(makeBookmarkIcon(bookmarks.has(v.id)));
+          bmBtn.addEventListener("click", () => {
+            const wasSaved = bookmarks.has(v.id);
+            wasSaved ? bookmarks.delete(v.id) : bookmarks.add(v.id);
+            saveBookmarks();
+            bmBtn.classList.toggle("bookmarked", !wasSaved);
+            bmBtn.title = bookmarks.has(v.id) ? "Remove bookmark" : "Save to bookmarks";
+            bmBtn.replaceChildren(makeBookmarkIcon(bookmarks.has(v.id)));
+            if (state.tab === "bookmarks") render();
+          });
+          card.appendChild(bmBtn);
           grid.appendChild(card);
         }
         container.appendChild(grid);
