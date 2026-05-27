@@ -46,7 +46,7 @@ CS2_TEAM_TOKENS = {
     "imperial","fluxo","fnatic","mongols","mongolz","saw","monte","rebels",
     "grayhound","tyloo","outsiders","gambit","gamerlegion","passion","lynn",
     "big","og","virtus","mousesports","ninjas","pyjamas","col","pain",
-    "eternafire","9ine","nine","team","esports","gaming","clan",
+    "eternafire","9ine","nine","team","esports","gaming","clan","furia",
 }
 
 FALLBACK_STOP_WORDS = BLACKLIST | CS2_TEAM_TOKENS | {
@@ -169,6 +169,8 @@ def normalize_title_for_map(title: str) -> str:
 def main() -> None:
     whitelist, nick_to_team, teams_meta = fetch_team_data()
     whitelist_lc = {n.lower() for n in whitelist}
+    # lower → canonical HLTV name (e.g. "niko" → "NiKo")
+    canonical = {n.lower(): n for n in whitelist}
     using_fallback = not whitelist_lc
     if using_fallback:
         print("[info] HLTV whitelist empty — using title-based player fallback")
@@ -201,13 +203,17 @@ def main() -> None:
                     continue
 
                 if using_fallback:
-                    nick = extract_fallback_player(title)
+                    raw = extract_fallback_player(title)
+                    # Normalize to lowercase so "DONK" and "donk" merge into one player
+                    nick = raw.lower() if raw else None
                     team = None
                 else:
                     tokens = TOKEN.findall(title)
-                    nick = next((t for t in tokens
-                                 if t.lower() in whitelist_lc and t.lower() not in BLACKLIST),
-                                None)
+                    match = next((t for t in tokens
+                                  if t.lower() in whitelist_lc and t.lower() not in BLACKLIST),
+                                 None)
+                    # Use HLTV's canonical casing (e.g. "NiKo" not "niko")
+                    nick = canonical.get(match.lower()) if match else None
                     team = nick_to_team.get(nick) if nick else None
 
                 if nick:
@@ -230,6 +236,7 @@ def main() -> None:
     for v in vids:
         if v.get("player") and v["player"] not in keep:
             v["player"] = None
+
 
     vids.sort(key=lambda v: v["published"], reverse=True)
 
