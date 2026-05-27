@@ -165,7 +165,7 @@
         appendMapGrid(byMapUtility);
       }
 
-    } else { // bookmarks
+    } else if (tab === "bookmarks") {
       const saved = videos.filter(v => bookmarks.has(v.id));
       appendSectionTitle(`Bookmarks${saved.length ? ` (${saved.length})` : ""}`);
       if (!saved.length) {
