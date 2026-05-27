@@ -1,7 +1,7 @@
 """
-Rebuild docs/data/videos.json for your CS2 POV site.
+Rebuild docs/data/videos.json and docs/data/teams.json for the CS2 POV site.
 
-• Fetch HLTV top-team ranking → build whitelist (nick → team).
+• Fetch HLTV top-team ranking → build whitelist (nick → team) and teams metadata.
 • Scan uploads on specified YouTube channels (last 18 months).
 • Exclude YouTube Shorts:
     – duration <= 60s OR title contains "#shorts" (case-insensitive).
@@ -10,6 +10,7 @@ Rebuild docs/data/videos.json for your CS2 POV site.
 • Keep player visible in dropdown only if they appear in ≥ MIN_VIDEOS.
   (Team is kept even if player is hidden, so Team filter stays useful.)
 • Write newest-first to docs/data/videos.json.
+• Write docs/data/teams.json with {name, logo, players[]} per team.
 """
 
 from googleapiclient.discovery import build
@@ -31,8 +32,8 @@ CHANNELS = {
 }
 
 CUTOFF      = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=18 * 30)
-MIN_VIDEOS  = 10                      # threshold for showing a player in dropdown
-SHORTS_MAXS = 60                      # seconds; ≤ 60s treated as Shorts
+MIN_VIDEOS  = 10
+SHORTS_MAXS = 60
 
 MAPS = {"mirage","inferno","nuke","ancient","anubis","vertigo","overpass","dust2"}
 BLACKLIST = MAPS | {"faceit","pov","demo","highlights","highlight","ranked","cs2","vs","clutch"}
@@ -45,10 +46,13 @@ TOKEN = re.compile(r"[A-Za-z0-9_\-]{3,16}")
 
 HLTV_API_BASE = "https://hltv-api.onrender.com/api"
 
-# ── HLTV whitelist (players on top teams) ───────────────────────────────
-def fetch_top_players() -> tuple[set[str], dict[str,str]]:
+# ── HLTV team data ───────────────────────────────────────────────────────
+def fetch_team_data() -> tuple[set[str], dict[str,str], list[dict]]:
     """
-    Returns (whitelist, nick_to_team) using HLTV team rankings.
+    Returns (whitelist, nick_to_team, teams_meta) where:
+    - whitelist:   set of all pro player nicks
+    - nick_to_team: nick → team name
+    - teams_meta:  list of {name, logo, players[]} for teams.json
     Handles multiple response formats from the community API.
     """
     url = f"{HLTV_API_BASE}/ranking?type=team&offset=0"
@@ -56,49 +60,54 @@ def fetch_top_players() -> tuple[set[str], dict[str,str]]:
         resp = requests.get(url, timeout=12)
         resp.raise_for_status()
         raw = resp.json()
-        # Handle both {"data": [...]} and [...] top-level shapes
         data = raw.get("data", raw) if isinstance(raw, dict) else raw
 
-        whitelist: set[str] = set()
-        nick_to_team: dict[str, str] = {}
+        whitelist:   set[str]         = set()
+        nick_to_team: dict[str, str]  = {}
+        teams_meta:  list[dict]       = []
 
         for entry in data:
-            # Support multiple team name key patterns
             team_obj  = entry.get("team") or {}
             team_name = (entry.get("teamName")
                          or entry.get("name")
                          or team_obj.get("name")
                          or "unknown")
-            # Support multiple player list key patterns
-            players = (entry.get("players")
-                       or entry.get("ranking")
-                       or entry.get("members")
-                       or [])
-            for p in players:
+            logo = (entry.get("logo")
+                    or entry.get("logoUrl")
+                    or team_obj.get("logo")
+                    or team_obj.get("logoUrl")
+                    or None)
+            players_raw = (entry.get("players")
+                           or entry.get("ranking")
+                           or entry.get("members")
+                           or [])
+            player_names: list[str] = []
+            for p in players_raw:
                 nick = (p.get("name") or p.get("playerName") or p.get("nick"))
                 if not nick:
                     continue
                 whitelist.add(nick)
                 nick_to_team[nick] = team_name
+                player_names.append(nick)
+
+            if team_name != "unknown":
+                teams_meta.append({"name": team_name, "logo": logo, "players": player_names})
 
         if not whitelist:
-            print(f"[warn] HLTV API returned no players. Sample response: {str(raw)[:300]}")
-        return whitelist, nick_to_team
+            print(f"[warn] HLTV API returned no players. Sample: {str(raw)[:300]}")
+        return whitelist, nick_to_team, teams_meta
     except Exception as e:
         print(f"[warn] HLTV API fetch failed: {e}")
-        return set(), {}
+        return set(), {}, []
 
 def extract_fallback_player(title: str) -> str | None:
-    """
-    When the HLTV whitelist is unavailable, extract the first title token
-    that looks like a player name (not a map/keyword/number).
-    """
+    """First title token that looks like a player name when whitelist is unavailable."""
     for tok in TOKEN.findall(title):
         if tok.lower() not in FALLBACK_STOP_WORDS and not tok.isdigit():
             return tok
     return None
 
-# ── YouTube helpers ─────────────────────────────────────────────────────
+# ── YouTube helpers ──────────────────────────────────────────────────────
 def chan_id(y, handle_or_id: str) -> str | None:
     if handle_or_id.startswith("UC"):
         return handle_or_id
@@ -119,7 +128,6 @@ def walk_pl_pages(y, pl_id: str):
         items = r.get("items", [])
         if items:
             yield items
-        # Stop paginating once we've reached videos older than the cutoff
         if items:
             oldest = min(isoparse(it["snippet"]["publishedAt"]) for it in items)
             if oldest < CUTOFF:
@@ -128,14 +136,10 @@ def walk_pl_pages(y, pl_id: str):
         if not tok:
             break
 
-# ISO8601 PT#H#M#S → seconds
 def duration_to_seconds(iso_dur: str) -> int:
     m = re.fullmatch(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso_dur or "")
     if not m: return 0
-    h = int(m.group(1) or 0)
-    mi = int(m.group(2) or 0)
-    s = int(m.group(3) or 0)
-    return h*3600 + mi*60 + s
+    return int(m.group(1) or 0)*3600 + int(m.group(2) or 0)*60 + int(m.group(3) or 0)
 
 def fetch_durations(y, ids: list[str]) -> dict[str,int]:
     out: dict[str,int] = {}
@@ -143,18 +147,15 @@ def fetch_durations(y, ids: list[str]) -> dict[str,int]:
         return out
     resp = y.videos().list(id=",".join(ids), part="contentDetails").execute()
     for it in resp.get("items", []):
-        vid = it["id"]
-        dur = it["contentDetails"]["duration"]
-        out[vid] = duration_to_seconds(dur)
+        out[it["id"]] = duration_to_seconds(it["contentDetails"]["duration"])
     return out
 
 def normalize_title_for_map(title: str) -> str:
-    """Normalize variant spellings so map detection works consistently."""
     return re.sub(r'\bdust\s*2\b', 'dust2', title, flags=re.IGNORECASE)
 
-# ── Main routine ────────────────────────────────────────────────────────
+# ── Main ─────────────────────────────────────────────────────────────────
 def main() -> None:
-    whitelist, nick_to_team = fetch_top_players()
+    whitelist, nick_to_team, teams_meta = fetch_team_data()
     whitelist_lc = {n.lower() for n in whitelist}
     using_fallback = not whitelist_lc
     if using_fallback:
@@ -201,20 +202,18 @@ def main() -> None:
                     counter[nick] += 1
 
                 title_norm = normalize_title_for_map(title)
-                lower_norm = title_norm.lower()
-                game_map = next((m for m in MAPS if m in lower_norm), None)
+                game_map = next((m for m in MAPS if m in title_norm.lower()), None)
 
                 vids.append({
-                    "id": vid,
-                    "title": title,
-                    "channel": label,
-                    "player": nick,
-                    "team": team,
-                    "map": game_map,
+                    "id":        vid,
+                    "title":     title,
+                    "channel":   label,
+                    "player":    nick,
+                    "team":      team,
+                    "map":       game_map,
                     "published": pub.isoformat()[:10],
                 })
 
-    # Hide players below threshold, but KEEP team values
     keep = {p for p, n in counter.items() if n >= MIN_VIDEOS}
     for v in vids:
         if v.get("player") and v["player"] not in keep:
@@ -225,7 +224,8 @@ def main() -> None:
     out_dir = Path("docs/data")
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "videos.json").write_text(json.dumps(vids, indent=2))
-    print(f"[info] wrote {len(vids)} videos ({len(keep)} players in dropdown)")
+    (out_dir / "teams.json").write_text(json.dumps(teams_meta, indent=2))
+    print(f"[info] wrote {len(vids)} videos ({len(keep)} players, {len(teams_meta)} teams)")
 
 if __name__ == "__main__":
     main()

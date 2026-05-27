@@ -37,7 +37,7 @@ jobs:
       - name: Commit & push updated videos.json
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: docs/data/videos.json
+          file_pattern: docs/data/videos.json docs/data/teams.json
           branch: main
           commit_message: "bot: refresh catalogue ${{ github.run_number }} [skip ci]"
           commit_user_name: tbfour-cs2povdemo-bot

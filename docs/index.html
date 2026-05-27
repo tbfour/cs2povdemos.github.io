@@ -9,21 +9,22 @@
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <link rel="stylesheet" href="theme.css" />
 </head>
-<body class="theme-auto">
+<body class="theme-dark">
 
   <header>
     <h1>CS2 POV Library</h1>
-
-    <div class="filters">
-      <!-- Search boxes + datalists will be injected by app.js -->
-    </div>
-
     <button id="toggleTheme" title="Toggle dark / light">
       <svg id="iconTheme" viewBox="0 0 24 24" fill="none"><path/></svg>
     </button>
   </header>
 
-  <main id="videos" class="grid"></main>
+  <nav class="tabbar">
+    <button class="tab active" data-tab="players">Players</button>
+    <button class="tab"        data-tab="teams">Teams</button>
+    <button class="tab"        data-tab="maps">Maps</button>
+  </nav>
+
+  <main id="app"></main>
 
   <script src="app.js"></script>
 </body>

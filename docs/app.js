@@ -1,208 +1,297 @@
 // docs/app.js
 (async function () {
-  // --------------------------- Load catalogue ---------------------------
-  const res = await fetch("data/videos.json", { cache: "no-store" });
-  const data = await res.json();
+  // ── Load data ────────────────────────────────────────────────────────
+  const [videos, teamsJson] = await Promise.all([
+    fetch("data/videos.json", { cache: "no-store" }).then(r => r.json()),
+    fetch("data/teams.json",  { cache: "no-store" }).then(r => r.json()).catch(() => []),
+  ]);
 
-  // Normalize nulls so every field is a plain string
-  const norm = (v) => (v === null || v === undefined ? "" : String(v));
-  data.forEach(v => {
+  const norm = v => (v == null ? "" : String(v));
+  videos.forEach(v => {
     v.player    = norm(v.player);
     v.team      = norm(v.team);
     v.map       = norm(v.map);
     v.title     = norm(v.title);
     v.id        = norm(v.id);
-    v.channel   = norm(v.channel);
     v.published = norm(v.published);
   });
 
-  // --------------------------- Option sets -------------------------------
-  const isReal = (v) => v && v !== "null" && v !== "undefined";
-  const playerSet = new Set(data.map(v => v.player).filter(isReal));
-  const teamSet   = new Set(data.map(v => v.team).filter(isReal));
-  const mapSet    = new Set(data.map(v => v.map).filter(isReal));
+  const isReal = s => s && s !== "null" && s !== "undefined";
 
-  // --------------------------- DOM helpers -------------------------------
-  const $ = (sel, root = document) => root.querySelector(sel);
+  // ── Build indexes ────────────────────────────────────────────────────
+  const byPlayer   = new Map();  // player  → video[]
+  const byTeam     = new Map();  // team    → Set<player>
+  const byMap      = new Map();  // map key → video[]
+  const playerTeam = new Map();  // player  → team name
 
-  const ensureFiltersContainer = () => {
-    let wrap = $(".filters");
-    if (!wrap) {
-      const header = $("header") || document.body;
-      wrap = document.createElement("div");
-      wrap.className = "filters";
-      header.prepend(wrap);
+  for (const v of videos) {
+    if (isReal(v.player)) {
+      if (!byPlayer.has(v.player)) byPlayer.set(v.player, []);
+      byPlayer.get(v.player).push(v);
+      if (isReal(v.team) && !playerTeam.has(v.player)) playerTeam.set(v.player, v.team);
     }
-    return wrap;
-  };
+    if (isReal(v.team) && isReal(v.player)) {
+      if (!byTeam.has(v.team)) byTeam.set(v.team, new Set());
+      byTeam.get(v.team).add(v.player);
+    }
+    if (isReal(v.map)) {
+      const key = v.map.toLowerCase().replace(/\s+/g, "");
+      if (!byMap.has(key)) byMap.set(key, []);
+      byMap.get(key).push(v);
+    }
+  }
 
-  const makeFilter = (key, label, values) => {
-    const wrap = ensureFiltersContainer();
-    const block = document.createElement("div");
-    block.className = "filter";
+  // teams.json metadata (name, logo, players[])
+  const teamsMeta = new Map();
+  for (const t of teamsJson) teamsMeta.set(t.name, t);
 
-    const input = document.createElement("input");
-    input.type = "text";
-    input.placeholder = `Search ${label}`;
-    input.setAttribute("list", `${key}List`);
-    input.id = `${key}Input`;
-    input.autocomplete = "off";
+  // ── Map config (fixed set, always shown) ────────────────────────────
+  const ALL_MAPS = [
+    { key: "mirage",   label: "Mirage",   bg: "linear-gradient(145deg,#d4a450,#7a4510)" },
+    { key: "dust2",    label: "Dust 2",   bg: "linear-gradient(145deg,#dcc060,#8a6010)" },
+    { key: "ancient",  label: "Ancient",  bg: "linear-gradient(145deg,#3d8a50,#103820)" },
+    { key: "inferno",  label: "Inferno",  bg: "linear-gradient(145deg,#e04820,#700800)" },
+    { key: "nuke",     label: "Nuke",     bg: "linear-gradient(145deg,#4080c0,#103060)" },
+    { key: "overpass", label: "Overpass", bg: "linear-gradient(145deg,#7060b8,#280878)" },
+    { key: "anubis",   label: "Anubis",   bg: "linear-gradient(145deg,#c8a820,#504000)" },
+  ];
 
-    const list = document.createElement("datalist");
-    list.id = `${key}List`;
-    values.forEach(v => {
-      const opt = document.createElement("option");
-      opt.value = v;
-      list.appendChild(opt);
-    });
+  // ── State ─────────────────────────────────────────────────────────────
+  const PAGE  = 15;
+  const state = { tab: "players", player: null, team: null, map: null, page: 0 };
 
-    block.appendChild(input);
-    block.appendChild(list);
-    wrap.appendChild(block);
-    return input;
-  };
+  // ── DOM refs ─────────────────────────────────────────────────────────
+  const app  = document.getElementById("app");
+  const tabs = document.querySelectorAll(".tab[data-tab]");
 
-  // Build inputs
-  const playerInput = makeFilter("player", "Player", [...playerSet].sort());
-  const teamInput   = makeFilter("team",   "Team",   [...teamSet].sort());
-  const mapInput    = makeFilter("map",    "Map",    [...mapSet].sort());
+  tabs.forEach(btn => btn.addEventListener("click", () => {
+    if (btn.dataset.tab === state.tab) return;
+    state.tab    = btn.dataset.tab;
+    state.player = null;
+    state.team   = null;
+    state.map    = null;
+    state.page   = 0;
+    tabs.forEach(t => t.classList.toggle("active", t === btn));
+    render();
+  }));
 
-  // Prevent Enter from reloading page; live filter on every keystroke
-  [playerInput, teamInput, mapInput].forEach(inp => {
-    inp.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") { e.preventDefault(); render(0); }
-      if (e.key === "Escape") { e.preventDefault(); inp.value = ""; render(0); }
-    });
-    inp.addEventListener("input",  () => render(0));
-    inp.addEventListener("change", () => render(0));
-  });
-
-  // --------------------------- Pagination --------------------------------
-  const PAGE_SIZE = 15;
-  let page = 0;
-
-  const pager = document.createElement("div");
-  pager.className = "pager";
-  pager.innerHTML = `
-    <button id="prevPage" disabled>‹ Prev</button>
-    <span id="pageInfo"></span>
-    <button id="nextPage">Next ›</button>`;
-  document.body.appendChild(pager);
-  const prevBtn  = $("#prevPage", pager);
-  const nextBtn  = $("#nextPage", pager);
-  const pageInfo = $("#pageInfo", pager);
-
-  prevBtn.onclick = () => { if (page > 0) { page--; render(); } };
-  nextBtn.onclick = () => { page++; render(); };
-
-  // ----------------------------- Theme -----------------------------------
-  const themeBtn  = $("#toggleTheme");
-  const themeIcon = $("#iconTheme");
-
-  const setTheme = (mode) => {
+  // ── Theme ─────────────────────────────────────────────────────────────
+  const themeBtn  = document.getElementById("toggleTheme");
+  const themeIcon = document.getElementById("iconTheme");
+  const setTheme  = mode => {
     document.body.className = mode;
     localStorage.setItem("theme", mode);
-    if (themeIcon) {
-      themeIcon.innerHTML = mode.includes("dark")
-        ? '<path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>'
-        : '<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.36 6.36l-1.42-1.42M6.05 6.05L4.64 4.64m0 13.72l1.41-1.41m12.73-12.73l-1.41 1.41M12 7a5 5 0 000 10a5 5 0 000-10z"/>';
-    }
+    if (themeIcon) themeIcon.innerHTML = mode.includes("dark")
+      ? '<path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>'
+      : '<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.36 6.36l-1.42-1.42M6.05 6.05L4.64 4.64m0 13.72l1.41-1.41m12.73-12.73l-1.41 1.41M12 7a5 5 0 000 10a5 5 0 000-10z"/>';
   };
+  setTheme(localStorage.getItem("theme") || "theme-dark");
+  themeBtn?.addEventListener("click", () =>
+    setTheme(document.body.className.includes("dark") ? "theme-light" : "theme-dark")
+  );
 
-  const savedTheme = localStorage.getItem("theme");
-  setTheme(savedTheme || document.body.className || "theme-dark");
-  if (themeBtn) {
-    themeBtn.addEventListener("click", () => {
-      const next = document.body.className.includes("dark") ? "theme-light" : "theme-dark";
-      setTheme(next);
-    });
+  // ── Utilities ─────────────────────────────────────────────────────────
+  function esc(s) {
+    return String(s ?? "").replace(/[&<>"']/g,
+      c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   }
 
-  // --------------------------- Mount the grid ----------------------------
-  let grid = document.getElementById("videos");
-  const filtersWrap = ensureFiltersContainer();
-  if (!grid) {
-    grid = document.createElement("div");
-    grid.id = "videos";
-    filtersWrap.insertAdjacentElement("afterend", grid);
-  }
-  grid.classList.add("grid");
-
-  // --------------------------- Filtering ---------------------------------
-  function applyFilters() {
-    const p = (playerInput.value || "").trim().toLowerCase();
-    const t = (teamInput.value   || "").trim().toLowerCase();
-    const m = (mapInput.value    || "").trim().toLowerCase();
-
-    return data.filter(v =>
-      (!p || (v.player && v.player.toLowerCase() === p)) &&
-      (!t || (v.team   && v.team.toLowerCase()   === t)) &&
-      (!m || (v.map    && v.map.toLowerCase()    === m))
-    );
+  function teamColor(name) {
+    let h = 0;
+    for (const c of name) h = (h * 31 + c.charCodeAt(0)) & 0xffffffff;
+    return `hsl(${Math.abs(h) % 360},55%,38%)`;
   }
 
-  // --------------------------- Rendering ---------------------------------
-  function render(goToPage = page) {
-    const filtered = applyFilters();
+  function teamInitials(name) {
+    return name.split(/\s+/).map(w => w[0] || "").join("").slice(0, 3).toUpperCase();
+  }
 
-    const maxPage = Math.max(0, Math.ceil(filtered.length / PAGE_SIZE) - 1);
-    page = Math.min(Math.max(0, goToPage), maxPage);
+  // ── Main render dispatcher ────────────────────────────────────────────
+  function render() {
+    app.innerHTML = "";
+    const { tab, player, team, map } = state;
 
-    const slice = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+    if (tab === "players") {
+      if (player) {
+        appendBackBar("Players", () => { state.player = null; render(); });
+        appendSectionTitle(player);
+        appendVideoGrid(byPlayer.get(player) || []);
+      } else {
+        appendPlayerGrid([...byPlayer.keys()].sort());
+      }
 
-    grid.innerHTML = "";
-    if (!slice.length) {
-      grid.insertAdjacentHTML("beforeend",
-        `<div class="empty">No videos match your filters.</div>`);
-    } else {
-      slice.forEach(v => {
-        const info = [
-          v.player ? `<strong>${escapeHtml(v.player)}</strong>` : "",
-          v.map    ? escapeHtml(v.map)  : "",
-          v.team   ? escapeHtml(v.team) : "",
-        ].filter(Boolean).join(" — ");
+    } else if (tab === "teams") {
+      if (team && player) {
+        appendBackBar(team, () => { state.player = null; render(); });
+        appendSectionTitle(player);
+        appendVideoGrid(byPlayer.get(player) || []);
+      } else if (team) {
+        appendBackBar("Teams", () => { state.team = null; render(); });
+        appendSectionTitle(team);
+        const teamPlayers = byTeam.has(team)
+          ? [...byTeam.get(team)].sort()
+          : (teamsMeta.get(team)?.players ?? []).slice().sort();
+        appendPlayerGrid(teamPlayers);
+      } else {
+        appendTeamGrid();
+      }
 
-        grid.insertAdjacentHTML("beforeend", `
-          <div class="card">
-            <iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}"
-                    allowfullscreen loading="lazy"
-                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
-            <div class="card-title">${escapeHtml(v.title)}</div>
-            ${info ? `<div class="card-info">${info}</div>` : ""}
+    } else { // maps
+      if (map) {
+        const meta = ALL_MAPS.find(m => m.key === map);
+        appendBackBar("Maps", () => { state.map = null; render(); });
+        appendSectionTitle(meta?.label ?? map);
+        appendVideoGrid(byMap.get(map) || []);
+      } else {
+        appendMapGrid();
+      }
+    }
+  }
+
+  // ── Back bar ──────────────────────────────────────────────────────────
+  function appendBackBar(label, onClick) {
+    const bar = document.createElement("div");
+    bar.className = "back-bar";
+    bar.innerHTML = `<button class="back-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5M12 5l-7 7 7 7"/>
+      </svg>${esc(label)}</button>`;
+    bar.querySelector(".back-btn").addEventListener("click", onClick);
+    app.appendChild(bar);
+  }
+
+  function appendSectionTitle(text) {
+    const h = document.createElement("h2");
+    h.className = "section-title";
+    h.textContent = text;
+    app.appendChild(h);
+  }
+
+  // ── Player grid ───────────────────────────────────────────────────────
+  function appendPlayerGrid(players) {
+    if (!players.length) {
+      app.insertAdjacentHTML("beforeend",
+        `<div class="empty">No player data yet — the scraper will populate this on next run.</div>`);
+      return;
+    }
+    const grid = document.createElement("div");
+    grid.className = "card-grid player-grid";
+    for (const p of players) {
+      const count = byPlayer.get(p)?.length ?? 0;
+      const team  = playerTeam.get(p) ?? "";
+      const card  = document.createElement("div");
+      card.className = "player-card";
+      card.innerHTML = `
+        <div class="player-avatar">${esc(p.slice(0, 2).toUpperCase())}</div>
+        <div class="player-name">${esc(p)}</div>
+        ${team ? `<div class="player-team">${esc(team)}</div>` : ""}
+        <div class="player-count">${count} video${count !== 1 ? "s" : ""}</div>`;
+      card.addEventListener("click", () => { state.player = p; state.page = 0; render(); });
+      grid.appendChild(card);
+    }
+    app.appendChild(grid);
+  }
+
+  // ── Team grid ─────────────────────────────────────────────────────────
+  function appendTeamGrid() {
+    const allTeams = new Set([...byTeam.keys(), ...teamsMeta.keys()]);
+    const teams = [...allTeams].sort();
+    if (!teams.length) {
+      app.insertAdjacentHTML("beforeend",
+        `<div class="empty">No team data yet — HLTV API may be unavailable.</div>`);
+      return;
+    }
+    const grid = document.createElement("div");
+    grid.className = "card-grid team-grid";
+    for (const t of teams) {
+      const meta    = teamsMeta.get(t) ?? {};
+      const players = byTeam.has(t) ? [...byTeam.get(t)] : (meta.players ?? []);
+      const card    = document.createElement("div");
+      card.className = "team-card";
+      const logoHtml = meta.logo
+        ? `<img class="team-logo-img" src="${esc(meta.logo)}" alt="" loading="lazy"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+        : "";
+      card.innerHTML = `
+        <div class="team-logo-wrap">
+          ${logoHtml}
+          <div class="team-logo-init" style="background:${teamColor(t)};${meta.logo ? "display:none" : ""}">
+            ${esc(teamInitials(t))}
           </div>
-        `);
-      });
+        </div>
+        <div class="team-name">${esc(t)}</div>
+        <div class="team-count">${players.length} player${players.length !== 1 ? "s" : ""}</div>`;
+      card.addEventListener("click", () => { state.team = t; state.page = 0; render(); });
+      grid.appendChild(card);
+    }
+    app.appendChild(grid);
+  }
+
+  // ── Map grid ──────────────────────────────────────────────────────────
+  function appendMapGrid() {
+    const grid = document.createElement("div");
+    grid.className = "card-grid map-grid";
+    for (const m of ALL_MAPS) {
+      const count = byMap.get(m.key)?.length ?? 0;
+      const card  = document.createElement("div");
+      card.className = "map-card";
+      card.style.background = m.bg;
+      card.innerHTML = `
+        <div class="map-card-inner">
+          <div class="map-label">${esc(m.label)}</div>
+          <div class="map-count">${count} video${count !== 1 ? "s" : ""}</div>
+        </div>`;
+      card.addEventListener("click", () => { state.map = m.key; state.page = 0; render(); });
+      grid.appendChild(card);
+    }
+    app.appendChild(grid);
+  }
+
+  // ── Video grid ────────────────────────────────────────────────────────
+  function appendVideoGrid(vids) {
+    if (!vids.length) {
+      app.insertAdjacentHTML("beforeend", `<div class="empty">No videos found.</div>`);
+      return;
     }
 
-    pageInfo.textContent = `${filtered.length ? page + 1 : 0} / ${maxPage + 1}`;
-    prevBtn.disabled = page === 0;
-    nextBtn.disabled = page === maxPage || filtered.length === 0;
-  }
+    const maxPage = Math.max(0, Math.ceil(vids.length / PAGE) - 1);
+    state.page = Math.min(Math.max(0, state.page), maxPage);
+    const slice = vids.slice(state.page * PAGE, (state.page + 1) * PAGE);
 
-  function escapeHtml(s) {
-    return s.replace(/[&<>"']/g, c => ({
-      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-    }[c]));
-  }
+    const grid = document.createElement("div");
+    grid.className = "card-grid video-grid";
+    for (const v of slice) {
+      const info = [
+        v.player ? `<strong>${esc(v.player)}</strong>` : "",
+        v.map    ? esc(v.map)  : "",
+        v.team   ? esc(v.team) : "",
+      ].filter(Boolean).join(" — ");
 
-  // Minimal CSS safety net (in case theme misses our classes)
-  (function injectFallbackCSS(){
-    const style = document.createElement("style");
-    style.textContent = `
-      #videos.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;padding:16px 12px 32px}
-      .card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:14px;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.25)}
-      .card iframe{width:100%;aspect-ratio:16/9;border:0;background:#000;display:block}
-      .card-title{padding:10px 12px 6px;font-weight:600;font-size:.9rem}
-      .card-info{padding:0 12px 12px;opacity:.85}
-      .filters{display:grid;grid-auto-flow:column;gap:10px;padding:12px;align-items:center}
-      .filters .filter input{width:100%;background:rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:8px 10px;color:inherit;outline:none}
-      .pager{display:flex;gap:10px;align-items:center;justify-content:center;padding:8px 0 40px}
-      .pager button{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:inherit;border-radius:8px;padding:6px 10px;cursor:pointer}
-      .empty{padding:32px;opacity:.8;text-align:center}
-    `;
-    document.head.appendChild(style);
-  })();
+      const card = document.createElement("div");
+      card.className = "video-card";
+      card.innerHTML = `
+        <iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}"
+                allowfullscreen loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <div class="card-title">${esc(v.title)}</div>
+        ${info ? `<div class="card-info">${info}</div>` : ""}`;
+      grid.appendChild(card);
+    }
+    app.appendChild(grid);
+
+    if (maxPage > 0) {
+      const pager = document.createElement("div");
+      pager.className = "pager";
+      pager.innerHTML = `
+        <button class="pager-prev" ${state.page === 0 ? "disabled" : ""}>‹ Prev</button>
+        <span class="pager-info">${state.page + 1} / ${maxPage + 1}</span>
+        <button class="pager-next" ${state.page === maxPage ? "disabled" : ""}>Next ›</button>`;
+      pager.querySelector(".pager-prev").addEventListener("click", () => { state.page--; render(); });
+      pager.querySelector(".pager-next").addEventListener("click", () => { state.page++; render(); });
+      app.appendChild(pager);
+    }
+  }
 
   // Initial render
-  render(0);
+  render();
 })();
