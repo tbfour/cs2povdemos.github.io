@@ -1,11 +1,12 @@
 """
 Rebuild docs/data/videos.json for your CS2 POV site.
 
-• Fetch HLTV top-team ranking (eupeutro API) → build whitelist (nick → team).
+• Fetch HLTV top-team ranking → build whitelist (nick → team).
 • Scan uploads on specified YouTube channels (last 18 months).
 • Exclude YouTube Shorts:
     – duration <= 60s OR title contains "#shorts" (case-insensitive).
 • Assign player if a whitelist nickname is in the title.
+  Falls back to first-word extraction when HLTV API is unavailable.
 • Keep player visible in dropdown only if they appear in ≥ MIN_VIDEOS.
   (Team is kept even if player is hidden, so Team filter stays useful.)
 • Write newest-first to docs/data/videos.json.
@@ -35,6 +36,11 @@ SHORTS_MAXS = 60                      # seconds; ≤ 60s treated as Shorts
 
 MAPS = {"mirage","inferno","nuke","ancient","anubis","vertigo","overpass","dust2"}
 BLACKLIST = MAPS | {"faceit","pov","demo","highlights","highlight","ranked","cs2","vs","clutch"}
+FALLBACK_STOP_WORDS = BLACKLIST | {
+    "ft","with","the","in","on","at","by","for","to","of","and","or",
+    "pro","full","best","game","play","win","top","new","live","clip",
+    "round","epic","csgo","esea","esports","major","open","cup","lan",
+}
 TOKEN = re.compile(r"[A-Za-z0-9_\-]{3,16}")
 
 HLTV_API_BASE = "https://hltv-api.onrender.com/api"
@@ -43,29 +49,54 @@ HLTV_API_BASE = "https://hltv-api.onrender.com/api"
 def fetch_top_players() -> tuple[set[str], dict[str,str]]:
     """
     Returns (whitelist, nick_to_team) using HLTV team rankings.
+    Handles multiple response formats from the community API.
     """
     url = f"{HLTV_API_BASE}/ranking?type=team&offset=0"
     try:
         resp = requests.get(url, timeout=12)
         resp.raise_for_status()
-        data = resp.json()["data"]
+        raw = resp.json()
+        # Handle both {"data": [...]} and [...] top-level shapes
+        data = raw.get("data", raw) if isinstance(raw, dict) else raw
 
         whitelist: set[str] = set()
         nick_to_team: dict[str, str] = {}
 
-        for team in data:
-            # be tolerant to key names across deployments
-            team_name = team.get("teamName") or team.get("name") or "unknown"
-            for p in team.get("ranking", []):
-                nick = p.get("playerName")
+        for entry in data:
+            # Support multiple team name key patterns
+            team_obj  = entry.get("team") or {}
+            team_name = (entry.get("teamName")
+                         or entry.get("name")
+                         or team_obj.get("name")
+                         or "unknown")
+            # Support multiple player list key patterns
+            players = (entry.get("players")
+                       or entry.get("ranking")
+                       or entry.get("members")
+                       or [])
+            for p in players:
+                nick = (p.get("name") or p.get("playerName") or p.get("nick"))
                 if not nick:
                     continue
                 whitelist.add(nick)
                 nick_to_team[nick] = team_name
+
+        if not whitelist:
+            print(f"[warn] HLTV API returned no players. Sample response: {str(raw)[:300]}")
         return whitelist, nick_to_team
     except Exception as e:
         print(f"[warn] HLTV API fetch failed: {e}")
         return set(), {}
+
+def extract_fallback_player(title: str) -> str | None:
+    """
+    When the HLTV whitelist is unavailable, extract the first title token
+    that looks like a player name (not a map/keyword/number).
+    """
+    for tok in TOKEN.findall(title):
+        if tok.lower() not in FALLBACK_STOP_WORDS and not tok.isdigit():
+            return tok
+    return None
 
 # ── YouTube helpers ─────────────────────────────────────────────────────
 def chan_id(y, handle_or_id: str) -> str | None:
@@ -88,6 +119,11 @@ def walk_pl_pages(y, pl_id: str):
         items = r.get("items", [])
         if items:
             yield items
+        # Stop paginating once we've reached videos older than the cutoff
+        if items:
+            oldest = min(isoparse(it["snippet"]["publishedAt"]) for it in items)
+            if oldest < CUTOFF:
+                break
         tok = r.get("nextPageToken")
         if not tok:
             break
@@ -112,10 +148,17 @@ def fetch_durations(y, ids: list[str]) -> dict[str,int]:
         out[vid] = duration_to_seconds(dur)
     return out
 
+def normalize_title_for_map(title: str) -> str:
+    """Normalize variant spellings so map detection works consistently."""
+    return re.sub(r'\bdust\s*2\b', 'dust2', title, flags=re.IGNORECASE)
+
 # ── Main routine ────────────────────────────────────────────────────────
 def main() -> None:
     whitelist, nick_to_team = fetch_top_players()
     whitelist_lc = {n.lower() for n in whitelist}
+    using_fallback = not whitelist_lc
+    if using_fallback:
+        print("[info] HLTV whitelist empty — using title-based player fallback")
 
     yt = build("youtube", "v3", developerKey=YT_KEY)
     vids, counter = [], Counter()
@@ -144,24 +187,29 @@ def main() -> None:
                 if "#shorts" in title.lower() or durations.get(vid, 0) <= SHORTS_MAXS:
                     continue
 
-                tokens = TOKEN.findall(title)
-                nick = next((t for t in tokens
-                             if t.lower() in whitelist_lc and t.lower() not in BLACKLIST),
-                            None)
+                if using_fallback:
+                    nick = extract_fallback_player(title)
+                    team = None
+                else:
+                    tokens = TOKEN.findall(title)
+                    nick = next((t for t in tokens
+                                 if t.lower() in whitelist_lc and t.lower() not in BLACKLIST),
+                                None)
+                    team = nick_to_team.get(nick) if nick else None
 
-                team = nick_to_team.get(nick) if nick else None
                 if nick:
                     counter[nick] += 1
 
-                lower = title.lower()
-                game_map = next((m for m in MAPS if m in lower), None)
+                title_norm = normalize_title_for_map(title)
+                lower_norm = title_norm.lower()
+                game_map = next((m for m in MAPS if m in lower_norm), None)
 
                 vids.append({
                     "id": vid,
                     "title": title,
                     "channel": label,
-                    "player": nick,     # may be hidden from dropdown later
-                    "team": team,       # keep team even if player is hidden
+                    "player": nick,
+                    "team": team,
                     "map": game_map,
                     "published": pub.isoformat()[:10],
                 })

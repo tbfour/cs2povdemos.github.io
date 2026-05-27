@@ -4,7 +4,7 @@
   const res = await fetch("data/videos.json", { cache: "no-store" });
   const data = await res.json();
 
-  // Normalize to avoid literal "null"/"undefined"
+  // Normalize nulls so every field is a plain string
   const norm = (v) => (v === null || v === undefined ? "" : String(v));
   data.forEach(v => {
     v.player    = norm(v.player);
@@ -16,49 +16,11 @@
     v.published = norm(v.published);
   });
 
-  // ---------------------- First-word player extraction -------------------
-  // First token = first [A-Za-z0-9_-]+  (skips emojis like 🔥 and punctuation)
-  const firstToken = (title) => {
-    const m = title.match(/[A-Za-z0-9_-]+/);
-    return m ? m[0] : "";
-  };
-
-  data.forEach(v => {
-    const tok = firstToken(v.title);
-    v._firstLower   = tok.toLowerCase();
-    v._firstDisplay = tok; // keep original casing as seen in title
-  });
-
-  // Count occurrences of first words (ignore empty)
-  const counts = new Map();     // lower -> count
-  const displayFor = new Map(); // lower -> display
-  for (const v of data) {
-    const lower = v._firstLower;
-    if (!lower) continue;
-    counts.set(lower, (counts.get(lower) || 0) + 1);
-    if (!displayFor.has(lower)) displayFor.set(lower, v._firstDisplay);
-  }
-
-  // Only expose players that appear ≥8 times
-  const PLAYER_MIN = 4;
-  const strongPlayersLower = [...counts.entries()]
-    .filter(([_, n]) => n >= PLAYER_MIN)
-    .map(([lower]) => lower);
-
-  // Build display list and lookup
-  const displayToLower = new Map();
-  const playerDisplayList = strongPlayersLower
-    .map(lower => {
-      const disp = displayFor.get(lower) || lower;
-      displayToLower.set(disp, lower);
-      return disp;
-    })
-    .sort((a,b) => a.localeCompare(b));
-
-  // --------------------------- Other option sets -------------------------
+  // --------------------------- Option sets -------------------------------
   const isReal = (v) => v && v !== "null" && v !== "undefined";
-  const teamSet = new Set(data.map(v => v.team).filter(isReal));
-  const mapSet  = new Set(data.map(v => v.map).filter(isReal));
+  const playerSet = new Set(data.map(v => v.player).filter(isReal));
+  const teamSet   = new Set(data.map(v => v.team).filter(isReal));
+  const mapSet    = new Set(data.map(v => v.map).filter(isReal));
 
   // --------------------------- DOM helpers -------------------------------
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -101,17 +63,16 @@
   };
 
   // Build inputs
+  const playerInput = makeFilter("player", "Player", [...playerSet].sort());
   const teamInput   = makeFilter("team",   "Team",   [...teamSet].sort());
-  const playerInput = makeFilter("player", "Player", playerDisplayList);
   const mapInput    = makeFilter("map",    "Map",    [...mapSet].sort());
 
-  // Prevent Enter from reloading page if inside a <form>
-  [teamInput, playerInput, mapInput].forEach(inp => {
+  // Prevent Enter from reloading page; live filter on every keystroke
+  [playerInput, teamInput, mapInput].forEach(inp => {
     inp.addEventListener("keydown", (e) => {
       if (e.key === "Enter") { e.preventDefault(); render(0); }
       if (e.key === "Escape") { e.preventDefault(); inp.value = ""; render(0); }
     });
-    // Live filtering as you type
     inp.addEventListener("input",  () => render(0));
     inp.addEventListener("change", () => render(0));
   });
@@ -131,7 +92,7 @@
   const nextBtn  = $("#nextPage", pager);
   const pageInfo = $("#pageInfo", pager);
 
-  prevBtn.onclick = () => { if (page>0) { page--; render(); } };
+  prevBtn.onclick = () => { if (page > 0) { page--; render(); } };
   nextBtn.onclick = () => { page++; render(); };
 
   // ----------------------------- Theme -----------------------------------
@@ -167,42 +128,20 @@
   }
   grid.classList.add("grid");
 
-  // --------------------------- Rendering ---------------------------------
-  // Exact match to an option; otherwise substring match on first word
-  const pickExactOrSub = (val, optionsArray) => {
-    const q = (val || "").trim();
-    if (!q) return { mode: "none", value: "" };
-    const exact = optionsArray.find(v => v.toLowerCase() === q.toLowerCase());
-    return exact ? { mode: "exact", value: exact } : { mode: "sub", value: q.toLowerCase() };
-  };
-
+  // --------------------------- Filtering ---------------------------------
   function applyFilters() {
-    // Team / Map use exact match against sets
-    const t = (teamInput.value || "").trim();
-    const m = (mapInput.value  || "").trim();
-    const teamExact = [...teamSet].find(v => v.toLowerCase() === t.toLowerCase()) || "";
-    const mapExact  = [...mapSet].find(v => v.toLowerCase()  === m.toLowerCase()) || "";
-
-    // Player: first-word logic
-    const playerPick = pickExactOrSub(playerInput.value, playerDisplayList);
-    let passesPlayer;
-    if (playerPick.mode === "none") {
-      passesPlayer = () => true;
-    } else if (playerPick.mode === "exact") {
-      const lower = (displayToLower.get(playerPick.value) || playerPick.value.toLowerCase());
-      passesPlayer = (v) => v._firstLower === lower;
-    } else {
-      const ql = playerPick.value; // lowercase substring
-      passesPlayer = (v) => v._firstLower.includes(ql);
-    }
+    const p = (playerInput.value || "").trim().toLowerCase();
+    const t = (teamInput.value   || "").trim().toLowerCase();
+    const m = (mapInput.value    || "").trim().toLowerCase();
 
     return data.filter(v =>
-      (!teamExact || v.team === teamExact) &&
-      (!mapExact  || v.map  === mapExact)  &&
-      passesPlayer(v)
+      (!p || (v.player && v.player.toLowerCase() === p)) &&
+      (!t || (v.team   && v.team.toLowerCase()   === t)) &&
+      (!m || (v.map    && v.map.toLowerCase()    === m))
     );
   }
 
+  // --------------------------- Rendering ---------------------------------
   function render(goToPage = page) {
     const filtered = applyFilters();
 
@@ -218,9 +157,9 @@
     } else {
       slice.forEach(v => {
         const info = [
-          v._firstDisplay ? `<strong>${escapeHtml(v._firstDisplay)}</strong>` : "",
-          v.map ? `${escapeHtml(v.map)}` : "",
-          v.team ? `${escapeHtml(v.team)}` : ""
+          v.player ? `<strong>${escapeHtml(v.player)}</strong>` : "",
+          v.map    ? escapeHtml(v.map)  : "",
+          v.team   ? escapeHtml(v.team) : "",
         ].filter(Boolean).join(" — ");
 
         grid.insertAdjacentHTML("beforeend", `
@@ -253,7 +192,7 @@
       #videos.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;padding:16px 12px 32px}
       .card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:14px;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.25)}
       .card iframe{width:100%;aspect-ratio:16/9;border:0;background:#000;display:block}
-      .card-title{padding:10px 12px 6px;font-weight:600}
+      .card-title{padding:10px 12px 6px;font-weight:600;font-size:.9rem}
       .card-info{padding:0 12px 12px;opacity:.85}
       .filters{display:grid;grid-auto-flow:column;gap:10px;padding:12px;align-items:center}
       .filters .filter input{width:100%;background:rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:8px 10px;color:inherit;outline:none}
