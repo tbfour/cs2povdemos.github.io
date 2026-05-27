@@ -37,10 +37,22 @@ SHORTS_MAXS = 60
 
 MAPS = {"mirage","inferno","nuke","ancient","anubis","vertigo","overpass","dust2"}
 BLACKLIST = MAPS | {"faceit","pov","demo","highlights","highlight","ranked","cs2","vs","clutch"}
-FALLBACK_STOP_WORDS = BLACKLIST | {
+
+# Known CS2 pro team name tokens — kept up to date so the title-based fallback
+# never mistakes a team prefix (e.g. "Falcons Niko …") for a player name.
+CS2_TEAM_TOKENS = {
+    "falcons","vitality","faze","navi","heroic","mouz","ence","liquid",
+    "cloud9","spirit","astralis","nip","mibr","complexity","aurora","apeks",
+    "imperial","fluxo","fnatic","mongols","mongolz","saw","monte","rebels",
+    "grayhound","tyloo","outsiders","gambit","gamerlegion","passion","lynn",
+    "big","og","virtus","mousesports","ninjas","pyjamas","col","pain",
+    "eternafire","9ine","nine","team","esports","gaming","clan",
+}
+
+FALLBACK_STOP_WORDS = BLACKLIST | CS2_TEAM_TOKENS | {
     "ft","with","the","in","on","at","by","for","to","of","and","or",
     "pro","full","best","game","play","win","top","new","live","clip",
-    "round","epic","csgo","esea","esports","major","open","cup","lan",
+    "round","epic","csgo","esea","major","open","cup","lan",
 }
 TOKEN = re.compile(r"[A-Za-z0-9_\-]{3,16}")
 
