@@ -217,17 +217,36 @@
       return;
     }
 
-    // Search bar
+    // Search bar — built via DOM to avoid HTML-parser issues with inline SVG
     const searchWrap = document.createElement("div");
     searchWrap.className = "video-search-wrap";
-    searchWrap.innerHTML = `
-      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-           stroke-width="2" width="16" height="16">
-        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-      </svg>
-      <input class="video-search" type="text" placeholder="Search videos…" autocomplete="off">`;
+
+    const svgNS = "http://www.w3.org/2000/svg";
+    const svg   = document.createElementNS(svgNS, "svg");
+    svg.setAttribute("class", "search-icon");
+    svg.setAttribute("viewBox", "0 0 24 24");
+    svg.setAttribute("fill", "none");
+    svg.setAttribute("stroke", "currentColor");
+    svg.setAttribute("stroke-width", "2");
+    svg.setAttribute("width", "16");
+    svg.setAttribute("height", "16");
+    const circle = document.createElementNS(svgNS, "circle");
+    circle.setAttribute("cx", "11"); circle.setAttribute("cy", "11"); circle.setAttribute("r", "8");
+    const line = document.createElementNS(svgNS, "line");
+    line.setAttribute("x1", "16.5"); line.setAttribute("y1", "16.5");
+    line.setAttribute("x2", "21");   line.setAttribute("y2", "21");
+    svg.appendChild(circle);
+    svg.appendChild(line);
+
+    const input = document.createElement("input");
+    input.className    = "video-search";
+    input.type         = "text";
+    input.placeholder  = "Search videos…";
+    input.autocomplete = "off";
+
+    searchWrap.appendChild(svg);
+    searchWrap.appendChild(input);
     app.appendChild(searchWrap);
-    const input = searchWrap.querySelector(".video-search");
 
     // Separate container so only the grid+pager is rebuilt on search/page change
     const container = document.createElement("div");
