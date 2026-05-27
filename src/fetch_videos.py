@@ -1,17 +1,18 @@
 """
 Rebuild docs/data/videos.json for the CS2 POV site.
 
-POV channels (lim, pov_highlights, nebula):
-  • Exclude Shorts (duration ≤ 60 s or "#shorts" in title).
-  • Assign player from HLTV whitelist; falls back to title-based extraction.
-  • channel field: the channel label ("lim", "pov_highlights", "nebula").
+All channels are processed in one loop. Behaviour depends on whether the
+channel is in SPLIT_CHANNELS:
 
-NadesOutHere channel — split into two categories:
-  • Long-form → channel: "strategy"
-  • Shorts     → channel: "utility"
-  • No player detection; map detected from title.
+  Normal channels (lim, pov_highlights, nebula):
+    • Shorts are skipped.
+    • Player is detected from the title (HLTV whitelist or fallback).
+    • channel field = the channel label.
 
-All videos: write newest-first to docs/data/videos.json.
+  Split channels (nadesouthere):
+    • Shorts  → channel: "utility"
+    • Long    → channel: "strategy"
+    • No player detection; video is only kept when a map is found in the title.
 """
 
 from googleapiclient.discovery import build
@@ -21,37 +22,39 @@ from collections import Counter
 import datetime as dt
 import json, os, re, requests
 
-# ── Config ──────────────────────────────────────────────────────────────
+# ── Config ───────────────────────────────────────────────────────────────
 YT_KEY = os.getenv("YT_API_KEY")
 if not YT_KEY:
     raise RuntimeError("YT_API_KEY not set")
 
-# POV channels: shorts are excluded, player detection is active
-POV_CHANNELS = {
+CHANNELS = {
     "lim":            "@lim-csgopov",
     "pov_highlights": "@CSGOPOVDemosHighlights",
     "nebula":         "@NebulaCS2",
+    "nadesouthere":   "@NadesOutHere",
 }
 
-# Split channel: long-form → "strategy", shorts → "utility"
-NADESOUTHERE = "@NadesOutHere"
+# Channels whose videos are split by duration instead of having shorts skipped.
+# Short  → channel: "utility"
+# Long   → channel: "strategy"
+SPLIT_CHANNELS = {"nadesouthere"}
 
 CUTOFF      = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=18 * 30)
 MIN_VIDEOS  = 10
-SHORTS_MAXS = 60
+SHORTS_MAXS = 60   # seconds; videos at or under this are treated as shorts
 
 MAPS = {"mirage","inferno","nuke","ancient","anubis","vertigo","overpass","dust2"}
 BLACKLIST = MAPS | {"faceit","pov","demo","highlights","highlight","ranked","cs2","vs","clutch"}
 
-# Known CS2 pro team name tokens so the fallback never mistakes a team prefix
-# (e.g. "Falcons Niko …") for a player name.
+# Known CS2 pro team name tokens — prevents the fallback from picking up a
+# team prefix (e.g. "Falcons Niko …") as the player name.
 CS2_TEAM_TOKENS = {
     "falcons","vitality","faze","navi","heroic","mouz","ence","liquid",
     "cloud9","spirit","astralis","nip","mibr","complexity","aurora","apeks",
     "imperial","fluxo","fnatic","mongols","mongolz","saw","monte","rebels",
     "grayhound","tyloo","outsiders","gambit","gamerlegion","passion","lynn",
     "big","og","virtus","mousesports","ninjas","pyjamas","col","pain",
-    "eternafire","9ine","nine","team","esports","gaming","clan","furia",
+    "eternafire","9ine","nine","furia","team","esports","gaming","clan",
 }
 
 FALLBACK_STOP_WORDS = BLACKLIST | CS2_TEAM_TOKENS | {
@@ -63,18 +66,18 @@ TOKEN = re.compile(r"[A-Za-z0-9_\-]{3,16}")
 
 HLTV_API_BASE = "https://hltv-api.onrender.com/api"
 
-# ── HLTV whitelist ───────────────────────────────────────────────────────
-def fetch_team_data() -> tuple[set[str], dict[str,str]]:
+# ── HLTV whitelist ────────────────────────────────────────────────────────
+def fetch_team_data() -> tuple[set[str], dict[str, str]]:
     """Returns (whitelist, nick_to_team). Handles multiple API response shapes."""
     url = f"{HLTV_API_BASE}/ranking?type=team&offset=0"
     try:
         resp = requests.get(url, timeout=12)
         resp.raise_for_status()
-        raw = resp.json()
+        raw  = resp.json()
         data = raw.get("data", raw) if isinstance(raw, dict) else raw
 
-        whitelist:    set[str]        = set()
-        nick_to_team: dict[str, str]  = {}
+        whitelist:    set[str]       = set()
+        nick_to_team: dict[str, str] = {}
 
         for entry in data:
             team_obj  = entry.get("team") or {}
@@ -83,7 +86,7 @@ def fetch_team_data() -> tuple[set[str], dict[str,str]]:
             players_raw = (entry.get("players") or entry.get("ranking")
                            or entry.get("members") or [])
             for p in players_raw:
-                nick = (p.get("name") or p.get("playerName") or p.get("nick"))
+                nick = p.get("name") or p.get("playerName") or p.get("nick")
                 if not nick:
                     continue
                 whitelist.add(nick)
@@ -97,13 +100,13 @@ def fetch_team_data() -> tuple[set[str], dict[str,str]]:
         return set(), {}
 
 def extract_fallback_player(title: str) -> str | None:
-    """First title token that looks like a player name when whitelist is unavailable."""
+    """First title token that looks like a player name (used when whitelist unavailable)."""
     for tok in TOKEN.findall(title):
         if tok.lower() not in FALLBACK_STOP_WORDS and not tok.isdigit():
             return tok
     return None
 
-# ── YouTube helpers ──────────────────────────────────────────────────────
+# ── YouTube helpers ───────────────────────────────────────────────────────
 def chan_id(y, handle_or_id: str) -> str | None:
     if handle_or_id.startswith("UC"):
         return handle_or_id
@@ -134,11 +137,12 @@ def walk_pl_pages(y, pl_id: str):
 
 def duration_to_seconds(iso_dur: str) -> int:
     m = re.fullmatch(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso_dur or "")
-    if not m: return 0
-    return int(m.group(1) or 0)*3600 + int(m.group(2) or 0)*60 + int(m.group(3) or 0)
+    if not m:
+        return 0
+    return int(m.group(1) or 0) * 3600 + int(m.group(2) or 0) * 60 + int(m.group(3) or 0)
 
-def fetch_durations(y, ids: list[str]) -> dict[str,int]:
-    out: dict[str,int] = {}
+def fetch_durations(y, ids: list[str]) -> dict[str, int]:
+    out: dict[str, int] = {}
     if not ids:
         return out
     resp = y.videos().list(id=",".join(ids), part="contentDetails").execute()
@@ -147,15 +151,15 @@ def fetch_durations(y, ids: list[str]) -> dict[str,int]:
     return out
 
 def detect_map(title: str) -> str | None:
-    normalized = re.sub(r'\bdust\s*2\b', 'dust2', title, flags=re.IGNORECASE)
+    normalized = re.sub(r"\bdust\s*2\b", "dust2", title, flags=re.IGNORECASE)
     lower = normalized.lower()
     return next((m for m in MAPS if m in lower), None)
 
-# ── Main ─────────────────────────────────────────────────────────────────
+# ── Main ──────────────────────────────────────────────────────────────────
 def main() -> None:
     whitelist, nick_to_team = fetch_team_data()
-    whitelist_lc = {n.lower() for n in whitelist}
-    canonical    = {n.lower(): n for n in whitelist}  # lower → HLTV canonical casing
+    whitelist_lc   = {n.lower() for n in whitelist}
+    canonical      = {n.lower(): n for n in whitelist}  # lower → HLTV canonical casing
     using_fallback = not whitelist_lc
     if using_fallback:
         print("[info] HLTV whitelist empty — using title-based player fallback")
@@ -163,19 +167,20 @@ def main() -> None:
     yt = build("youtube", "v3", developerKey=YT_KEY)
     vids, counter = [], Counter()
 
-    # ── POV channels ──────────────────────────────────────────────────────
-    for label, handle in POV_CHANNELS.items():
+    for label, handle in CHANNELS.items():
+        is_split = label in SPLIT_CHANNELS
+
         cid = chan_id(yt, handle)
         if not cid:
             print(f"[warn] cannot resolve {handle!r}")
             continue
         upl = uploads_pl(yt, cid)
         if not upl:
-            print(f"[warn] no uploads playlist for {cid}")
+            print(f"[warn] no uploads playlist for {handle!r}")
             continue
 
         for page in walk_pl_pages(yt, upl):
-            ids = [it["snippet"]["resourceId"]["videoId"] for it in page]
+            ids       = [it["snippet"]["resourceId"]["videoId"] for it in page]
             durations = fetch_durations(yt, ids)
 
             for it in page:
@@ -184,21 +189,40 @@ def main() -> None:
                 if pub < CUTOFF:
                     continue
 
-                title = it["snippet"]["title"]
-                if "#shorts" in title.lower() or durations.get(vid, 0) <= SHORTS_MAXS:
-                    continue  # skip shorts for POV channels
+                title    = it["snippet"]["title"]
+                is_short = ("#shorts" in title.lower()
+                            or durations.get(vid, 0) <= SHORTS_MAXS)
 
-                if using_fallback:
-                    raw_tok = extract_fallback_player(title)
-                    nick = raw_tok.lower() if raw_tok else None
+                if is_split:
+                    # Strategy/utility channel: keep both; split by duration
+                    channel  = "utility" if is_short else "strategy"
+                    game_map = detect_map(title)
+                    if not game_map:
+                        continue   # skip unrecognised maps for this channel
+                    nick = None
                     team = None
+
                 else:
-                    tokens = TOKEN.findall(title)
-                    match  = next((t for t in tokens
-                                   if t.lower() in whitelist_lc and t.lower() not in BLACKLIST),
-                                  None)
-                    nick = canonical.get(match.lower()) if match else None
-                    team = nick_to_team.get(nick) if nick else None
+                    # POV channel: skip shorts, detect player
+                    if is_short:
+                        continue
+
+                    channel  = label
+                    game_map = detect_map(title)
+
+                    if using_fallback:
+                        raw_tok = extract_fallback_player(title)
+                        nick    = raw_tok.lower() if raw_tok else None
+                        team    = None
+                    else:
+                        tokens = TOKEN.findall(title)
+                        match  = next(
+                            (t for t in tokens
+                             if t.lower() in whitelist_lc and t.lower() not in BLACKLIST),
+                            None,
+                        )
+                        nick = canonical.get(match.lower()) if match else None
+                        team = nick_to_team.get(nick) if nick else None
 
                 if nick:
                     counter[nick] += 1
@@ -206,52 +230,14 @@ def main() -> None:
                 vids.append({
                     "id":        vid,
                     "title":     title,
-                    "channel":   label,
+                    "channel":   channel,
                     "player":    nick,
                     "team":      team,
-                    "map":       detect_map(title),
+                    "map":       game_map,
                     "published": pub.isoformat()[:10],
                 })
 
-    # ── NadesOutHere — split into strategy (long) / utility (shorts) ──────
-    noh_cid = chan_id(yt, NADESOUTHERE)
-    if not noh_cid:
-        print(f"[warn] cannot resolve {NADESOUTHERE!r}")
-    else:
-        noh_upl = uploads_pl(yt, noh_cid)
-        if not noh_upl:
-            print(f"[warn] no uploads playlist for NadesOutHere")
-        else:
-            for page in walk_pl_pages(yt, noh_upl):
-                ids = [it["snippet"]["resourceId"]["videoId"] for it in page]
-                durations = fetch_durations(yt, ids)
-
-                for it in page:
-                    vid = it["snippet"]["resourceId"]["videoId"]
-                    pub = isoparse(it["snippet"]["publishedAt"])
-                    if pub < CUTOFF:
-                        continue
-
-                    title    = it["snippet"]["title"]
-                    is_short = "#shorts" in title.lower() or durations.get(vid, 0) <= SHORTS_MAXS
-                    category = "utility" if is_short else "strategy"
-                    game_map = detect_map(title)
-
-                    # Only include if we can categorise by map
-                    if not game_map:
-                        continue
-
-                    vids.append({
-                        "id":        vid,
-                        "title":     title,
-                        "channel":   category,
-                        "player":    None,
-                        "team":      None,
-                        "map":       game_map,
-                        "published": pub.isoformat()[:10],
-                    })
-
-    # ── Threshold filter for POV players ──────────────────────────────────
+    # Drop POV players that appear in fewer than MIN_VIDEOS videos
     keep = {p for p, n in counter.items() if n >= MIN_VIDEOS}
     for v in vids:
         if v.get("player") and v["player"] not in keep:
@@ -263,10 +249,10 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "videos.json").write_text(json.dumps(vids, indent=2))
 
-    strategy_count = sum(1 for v in vids if v["channel"] == "strategy")
-    utility_count  = sum(1 for v in vids if v["channel"] == "utility")
+    strategy_n = sum(1 for v in vids if v["channel"] == "strategy")
+    utility_n  = sum(1 for v in vids if v["channel"] == "utility")
     print(f"[info] wrote {len(vids)} videos "
-          f"({len(keep)} players, {strategy_count} strategy, {utility_count} utility)")
+          f"({len(keep)} players, {strategy_n} strategy, {utility_n} utility)")
 
 if __name__ == "__main__":
     main()
