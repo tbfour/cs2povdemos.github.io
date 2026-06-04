@@ -1,5 +1,50 @@
 [
   {
+    "id": "htpvQlBpAJQ",
+    "title": "malbsMd Mirage Smoke Bug Abuse in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-06-04"
+  },
+  {
+    "id": "fMvDvRmO3BE",
+    "title": "SNOW DUST 2 B DOOR SMOKE TO ENTRY TUNNELS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-06-04"
+  },
+  {
+    "id": "cNjFMJrxc8Q",
+    "title": "z4kr DUST2 Nades to STOP Long Push in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-06-04"
+  },
+  {
+    "id": "1Y5NPFD2W28",
+    "title": "NertZ (40-23) w/SunPayus avg 3300 Elo (Dust2) | Jun 1, 2026 #cs2 #nertz #pov",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-06-03"
+  },
+  {
+    "id": "OgAX6qdMmZM",
+    "title": "xelex (37-12) FACEIT avg 3.3k Elo Dust2 POV | Jun 1, 2026 #cs2 #xelex",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-06-03"
+  },
+  {
     "id": "R-MLzVswDTw",
     "title": "\ud83d\udd25donk is ready for Major | SoloQ 36Kills Ancient POV | FACEIT avg 3.5k Elo | Jun 2, 2026",
     "channel": "lim",
@@ -15,6 +60,60 @@
     "player": "jamyoung",
     "team": null,
     "map": "mirage",
+    "published": "2026-06-03"
+  },
+  {
+    "id": "VqvOSE2a5L8",
+    "title": "ULTIMATE SHOWS NEW INFERNO PIT MOLOTOV LINEUP FOR CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-06-03"
+  },
+  {
+    "id": "kejyMYnv7ss",
+    "title": "These Mirage Flashes Make it IMPOSSIBLE to Defend A in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-06-03"
+  },
+  {
+    "id": "z9wukX4OQZk",
+    "title": "THIS INFERNO BOOST FARMS KILLS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-06-03"
+  },
+  {
+    "id": "is-AUCq6B8I",
+    "title": "BCG DUST 2 BOOST TO PEEK SHORT IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-06-03"
+  },
+  {
+    "id": "2SBpH6T5PLQ",
+    "title": "2 ANCIENT FLASHES TO WIN CHEETAH IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-06-03"
+  },
+  {
+    "id": "cH0tkDsgLxI",
+    "title": "n1ssim FAST Ancient CT Smoke for RUSH A in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
     "published": "2026-06-03"
   },
   {
@@ -58165,77 +58264,5 @@
     "team": null,
     "map": "anubis",
     "published": "2024-12-11"
-  },
-  {
-    "id": "IxcnHtdfgRQ",
-    "title": "CS2 VERTIGO MUST KNOW NADES IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "vertigo",
-    "published": "2024-12-11"
-  },
-  {
-    "id": "c9HhYwfE6gk",
-    "title": "THE MOST INSANE VERTIGO BOOST FOR CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "vertigo",
-    "published": "2024-12-11"
-  },
-  {
-    "id": "8uCrta2tVtc",
-    "title": "stavn (31-3) Inferno POV | FACEIT 2850 ELO | Dec 7, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-12-10"
-  },
-  {
-    "id": "L-KMV1EV9PA",
-    "title": "MONGOLZ WINS SHANGHAI MAJOR USING THIS ANCIENT TRICK IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-12-10"
-  },
-  {
-    "id": "iaPoulsKGSo",
-    "title": "HOW TO SMOKE MID DONUT ON ANCIENT FOR CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-12-10"
-  },
-  {
-    "id": "3BJZk9mghuU",
-    "title": "The MongolZ BEAST Ancient Tactic | CS2 Analysis",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2024-12-10"
-  },
-  {
-    "id": "cEODS6FKH10",
-    "title": "dev1ce Shows MUST USE Dust2 Boost in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-12-10"
-  },
-  {
-    "id": "5SKd0nSbdEE",
-    "title": "NEW META DUST 2 A SMOKES FOR CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2024-12-10"
   }
 ]
