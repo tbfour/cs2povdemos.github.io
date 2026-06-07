@@ -1,5 +1,50 @@
 [
   {
+    "id": "zTsnts4Uj0A",
+    "title": "TYLOO Moseyuh Overpass Nades to Rush B in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2026-06-07"
+  },
+  {
+    "id": "JVaLYZEGA3Y",
+    "title": "m0NESY INSANE NUKE AWP POSITION IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-06-07"
+  },
+  {
+    "id": "kJqRcSh-KqU",
+    "title": "CS2 DUST 2 GOOSE MOLOTOV LINEUP",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-06-07"
+  },
+  {
+    "id": "aCBIsxujRNY",
+    "title": "\ud83d\udd25kyousuke (27-14) 1.47 Rating | avg 3.5K ELO | Dust2 POV | Jun 4, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "mUjR4EypXbE",
+    "title": "\ud83d\udd25rec1se (22-7) 1.83 Rating | avg 3.2K ELO | Mirage POV | Jun 4, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-06-06"
+  },
+  {
     "id": "UnWYlKcht7c",
     "title": "15 y.o\ud83d\udd25r0se (27-10) 1.87 Rating | avg 3.4K ELO | Ancient POV | Jun 4, 2026",
     "channel": "lim",
@@ -15,6 +60,96 @@
     "player": "donk",
     "team": null,
     "map": "overpass",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "IYTss8u4uao",
+    "title": "THIS INFERNO SMOKE WINS MID IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "fvdUhW0OvLI",
+    "title": "TYLOO Jee Nuke Nades Wins A in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "SPFpYRwl-rI",
+    "title": "MOUZ Spinx Overpass HE Nade Does HUGE Damage in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "jO54U_Clvfg",
+    "title": "This Mirage Molotov Wins B Site in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "RGZ8agg0mLI",
+    "title": "GamerLegion INSANE Nuke HE Nades in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "3cJaHudaVkk",
+    "title": "How Aurora Manipulates Rotations on Anubis in CS2",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "Z8mvsuv2JjE",
+    "title": "CS2 MIRAGE CT SMOKE LINEUP 2026",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "z9fT4-wj2iQ",
+    "title": "bLitz INSANE Inferno Smokes to Entry A in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "CPBCySzaTzQ",
+    "title": "biguzera INSANE Nuke Heaven Smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-06-06"
+  },
+  {
+    "id": "Js-G8LbAg8c",
+    "title": "rain Dust 2 Molotov Wins B Splits in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
     "published": "2026-06-06"
   },
   {
@@ -24752,15 +24887,6 @@
   {
     "id": "i8rQOuZ3vUU",
     "title": "frozen Mirage Connector Smoke From Apartments in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-11-24"
-  },
-  {
-    "id": "d42C8zo8iXk",
-    "title": "NiKo Shows USEFUL Mirage A Nades in CS2",
     "channel": "utility",
     "player": null,
     "team": null,
@@ -58239,24 +58365,6 @@
     "published": "2024-12-15"
   },
   {
-    "id": "-uNBh2PYEhY",
-    "title": "ropz (28-10) FaZe vs Vitality (Anubis) | Perfect World Shanghai Major 2024 #cs2 #shanghaimajor2024",
-    "channel": "lim",
-    "player": "ropz",
-    "team": null,
-    "map": "anubis",
-    "published": "2024-12-14"
-  },
-  {
-    "id": "DLwR91o1TGI",
-    "title": "\u26a1malbsMd (28-16) G2 vs HEROIC (mirage) | Perfect World Shanghai Major 2024 #cs2 #shanghaimajor2024",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-12-14"
-  },
-  {
     "id": "aG__Q-p9gm4",
     "title": "NiKo POV |  NiKo carries G2 vs Heroic in Shanghai Major! | CS2 Pro Gameplay (Nuke)",
     "channel": "nebula",
@@ -58300,77 +58408,5 @@
     "team": null,
     "map": "inferno",
     "published": "2024-12-14"
-  },
-  {
-    "id": "7tMSHs4i5xQ",
-    "title": "Twistzz Inferno Bracket Smoke From Mexi in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2024-12-14"
-  },
-  {
-    "id": "3XKJHwQoHE4",
-    "title": "broky Vertigo B Generator Smoke in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "vertigo",
-    "published": "2024-12-14"
-  },
-  {
-    "id": "CxxRlTIAjeU",
-    "title": "NiKo (26-13) G2 vs HEROIC (NUKE) | Perfect World Shanghai Major 2024 #cs2 #shanghaimajor2024",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "nuke",
-    "published": "2024-12-13"
-  },
-  {
-    "id": "zwC9-GoTCqc",
-    "title": "donk POV with COMMS | Can donk beat s1mple in FACEIT? | CS2 Pro Gameplay (Dust 2)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2024-12-13"
-  },
-  {
-    "id": "g98-QftYEMg",
-    "title": "HOW TO MOLOTOV YELLOW ON VERTIGO ON CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "vertigo",
-    "published": "2024-12-13"
-  },
-  {
-    "id": "PctiAbdAGac",
-    "title": "How Aleksib's Anubis Tactics Are Revolutionizing NAVI",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2024-12-13"
-  },
-  {
-    "id": "ioRGbK8VPXc",
-    "title": "The PRO Way to Molotov Hell on Nuke in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2024-12-13"
-  },
-  {
-    "id": "-Nsiead5JxE",
-    "title": "broky Mirage Jungle Smoke From Mid on CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2024-12-13"
   }
 ]
