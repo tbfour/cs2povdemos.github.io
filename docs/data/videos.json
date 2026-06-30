@@ -1,5 +1,131 @@
 [
   {
+    "id": "igRXNtid37o",
+    "title": "9z max Overpass Nade Punishes B Players in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2026-06-30"
+  },
+  {
+    "id": "Xy8MQfAmY00",
+    "title": "9z INSANE Inferno Molotovs to Take A Site in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-06-30"
+  },
+  {
+    "id": "UG8qRUYybao",
+    "title": "Magnojez Overpass HE Nade Punishes Shortpipe Push in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2026-06-30"
+  },
+  {
+    "id": "1q6C1ZvhPWU",
+    "title": "\ud83d\udd25kennys (28-12) 1.98 Rating | avg 2.6K ELO | Mirage POV | Jun 27, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-06-29"
+  },
+  {
+    "id": "6a4_1WN2y0c",
+    "title": "\ud83d\udd25jackz (25-14) 1.59 Rating | avg 2.9K ELO | Nuke POV | Jun 28, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-06-29"
+  },
+  {
+    "id": "mkNHqekKSQE",
+    "title": "\ud83d\udd25jks (25-12) 1.48 Rating | avg 2.8K ELO | Dust2 POV | Jun 28, 2026",
+    "channel": "lim",
+    "player": "jks",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-06-29"
+  },
+  {
+    "id": "MMCr9rfKZvM",
+    "title": "\ud83d\udd25jks (23-10) 1.86 Rating | avg 2.8K ELO | Inferno POV | Jun 28, 2026",
+    "channel": "lim",
+    "player": "jks",
+    "team": null,
+    "map": "inferno",
+    "published": "2026-06-29"
+  },
+  {
+    "id": "lTID_I0ZWM0",
+    "title": "\ud83d\udd25Kvem (21-7) 1.74 Rating | avg 3.0K ELO | Dust2 POV | May 18, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-06-29"
+  },
+  {
+    "id": "j0eP7-jDt5I",
+    "title": "MEZII ANUBIS B MAIN LURK SMOKE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-06-29"
+  },
+  {
+    "id": "AqJzPM4Hizg",
+    "title": "MATYS FAST INFERNO MID SMOKE FOR CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-06-29"
+  },
+  {
+    "id": "0OhNrBJkei0",
+    "title": "YEKINDAR Insane Inferno A Site Flash From Apps in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-06-29"
+  },
+  {
+    "id": "td0uYLJkoJM",
+    "title": "Techno4k Inferno Nades for Banana Control on CT Side",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-06-29"
+  },
+  {
+    "id": "_PFXbRzbxVQ",
+    "title": "THIS DUST 2 CT SETUP IS UNSTOPPABLE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-06-29"
+  },
+  {
+    "id": "4guV1F88vPI",
+    "title": "chopper Anubis Left B Smoke for CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-06-29"
+  },
+  {
     "id": "oigUZcaUx6k",
     "title": "arT Overpass Flash to Push Monster in CS2W",
     "channel": "utility",
@@ -31314,7 +31440,7 @@
     "id": "c8d0ulLY5hw",
     "title": "EliGE (24-17) Liquid vs Legacy (Nuke) | PGL Masters Bucharest 2025 #liquid #elige",
     "channel": "lim",
-    "player": "elige",
+    "player": null,
     "team": null,
     "map": "nuke",
     "published": "2025-10-26"
@@ -37245,7 +37371,7 @@
     "id": "AV9oSU7GP0g",
     "title": "EliGE play NA FACEIT w/oSee (Inferno) | Aug 28, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "elige",
+    "player": null,
     "team": null,
     "map": "inferno",
     "published": "2025-08-28"
@@ -38073,7 +38199,7 @@
     "id": "20jBoZm50js",
     "title": "CS2 POV Demo FaZe EliGE (22/9) vs Aurora (de_inferno) @ Esports World Cup 2025",
     "channel": "pov_highlights",
-    "player": "elige",
+    "player": null,
     "team": null,
     "map": "inferno",
     "published": "2025-08-22"
@@ -42726,7 +42852,7 @@
     "id": "IFa5roZQ-e8",
     "title": "EliGE (34-10) VOICE COMMS @ FACEIT NA 2600 Elo (mirage) | July 4, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "elige",
+    "player": null,
     "team": null,
     "map": "mirage",
     "published": "2025-07-06"
@@ -43293,7 +43419,7 @@
     "id": "_voNtVEpxUE",
     "title": "EliGE (30-15) VOICE COMMS @ FACEIT NA 2800 Elo (mirage) | Jun 26, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "elige",
+    "player": null,
     "team": null,
     "map": "mirage",
     "published": "2025-06-30"
@@ -45327,7 +45453,7 @@
     "id": "mhC6oc7dqSU",
     "title": "EliGE carries his friends in FACEIT! EliGE POV with COMMs (Inferno)",
     "channel": "nebula",
-    "player": "elige",
+    "player": null,
     "team": null,
     "map": "inferno",
     "published": "2025-06-11"
@@ -46461,7 +46587,7 @@
     "id": "54BkkRIAXDU",
     "title": "EliGE (26-9) Rating: 2.06 (Inferno) | FACEIT avg 2600ELO | May 30, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "elige",
+    "player": null,
     "team": null,
     "map": "inferno",
     "published": "2025-06-01"
@@ -49665,7 +49791,7 @@
     "id": "5aMyf74u6IY",
     "title": "EliGE (34-24) FaZe vs FlyQuest (Nuke) | BLAST Rivals 2025 Season 1 #cs2 #pov",
     "channel": "lim",
-    "player": "elige",
+    "player": null,
     "team": null,
     "map": "nuke",
     "published": "2025-05-02"
@@ -56703,7 +56829,7 @@
     "id": "Vhl5JVabUDg",
     "title": "EliGE (31-12) w/rain/frozen/neo 5-stack (Ancient) | FACEIT avg 2800 ELO | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "elige",
+    "player": null,
     "team": null,
     "map": "ancient",
     "published": "2025-02-01"
@@ -59299,113 +59425,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-01-06"
-  },
-  {
-    "id": "x6zerUEXRNI",
-    "title": "kyousuke 25-9 w/Mokuj1n (Vertigo) | FACEIT 3400ELO | Jan 4, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": "vertigo",
-    "published": "2025-01-06"
-  },
-  {
-    "id": "ltpEt4G6p94",
-    "title": "donk (26-8) w/baz/kyousuke (mirage) | Jan 5, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-01-06"
-  },
-  {
-    "id": "xURvp7AiNUY",
-    "title": "YEKINDAR SHOWS HOW TO SMOKE A MAIN ON ANUBIS IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-01-06"
-  },
-  {
-    "id": "1brFW1NVIME",
-    "title": "ropz Shows Vertigo Nades to Take Ramp Control in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "vertigo",
-    "published": "2025-01-06"
-  },
-  {
-    "id": "yIiXcFzpTVg",
-    "title": "HeavyGod w/Spinx/AMSALEM vs blameF/smooya/bevve(mirage) | Dec 20, 2024 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "heavygod",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-01-05"
-  },
-  {
-    "id": "7gDSAW9Pr-U",
-    "title": "s1mple (36-18) Rating:2.16 (train) | Valve Matchmaking Competitive | Jan 4, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "s1mple",
-    "team": null,
-    "map": null,
-    "published": "2025-01-05"
-  },
-  {
-    "id": "RIinujjmxQA",
-    "title": "EliGE Carries vs Top 300 FACEIT player! EliGE POV with COMMs (Inferno)",
-    "channel": "nebula",
-    "player": "elige",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-05"
-  },
-  {
-    "id": "UfbsZGQx-TI",
-    "title": "FROZEN SHOWS MUST KNOW NUKE NADES FOR CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-01-05"
-  },
-  {
-    "id": "OxS3MO-aIcM",
-    "title": "How to Smoke Bottom Banana on Inferno in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-05"
-  },
-  {
-    "id": "GwRsxelGB10",
-    "title": "KSCERATO Shows INSANE Vertigo Mid Nades in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "vertigo",
-    "published": "2025-01-05"
-  },
-  {
-    "id": "0-Iqqgv1x6Q",
-    "title": "ESSENTIAL MIRAGE RAMP FLASH IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-01-05"
-  },
-  {
-    "id": "3webqbSd4pk",
-    "title": "MUST KNOW MIRAGE NADES TO DEFEND MID",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-01-05"
   }
 ]
