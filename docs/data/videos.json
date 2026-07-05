@@ -1,5 +1,131 @@
 [
   {
+    "id": "4KsEtApQHHI",
+    "title": "woxic Dust2 Avangar Smoke From CAT in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-05"
+  },
+  {
+    "id": "EeT7wZcbiWs",
+    "title": "NiKo Anubis Flash for A Main Retake in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-07-05"
+  },
+  {
+    "id": "-jQGtx92pSA",
+    "title": "NiKo Ancient Smoke to Retake Mid on CT Side in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-07-05"
+  },
+  {
+    "id": "-T_NCiR1B6g",
+    "title": "\ud83d\udd25nocries (30-15) 1.59 Rating | avg 2.6K ELO | Dust2 POV | Jul 2, 2026",
+    "channel": "lim",
+    "player": "nocries",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-04"
+  },
+  {
+    "id": "RximN4qBWGI",
+    "title": "\ud83d\udd25jks (21-4) 2.23 Rating | avg 2.9K ELO | Dust2 POV | Jul 2, 2026",
+    "channel": "lim",
+    "player": "jks",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-04"
+  },
+  {
+    "id": "q9BP6LLJlUw",
+    "title": "FACEIT #2\ud83d\udd25swetsi_1win (27-6) 2.36 Rating | avg 3.3K ELO | Mirage POV | Jul 3, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-07-04"
+  },
+  {
+    "id": "LyKS3Fw-kgw",
+    "title": "FALCONS INFERNO BOOST TO PEEK MID IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-07-04"
+  },
+  {
+    "id": "VJCuf8EOirw",
+    "title": "This Nuke Smoke Covers AC and Lockers in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-07-04"
+  },
+  {
+    "id": "ECYuenA4u8g",
+    "title": "paiN Gaming INSANE Nuke Run Boost in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-07-04"
+  },
+  {
+    "id": "1XaPX_R4Wic",
+    "title": "FALCONS INFERNO NADES to Retake Banana in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-07-04"
+  },
+  {
+    "id": "a4jb-eWQ4tI",
+    "title": "How ZywOo Smokes Mid Door on Dust2 in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-04"
+  },
+  {
+    "id": "OvOgqWMA-zc",
+    "title": "magixx Shows Anubis Nades for Mid Control in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-07-04"
+  },
+  {
+    "id": "BmWKCdJTckA",
+    "title": "PRO CS2 MIRAGE SMOKES FOR MID CONTROL",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-07-04"
+  },
+  {
+    "id": "5K9n7DVKPo8",
+    "title": "ZywOo Anubis Flash for apEX Canals Peek in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-07-04"
+  },
+  {
     "id": "7R90BApqJfI",
     "title": "FALCONS Inferno Banana CT Setup Won IEM Cologne Major 2026",
     "channel": "utility",
@@ -59454,24 +59580,6 @@
     "published": "2025-01-11"
   },
   {
-    "id": "I6n5dqkugPc",
-    "title": "NiKo POV w/magisk/degster (mirage) | FACEIT Ranked | Jan 10, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-01-11"
-  },
-  {
-    "id": "nJ-GG2TzyRA",
-    "title": "NiKo POV w/New Falcons full team stack (Ancient) | FACEIT vs nicoodoz | Jan 10, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-01-11"
-  },
-  {
     "id": "zRsRNm6Uzkw",
     "title": "CS2 POV Demo Spirit Magixx (25/10) vs FaZe (de_nuke) @ Perfect World Shanghai Major 2024",
     "channel": "pov_highlights",
@@ -59497,95 +59605,5 @@
     "team": null,
     "map": "anubis",
     "published": "2025-01-11"
-  },
-  {
-    "id": "IpGJugpa0Ts",
-    "title": "G2 Shows Pro Inferno A Nades on CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-11"
-  },
-  {
-    "id": "mF4WXzXvLGc",
-    "title": "NiKo Shows INSANE CS2 Inferno Smoke for Pit",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-11"
-  },
-  {
-    "id": "-MgjoNKLj8c",
-    "title": "\ud83d\udd25donk (35-10) w/zweih (Dust2) | FACEIT avg 3300 ELO | Jan 9, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-01-10"
-  },
-  {
-    "id": "Wa2nYIQ4UJI",
-    "title": "Aleksib (31-21) w/Jimpphat (nuke) | FACEIT Ranked | Jan 8, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-01-10"
-  },
-  {
-    "id": "aUFvKtxfk7U",
-    "title": "donk (31-22) w/tENZY/zweih (mirage) | FACEIT 3600 ELO | Jan 9, 2025 | CS2 POV",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-01-10"
-  },
-  {
-    "id": "2h_XFo7e9aU",
-    "title": "m0NESY (38-18) SoloQ (Anubis) | FACEIT avg 3600 ELO | Jan 8, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "anubis",
-    "published": "2025-01-10"
-  },
-  {
-    "id": "os2SPeJl9b0",
-    "title": "CS2 INFERNO NADES TO SLOW DOWN THE T'S",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-10"
-  },
-  {
-    "id": "Fu_A8oIMWdk",
-    "title": "m0NESY Shows PRO Inferno Nades in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-10"
-  },
-  {
-    "id": "ZA1Qdz38Ky0",
-    "title": "ESSENTIAL INFERNO BANANA FLASHES IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-10"
-  },
-  {
-    "id": "Ijs-MyQ1Z5Y",
-    "title": "Must Know Inferno Smoke For Banana Control in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-10"
   }
 ]
