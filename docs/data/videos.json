@@ -1,11 +1,101 @@
 [
   {
+    "id": "k2OArZsTtTg",
+    "title": "magixx shows best Dust 2 A Nades for CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-24"
+  },
+  {
+    "id": "4C5Ui11rb0E",
+    "title": "flameZ Mirage Flash to Push Palace in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-07-24"
+  },
+  {
+    "id": "_VqJmRq3y9g",
+    "title": "DEVICE ANCIENT B BOOST to Peek Banana",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-07-24"
+  },
+  {
+    "id": "VAr_-a1f5wU",
+    "title": "\ud83d\udd25GeT_RiGhT (35-15) 1.42 Rating | avg 2.1K ELO | Inferno POV | Jul 23, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-07-23"
+  },
+  {
+    "id": "-vmEEAq40CA",
+    "title": "\ud83d\udd25segukawa (33-9) 1.74 Rating | avg 3.3K ELO | Dust2 POV | Jul 21, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-23"
+  },
+  {
     "id": "2Qki4YRsqBM",
     "title": "\ud83d\udd25molodoy (25-16) 1.56 Rating | avg 3.3K ELO | Dust2 POV | Jul 22, 2026",
     "channel": "lim",
     "player": "molodoy",
     "team": null,
     "map": "dust2",
+    "published": "2026-07-23"
+  },
+  {
+    "id": "mc6iiSf9tNg",
+    "title": "sh1ro 200 IQ Dust 2 Refund Play",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-23"
+  },
+  {
+    "id": "guwZw4ftNPY",
+    "title": "XANTARES 200 IQ Dust 2 Mid Smoke Break",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-23"
+  },
+  {
+    "id": "DS_5FH4UjdU",
+    "title": "ropz defends B Site perfectly on Dust 2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-23"
+  },
+  {
+    "id": "I4k1T7STc4I",
+    "title": "MOUZ Insane Mirage Tactic to Take A Site in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-07-23"
+  },
+  {
+    "id": "gRrlT7Q0MuU",
+    "title": "Spirit donk Mirage HE Nade to Break Window Smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
     "published": "2026-07-23"
   },
   {
@@ -57,7 +147,7 @@
     "id": "xaemaOMVARc",
     "title": "\ud83d\udd25TeSeS (36-24) 1.32 Rating | avg 2.9K ELO | Cache POV | Jul 14, 2026",
     "channel": "lim",
-    "player": "teses",
+    "player": null,
     "team": null,
     "map": null,
     "published": "2026-07-22"
@@ -975,7 +1065,7 @@
     "id": "WKxCQF3rv1s",
     "title": "\ud83d\udd25TeSeS (28-13) w/HooXi 5-stack | avg 3.1K ELO | Mirage POV | Jul 12, 2026",
     "channel": "lim",
-    "player": "teses",
+    "player": null,
     "team": null,
     "map": "mirage",
     "published": "2026-07-15"
@@ -22287,7 +22377,7 @@
     "id": "rl-JYzymv_U",
     "title": "Teses(24-9) w/NiKo avg3700 Elo (Mirage) | Jan 21, 2026 #cs2 #niko #teses",
     "channel": "lim",
-    "player": "teses",
+    "player": null,
     "team": null,
     "map": "mirage",
     "published": "2026-01-24"
@@ -22935,7 +23025,7 @@
     "id": "SQdjihWkSkI",
     "title": "Teses(18-3) w/NiKo avg3550 Elo (Mirage) | Jan 17, 2026 #cs2 #niko #teses",
     "channel": "lim",
-    "player": "teses",
+    "player": null,
     "team": null,
     "map": "mirage",
     "published": "2026-01-20"
@@ -23295,7 +23385,7 @@
     "id": "DKktvljNc4w",
     "title": "Teses(22-4) w/NiKo avg3600 Elo (Mirage) | Jan 15, 2026 #cs2 #niko #teses",
     "channel": "lim",
-    "player": "teses",
+    "player": null,
     "team": null,
     "map": "mirage",
     "published": "2026-01-18"
@@ -45471,7 +45561,7 @@
     "id": "yP86jEl7lWM",
     "title": "TeSeS (29-7) 5-stack (Dust2) | July 6, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "teses",
+    "player": null,
     "team": null,
     "map": "dust2",
     "published": "2025-07-08"
@@ -45579,7 +45669,7 @@
     "id": "ernCcRlVBVI",
     "title": "TeSeS (34-9) 5-stack (Ancient) | July 6, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "teses",
+    "player": null,
     "team": null,
     "map": "ancient",
     "published": "2025-07-07"
@@ -52896,7 +52986,7 @@
     "id": "LeelccWCL3s",
     "title": "TeSeS (40-32) Falcons vs Vitality (Nuke) | IEM Melbourne 2025 Grand Finals #cs2 #pov",
     "channel": "lim",
-    "player": "teses",
+    "player": null,
     "team": null,
     "map": "nuke",
     "published": "2025-04-29"
@@ -54291,7 +54381,7 @@
     "id": "WA7ALDvk39U",
     "title": "TeSeS (17-9) Falcons vs G2 (nuke) | PGL Bucharest 2025",
     "channel": "lim",
-    "player": "teses",
+    "player": null,
     "team": null,
     "map": "nuke",
     "published": "2025-04-14"
@@ -59841,33 +59931,6 @@
     "published": "2025-01-30"
   },
   {
-    "id": "Gr2fvdp953E",
-    "title": "donk (32-15) w/magixx (mirage) | FACEIT Ranked 3300 ELO | Jan 29, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-01-30"
-  },
-  {
-    "id": "dndHHcG9xKk",
-    "title": "\ud83d\ude2edonk (51-28) SoloQ (Dust2) | FACEIT Ranked 3536 ELO | Jan 29, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-01-30"
-  },
-  {
-    "id": "PbSv9fm4OIU",
-    "title": "s1mple (32-21) SoloQ vs Jame/TRAVIS (mirage) | Jan 28, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "s1mple",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-01-30"
-  },
-  {
     "id": "FFWShUDtBB4",
     "title": "jL gets 3.4 K/D vs 4,000 elo FACEIT lvl 10! jL POV with COMMs",
     "channel": "nebula",
@@ -59884,95 +59947,5 @@
     "team": null,
     "map": "inferno",
     "published": "2025-01-30"
-  },
-  {
-    "id": "GUURYrXlMQ8",
-    "title": "MAJ3R SHOWS INSANE ANUBIS B MAIN FLASH ON CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-01-30"
-  },
-  {
-    "id": "s91hHPYTYbE",
-    "title": "m0NESY Shows MUST KNOW Dust 2 B Molotov in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-01-30"
-  },
-  {
-    "id": "u_WzGgxw9l4",
-    "title": "ZywOo (42-26) FACEIT 5-Stack (Dust2) | Jan 28, 2025 | CS2 POV/demo",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-01-29"
-  },
-  {
-    "id": "Ukt58IL9aDI",
-    "title": "TeSeS (29-17) (Inferno) | FACEIT 5-stack | Jan 21, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "teses",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-29"
-  },
-  {
-    "id": "cIJY1as2mtI",
-    "title": "m0NESY (34-21) (Train) | FACEIT 3400ELO | Jan 27, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": null,
-    "published": "2025-01-29"
-  },
-  {
-    "id": "R8s9KOzYyQ4",
-    "title": "\ud83d\udd25donk (26-11) FACEIT SoloQ (mirage) | FACEIT Ranked 3400 ELO | Jan 28, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-01-29"
-  },
-  {
-    "id": "5hzCx-9cVSo",
-    "title": "THE MOST META ANUBIS MOLOTOV ON CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-01-29"
-  },
-  {
-    "id": "1-eJ0hEPmQ4",
-    "title": "FalleN Shows META Mirage A Smokes on CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-01-29"
-  },
-  {
-    "id": "n3cU_4oVTE8",
-    "title": "imperial female show INSANE ancient runboost in cs2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-01-29"
-  },
-  {
-    "id": "_7R1y1CGrWs",
-    "title": "TeSeS Shows Dust 2 B Door Smoke to RUSH in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-01-29"
   }
 ]
