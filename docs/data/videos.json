@@ -1,5 +1,41 @@
 [
   {
+    "id": "gdg9LtBz5fQ",
+    "title": "MOST META MIRAGE CT SETUP IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-07-26"
+  },
+  {
+    "id": "BcSObtNig9Y",
+    "title": "FAST Dust 2 B Door Smoke for B Rush in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-26"
+  },
+  {
+    "id": "P5YuaK8x48Q",
+    "title": "\ud83d\udd25JACKZ (28-11) 2.07 Rating | avg 2.9K ELO | Dust2 POV | Jul 24, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-25"
+  },
+  {
+    "id": "jUvH2o9D6G8",
+    "title": "\ud83d\udd25m0NESY (23-12) 1.52 Rating | avg 3.2K ELO | Dust2 POV | Jul 24, 2026",
+    "channel": "lim",
+    "player": "m0nesy",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-07-25"
+  },
+  {
     "id": "pMXdqR3rE7Y",
     "title": "\ud83d\udd25NiKo (17-13) 1.27 Rating | avg 3.2K ELO | Dust2 POV | Jul 24, 2026",
     "channel": "lim",
@@ -15,6 +51,60 @@
     "player": "kyousuke",
     "team": null,
     "map": "mirage",
+    "published": "2026-07-25"
+  },
+  {
+    "id": "ybVgMjj2a7E",
+    "title": "CS2 ANCIENT B DOOR SMOKE LINEUP",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-07-25"
+  },
+  {
+    "id": "z47bNuQhULQ",
+    "title": "CS2 ANCIENT DONUT SMOKE FROM A MAIN",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-07-25"
+  },
+  {
+    "id": "dDkZAlP_EXM",
+    "title": "STARRY INFERNO FLASH TO DEFEND A SITE",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-07-25"
+  },
+  {
+    "id": "x6pnsJ58DTs",
+    "title": "FAST Ancient A Smokes From T Spawn in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-07-25"
+  },
+  {
+    "id": "Erh2O8kP6hg",
+    "title": "FAST Ancient Long Smoke From T Spawn",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-07-25"
+  },
+  {
+    "id": "SYYNaOqWOm4",
+    "title": "ALEKSIB Inferno Molotov for 1st and 2nd in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
     "published": "2026-07-25"
   },
   {
@@ -59850,42 +59940,6 @@
     "published": "2025-02-01"
   },
   {
-    "id": "wC05LeRw98g",
-    "title": "ZywOo (44-16) FACEIT 5-Stack (Dust2) | Jan 31, 2025 | CS2 POV/demo",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-02-01"
-  },
-  {
-    "id": "j8ScC1YCgow",
-    "title": "Twistzz (27-21) Liquid vs Wildcard (Inferno) | IEM Katowice 2025 Play-in | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "twistzz",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-02-01"
-  },
-  {
-    "id": "2ODIdbJCUC4",
-    "title": "device (19-9) Astralis vs paiN (Inferno) | IEM Katowice 2025 Play-in | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "device",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-02-01"
-  },
-  {
-    "id": "qO9Rz9n3yZM",
-    "title": "kyousuke 27-11 SoloQ FACEIT 3500 ELO matchup (mirage) | Jan 31, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-02-01"
-  },
-  {
     "id": "YzZMtV50DBI",
     "title": "dev1ce Shows The BEST AWP Angle on Nuke on CS2",
     "channel": "utility",
@@ -59902,68 +59956,5 @@
     "team": null,
     "map": "dust2",
     "published": "2025-02-01"
-  },
-  {
-    "id": "d1Wa_qjWxuk",
-    "title": "THE NASTIEST DUST 2 ANGLE ON CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-02-01"
-  },
-  {
-    "id": "bOCk0xd1wI4",
-    "title": "donk (34-19) SoloQ (Anubis) | FACEIT Ranked 3200 ELO | Jan 31, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
-    "published": "2025-01-31"
-  },
-  {
-    "id": "c0xmlU0K3UM",
-    "title": "kyousuke 30-11 FACEIT 3300ELO matchup (Ancient) | Jan 29, 2024 #cs2 #pov",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-01-31"
-  },
-  {
-    "id": "LIhnSoGdunY",
-    "title": "HOW TO SMOKE BANANA FROM A ON INFERNO",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-31"
-  },
-  {
-    "id": "fj16WYwRiXw",
-    "title": "HOW PROS TAKE BANANA CONTROL ON INFERNO",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-31"
-  },
-  {
-    "id": "w9_v_S-3FuA",
-    "title": "HOW NAVI DOMINATE APS ON INFERNO IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-01-31"
-  },
-  {
-    "id": "MU-IW8l-LOA",
-    "title": "200 IQ ANCIENT PRO CAVE TIP IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-01-31"
   }
 ]
