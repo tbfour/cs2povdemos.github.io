@@ -1,5 +1,59 @@
 [
   {
+    "id": "ibEz0c6ApoM",
+    "title": "5494Elo\ud83d\ude31donk (20-7) 2.14 Rating | avg 4.0K ELO | Mirage POV | Jul 31, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-08-01"
+  },
+  {
+    "id": "F5tnYiltvf4",
+    "title": "donk Mirage Nade to Break Open Window Smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-08-01"
+  },
+  {
+    "id": "HzK9iPuwhi0",
+    "title": "Twistzz Inferno Smoke for Banana Control in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-08-01"
+  },
+  {
+    "id": "djh26y2z_kU",
+    "title": "NiKo throws Inferno Truck smoke for Falcons Apps Pop in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-08-01"
+  },
+  {
+    "id": "gI4ehC3dZdk",
+    "title": "\ud83d\udd25shox (33-14) 1.72 Rating | avg 3.3K ELO | Mirage POV | Jul 30, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-07-31"
+  },
+  {
+    "id": "Bw5gKqGBY30",
+    "title": "\ud83d\udd25s1mple (22-12) 1.32 Rating | avg 3.4K ELO | Mirage POV | Jul 30, 2026",
+    "channel": "lim",
+    "player": "s1mple",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-07-31"
+  },
+  {
     "id": "VGoQgiN1pKM",
     "title": "\ud83d\udd25donk (24-14) 1.59 Rating | avg 4.1K ELO | Mirage POV | Jul 31, 2026",
     "channel": "lim",
@@ -15,6 +69,42 @@
     "player": "kscerato",
     "team": null,
     "map": "mirage",
+    "published": "2026-07-31"
+  },
+  {
+    "id": "7fk9WEsWoxk",
+    "title": "HeavyGod Shows Best Ancient B Site Flashes in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-07-31"
+  },
+  {
+    "id": "zEPk0QXgot8",
+    "title": "SOLO INFERNO FLASH TO PEEK BANANA",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-07-31"
+  },
+  {
+    "id": "kYEG10jyh4Q",
+    "title": "YUURIH MIRAGE SMOKE FOR CT MID CONTROL",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-07-31"
+  },
+  {
+    "id": "jlOxKysFSGE",
+    "title": "SMART Dust2 Play to Push Smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
     "published": "2026-07-31"
   },
   {
@@ -60129,33 +60219,6 @@
     "published": "2025-02-08"
   },
   {
-    "id": "vQRzfvnp7PU",
-    "title": "ZywOo (40-17) FACEIT 5-Stack (Inferno) | Feb 6, 2025 | CS2 POV/demo",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-02-07"
-  },
-  {
-    "id": "CebVmkixd70",
-    "title": "ZywOo (24-8) FACEIT 5-Stack (Dust2) | Feb 6, 2025 | CS2 POV/demo",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-02-07"
-  },
-  {
-    "id": "3_zGV6RbRvA",
-    "title": "NiKo (24-15) w/TeSeS/kyxsan (mirage) | FACEIT 3600 ELO | Feb 5, 2025 | CS2 POV/demo",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-02-07"
-  },
-  {
     "id": "ABd9NV5eI2o",
     "title": "iM Shows INSANE Short Molotov on DUST 2",
     "channel": "utility",
@@ -60190,86 +60253,5 @@
     "team": null,
     "map": "nuke",
     "published": "2025-02-07"
-  },
-  {
-    "id": "BGh0zJsXT8Q",
-    "title": "THE EASIEST NUKE TOP HUT MOLOTOV IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-02-07"
-  },
-  {
-    "id": "5sdYKWRBkmY",
-    "title": "5000 IQ NUKE TRICK IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-02-07"
-  },
-  {
-    "id": "pktZyC9Q1T4",
-    "title": "ZywOo (26-10) w/flameZ VOICE COMMS (Train) | FACEIT Ranked | Feb 5, 2025 | CS2 POV/demo",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": null,
-    "published": "2025-02-06"
-  },
-  {
-    "id": "BzIE1OmSous",
-    "title": "ACE + 2 QuadKills | donk (26-15) w/magixx (mirage) | FACEIT 3800 ELO | Feb 5, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-02-06"
-  },
-  {
-    "id": "XfT2MJ-dC7c",
-    "title": "WOOD7 INSANE Anubis Wallbang in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-02-06"
-  },
-  {
-    "id": "iG0qEOdra58",
-    "title": "PRO NUKE AWP ANGLE YOU NEED TO USE",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-02-06"
-  },
-  {
-    "id": "KWOMaGXP0P4",
-    "title": "The Best Anubis Tactic in CS2 - Team Liquid",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-02-06"
-  },
-  {
-    "id": "_IKLUOavrZM",
-    "title": "PRO NUKE DUO PLAY YOU NEED TO USE",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-02-06"
-  },
-  {
-    "id": "nOmMjWZ4TqE",
-    "title": "MUST KNOW NUKE WALLBANG IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-02-06"
   }
 ]
