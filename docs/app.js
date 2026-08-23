@@ -68,26 +68,75 @@
   ];
 
   // ── State ─────────────────────────────────────────────────────────────
-  const state = { tab: "players", player: null, map: null };
+  const state = { tab: "players", player: null, map: null, q: "" };
 
   // ── DOM ───────────────────────────────────────────────────────────────
   const app  = document.getElementById("app");
-  const tabs = document.querySelectorAll(".tab[data-tab]");
+  const tabs = document.querySelectorAll(".tab-btn[data-tab]");
 
-  tabs.forEach(btn => btn.addEventListener("click", () => {
-    if (btn.dataset.tab === state.tab) return;
-    state.tab    = btn.dataset.tab;
-    state.player = null;
-    state.map    = null;
-    tabs.forEach(t => t.classList.toggle("active", t === btn));
+  // ── Routing ───────────────────────────────────────────────────────────
+  // Hash-based so deep links survive a refresh on GitHub Pages, which can't
+  // rewrite unknown paths to index.html.
+  //   #/players          #/players/donk
+  //   #/maps             #/maps/mirage        #/maps/mirage?q=ace
+  //   #/strategy         #/strategy/nuke
+  //   #/utility          #/utility/mirage
+  //   #/bookmarks
+  const VALID_TABS = new Set(["players", "maps", "strategy", "utility", "bookmarks"]);
+  const MAP_TABS   = new Set(["maps", "strategy", "utility"]);
+
+  function parseHash() {
+    const raw    = location.hash.replace(/^#\/?/, "");
+    const cut    = raw.indexOf("?");
+    const path   = cut === -1 ? raw : raw.slice(0, cut);
+    const params = new URLSearchParams(cut === -1 ? "" : raw.slice(cut + 1));
+
+    const [tabRaw, detailRaw] = path.split("/");
+    const tab    = VALID_TABS.has(tabRaw) ? tabRaw : "players";
+    const detail = detailRaw ? decodeURIComponent(detailRaw) : null;
+    return {
+      tab,
+      player: tab === "players"  ? detail : null,
+      map:    MAP_TABS.has(tab)  ? detail?.toLowerCase() ?? null : null,
+      q:      params.get("q") ?? "",
+    };
+  }
+
+  function hashFor(tab, detail, q) {
+    const path = detail ? `#/${tab}/${encodeURIComponent(detail)}` : `#/${tab}`;
+    return q ? `${path}?q=${encodeURIComponent(q)}` : path;
+  }
+
+  // Every navigation goes through the URL, so back/forward just work.
+  // Omitting q clears any active search, which is what a tab/card click wants.
+  function navigate(tab, detail, q) {
+    const target = hashFor(tab, detail, q);
+    if (location.hash === target) return;
+    location.hash = target;
+  }
+
+  // Typing is not history-worthy: replaceState keeps the URL shareable without
+  // pushing an entry per keystroke, and does not fire hashchange (no re-render,
+  // so the input keeps focus and caret position).
+  function syncSearchToUrl(q) {
+    state.q = q.trim();
+    const target = hashFor(state.tab, state.player ?? state.map, state.q);
+    if (location.hash !== target) history.replaceState(null, "", target);
+  }
+
+  function applyHash() {
+    Object.assign(state, parseHash());
     render();
-  }));
+  }
+
+  tabs.forEach(btn => btn.addEventListener("click", () => navigate(btn.dataset.tab, null)));
 
   // ── Theme ─────────────────────────────────────────────────────────────
   const themeBtn  = document.getElementById("toggleTheme");
   const themeIcon = document.getElementById("iconTheme");
   const setTheme  = mode => {
     document.body.className = mode;
+    document.documentElement.classList.toggle("dark", mode === "theme-dark");
     localStorage.setItem("theme", mode);
     if (themeIcon) themeIcon.innerHTML = mode.includes("dark")
       ? '<path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>'
@@ -126,9 +175,11 @@
     app.innerHTML = "";
     const { tab, player, map } = state;
 
+    tabs.forEach(t => t.classList.toggle("active", t.dataset.tab === tab));
+
     if (tab === "players") {
       if (player) {
-        appendBackBar("Players", () => { state.player = null; render(); });
+        appendBackBar("Players", () => navigate("players", null));
         appendSectionTitle(player);
         appendVideoGrid(byPlayer.get(player) || []);
       } else {
@@ -138,7 +189,7 @@
     } else if (tab === "maps") {
       if (map) {
         const meta = ALL_MAPS.find(m => m.key === map);
-        appendBackBar("Maps", () => { state.map = null; render(); });
+        appendBackBar("Maps", () => navigate("maps", null));
         appendSectionTitle(meta?.label ?? map);
         appendVideoGrid(byMapPOV.get(map) || []);
       } else {
@@ -148,7 +199,7 @@
     } else if (tab === "strategy") {
       if (map) {
         const meta = ALL_MAPS.find(m => m.key === map);
-        appendBackBar("Strategy", () => { state.map = null; render(); });
+        appendBackBar("Strategy", () => navigate("strategy", null));
         appendSectionTitle(meta?.label ?? map);
         appendVideoGrid(byMapStrategy.get(map) || []);
       } else {
@@ -158,7 +209,7 @@
     } else if (tab === "utility") {
       if (map) {
         const meta = ALL_MAPS.find(m => m.key === map);
-        appendBackBar("Utility", () => { state.map = null; render(); });
+        appendBackBar("Utility", () => navigate("utility", null));
         appendSectionTitle(meta?.label ?? map);
         appendVideoGrid(byMapUtility.get(map) || []);
       } else {
@@ -215,7 +266,7 @@
         <div class="player-name">${esc(p)}</div>
         ${team ? `<div class="player-team">${esc(team)}</div>` : ""}
         <div class="player-count">${count} video${count !== 1 ? "s" : ""}</div>`;
-      card.addEventListener("click", () => { state.player = p; render(); });
+      card.addEventListener("click", () => navigate("players", p));
       grid.appendChild(card);
     }
     app.appendChild(grid);
@@ -235,7 +286,7 @@
           <div class="map-label">${esc(m.label)}</div>
           <div class="map-count">${count} video${count !== 1 ? "s" : ""}</div>
         </div>`;
-      card.addEventListener("click", () => { state.map = m.key; render(); });
+      card.addEventListener("click", () => navigate(state.tab, m.key));
       grid.appendChild(card);
     }
     app.appendChild(grid);
@@ -276,6 +327,7 @@
     input.type         = "text";
     input.placeholder  = "Search videos…";
     input.autocomplete = "off";
+    input.value        = state.q;   // seed from ?q= so deep links restore the search
 
     searchWrap.appendChild(svg);
     searchWrap.appendChild(input);
@@ -366,12 +418,25 @@
       }
     }
 
-    input.addEventListener("input", () => { page = 0; renderGrid(); });
+    input.addEventListener("input", () => {
+      page = 0;
+      renderGrid();
+      syncSearchToUrl(input.value);
+    });
     renderGrid();
 
-    // Auto-focus the search input
-    input.focus();
+    // Auto-focus the search input. preventScroll keeps back/forward
+    // navigation from yanking the viewport down to the search bar.
+    input.focus({ preventScroll: true });
   }
 
-  render();
+  // ── Boot ──────────────────────────────────────────────────────────────
+  window.addEventListener("hashchange", applyHash);
+
+  // Normalize a missing or malformed hash so every view has a copyable URL.
+  const initial   = parseHash();
+  const canonical = hashFor(initial.tab, initial.player ?? initial.map, initial.q);
+  if (location.hash !== canonical) history.replaceState(null, "", canonical);
+
+  applyHash();
 })();

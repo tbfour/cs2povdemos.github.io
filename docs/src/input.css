@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* ── Header ─────────────────────────────────────────────────────────── */
+.site-header {
+  @apply sticky top-0 z-40 flex items-center justify-between gap-4
+         border-b border-gray-950/10 bg-white/80 px-4 py-3 backdrop-blur-sm
+         sm:px-6 lg:px-8
+         dark:border-white/10 dark:bg-gray-900/80;
+}
+.site-title {
+  @apply text-lg font-semibold tracking-tight text-gray-950 dark:text-white;
+}
+.theme-toggle-btn {
+  @apply flex h-9 w-9 items-center justify-center rounded-full text-gray-500
+         transition-colors hover:bg-gray-950/5 hover:text-gray-950
+         dark:text-gray-400 dark:hover:bg-white/10 dark:hover:text-white;
+}
+.theme-toggle-btn svg {
+  @apply h-[18px] w-[18px];
+}
+
+/* ── Tab bar ────────────────────────────────────────────────────────── */
+.site-tabbar {
+  @apply sticky top-[57px] z-30 flex gap-1 overflow-x-auto border-b
+         border-gray-950/10 bg-white/80 px-4 backdrop-blur-sm
+         sm:px-6 lg:px-8
+         dark:border-white/10 dark:bg-gray-900/80;
+}
+.tab-btn {
+  @apply relative shrink-0 px-3 py-2.5 text-sm font-medium text-gray-500
+         transition-colors hover:text-gray-950
+         dark:text-gray-400 dark:hover:text-white;
+}
+.tab-btn.active {
+  @apply text-gray-950 dark:text-white;
+}
+.tab-btn.active::after {
+  content: '';
+  @apply absolute inset-x-3 -bottom-px h-0.5 rounded-full bg-indigo-600 dark:bg-indigo-400;
+}
+
+/* ── Main container ─────────────────────────────────────────────────── */
+#app {
+  @apply px-4 pt-6 pb-12 sm:px-6 lg:px-8;
+}
+
+/* ── Card grids ─────────────────────────────────────────────────────── */
+.card-grid {
+  @apply grid gap-5 sm:gap-6;
+}
+/* Media cards get the full 3-up treatment on desktop. */
+.map-grid,
+.video-grid {
+  @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+}
+/* Player tiles hold far less content, so they stay denser than 3-up. */
+.player-grid {
+  @apply grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5;
+}

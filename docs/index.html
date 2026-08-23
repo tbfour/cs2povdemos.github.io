@@ -7,23 +7,24 @@
 
   <link rel="preconnect" href="https://rsms.me/">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="stylesheet" href="tailwind.css" />
   <link rel="stylesheet" href="theme.css" />
 </head>
 <body class="theme-dark">
 
-  <header>
-    <h1>CS2 POV Library</h1>
-    <button id="toggleTheme" title="Toggle dark / light">
+  <header class="site-header">
+    <h1 class="site-title">CS2 POV Library</h1>
+    <button id="toggleTheme" class="theme-toggle-btn" title="Toggle dark / light">
       <svg id="iconTheme" viewBox="0 0 24 24" fill="none"><path/></svg>
     </button>
   </header>
 
-  <nav class="tabbar">
-    <button class="tab active" data-tab="players">Players</button>
-    <button class="tab"        data-tab="maps">Maps</button>
-    <button class="tab"        data-tab="strategy">Strategy</button>
-    <button class="tab"        data-tab="utility">Utility</button>
-    <button class="tab"        data-tab="bookmarks">Bookmarks</button>
+  <nav class="site-tabbar">
+    <button class="tab-btn active" data-tab="players">Players</button>
+    <button class="tab-btn"        data-tab="maps">Maps</button>
+    <button class="tab-btn"        data-tab="strategy">Strategy</button>
+    <button class="tab-btn"        data-tab="utility">Utility</button>
+    <button class="tab-btn"        data-tab="bookmarks">Bookmarks</button>
   </nav>
 
   <main id="app"></main>
