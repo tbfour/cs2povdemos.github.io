@@ -3,6 +3,16 @@
   // ── Load data ────────────────────────────────────────────────────────
   const videos = await fetch("data/videos.json", { cache: "no-store" }).then(r => r.json());
 
+  // Optional image manifest — see docs/data/images.json.example. Absent or
+  // malformed is fine: cards fall back to a silhouette / the map gradient.
+  //   { "players": { "donk": "img/players/donk.jpg" },
+  //     "maps":    { "mirage": "img/maps/mirage.jpg" } }
+  const images = await fetch("data/images.json")
+    .then(r => (r.ok ? r.json() : {}))
+    .catch(() => ({}));
+  const playerImg = name => images?.players?.[name] ?? null;
+  const mapImg    = key  => images?.maps?.[key]     ?? null;
+
   const norm = v => (v == null ? "" : String(v));
   videos.forEach(v => {
     v.player    = norm(v.player);
@@ -153,6 +163,36 @@
       c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   }
 
+  const SVG_NS = "http://www.w3.org/2000/svg";
+
+  // Neutral head-and-shoulders placeholder for players with no photo.
+  function makeSilhouette() {
+    const svg = document.createElementNS(SVG_NS, "svg");
+    svg.setAttribute("viewBox", "0 0 24 24");
+    svg.setAttribute("fill", "currentColor");
+    svg.setAttribute("aria-hidden", "true");
+    svg.setAttribute("class", "silhouette");
+    const path = document.createElementNS(SVG_NS, "path");
+    path.setAttribute("d",
+      "M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5Z");
+    svg.appendChild(path);
+    return svg;
+  }
+
+  // Lazy <img> that swaps itself out for `makeFallback()` if the file 404s,
+  // so a partial manifest degrades per-card instead of showing broken images.
+  function makeImageOrFallback(src, className, makeFallback) {
+    if (!src) return makeFallback();
+    const img = document.createElement("img");
+    img.className = className;
+    img.src       = src;
+    img.alt       = "";
+    img.loading   = "lazy";
+    img.decoding  = "async";
+    img.addEventListener("error", () => img.replaceWith(makeFallback()), { once: true });
+    return img;
+  }
+
   function makeBookmarkIcon(filled) {
     const ns   = "http://www.w3.org/2000/svg";
     const svg  = document.createElementNS(ns, "svg");
@@ -262,10 +302,12 @@
       const card  = document.createElement("div");
       card.className = "player-card";
       card.innerHTML = `
-        <div class="player-avatar">${esc(p.slice(0, 2).toUpperCase())}</div>
+        <div class="player-avatar"></div>
         <div class="player-name">${esc(p)}</div>
         ${team ? `<div class="player-team">${esc(team)}</div>` : ""}
         <div class="player-count">${count} video${count !== 1 ? "s" : ""}</div>`;
+      card.querySelector(".player-avatar")
+          .appendChild(makeImageOrFallback(playerImg(p), "avatar-img", makeSilhouette));
       card.addEventListener("click", () => navigate("players", p));
       grid.appendChild(card);
     }
@@ -280,12 +322,16 @@
       const count = mapIndex.get(m.key)?.length ?? 0;
       const card  = document.createElement("div");
       card.className = "map-card";
+      // Gradient stays as the backdrop, so a missing image needs no fallback
+      // element — the card just looks the way it does today.
       card.style.background = m.bg;
       card.innerHTML = `
         <div class="map-card-inner">
           <div class="map-label">${esc(m.label)}</div>
           <div class="map-count">${count} video${count !== 1 ? "s" : ""}</div>
         </div>`;
+      const art = mapImg(m.key);
+      if (art) card.prepend(makeImageOrFallback(art, "map-card-img", () => document.createComment("")));
       card.addEventListener("click", () => navigate(state.tab, m.key));
       grid.appendChild(card);
     }

@@ -34,10 +34,18 @@ jobs:
       - name: Run scraper
         run: python src/fetch_videos.py
 
-      - name: Commit & push updated videos.json
+      # Reads the freshly written videos.json, so it must follow the scraper.
+      # Images already on disk are skipped, so this only fetches players new to
+      # the catalogue. Non-fatal: a Liquipedia outage should not hold back the
+      # videos.json refresh, and missing images fall back to silhouettes.
+      - name: Fetch player & map images
+        continue-on-error: true
+        run: python src/fetch_images.py
+
+      - name: Commit & push updated catalogue
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: docs/data/videos.json
+          file_pattern: docs/data/videos.json docs/data/images.json docs/img
           branch: main
           commit_message: "bot: refresh catalogue ${{ github.run_number }} [skip ci]"
           commit_user_name: tbfour-cs2povdemo-bot

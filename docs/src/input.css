@@ -50,6 +50,17 @@
   @apply px-4 pt-6 pb-12 sm:px-6 lg:px-8;
 }
 
+/* ── Footer ─────────────────────────────────────────────────────────── */
+.site-footer {
+  @apply border-t border-gray-950/10 px-4 py-6 text-center text-xs
+         text-gray-500 sm:px-6 lg:px-8
+         dark:border-white/10 dark:text-gray-400;
+}
+.site-footer a {
+  @apply font-medium text-gray-700 underline underline-offset-2
+         hover:text-gray-950 dark:text-gray-300 dark:hover:text-white;
+}
+
 /* ── Card grids ─────────────────────────────────────────────────────── */
 .card-grid {
   @apply grid gap-5 sm:gap-6;
