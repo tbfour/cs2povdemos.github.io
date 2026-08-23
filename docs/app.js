@@ -312,11 +312,26 @@
           const card = document.createElement("div");
           card.className = "video-card";
           card.innerHTML = `
-            <iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}"
-                    allowfullscreen loading="lazy"
-                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <div class="video-thumb">
+              <img src="https://i.ytimg.com/vi/${encodeURIComponent(v.id)}/mqdefault.jpg"
+                   width="320" height="180" loading="lazy" decoding="async" alt="">
+              <button class="play-btn" type="button" aria-label="Play video">
+                <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="#fff"/></svg>
+              </button>
+            </div>
             <div class="card-title">${esc(v.title)}</div>
             ${info ? `<div class="card-info">${info}</div>` : ""}`;
+
+          // Load the real YouTube iframe only when the user clicks play
+          const thumb = card.querySelector(".video-thumb");
+          thumb.addEventListener("click", () => {
+            const iframe = document.createElement("iframe");
+            iframe.src = `https://www.youtube.com/embed/${encodeURIComponent(v.id)}?autoplay=1`;
+            iframe.allow = "autoplay; fullscreen";
+            iframe.allowFullscreen = true;
+            iframe.referrerPolicy = "strict-origin-when-cross-origin";
+            thumb.replaceWith(iframe);
+          }, { once: true });
 
           // Bookmark button — DOM-built so it doesn't go through HTML parsing
           const bmBtn = document.createElement("button");
