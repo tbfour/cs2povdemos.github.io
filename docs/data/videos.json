@@ -1,11 +1,182 @@
 [
   {
+    "id": "xyVrLEiyIHQ",
+    "title": "\ud83d\udd25kyousuke (26-17) 1.41 Rating | avg 2.9K ELO | Ancient POV | Aug 24, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-08-25"
+  },
+  {
+    "id": "59V0VmwRJsM",
+    "title": "\ud83d\udd25donk (26-19) | avg 3.3K ELO | Dust2 POV | Aug 24, 2026",
+    "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-08-25"
+  },
+  {
+    "id": "PIiOOqEnDYQ",
+    "title": "NiKo throws Dust2 utility for Mid Rush on CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-08-25"
+  },
+  {
+    "id": "tXZ-2ToRMtg",
+    "title": "Easy CS2 Mirage Window Smoke Lineup 2026",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-08-25"
+  },
+  {
+    "id": "aQKGnhsdV3w",
+    "title": "Perfect Ancient flash to WIN cave in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-08-25"
+  },
+  {
+    "id": "_nbIHyk-j4A",
+    "title": "\ud83d\udd25s1zzi (50-25) 1.60 Rating | avg 3.3K ELO | Mirage POV | Aug 24, 2026",
+    "channel": "lim",
+    "player": "s1zzi",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "1qnVL326bRc",
+    "title": "\ud83d\udd25s1mple (21-9) SoloQ | avg 3.2K ELO | Mirage POV | Aug 24, 2026",
+    "channel": "lim",
+    "player": "s1mple",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "nkPNxHeuJIE",
+    "title": "\ud83d\udd25kyousuke (28-9) vs MaiL09/Magnojez/ baz 1.98 Rating | avg 3.4K ELO | Anubis POV | Aug 23, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "anubis",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "_pQgDv9uxcY",
+    "title": "\ud83d\udd25Jimpphat (29-14) 1.92 Rating | avg 3.2K ELO | Mirage POV | Aug 22, 2026",
+    "channel": "lim",
+    "player": "jimpphat",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "zq5Cp0Uf55Y",
+    "title": "\ud83d\udd25TeSeS (24-13) w/kyousuke | avg 3.5K ELO | Mirage POV | Aug 23, 2026",
+    "channel": "lim",
+    "player": "teses",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "w1nj3ZoqUFw",
+    "title": "\ud83d\udd25cobrazera (41-20) 1.83 Rating | avg 2.4K ELO | Cache POV | Aug 20, 2026",
+    "channel": "lim",
+    "player": "cobrazera",
+    "team": null,
+    "map": null,
+    "published": "2026-08-24"
+  },
+  {
     "id": "Ve84goMUF4w",
     "title": "\ud83d\udd25jks (38-18) 1.45 Rating | avg 2.0K ELO | Cache POV | Aug 23, 2026",
     "channel": "lim",
     "player": "jks",
     "team": null,
     "map": null,
+    "published": "2026-08-24"
+  },
+  {
+    "id": "Nt_p7Hx9aZw",
+    "title": "NIKO DUST2 MID TO B SMOKE FOR CS2 - 2026",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "ei_ErlvxOLE",
+    "title": "ESSENTIAL Ancient smokes for B site in CS2 2026",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "Wkv6JV4nbwo",
+    "title": "donk POV vs Vitality on Mirage: 20-5 at HALFTIME \ud83e\udd2f",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "8Wn_JNAD9-o",
+    "title": "NiKo throws XBOX Smoke on Dust2 in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "KEMqi1rAXx4",
+    "title": "M80 uses this Mirage tactic to isolate duels in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "00iNhjDB3sc",
+    "title": "BOOMBL4 INSANE NUKE HEAVEN MOLOTOV LINEUP",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "IlWLJJg7JmQ",
+    "title": "Essential CS2 Mirage Smokes for A Site 2026",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-08-24"
+  },
+  {
+    "id": "N1REHKGG3Mg",
+    "title": "200 IQ Dust2 molotov to push b tunnels in cs2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
     "published": "2026-08-24"
   },
   {
@@ -37,9 +208,9 @@
   },
   {
     "id": "w77RAfddA4Y",
-    "title": "\ud83d\udd25s1mplecsgod (27-13) 1.62 Rating | avg 3.2K ELO | Cache POV | Aug 22, 2026",
+    "title": "\ud83d\udd25s1mple (27-13) 1.62 Rating | avg 3.2K ELO | Cache POV | Aug 22, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "s1mple",
     "team": null,
     "map": null,
     "published": "2026-08-23"
@@ -507,7 +678,7 @@
     "id": "KU-1YBER_Tk",
     "title": "\ud83d\udd25s1zzi (41-18) | avg 3.1K ELO | Mirage POV | Aug 18, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "s1zzi",
     "team": null,
     "map": "mirage",
     "published": "2026-08-19"
@@ -2460,7 +2631,7 @@
     "id": "-1zT4qe4_O8",
     "title": "\ud83d\udd25s1zzi (25-11) 1.73 Rating | avg 2.8K ELO | Dust2 POV | Aug 2, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "s1zzi",
     "team": null,
     "map": "dust2",
     "published": "2026-08-03"
@@ -4071,7 +4242,7 @@
     "id": "JrRQeWv5bAc",
     "title": "\ud83d\udd25senzu (24-12) 1.38 Rating | avg 3.5K ELO | Ancient POV | Jul 20, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "senzu",
     "team": null,
     "map": "ancient",
     "published": "2026-07-21"
@@ -7365,7 +7536,7 @@
     "id": "XKhgiRM2ze0",
     "title": "\ud83d\udd25s1zzi (50-24) 1.7 Rating | avg 3.3K ELO | Mirage POV | Jun 24, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "s1zzi",
     "team": null,
     "map": "mirage",
     "published": "2026-06-25"
@@ -7635,7 +7806,7 @@
     "id": "yPHjLk5cWDk",
     "title": "\ud83d\udd25s1zzi (21-9) 1.57 Rating | avg 3.2K ELO | Anubis POV | Jun 22, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "s1zzi",
     "team": null,
     "map": "anubis",
     "published": "2026-06-23"
@@ -7743,7 +7914,7 @@
     "id": "hm4f50cjt4M",
     "title": "\ud83d\udd25s1zzi (22-5) 2 Rating | avg 3.5K ELO | Mirage POV | Jun 22, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "s1zzi",
     "team": null,
     "map": "mirage",
     "published": "2026-06-22"
@@ -10839,7 +11010,7 @@
     "id": "PJLBvRxxAqo",
     "title": "s1zzi (34-7) Rating 2.12 vs f0rest/olofmeister Anubis POV | May 28, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "s1zzi",
     "team": null,
     "map": "anubis",
     "published": "2026-05-29"
@@ -12216,7 +12387,7 @@
     "id": "fcCI1uW4QDg",
     "title": "s1zzi SoloQ vs s1mple (32-8) FACEIT GamePlay Mirage POV | May 12, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "s1zzi",
     "team": null,
     "map": "mirage",
     "published": "2026-05-14"
@@ -13701,7 +13872,7 @@
     "id": "zRcjaroTE9k",
     "title": "s1zzi (32-17) FACEIT GamePlay Dust2 POV | May 1, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "s1zzi",
     "team": null,
     "map": "dust2",
     "published": "2026-05-02"
@@ -14853,7 +15024,7 @@
     "id": "8PcupjowVuk",
     "title": "s1zzi (36-22) FACEIT GamePlay (Mirage) POV | Seaon 8 | Apr 23, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "s1zzi",
     "team": null,
     "map": "mirage",
     "published": "2026-04-24"
@@ -17364,7 +17535,7 @@
     "id": "qvKNvGT4xcg",
     "title": "Senzu (27-13) rating: 2.0 (Ancient) | SoloQ avg 3750 Elo | Apr 4, 2026 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": null,
+    "player": "senzu",
     "team": null,
     "map": "ancient",
     "published": "2026-04-05"
@@ -19278,6 +19449,15 @@
     "published": "2026-03-20"
   },
   {
+    "id": "ObrlZuHsmCo",
+    "title": "CS2 POV Demo Falcons NiKo (21/12) vs NRG (de_ancient) @ BLAST Open Rotterdam 2026",
+    "channel": "pov_highlights",
+    "player": "niko",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-03-19"
+  },
+  {
     "id": "fVmJqoDN0Jw",
     "title": "DONK and MAGIXX Destroy PROs in FACEIT! donk POV with COMMs (Dust 2)",
     "channel": "nebula",
@@ -19554,6 +19734,15 @@
     "player": "zywoo",
     "team": null,
     "map": "ancient",
+    "published": "2026-03-16"
+  },
+  {
+    "id": "LYbrOZIQhw8",
+    "title": "CS2 POV Demo NaVi w0nderful (21/9) vs Aurora (de_mirage) @ ESL Pro League Season 23 Finals",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "mirage",
     "published": "2026-03-16"
   },
   {
@@ -19978,6 +20167,15 @@
     "team": null,
     "map": "inferno",
     "published": "2026-03-13"
+  },
+  {
+    "id": "T51XwXWaEYY",
+    "title": "CS2 POV Demo FURIA molodoy (18/7) vs paiN (de_inferno) @ ESL Pro League Season 23 Stage 2",
+    "channel": "pov_highlights",
+    "player": "molodoy",
+    "team": null,
+    "map": "inferno",
+    "published": "2026-03-12"
   },
   {
     "id": "suAGXBMst_I",
@@ -20490,6 +20688,15 @@
     "player": "electronic",
     "team": null,
     "map": "inferno",
+    "published": "2026-03-08"
+  },
+  {
+    "id": "He9ERNmoQPE",
+    "title": "CS2 POV Demo NaVi b1t (23/10) vs G2 (de_dust2) @ ESL Pro League Season 23 Stage 2",
+    "channel": "pov_highlights",
+    "player": "b1t",
+    "team": null,
+    "map": "dust2",
     "published": "2026-03-08"
   },
   {
@@ -21204,6 +21411,15 @@
     "published": "2026-03-02"
   },
   {
+    "id": "588s7oLDTKY",
+    "title": "CS2 POV Demo PARIVISION Jame (21/9) vs SemperFi (de_mirage) @ ESL Pro League Season 23 Stage 1",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-03-02"
+  },
+  {
     "id": "REpCMldJzkc",
     "title": "THE BEST MIRAGE NADES IN CS2",
     "channel": "utility",
@@ -21564,6 +21780,15 @@
     "published": "2026-02-27"
   },
   {
+    "id": "cKcwwDbi8Qg",
+    "title": "CS2 POV Demo Vitality ZywOo (25/10) vs Aurora (de_overpass) @ PGL Cluj-Napoca 2026",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "overpass",
+    "published": "2026-02-27"
+  },
+  {
     "id": "_EeaLYUU9Ec",
     "title": "flameZ Nuke Jump Spot & Insane Flash in CS2",
     "channel": "utility",
@@ -21834,6 +22059,15 @@
     "published": "2026-02-25"
   },
   {
+    "id": "5uMcYN1fwpU",
+    "title": "CS2 POV Demo PARIVISION zweih (22/15) vs MOUZ (de_inferno) @ PGL Cluj-Napoca 2026",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-02-25"
+  },
+  {
     "id": "Bu_mD7e81bE",
     "title": "DONK Makes 4000 Elo FACEIT Look Too Easy! donk POV with COMMs (Dust 2)",
     "channel": "nebula",
@@ -22092,6 +22326,15 @@
     "player": "donk",
     "team": null,
     "map": "ancient",
+    "published": "2026-02-23"
+  },
+  {
+    "id": "-_nCtzsrbk0",
+    "title": "CS2 POV Demo Vitality Ropz (16/7) vs PARIVISION (de_dust2) @ PGL Cluj-Napoca 2026",
+    "channel": "pov_highlights",
+    "player": "ropz",
+    "team": null,
+    "map": "dust2",
     "published": "2026-02-23"
   },
   {
@@ -22896,6 +23139,15 @@
     "published": "2026-02-17"
   },
   {
+    "id": "3DmTg7BNGJ4",
+    "title": "CS2 POV Demo Falcons kyosuke (23/9) vs FURIA (de_inferno) @ PGL Cluj-Napoca 2026",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-02-17"
+  },
+  {
     "id": "fiIZqxXjTNI",
     "title": "Easy Mirage Molotov You NEED to THROW",
     "channel": "utility",
@@ -23056,6 +23308,15 @@
     "team": null,
     "map": "dust2",
     "published": "2026-02-16"
+  },
+  {
+    "id": "Z1kjRRg1R7s",
+    "title": "CS2 POV Demo Aurora XANTARES (33/17) vs FUT (de_anubis) @ PGL Cluj-Napoca 2026",
+    "channel": "pov_highlights",
+    "player": "xantares",
+    "team": null,
+    "map": "anubis",
+    "published": "2026-02-15"
   },
   {
     "id": "c3hXxYkxhH8",
@@ -23499,6 +23760,15 @@
     "published": "2026-02-11"
   },
   {
+    "id": "YwiDLqV_KMY",
+    "title": "CS2 POV Demo FURIA molodoy (24/10) vs Spirit (de_nuke) @ IEM Krak\u00f3w 2026",
+    "channel": "pov_highlights",
+    "player": "molodoy",
+    "team": null,
+    "map": "nuke",
+    "published": "2026-02-11"
+  },
+  {
     "id": "JzY8laNtzNw",
     "title": "How Pros Jump Spot Long on Overpass in CS2",
     "channel": "utility",
@@ -23704,6 +23974,15 @@
     "team": null,
     "map": "overpass",
     "published": "2026-02-10"
+  },
+  {
+    "id": "qUtLyy30DsU",
+    "title": "CS2 POV Demo Vitality ZywOo (25/12) vs FURIA (de_overpass) @ IEM Krak\u00f3w 2026",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "overpass",
+    "published": "2026-02-09"
   },
   {
     "id": "cZqNDeCt4ww",
@@ -24363,6 +24642,15 @@
     "published": "2026-02-04"
   },
   {
+    "id": "MRMf5CcGaaw",
+    "title": "CS2 POV Demo FURIA KSCERATO (26/13) vs Astralis (de_mirage) @ IEM Krak\u00f3w 2026",
+    "channel": "pov_highlights",
+    "player": "kscerato",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-02-04"
+  },
+  {
     "id": "dJqt-SaDdos",
     "title": "nitr0 Mirage B Nades to Win Pistol Rounds",
     "channel": "utility",
@@ -24637,6 +24925,15 @@
     "title": "kyousuke (34-22) Rating: 1.61 avg 3650 Elo (Dust2) | Feb 1, 2026 #cs2 #kyousuke",
     "channel": "lim",
     "player": "kyousuke",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-02-02"
+  },
+  {
+    "id": "j9nZBD6HyTE",
+    "title": "CS2 POV Demo Spirit donk (28/17) vs Astralis (de_dust2) @ IEM Krak\u00f3w 2026",
+    "channel": "pov_highlights",
+    "player": "donk",
     "team": null,
     "map": "dust2",
     "published": "2026-02-02"
@@ -25491,7 +25788,7 @@
     "id": "wBahkzb8bo8",
     "title": "mezii (28-6) w/apex ZywOo (Dust2) | Jan 27, 2026 #cs2 #zywoo",
     "channel": "lim",
-    "player": null,
+    "player": "mezii",
     "team": null,
     "map": "dust2",
     "published": "2026-01-28"
@@ -25546,6 +25843,15 @@
     "title": "ZywOo (14-6) 5 stack (mirage) | Jan 27, 2026 #cs2 #zywoo",
     "channel": "lim",
     "player": "zywoo",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-01-28"
+  },
+  {
+    "id": "h3ShN2L1x2A",
+    "title": "CS2 POV Demo PARIVISION nota (23/11) vs Falcons (de_mirage) @ BLAST Bounty 2026 Season 1 Finals",
+    "channel": "pov_highlights",
+    "player": null,
     "team": null,
     "map": "mirage",
     "published": "2026-01-28"
@@ -25674,6 +25980,15 @@
     "player": "m0nesy",
     "team": null,
     "map": "ancient",
+    "published": "2026-01-27"
+  },
+  {
+    "id": "bscOoXyZP4k",
+    "title": "CS2 POV Demo Vitality ZywOo (25/9) vs EYEBALLERS (de_overpass) @ BLAST Bounty 2026 Season 1",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "overpass",
     "published": "2026-01-27"
   },
   {
@@ -26088,6 +26403,15 @@
     "player": "ropz",
     "team": null,
     "map": "inferno",
+    "published": "2026-01-24"
+  },
+  {
+    "id": "RIkpXloWqaI",
+    "title": "CS2 POV Demo Falcons m0NESY (27/19) vs Liquid (de_nuke) @ BLAST Bounty 2026 Season 1 Finals",
+    "channel": "pov_highlights",
+    "player": "m0nesy",
+    "team": null,
+    "map": "nuke",
     "published": "2026-01-24"
   },
   {
@@ -26685,6 +27009,15 @@
     "published": "2026-01-20"
   },
   {
+    "id": "tHfAcYQqO3M",
+    "title": "CS2 POV Demo FURIA molodoy (24/11) vs FUT (de_anubis) @ BLAST Bounty 2026 Season 1",
+    "channel": "pov_highlights",
+    "player": "molodoy",
+    "team": null,
+    "map": "anubis",
+    "published": "2026-01-20"
+  },
+  {
     "id": "IB08lBpWbSM",
     "title": "Twistzz Genius Mirage Gap Spot",
     "channel": "utility",
@@ -27225,6 +27558,15 @@
     "published": "2026-01-17"
   },
   {
+    "id": "m0HlLwVTn1E",
+    "title": "CS2 POV Demo Spirit donk (28/16) vs SINNERS (de_mirage) @ BLAST Bounty 2026 Season 1",
+    "channel": "pov_highlights",
+    "player": "donk",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-01-17"
+  },
+  {
     "id": "jwQ7Ywn8GME",
     "title": "PRO DUST 2 MOLOTOV TO RETAKE B",
     "channel": "utility",
@@ -27564,6 +27906,15 @@
     "player": "device",
     "team": null,
     "map": "nuke",
+    "published": "2026-01-15"
+  },
+  {
+    "id": "mKgfz_xFfOw",
+    "title": "CS2 POV Demo Aurora XANTARES (22/12) vs HOTU (de_mirage) @ BLAST Bounty 2026 Season 1",
+    "channel": "pov_highlights",
+    "player": "xantares",
+    "team": null,
+    "map": "mirage",
     "published": "2026-01-15"
   },
   {
@@ -28203,6 +28554,15 @@
     "player": "niko",
     "team": null,
     "map": "mirage",
+    "published": "2026-01-10"
+  },
+  {
+    "id": "aKGchrrWZNQ",
+    "title": "CS2 POV Demo Vitality ZywOo (21/10) vs The MongolZ (de_dust2) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "dust2",
     "published": "2026-01-10"
   },
   {
@@ -29061,6 +29421,15 @@
     "published": "2026-01-05"
   },
   {
+    "id": "EXCCFWz3tmY",
+    "title": "CS2 POV Demo FURIA KSCERATO (18/6) vs G2 (de_inferno) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": "kscerato",
+    "team": null,
+    "map": "inferno",
+    "published": "2026-01-05"
+  },
+  {
     "id": "H3KmQ5jxVPE",
     "title": "apEX Genius Mirage Play to Counter Mid Control",
     "channel": "utility",
@@ -29673,6 +30042,15 @@
     "published": "2026-01-01"
   },
   {
+    "id": "XEHoTRj1P_4",
+    "title": "CS2 POV Demo Vitality ropz (31/20) vs Spirit (de_mirage) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": "ropz",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-01-01"
+  },
+  {
     "id": "HOjoDa75_wg",
     "title": "SNAPPI OVERPASS POSITION THAT IS INVISIBLE",
     "channel": "utility",
@@ -29986,6 +30364,15 @@
     "team": null,
     "map": "dust2",
     "published": "2025-12-30"
+  },
+  {
+    "id": "jcfgqxIto8c",
+    "title": "CS2 POV Demo Spirit donk (30/16) vs Falcons (de_dust2) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": "donk",
+    "team": null,
+    "map": "dust2",
+    "published": "2025-12-29"
   },
   {
     "id": "RNMufGGBIRY",
@@ -30432,7 +30819,7 @@
     "id": "fCc7lTdvGQ4",
     "title": "Senzu (29-11) rating: 2.08 (mirage) | FACEIT EU avg 2600 Elo | Dec 25, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": null,
+    "player": "senzu",
     "team": null,
     "map": "mirage",
     "published": "2025-12-25"
@@ -30604,6 +30991,15 @@
     "title": "lan (38-21) w/ChildKing (Dust2) | 5E Pro League | Dec 22, 2025 #cs2 #pov",
     "channel": "lim",
     "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2025-12-24"
+  },
+  {
+    "id": "dn82hmTD_ps",
+    "title": "CS2 POV Demo Vitality ZywOo (17/8) vs FaZe (de_dust2) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": "zywoo",
     "team": null,
     "map": "dust2",
     "published": "2025-12-24"
@@ -30885,6 +31281,15 @@
     "player": "donk",
     "team": null,
     "map": "dust2",
+    "published": "2025-12-22"
+  },
+  {
+    "id": "CI3rwl8x8mI",
+    "title": "CS2 POV Demo FaZe Twistzz (20/10) vs NaVi (de_inferno) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": "twistzz",
+    "team": null,
+    "map": "inferno",
     "published": "2025-12-22"
   },
   {
@@ -31527,6 +31932,15 @@
     "published": "2025-12-17"
   },
   {
+    "id": "ozXhrgwhCYg",
+    "title": "CS2 POV Demo FURIA molodoy (19/6) vs NaVi (de_nuke) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": "molodoy",
+    "team": null,
+    "map": "nuke",
+    "published": "2025-12-17"
+  },
+  {
     "id": "S9WPxIBW_P8",
     "title": "PAIN DUST 2 MID TO B SMOKE BOOST",
     "channel": "utility",
@@ -31635,6 +32049,15 @@
     "published": "2025-12-17"
   },
   {
+    "id": "7vN0tVjRgbc",
+    "title": "CS2 POV Demo Vitality Ropz (22/7) vs FaZe (de_overpass) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": "ropz",
+    "team": null,
+    "map": "overpass",
+    "published": "2025-12-16"
+  },
+  {
     "id": "lZpwyXX5D6A",
     "title": "m0NESY Ancient Mid Donut Smoke & Flashes",
     "channel": "utility",
@@ -31701,7 +32124,7 @@
     "id": "3evJzRlDE4w",
     "title": "mezii (23-8) Vitality vs FaZe (Inferno) | StarLadder Budapest Major 2025 #cs2 #mezii",
     "channel": "lim",
-    "player": null,
+    "player": "mezii",
     "team": null,
     "map": "inferno",
     "published": "2025-12-15"
@@ -31947,6 +32370,15 @@
     "player": "frozen",
     "team": null,
     "map": "inferno",
+    "published": "2025-12-13"
+  },
+  {
+    "id": "ixUUEGfrqwk",
+    "title": "CS2 POV Demo Vitality ZywOo (25/8) vs The MongolZ (de_mirage) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "mirage",
     "published": "2025-12-13"
   },
   {
@@ -32280,6 +32712,15 @@
     "player": "device",
     "team": null,
     "map": "dust2",
+    "published": "2025-12-10"
+  },
+  {
+    "id": "ZOk49ywdkps",
+    "title": "CS2 POV Demo Falcons m0NESY (21/4) vs G2 (de_inferno) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": "m0nesy",
+    "team": null,
+    "map": "inferno",
     "published": "2025-12-10"
   },
   {
@@ -32799,7 +33240,7 @@
     "id": "UR4nK6rkfDg",
     "title": "mezii (20-11) Vitality vs NAVI (Inferno) | StarLadder Budapest Major 2025 #cs2 #mezii",
     "channel": "lim",
-    "player": null,
+    "player": "mezii",
     "team": null,
     "map": "inferno",
     "published": "2025-12-07"
@@ -32820,6 +33261,15 @@
     "player": "jcobbb",
     "team": null,
     "map": "inferno",
+    "published": "2025-12-07"
+  },
+  {
+    "id": "BvZrhr7nrmY",
+    "title": "CS2 POV Demo Falcons kyosuke (21/9) vs Imperial (de_mirage) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "mirage",
     "published": "2025-12-07"
   },
   {
@@ -33069,6 +33519,15 @@
     "id": "IF1UWpOajdI",
     "title": "donk (30-11) Spirit vs Liquid (Train) | StarLadder Budapest Major 2025 #cs2 #donk",
     "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": null,
+    "published": "2025-12-05"
+  },
+  {
+    "id": "0XByx6fl4oE",
+    "title": "CS2 POV Demo Spirit donk (30/11) vs Liquid (de_train) @ StarLadder Budapest Major 2025",
+    "channel": "pov_highlights",
     "player": "donk",
     "team": null,
     "map": null,
@@ -33534,6 +33993,15 @@
     "published": "2025-12-01"
   },
   {
+    "id": "wb1pq_1dZYs",
+    "title": "CS2 POV Demo FaZe jcobb (24/14) vs Aurora (de_dust2) @ StarLadder Budapest Major 2025 Stage 2",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2025-12-01"
+  },
+  {
     "id": "dlxVi2uxYlg",
     "title": "SOLO ANCIENT A SMOKES IN CS2",
     "channel": "utility",
@@ -33906,7 +34374,7 @@
     "id": "uiTApJIY-ME",
     "title": "Senzu (20-11) w/mzinho (mirage) | FACEIT EU avg 3028 Elo | Nov 25, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": null,
+    "player": "senzu",
     "team": null,
     "map": "mirage",
     "published": "2025-11-27"
@@ -33945,6 +34413,15 @@
     "player": null,
     "team": null,
     "map": "overpass",
+    "published": "2025-11-27"
+  },
+  {
+    "id": "X1cm-2hE4l0",
+    "title": "CS2 POV Demo Fluxo arT (20/9) vs Fnatic (de_train) @ StarLadder Budapest Major 2025 Stage 1",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": null,
     "published": "2025-11-27"
   },
   {
@@ -34380,6 +34857,15 @@
     "published": "2025-11-23"
   },
   {
+    "id": "qv4gYihS5VQ",
+    "title": "CS2 POV Demo FURIA YEKINDAR (27/13) vs Falcons (de_nuke) @ BLAST Rivals 2025 Season 2",
+    "channel": "pov_highlights",
+    "player": "yekindar",
+    "team": null,
+    "map": "nuke",
+    "published": "2025-11-23"
+  },
+  {
     "id": "KI2zkF6MdVw",
     "title": "Techno4k\u2019s Fast Dust2 B Door Smoke for Rush B",
     "channel": "utility",
@@ -34785,6 +35271,15 @@
     "published": "2025-11-19"
   },
   {
+    "id": "Q5c1Pzzy56o",
+    "title": "CS2 POV Demo Falcons m0NESY (25/12) vs Vitality (de_inferno) @ BLAST Rivals 2025 Season 2",
+    "channel": "pov_highlights",
+    "player": "m0nesy",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-11-19"
+  },
+  {
     "id": "SdIudjO0iUA",
     "title": "Hext\u2019s Banana Control Nades Thrown From Coffin on Inferno",
     "channel": "utility",
@@ -35187,6 +35682,15 @@
     "player": "kyousuke",
     "team": null,
     "map": "dust2",
+    "published": "2025-11-15"
+  },
+  {
+    "id": "DhWDV06mYCM",
+    "title": "CS2 POV Demo Vitality ZywOo (24/13) vs Spirit (de_mirage) @ BLAST Rivals 2025 Season 2",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "mirage",
     "published": "2025-11-15"
   },
   {
@@ -35703,6 +36207,15 @@
     "published": "2025-11-11"
   },
   {
+    "id": "BEbchd6FxSU",
+    "title": "CS2 POV Demo FURIA molodoy (23/14) vs Vitality (de_inferno) @ IEM Chengdu 2025",
+    "channel": "pov_highlights",
+    "player": "molodoy",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-11-11"
+  },
+  {
     "id": "He1EyXXp1YI",
     "title": "Brollan INSANE Overpass Mid Nades Near Spawn in CS2",
     "channel": "utility",
@@ -36150,6 +36663,15 @@
     "player": "molodoy",
     "team": null,
     "map": "overpass",
+    "published": "2025-11-08"
+  },
+  {
+    "id": "o2I3c667hfA",
+    "title": "CS2 POV Demo FURIA KSCERATO (21/8) vs The MongolZ (de_mirage) @ IEM Chengdu 2025",
+    "channel": "pov_highlights",
+    "player": "kscerato",
+    "team": null,
+    "map": "mirage",
     "published": "2025-11-08"
   },
   {
@@ -36684,6 +37206,15 @@
     "published": "2025-11-04"
   },
   {
+    "id": "e_kwkDuSQ4E",
+    "title": "CS2 POV Demo Aurora XANTARES (24/15) vs Legacy (de_dust2) @ PGL Masters Bucharest 2025",
+    "channel": "pov_highlights",
+    "player": "xantares",
+    "team": null,
+    "map": "dust2",
+    "published": "2025-11-04"
+  },
+  {
     "id": "VzukMFTTaA4",
     "title": "headtr1ck Ancient B Door Smoke From CT Spawn in CS2",
     "channel": "utility",
@@ -37170,6 +37701,15 @@
     "published": "2025-10-31"
   },
   {
+    "id": "0vx4nQYDJEE",
+    "title": "CS2 POV Demo Fnatic blameF (21/9) vs MIBR (de_inferno) @ PGL Masters Bucharest 2025",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2025-10-31"
+  },
+  {
     "id": "i3Hm7qhm4Ks",
     "title": "PRO Position To Hold Lower Site on Nuke \ud83d\udcaa (CS2)",
     "channel": "utility",
@@ -37617,6 +38157,15 @@
     "player": "rain",
     "team": null,
     "map": "ancient",
+    "published": "2025-10-27"
+  },
+  {
+    "id": "rPVcmsaUcLo",
+    "title": "CS2 POV Demo The MongolZ Senzu (30/15) vs Aurora (de_mirage) @ Thunderpick World Championship 2025",
+    "channel": "pov_highlights",
+    "player": "senzu",
+    "team": null,
+    "map": "mirage",
     "published": "2025-10-27"
   },
   {
@@ -38070,6 +38619,15 @@
     "published": "2025-10-22"
   },
   {
+    "id": "f2nmStf-Rms",
+    "title": "CS2 POV Demo BC.Game S1mple (37/20) vs NOVAQ (de_mirage)",
+    "channel": "pov_highlights",
+    "player": "s1mple",
+    "team": null,
+    "map": "mirage",
+    "published": "2025-10-22"
+  },
+  {
     "id": "0LnVRBxi4p0",
     "title": "How NaVi iM Breaks the Window Before Smokes Pop on Mirage",
     "channel": "utility",
@@ -38319,6 +38877,15 @@
     "player": "jks",
     "team": null,
     "map": "dust2",
+    "published": "2025-10-20"
+  },
+  {
+    "id": "eTt0OZMx2Fg",
+    "title": "CS2 POV Demo FURIA KSCERATO (20/10) vs Aurora (de_overpass) @ Thunderpick World Championship 2025",
+    "channel": "pov_highlights",
+    "player": "kscerato",
+    "team": null,
+    "map": "overpass",
     "published": "2025-10-20"
   },
   {
@@ -38583,6 +39150,15 @@
     "published": "2025-10-18"
   },
   {
+    "id": "MvrLm-gF6S8",
+    "title": "CS2 POV Demo FURIA molodoy (22/13) vs The MongolZ (de_mirage) @ Thunderpick World Championship 2025",
+    "channel": "pov_highlights",
+    "player": "molodoy",
+    "team": null,
+    "map": "mirage",
+    "published": "2025-10-17"
+  },
+  {
     "id": "KHH1mXq32Ew",
     "title": "This Mirage A Smoke Combo Is 200 IQ \ud83d\udca3",
     "channel": "utility",
@@ -38742,6 +39318,15 @@
     "player": "nocries",
     "team": null,
     "map": "ancient",
+    "published": "2025-10-15"
+  },
+  {
+    "id": "i2XhiWbDeNI",
+    "title": "CS2 POV Demo Vitality mezii (19/10) vs Falcons (de_dust2) @ ESL Pro League Season 22",
+    "channel": "pov_highlights",
+    "player": "mezii",
+    "team": null,
+    "map": "dust2",
     "published": "2025-10-15"
   },
   {
@@ -38937,7 +39522,7 @@
     "id": "YVX1uDWx6js",
     "title": "mezii (19-10) Vitality vs Falcons (Dust2) | ESL Pro League Season 22 #cs2 #mezii",
     "channel": "lim",
-    "player": null,
+    "player": "mezii",
     "team": null,
     "map": "dust2",
     "published": "2025-10-13"
@@ -39129,6 +39714,15 @@
     "player": "niko",
     "team": null,
     "map": "inferno",
+    "published": "2025-10-12"
+  },
+  {
+    "id": "G8ysIqNTNDI",
+    "title": "CS2 POV Demo Vitality ZywOo (23/11) vs FURIA (de_nuke) @ ESL Pro League Season 22",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "nuke",
     "published": "2025-10-12"
   },
   {
@@ -39429,6 +40023,15 @@
     "published": "2025-10-09"
   },
   {
+    "id": "4SlbUL1CMSI",
+    "title": "CS2 POV Demo FaZe Twistzz (22/10) vs Inner Circle (de_ancient) @ ESL Pro League Season 22",
+    "channel": "pov_highlights",
+    "player": "twistzz",
+    "team": null,
+    "map": "ancient",
+    "published": "2025-10-09"
+  },
+  {
     "id": "Hp52fwq1r58",
     "title": "This Inferno Flash Shuts Down Every B Execute",
     "channel": "utility",
@@ -39684,7 +40287,7 @@
     "id": "GmHFuPuNCLM",
     "title": "mezii (18-10) Vitality vs HOTU (Dust2) | ESL Pro League Season 22 #cs2 #mezii",
     "channel": "lim",
-    "player": null,
+    "player": "mezii",
     "team": null,
     "map": "dust2",
     "published": "2025-10-07"
@@ -39804,6 +40407,15 @@
     "player": "z4kr",
     "team": null,
     "map": "dust2",
+    "published": "2025-10-06"
+  },
+  {
+    "id": "KGqcEdhEudY",
+    "title": "CS2 POV Demo Falcons NiKo (21/10) vs Astralis (de_mirage) @ ESL Pro League Season 22",
+    "channel": "pov_highlights",
+    "player": "niko",
+    "team": null,
+    "map": "mirage",
     "published": "2025-10-06"
   },
   {
@@ -40293,6 +40905,15 @@
     "published": "2025-10-02"
   },
   {
+    "id": "4Eua5Dq_6-4",
+    "title": "CS2 POV Demo FURIA KSCERATO (25/10) vs M80 (de_overpass) @ ESL Pro League Season 22 Stage 1",
+    "channel": "pov_highlights",
+    "player": "kscerato",
+    "team": null,
+    "map": "overpass",
+    "published": "2025-10-02"
+  },
+  {
     "id": "wOiU2HsBxV4",
     "title": "INSANE OVERPASS MOLOTOV TO STOP MONSTER SMOKE",
     "channel": "utility",
@@ -40515,6 +41136,15 @@
     "player": null,
     "team": null,
     "map": "overpass",
+    "published": "2025-09-30"
+  },
+  {
+    "id": "BWCGjPY2tKQ",
+    "title": "CS2 POV Demo Astralis Magisk (21/11) vs Fluxo (de_mirage) @ ESL Pro League Season 22 Stage 1",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "mirage",
     "published": "2025-09-30"
   },
   {
@@ -40878,6 +41508,15 @@
     "published": "2025-09-26"
   },
   {
+    "id": "d76QT92sZ84",
+    "title": "CS2 POV Demo Falcons m0NESY (18/5) vs paiN (de_inferno) @ FISSURE Playground 2",
+    "channel": "pov_highlights",
+    "player": "m0nesy",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-09-26"
+  },
+  {
     "id": "poIMXJpwLgI",
     "title": "DONK gets 55k while 4400 ELO on FACEIT! donk POV with COMMs (Nuke)",
     "channel": "nebula",
@@ -41112,6 +41751,15 @@
     "published": "2025-09-22"
   },
   {
+    "id": "dm-qdvyYfAU",
+    "title": "CS2 POV Demo FURIA molodoy (28/16) vs The MongolZ (de_mirage) @ FISSURE Playground 2",
+    "channel": "pov_highlights",
+    "player": "molodoy",
+    "team": null,
+    "map": "mirage",
+    "published": "2025-09-22"
+  },
+  {
     "id": "Rlvujz8_4u4",
     "title": "sausoL INSANE Inferno Coffin Smoke in CS2",
     "channel": "utility",
@@ -41262,6 +41910,15 @@
     "player": "twistzz",
     "team": null,
     "map": null,
+    "published": "2025-09-20"
+  },
+  {
+    "id": "BHmyIODhNPg",
+    "title": "CS2 POV Demo Liquid Twistzz (23/7) vs FaZe (de_dust2) @ FISSURE Playground 2",
+    "channel": "pov_highlights",
+    "player": "twistzz",
+    "team": null,
+    "map": "dust2",
     "published": "2025-09-20"
   },
   {
@@ -41485,6 +42142,15 @@
     "title": "molodoy (17-9) FURIA vs paiN (Inferno) | FISSURE Playground 2 #cs2 #furia #molodoy",
     "channel": "lim",
     "player": "molodoy",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-09-17"
+  },
+  {
+    "id": "AX1I1PTj-TE",
+    "title": "CS2 POV Demo Falcons NiKo (20/10) vs Legacy (de_inferno) @ FISSURE Playground 2",
+    "channel": "pov_highlights",
+    "player": "niko",
     "team": null,
     "map": "inferno",
     "published": "2025-09-17"
@@ -41877,6 +42543,15 @@
     "published": "2025-09-14"
   },
   {
+    "id": "BF910k6VVEE",
+    "title": "CS2 POV Demo Falcons kyousuke (18/11) vs Virtus.Pro (de_ancient) @ FISSURE Playground 2",
+    "channel": "pov_highlights",
+    "player": "kyousuke",
+    "team": null,
+    "map": "ancient",
+    "published": "2025-09-14"
+  },
+  {
     "id": "GTaRNXEoa3g",
     "title": "Techno4K Shows INSANE Ancient B Nades on CS2",
     "channel": "utility",
@@ -42198,6 +42873,15 @@
     "player": "kyousuke",
     "team": null,
     "map": "inferno",
+    "published": "2025-09-11"
+  },
+  {
+    "id": "tACI9nKs_y8",
+    "title": "CS2 POV Demo Vitality ZywOo (30/6) vs G2 (de_mirage) @ BLAST Open London 2025 Finals",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "mirage",
     "published": "2025-09-11"
   },
   {
@@ -42525,6 +43209,15 @@
     "published": "2025-09-08"
   },
   {
+    "id": "DVnF5hmM2Oc",
+    "title": "CS2 POV Demo G2 MATYS (18/9) vs Vitality (de_train)  @ BLAST Open London 2025 Finals",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2025-09-08"
+  },
+  {
     "id": "w4ezcaphcu8",
     "title": "huNter Shows DUST 2 B DOOR SMOKE TO RUSH IN CS2",
     "channel": "utility",
@@ -42729,6 +43422,15 @@
     "player": "niko",
     "team": null,
     "map": null,
+    "published": "2025-09-05"
+  },
+  {
+    "id": "Kbh1DjS6O6s",
+    "title": "CS2 POV Demo G2 HeavyGod (22/14) vs Spirit (de_mirage) @ BLAST Open London 2025",
+    "channel": "pov_highlights",
+    "player": "heavygod",
+    "team": null,
+    "map": "mirage",
     "published": "2025-09-05"
   },
   {
@@ -42999,6 +43701,15 @@
     "player": "m0nesy",
     "team": null,
     "map": "nuke",
+    "published": "2025-09-02"
+  },
+  {
+    "id": "XVG9bqMuhrw",
+    "title": "CS2 POV Demo Vitality ZywOo (21/10) vs FaZe (de_inferno) @ BLAST Open London 2025",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "inferno",
     "published": "2025-09-02"
   },
   {
@@ -43287,6 +43998,15 @@
     "player": "zywoo",
     "team": null,
     "map": "mirage",
+    "published": "2025-08-30"
+  },
+  {
+    "id": "yIvYzQJFJHs",
+    "title": "CS2 POV Demo Spirit donk (25/11) vs FlyQuest (de_dust2) @ BLAST Open London 2025",
+    "channel": "pov_highlights",
+    "player": "donk",
+    "team": null,
+    "map": "dust2",
     "published": "2025-08-30"
   },
   {
@@ -43641,6 +44361,15 @@
     "published": "2025-08-27"
   },
   {
+    "id": "sHj55oNRpxA",
+    "title": "CS2 POV Demo The MongolZ Senzu (25/7) vs Aurora (de_nuke) @ Esports World Cup 2025",
+    "channel": "pov_highlights",
+    "player": "senzu",
+    "team": null,
+    "map": "nuke",
+    "published": "2025-08-27"
+  },
+  {
     "id": "5tr5Tx327X8",
     "title": "DONK vs CSGO Legend ScreaM in High ELO FACEIT! donk POV with COMMs",
     "channel": "nebula",
@@ -43938,6 +44667,15 @@
     "published": "2025-08-25"
   },
   {
+    "id": "WxuQxcqcYeI",
+    "title": "CS2 POV Demo Falcons NiKo (25/6) vs Vitality (de_train) @ Esports World Cup 2025",
+    "channel": "pov_highlights",
+    "player": "niko",
+    "team": null,
+    "map": null,
+    "published": "2025-08-25"
+  },
+  {
     "id": "8qtiMsKk5CA",
     "title": "MAJ3R 200 IQ DUST 2 XBOX SMOKE IN CS2",
     "channel": "utility",
@@ -44022,7 +44760,7 @@
     "id": "qJdE_dcKqU8",
     "title": "Senzu (25-7) Rating:2.59! The MongolZ vs Aurora (nuke) | Esports World Cup 2025 Grand Finals",
     "channel": "lim",
-    "player": null,
+    "player": "senzu",
     "team": null,
     "map": "nuke",
     "published": "2025-08-24"
@@ -44286,6 +45024,15 @@
     "player": "donk",
     "team": null,
     "map": "overpass",
+    "published": "2025-08-22"
+  },
+  {
+    "id": "20jBoZm50js",
+    "title": "CS2 POV Demo FaZe EliGE (22/9) vs Aurora (de_inferno) @ Esports World Cup 2025",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "inferno",
     "published": "2025-08-22"
   },
   {
@@ -44631,6 +45378,15 @@
     "published": "2025-08-19"
   },
   {
+    "id": "f8x4xVHC2fc",
+    "title": "CS2 POV Demo The MongolZ 910 (25/14) vs Vitality (de_inferno) @ BLAST Bounty 2025 Season 2 Finals",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2025-08-19"
+  },
+  {
     "id": "zJdSZCBND9Y",
     "title": "The Smartest Boost on Dust2",
     "channel": "utility",
@@ -44820,6 +45576,15 @@
     "published": "2025-08-18"
   },
   {
+    "id": "V75W2WB5-LQ",
+    "title": "CS2 POV Demo Spirit donk (20/7) vs Virtus.Pro (de_overpass) @ BLAST Bounty 2025 Season 2 Finals",
+    "channel": "pov_highlights",
+    "player": "donk",
+    "team": null,
+    "map": "overpass",
+    "published": "2025-08-17"
+  },
+  {
     "id": "QlfY_bm7fDo",
     "title": "This Mirage Short Boost Is Basically Invisible \ud83d\ude33",
     "channel": "utility",
@@ -44968,6 +45733,15 @@
     "title": "s1mple (20-12) BC. GAME vs Betera (mirage) | Aug 14, 2025 | CS2 POV/DEMO",
     "channel": "lim",
     "player": "s1mple",
+    "team": null,
+    "map": "mirage",
+    "published": "2025-08-15"
+  },
+  {
+    "id": "JmCWfDvAfoo",
+    "title": "CS2 POV Demo Vitality ZywOo (23/5) vs NRG (de_mirage) @ BLAST Bounty 2025 Season 2",
+    "channel": "pov_highlights",
+    "player": "zywoo",
     "team": null,
     "map": "mirage",
     "published": "2025-08-15"
@@ -45216,6 +45990,15 @@
     "published": "2025-08-13"
   },
   {
+    "id": "3wWM5NTHTUw",
+    "title": "CS2 POV Demo Astralis Device (22/9) vs NaVi (de_inferno) @ BLAST Bounty 2025 Season 2",
+    "channel": "pov_highlights",
+    "player": "device",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-08-13"
+  },
+  {
     "id": "bQvj0njpgCs",
     "title": "PRO Ancient Smoke to DOMIANTE Mid Control in CS2",
     "channel": "utility",
@@ -45456,6 +46239,15 @@
     "player": "donk",
     "team": null,
     "map": "mirage",
+    "published": "2025-08-11"
+  },
+  {
+    "id": "jsEXPEfGcg0",
+    "title": "CS2 POV Demo Spirit sh1ro (23/9) vs G2 (de_dust2) @ BLAST Bounty 2025 Season 2",
+    "channel": "pov_highlights",
+    "player": "sh1ro",
+    "team": null,
+    "map": "dust2",
     "published": "2025-08-11"
   },
   {
@@ -45774,6 +46566,15 @@
     "published": "2025-08-08"
   },
   {
+    "id": "XrZtTRB6w2E",
+    "title": "CS2 POV Demo NaVi b1t (22/12) vs FaZe (de_inferno) @ IEM Cologne 2025",
+    "channel": "pov_highlights",
+    "player": "b1t",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-08-08"
+  },
+  {
     "id": "0sB8zTF5ykY",
     "title": "fl4mUS\u2019 Perfect A Smokes on Mirage (CS2)",
     "channel": "utility",
@@ -45931,6 +46732,15 @@
     "title": "s1mple (27-10) SoloQ (nuke) +VOICE COMMS | FACEIT 3250 Elo | Aug 5, 2025",
     "channel": "lim",
     "player": "s1mple",
+    "team": null,
+    "map": "nuke",
+    "published": "2025-08-06"
+  },
+  {
+    "id": "qiTRAayYk0I",
+    "title": "CS2 POV Demo Spirit donk (19/14) vs MOUZ (de_nuke) @ IEM Cologne 2025 GRAND FINAL",
+    "channel": "pov_highlights",
+    "player": "donk",
     "team": null,
     "map": "nuke",
     "published": "2025-08-06"
@@ -46143,6 +46953,15 @@
     "published": "2025-08-04"
   },
   {
+    "id": "mFZ_rJqm6Aw",
+    "title": "CS2 POV Demo Spirit donk (23/15) vs NaVi (de_mirage) @ IEM Cologne 2025",
+    "channel": "pov_highlights",
+    "player": "donk",
+    "team": null,
+    "map": "mirage",
+    "published": "2025-08-03"
+  },
+  {
     "id": "HtiVYfVr3xU",
     "title": "This Ancient Molotov Destroys the Boost Spot \u2013 CS2",
     "channel": "utility",
@@ -46294,6 +47113,15 @@
     "team": null,
     "map": "dust2",
     "published": "2025-08-01"
+  },
+  {
+    "id": "tooCUAdTwsA",
+    "title": "CS2 POV Demo Vitality ZywOo (23/9) vs The MongolZ (de_mirage) @ IEM Cologne 2025",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "mirage",
+    "published": "2025-07-31"
   },
   {
     "id": "_YtkjkllP78",
@@ -46509,6 +47337,15 @@
     "player": "zywoo",
     "team": null,
     "map": "inferno",
+    "published": "2025-07-28"
+  },
+  {
+    "id": "o5WWUqArrGk",
+    "title": "CS2 POV Demo Vitality Ropz (18/12) vs Astralis (de_overpass) @ IEM Cologne 2025",
+    "channel": "pov_highlights",
+    "player": "ropz",
+    "team": null,
+    "map": "overpass",
     "published": "2025-07-28"
   },
   {
@@ -46896,6 +47733,15 @@
     "player": "donk",
     "team": null,
     "map": "mirage",
+    "published": "2025-07-24"
+  },
+  {
+    "id": "DlKl_mofy70",
+    "title": "CS2 POV Demo FaZe Frozen (23/13) vs BIG (de_inferno) @ IEM Cologne 2025 Stage 1",
+    "channel": "pov_highlights",
+    "player": "frozen",
+    "team": null,
+    "map": "inferno",
     "published": "2025-07-24"
   },
   {
@@ -47346,6 +48192,15 @@
     "player": "jamyoung",
     "team": null,
     "map": "inferno",
+    "published": "2025-07-20"
+  },
+  {
+    "id": "_frl45AhMAM",
+    "title": "CS2 POV Demo Astralis Device (26/9) vs BetBoom (de_nuke) @ FISSURE Playground 1",
+    "channel": "pov_highlights",
+    "player": "device",
+    "team": null,
+    "map": "nuke",
     "published": "2025-07-20"
   },
   {
@@ -47826,6 +48681,15 @@
     "published": "2025-07-16"
   },
   {
+    "id": "iUvnSlsBNh4",
+    "title": "CS2 POV Demo FURIA molodoy (22/7) vs Wildcard (de_inferno) @ FISSURE Playground 1",
+    "channel": "pov_highlights",
+    "player": "molodoy",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-07-16"
+  },
+  {
     "id": "8wY6i5f3PT0",
     "title": "Surprise CTs with This Aps Boost (Inferno)",
     "channel": "utility",
@@ -48066,6 +48930,15 @@
     "player": "m0nesy",
     "team": null,
     "map": "ancient",
+    "published": "2025-07-14"
+  },
+  {
+    "id": "6Xvg9FSsyLc",
+    "title": "CS2 POV Demo FaZe Rain (22/10) vs The MongolZ (de_anubis) @ BLAST.tv Austin Major 2025",
+    "channel": "pov_highlights",
+    "player": "rain",
+    "team": null,
+    "map": "anubis",
     "published": "2025-07-14"
   },
   {
@@ -48336,6 +49209,15 @@
     "player": "donk",
     "team": null,
     "map": "dust2",
+    "published": "2025-07-11"
+  },
+  {
+    "id": "mf7I8MhOTWw",
+    "title": "CS2 POV Demo The MongolZ 910 (21/11) vs FaZe (de_mirage) @ BLAST.tv Austin Major 2025",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "mirage",
     "published": "2025-07-11"
   },
   {
@@ -48744,6 +49626,15 @@
     "published": "2025-07-07"
   },
   {
+    "id": "2pjLxPcG7jg",
+    "title": "CS2 POV Demo FaZe S1mple (19/9) vs Legacy (de_anubis) @ BLAST.tv Austin Major 2025",
+    "channel": "pov_highlights",
+    "player": "s1mple",
+    "team": null,
+    "map": "anubis",
+    "published": "2025-07-07"
+  },
+  {
     "id": "2gwC5J_xz-g",
     "title": "Ancient Mid Smoke From T Spawn to Cancel CT Molotov!",
     "channel": "utility",
@@ -49095,6 +49986,15 @@
     "published": "2025-07-03"
   },
   {
+    "id": "xpSO3n1TsTg",
+    "title": "CS2 POV Demo Spirit donk (23/16) vs MOUZ (de_dust2) @ BLAST.tv Austin Major 2025",
+    "channel": "pov_highlights",
+    "player": "donk",
+    "team": null,
+    "map": "dust2",
+    "published": "2025-07-03"
+  },
+  {
     "id": "ioQnBpJoUoE",
     "title": "KYOUSUKE Destroys Tier 1 PROS in FACEIT! kyousuke POV with COMMs (Mirage)",
     "channel": "nebula",
@@ -49371,6 +50271,15 @@
     "player": "kyousuke",
     "team": null,
     "map": "mirage",
+    "published": "2025-06-30"
+  },
+  {
+    "id": "a6y7ie9Elfo",
+    "title": "CS2 POV Demo Vitality ZywOo (21/10) vs MOUZ (de_train) @ BLAST.tv Austin Major 2025",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": null,
     "published": "2025-06-30"
   },
   {
@@ -49743,6 +50652,15 @@
     "published": "2025-06-26"
   },
   {
+    "id": "bwdNSx4NB-Y",
+    "title": "CS2 POV Demo The MongolZ Senzu (20/9) vs Vitality (de_mirage) @ BLAST.tv Austin Major 2025",
+    "channel": "pov_highlights",
+    "player": "senzu",
+    "team": null,
+    "map": "mirage",
+    "published": "2025-06-26"
+  },
+  {
     "id": "Kx99shSxI2A",
     "title": "Jame\u2019s Dust 2 A Boost Is GENIUS (CS2)",
     "channel": "utility",
@@ -49845,7 +50763,7 @@
     "id": "HSq0MjRTHdg",
     "title": "mezii (21-12) Vitality vs The MongolZ (Inferno) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": null,
+    "player": "mezii",
     "team": null,
     "map": "inferno",
     "published": "2025-06-25"
@@ -49980,7 +50898,7 @@
     "id": "rA_pVQD9RF0",
     "title": "mezii (20-7) Vitality vs The MongolZ (Dust2) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": null,
+    "player": "mezii",
     "team": null,
     "map": "dust2",
     "published": "2025-06-24"
@@ -49989,7 +50907,7 @@
     "id": "7Tgg2zojnpA",
     "title": "Senzu (20-9) The MongolZ vs Vitality (Mirage) | BLAST.tv Austin Major 2025 Grand Finals | CS2 POV",
     "channel": "lim",
-    "player": null,
+    "player": "senzu",
     "team": null,
     "map": "mirage",
     "published": "2025-06-24"
@@ -50047,6 +50965,15 @@
     "team": null,
     "map": "dust2",
     "published": "2025-06-24"
+  },
+  {
+    "id": "x2kfv_ep178",
+    "title": "CS2 POV Demo Vitality flameZ (21/9) vs The MongolZ (de_inferno) @ BLAST.tv Austin Major 2025",
+    "channel": "pov_highlights",
+    "player": "flamez",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-06-23"
   },
   {
     "id": "sDp7ANFAeuM",
@@ -50373,6 +51300,15 @@
     "published": "2025-06-19"
   },
   {
+    "id": "Then3NqdyM8",
+    "title": "CS2 POV Demo Vitality ZywOo (22/6) vs Virtus.pro (de_dust2) @ BLAST.tv Austin Major 2025",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "dust2",
+    "published": "2025-06-19"
+  },
+  {
     "id": "YNTwTRWd4Ck",
     "title": "Easy B Door Smoke on Dust 2 - Works Every Time",
     "channel": "utility",
@@ -50646,7 +51582,7 @@
     "id": "DRs7AYvwIGk",
     "title": "Senzu (56-37) The MongolZ vs G2 (Dust2) | BLAST.tv Austin Major 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": null,
+    "player": "senzu",
     "team": null,
     "map": "dust2",
     "published": "2025-06-16"
@@ -50808,6 +51744,15 @@
     "id": "9q4tHMz1vP4",
     "title": "\ud83d\udd25s1mple (19-7) FaZe vs The MongolZ (Anubis) | BLAST.tv Austin Major 2025",
     "channel": "lim",
+    "player": "s1mple",
+    "team": null,
+    "map": "anubis",
+    "published": "2025-06-15"
+  },
+  {
+    "id": "eVBZeerRtBk",
+    "title": "CS2 POV Demo FaZe S1mple (19/7) vs The MongolZ (de_anubis) @ BLAST.tv Austin Major 2025",
+    "channel": "pov_highlights",
     "player": "s1mple",
     "team": null,
     "map": "anubis",
@@ -51462,6 +52407,15 @@
     "published": "2025-06-10"
   },
   {
+    "id": "rZ_TLGza2M0",
+    "title": "CS2 POV Demo Falcons m0NESY (21/10) vs OG (de_nuke) @ BLAST.tv Austin Major 2025 Stage 2",
+    "channel": "pov_highlights",
+    "player": "m0nesy",
+    "team": null,
+    "map": "nuke",
+    "published": "2025-06-10"
+  },
+  {
     "id": "7phf1S5nBJA",
     "title": "This Long A Smoke Lets You Take the Fight \u2013 Dust 2 (T Side)",
     "channel": "utility",
@@ -51993,6 +52947,15 @@
     "published": "2025-06-05"
   },
   {
+    "id": "YuFjbGD-RAc",
+    "title": "CS2 POV Demo OG nicoodoz (33/6) vs Complexity (de_ancient) @ BLAST.tv Austin Major 2025 Stage 1",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2025-06-05"
+  },
+  {
     "id": "sP_SHtzx5h4",
     "title": "This Smoke Wall Splits Nuke A Site in Half \u2013 CS2",
     "channel": "utility",
@@ -52437,7 +53400,7 @@
     "id": "1Y35g0lUNL0",
     "title": "Senzu (26-4) Rating: 2.73 (mirage) | FACEIT Pro League NA | May 30, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": null,
+    "player": "senzu",
     "team": null,
     "map": "mirage",
     "published": "2025-06-01"
@@ -52467,6 +53430,15 @@
     "player": "niko",
     "team": null,
     "map": "ancient",
+    "published": "2025-06-01"
+  },
+  {
+    "id": "TPPNncmUO90",
+    "title": "CS2 POV Demo FaZe S1mple (21/13) vs Liquid (de_inferno) @ IEM Dallas 2025",
+    "channel": "pov_highlights",
+    "player": "s1mple",
+    "team": null,
+    "map": "inferno",
     "published": "2025-06-01"
   },
   {
@@ -52701,6 +53673,15 @@
     "player": "m0nesy",
     "team": null,
     "map": "mirage",
+    "published": "2025-05-30"
+  },
+  {
+    "id": "7Mq87FrWfyM",
+    "title": "CS2 POV Demo Vitality Ropz (23/14) vs MOUZ (de_dust2) @ IEM Dallas 2025",
+    "channel": "pov_highlights",
+    "player": "ropz",
+    "team": null,
+    "map": "dust2",
     "published": "2025-05-30"
   },
   {
@@ -53118,6 +54099,15 @@
     "published": "2025-05-26"
   },
   {
+    "id": "sdWc1MjY04E",
+    "title": "CS2 POV Demo Vitality ZywOo (25/12) vs MOUZ (de_mirage) @ IEM Dallas 2025",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "mirage",
+    "published": "2025-05-26"
+  },
+  {
     "id": "yJQEXYURscc",
     "title": "chopper\u2019s Meta Mid Door Smoke on Dust 2 \ud83d\udca8",
     "channel": "utility",
@@ -53451,6 +54441,15 @@
     "published": "2025-05-23"
   },
   {
+    "id": "p1AIm8vcUEo",
+    "title": "CS2 POV Demo Falcons m0NESY (22/9) vs HEROIC (de_dust2) @ IEM Dallas 2025",
+    "channel": "pov_highlights",
+    "player": "m0nesy",
+    "team": null,
+    "map": "dust2",
+    "published": "2025-05-23"
+  },
+  {
     "id": "y7NsseKgNbY",
     "title": "NiKo\u2019s Inferno Nades STOP the B Push Cold \ud83d\udca5",
     "channel": "utility",
@@ -53667,6 +54666,15 @@
     "published": "2025-05-21"
   },
   {
+    "id": "zRDmAHYI-00",
+    "title": "CS2 POV Demo FaZe S1mple (21/6) vs BC.Game (de_anubis) @ IEM Dallas 2025",
+    "channel": "pov_highlights",
+    "player": "s1mple",
+    "team": null,
+    "map": "anubis",
+    "published": "2025-05-21"
+  },
+  {
     "id": "6YGjlaUuKUs",
     "title": "Genius CT Side Play on Anubis - They Never Saw It Coming \ud83d\udd25",
     "channel": "utility",
@@ -53823,7 +54831,7 @@
     "id": "c38RxAHGLpU",
     "title": "mezii Drops 24 in NA Trio Q with ZywOo & apEX | FACEIT 3.2k Elo | Voice Comms",
     "channel": "lim",
-    "player": null,
+    "player": "mezii",
     "team": null,
     "map": null,
     "published": "2025-05-19"
@@ -53889,6 +54897,15 @@
     "player": "donk",
     "team": null,
     "map": "dust2",
+    "published": "2025-05-19"
+  },
+  {
+    "id": "OhafiT6x36o",
+    "title": "CS2 POV Demo Spirit donk (24/19) vs Astralis (de_train) @ PGL Astana 2025 GRAND FINAL",
+    "channel": "pov_highlights",
+    "player": "donk",
+    "team": null,
+    "map": null,
     "published": "2025-05-19"
   },
   {
@@ -54306,6 +55323,15 @@
     "published": "2025-05-15"
   },
   {
+    "id": "l52cGE-mWX8",
+    "title": "CS2 POV Demo FURIA YEKINDAR (21/10) vs ODDIK (de_anubis) @ PGL Astana 2025",
+    "channel": "pov_highlights",
+    "player": "yekindar",
+    "team": null,
+    "map": "anubis",
+    "published": "2025-05-15"
+  },
+  {
     "id": "hVDCgWI6-9E",
     "title": "apEX Throws the PERFECT Ramp Flash on Nuke",
     "channel": "utility",
@@ -54537,6 +55563,15 @@
     "player": null,
     "team": null,
     "map": "mirage",
+    "published": "2025-05-12"
+  },
+  {
+    "id": "k5vwvMSEdwg",
+    "title": "CS2 POV Demo Virtus Pro electronic (18/8) vs BIG (de_ancient) @ PGL Astana 2025",
+    "channel": "pov_highlights",
+    "player": "electronic",
+    "team": null,
+    "map": "ancient",
     "published": "2025-05-12"
   },
   {
@@ -54933,6 +55968,15 @@
     "player": "donk",
     "team": null,
     "map": "nuke",
+    "published": "2025-05-08"
+  },
+  {
+    "id": "7ak_m1J6y5U",
+    "title": "CS2 POV Demo Falcons m0NESY (35/19) vs Vitality (de_mirage) @ BLAST Rivals 2025 Season 1",
+    "channel": "pov_highlights",
+    "player": "m0nesy",
+    "team": null,
+    "map": "mirage",
     "published": "2025-05-08"
   },
   {
@@ -55359,6 +56403,15 @@
     "published": "2025-05-04"
   },
   {
+    "id": "XRM-c1tUJLU",
+    "title": "CS2 POV Demo Spirit donk (19/9) vs Falcons (de_mirage) @ BLAST Rivals 2025 Season 1",
+    "channel": "pov_highlights",
+    "player": "donk",
+    "team": null,
+    "map": "mirage",
+    "published": "2025-05-04"
+  },
+  {
     "id": "stXm-vpphGU",
     "title": "frozen\u2019s Fast Short Control Smokes on Dust 2 \ud83d\udca8",
     "channel": "utility",
@@ -55701,6 +56754,15 @@
     "published": "2025-05-01"
   },
   {
+    "id": "FMmJyrYdIaw",
+    "title": "CS2 POV Demo Vitality Mezii (24/10) vs Wildcard (de_inferno) @ BLAST Rivals 2025 Season 1",
+    "channel": "pov_highlights",
+    "player": "mezii",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-05-01"
+  },
+  {
     "id": "__n1yfIV9s0",
     "title": "apex, ropz, and flameZ vs m0NESY in FACEIT! Apex POV with COMMs (Dust 2)",
     "channel": "nebula",
@@ -55971,6 +57033,15 @@
     "published": "2025-04-28"
   },
   {
+    "id": "yjIJiNwJ1p0",
+    "title": "CS2 POV Demo Vitality ZywOo (17/5) vs Falcons (de_inferno) @ IEM Melbourne 2025",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-04-28"
+  },
+  {
     "id": "aI5RVrnqH1I",
     "title": "m0NESY is INSANE vs Top Australian FACEIT Lobby! m0NESY POV with COMMs (Mirage)",
     "channel": "nebula",
@@ -56121,6 +57192,15 @@
     "player": "ropz",
     "team": null,
     "map": "anubis",
+    "published": "2025-04-26"
+  },
+  {
+    "id": "M2wEi9WjMdc",
+    "title": "CS2 POV Demo Falcons m0NESY (17/6) vs GamerLegion (de_nuke) @ IEM Melbourne 2025",
+    "channel": "pov_highlights",
+    "player": "m0nesy",
+    "team": null,
+    "map": "nuke",
     "published": "2025-04-26"
   },
   {
@@ -56463,6 +57543,15 @@
     "player": "niko",
     "team": null,
     "map": "ancient",
+    "published": "2025-04-22"
+  },
+  {
+    "id": "Bxe_-CPix3o",
+    "title": "CS2 POV Demo Vitality Ropz (16/5) vs FlyQuest (de_anubis) @ IEM Melbourne 2025",
+    "channel": "pov_highlights",
+    "player": "ropz",
+    "team": null,
+    "map": "anubis",
     "published": "2025-04-22"
   },
   {
@@ -56952,6 +58041,15 @@
     "published": "2025-04-17"
   },
   {
+    "id": "jveMoAmwMQw",
+    "title": "CS2 POV Demo Falcons NiKo (23/10) vs MongolZ (de_dust2) @ PGL Bucharest 2025",
+    "channel": "pov_highlights",
+    "player": "niko",
+    "team": null,
+    "map": "dust2",
+    "published": "2025-04-17"
+  },
+  {
     "id": "HJu8cC_03ZU",
     "title": "Drunk S1MPLE Goes 3 - 16 in FACEIT! s1mple POV with COMMs",
     "channel": "nebula",
@@ -57339,6 +58437,15 @@
     "published": "2025-04-13"
   },
   {
+    "id": "UI2Bu9fvG50",
+    "title": "CS2 POV Demo Falcons degster (25/9) vs FaZe (de_mirage) @ PGL Bucharest 2025",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2025-04-13"
+  },
+  {
     "id": "GuYS06l9MDM",
     "title": "Pro CT Tactic on Anubis You NEED to Learn! \ud83d\udd25",
     "channel": "utility",
@@ -57681,6 +58788,15 @@
     "published": "2025-04-09"
   },
   {
+    "id": "Q-dyI8jLqBA",
+    "title": "CS2 POV Demo G2 m0NESY (27/15) vs Complexity (de_dust2) @ PGL Bucharest 2025",
+    "channel": "pov_highlights",
+    "player": "m0nesy",
+    "team": null,
+    "map": "dust2",
+    "published": "2025-04-09"
+  },
+  {
     "id": "4Gdx0ijmNIk",
     "title": "DONK drops 200+ ADR in HIGH ELO FACEIT! donk POV with COMMs (Dust 2)",
     "channel": "nebula",
@@ -57949,6 +59065,15 @@
     "team": null,
     "map": "inferno",
     "published": "2025-04-06"
+  },
+  {
+    "id": "CDEjum0sg5U",
+    "title": "CS2 POV Demo Vitality flameZ (21/12) vs MOUZ (de_train) @ BLAST Open Lisbon 2025",
+    "channel": "pov_highlights",
+    "player": "flamez",
+    "team": null,
+    "map": null,
+    "published": "2025-04-05"
   },
   {
     "id": "bqqpw_pEGOk",
@@ -58239,6 +59364,15 @@
     "published": "2025-03-31"
   },
   {
+    "id": "2WsnyKQNiZA",
+    "title": "CS2 POV Demo Spirit Shiro (20/8) vs NaVi (de_dust2) @ BLAST Open Lisbon 2025",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2025-03-30"
+  },
+  {
     "id": "_qrYuJvyqE8",
     "title": "iM\u2019s Secret Flash for Mirage Ramp Control! \ud83e\udde0\ud83d\udca1",
     "channel": "utility",
@@ -58464,6 +59598,15 @@
     "published": "2025-03-26"
   },
   {
+    "id": "CxIURISWmvw",
+    "title": "CS2 POV Demo FaZe broky (22/9) vs Astralis (de_train) @ BLAST Open Lisbon 2025",
+    "channel": "pov_highlights",
+    "player": "broky",
+    "team": null,
+    "map": null,
+    "published": "2025-03-25"
+  },
+  {
     "id": "8gLY7DqTKWA",
     "title": "SunPayus\u2019 200 IQ Smoke on Nuke! \ud83e\udde0",
     "channel": "utility",
@@ -58633,6 +59776,15 @@
     "team": null,
     "map": "inferno",
     "published": "2025-03-22"
+  },
+  {
+    "id": "QqIL2d9SFUQ",
+    "title": "CS2 POV Demo Spirit Donk (24/9) vs The Huns (de_dust2) @ BLAST Open Lisbon 2025",
+    "channel": "pov_highlights",
+    "player": "donk",
+    "team": null,
+    "map": "dust2",
+    "published": "2025-03-21"
   },
   {
     "id": "NnCi1YVSofA",
@@ -58824,6 +59976,15 @@
     "published": "2025-03-18"
   },
   {
+    "id": "NuVvO8uBQIs",
+    "title": "CS2 POV Demo Vitality ZywOo (17/11) vs MOUZ (de_nuke) @ ESL Pro League Season 21 GRAND FINAL",
+    "channel": "pov_highlights",
+    "player": "zywoo",
+    "team": null,
+    "map": "nuke",
+    "published": "2025-03-17"
+  },
+  {
     "id": "sN0EcPk6_Fk",
     "title": "Mongolz's Crazy Inferno Boost \u2013 Game-Changing CS2 Strategy!",
     "channel": "utility",
@@ -58867,6 +60028,15 @@
     "team": null,
     "map": "ancient",
     "published": "2025-03-17"
+  },
+  {
+    "id": "pXrhaRudQMg",
+    "title": "CS2 POV Demo G2 m0NESY (24/13) vs MOUZ (de_inferno) @ ESL Pro League Season 21",
+    "channel": "pov_highlights",
+    "player": "m0nesy",
+    "team": null,
+    "map": "inferno",
+    "published": "2025-03-16"
   },
   {
     "id": "95SxSyt_KFg",
@@ -59148,6 +60318,15 @@
     "published": "2025-03-12"
   },
   {
+    "id": "3Z1CZVMu0To",
+    "title": "CS2 POV Demo Falcons NiKo (24/13) vs 3DMAX (de_ancient) @ ESL Pro League Season 21",
+    "channel": "pov_highlights",
+    "player": "niko",
+    "team": null,
+    "map": "ancient",
+    "published": "2025-03-12"
+  },
+  {
     "id": "H7vgazaPTiA",
     "title": "SUPER PRO ANUBIS FLASH IN CS2",
     "channel": "utility",
@@ -59406,6 +60585,15 @@
     "player": "m0nesy",
     "team": null,
     "map": "mirage",
+    "published": "2025-03-09"
+  },
+  {
+    "id": "JEipCid4k2I",
+    "title": "CS2 POV Demo Spirit Donk (18/6) vs SAW (de_dust2) @ ESL Pro League Season 21",
+    "channel": "pov_highlights",
+    "player": "donk",
+    "team": null,
+    "map": "dust2",
     "published": "2025-03-09"
   },
   {
@@ -59679,6 +60867,15 @@
     "published": "2025-03-06"
   },
   {
+    "id": "dB1ngcvyock",
+    "title": "CS2 POV Demo Eternal Fire XANTARES (15/5) vs FlyQuest (de_inferno) @ ESL Pro League Season 21",
+    "channel": "pov_highlights",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2025-03-05"
+  },
+  {
     "id": "agghUl3tc-k",
     "title": "Jackz 300 IQ INFERNO ANGLE ON CS2",
     "channel": "utility",
@@ -59823,21 +61020,12 @@
     "published": "2025-03-03"
   },
   {
-    "id": "T7oLstf-6w0",
-    "title": "JamYoung (18-11) TYLOO vs 3DMAX (Inferno) | ESL Pro League Season 21 Stage 1",
-    "channel": "lim",
-    "player": "jamyoung",
+    "id": "I4NT4zgR_nM",
+    "title": "CS2 POV Demo FURIA skullz (20/5) vs SAW (de_dust2) @ ESL Pro League Season 21 Stage 1",
+    "channel": "pov_highlights",
+    "player": null,
     "team": null,
-    "map": "inferno",
-    "published": "2025-03-03"
-  },
-  {
-    "id": "c-nBigvL8KM",
-    "title": "JamYoung (25-12) TYLOO vs 3DMAX (Ancient) | ESL Pro League Season 21 Stage 1",
-    "channel": "lim",
-    "player": "jamyoung",
-    "team": null,
-    "map": "ancient",
+    "map": "dust2",
     "published": "2025-03-03"
   },
   {
@@ -59875,41 +61063,5 @@
     "team": null,
     "map": "inferno",
     "published": "2025-03-03"
-  },
-  {
-    "id": "O0PogOMCvTI",
-    "title": "GamerLegion\u2019s Secret Mirage Tactic EXPLAINED \u2013 CS2 Pro Breakdown",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-03-02"
-  },
-  {
-    "id": "XGkfsMj0_TQ",
-    "title": "Brollan Inferno Mid Smoke From Alt Mid for CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-03-02"
-  },
-  {
-    "id": "3oO7_XgKYAM",
-    "title": "Vitality's Favorite Anubis Tactic on CT Side",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-03-02"
-  },
-  {
-    "id": "-JLDR2nn3J4",
-    "title": "INSANE ANUBIS SMOKE YOU DON'T KNOW IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-03-02"
   }
 ]
