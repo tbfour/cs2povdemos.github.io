@@ -1,5 +1,86 @@
 [
   {
+    "id": "2MIdcEKHUy4",
+    "title": "\ud83d\udd25autimatic (24-14) 1.37 Rating | avg 2.7K ELO | Dust2 POV | Aug 26, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-02"
+  },
+  {
+    "id": "_d3Sc636mk0",
+    "title": "cmtry Dust2 Boost to Counter Smoke Break",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-02"
+  },
+  {
+    "id": "TlCBXBUkHo4",
+    "title": "donk shows Anubis Dark Nades Combo for CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-09-02"
+  },
+  {
+    "id": "2Tp5CQhrdmw",
+    "title": "Team Spirit GENIUS Mirage CT Setup on B Site",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-02"
+  },
+  {
+    "id": "3xmda3d9QeM",
+    "title": "FalleN Dust2 B Door Smoke From T Spawn in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-02"
+  },
+  {
+    "id": "p6G_Itxy7go",
+    "title": "\ud83d\udd25donk (23-19) 1.22 Rating | avg 3.4K ELO | Dust2 POV | Aug 31, 2026",
+    "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-01"
+  },
+  {
+    "id": "SPnbTrqimnc",
+    "title": "\ud83d\udd25s1mple (28-20) 1.30 Rating | avg 3.1K ELO | Mirage POV | Sep 1, 2026",
+    "channel": "lim",
+    "player": "s1mple",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-01"
+  },
+  {
+    "id": "PObT9xDPo44",
+    "title": "\ud83d\udd25f0rest (31-14) 1.57 Rating | avg 2.9K ELO | Nuke POV | Aug 31, 2026",
+    "channel": "lim",
+    "player": "f0rest",
+    "team": null,
+    "map": "nuke",
+    "published": "2026-09-01"
+  },
+  {
+    "id": "HE8evvEy_qc",
+    "title": "\ud83d\udd25kyousuke (31-15) 1.31 Rating | avg 3.3K ELO | Anubis POV | Sep 1, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "anubis",
+    "published": "2026-09-01"
+  },
+  {
     "id": "XkCh7E1wGQg",
     "title": "\ud83d\udd25s1mple (24-16) 1.16 Rating | avg 3.3K ELO | Dust2 POV | Aug 31, 2026",
     "channel": "lim",
@@ -15,6 +96,51 @@
     "player": null,
     "team": null,
     "map": "anubis",
+    "published": "2026-09-01"
+  },
+  {
+    "id": "wBsXbYSqn2A",
+    "title": "The MongolZ INSANE Inferno Boost on CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-09-01"
+  },
+  {
+    "id": "GfyUDevKFpo",
+    "title": "ROPZ shows meta Mirage smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-01"
+  },
+  {
+    "id": "T12p8G8a1Ag",
+    "title": "The MongolZ Mirage Mid Smoke Break Play in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-01"
+  },
+  {
+    "id": "5vz6u5hmLXU",
+    "title": "The Secret Nuke Rush Tactic Pros Are Using in CS2",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-09-01"
+  },
+  {
+    "id": "uatEp9yYyQ0",
+    "title": "hypex shows NEW Ancient Cheetah Smoke for CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
     "published": "2026-09-01"
   },
   {
@@ -38,6 +164,15 @@
   {
     "id": "5GrF_iKgGiI",
     "title": "xertioN Ancient Flash Wins Eco Rounds in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-01"
+  },
+  {
+    "id": "2tT1sj7N83k",
+    "title": "EXIT FAST ANCIENT A SMOKES IN CS2",
     "channel": "utility",
     "player": null,
     "team": null,
@@ -141,6 +276,51 @@
     "player": "niko",
     "team": null,
     "map": "anubis",
+    "published": "2026-08-31"
+  },
+  {
+    "id": "6TxZqNI50p8",
+    "title": "HOW TO NADE LONG ON ANCIENT IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-08-31"
+  },
+  {
+    "id": "5o-OtH8Pc3U",
+    "title": "HooXi Ancient A Site Smokes in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-08-31"
+  },
+  {
+    "id": "2_jwNnoeVcU",
+    "title": "flameZ Insane Inferno Banana Smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-08-31"
+  },
+  {
+    "id": "gpLUTylUI_0",
+    "title": "NiKo INSANE Dust2 B Door Smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-08-31"
+  },
+  {
+    "id": "HfIdmvn-hD0",
+    "title": "CRAZY Astralis Boost on Ancient in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
     "published": "2026-08-31"
   },
   {
@@ -61470,15 +61650,6 @@
     "published": "2025-03-11"
   },
   {
-    "id": "OpFyrKY_wAE",
-    "title": "NiKo (29-15) Falcons vs FURIA (mirage) | ESL Pro League Season 21 | CS2 POV/demo",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-03-11"
-  },
-  {
     "id": "c4XQCaYg-cA",
     "title": "DONK and S1MPLE destroy Top 500 FACEIT! donk POV with COMMs (Anubis)",
     "channel": "nebula",
@@ -61522,59 +61693,5 @@
     "team": null,
     "map": "ancient",
     "published": "2025-03-11"
-  },
-  {
-    "id": "uR343Nf36tU",
-    "title": "DONK SHOWS INSANE NUKE SMOKE FOR CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-03-11"
-  },
-  {
-    "id": "HmC9cqLQfHc",
-    "title": "Twistzz INSANE Anubis B Smoke From Mid",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-03-11"
-  },
-  {
-    "id": "uWPou5ndxD4",
-    "title": "NAVI INSANE ANUBIS RUN BOOST IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-03-11"
-  },
-  {
-    "id": "YOv9BXUxbqE",
-    "title": "m0NESY (29-10) Rating 2.58 (Dust2) | FACEIT 3300 ELO | Mar 8, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-03-10"
-  },
-  {
-    "id": "-VXuPlesFEE",
-    "title": "jL Shows 2000 IQ Ancient Wallbang",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-03-10"
-  },
-  {
-    "id": "U-49ZkyDN5s",
-    "title": "NUKE FLASH TO GET EASY KILLS IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-03-10"
   }
 ]
