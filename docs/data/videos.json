@@ -1,5 +1,86 @@
 [
   {
+    "id": "SUG-zN4HflQ",
+    "title": "\ud83d\udd25cobrazera (28-6) 2.21 Rating | avg 2.7K ELO | Dust2 POV | Sep 6, 2026",
+    "channel": "lim",
+    "player": "cobrazera",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-07"
+  },
+  {
+    "id": "10i8Bo9aU7w",
+    "title": "s1n shows INSANE Mirage wallbang in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-07"
+  },
+  {
+    "id": "TLTI4--xUpQ",
+    "title": "CS2 ANUBIS STAIRS SMOKE FROM B SITE",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-09-07"
+  },
+  {
+    "id": "HNW9cXEqNXM",
+    "title": "NiKo 200 IQ JUMP SPOT TO HOLD SHORT ON DUST2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-07"
+  },
+  {
+    "id": "LERyWw5E_2M",
+    "title": "vini Inferno Library Smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-09-07"
+  },
+  {
+    "id": "ktWNzNopvVc",
+    "title": "\ud83d\udd25Bl4zE333 (24-6) 2.26 Rating | avg 3.1K ELO | Ancient POV | Sep 5, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-06"
+  },
+  {
+    "id": "m6_n2Q5KIqg",
+    "title": "\ud83d\udd25donk (22-15) 1.48 Rating | avg 3.6K ELO | Mirage POV | Sep 5, 2026",
+    "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-06"
+  },
+  {
+    "id": "5BxP7MbMG6w",
+    "title": "\ud83d\udd25MaiL09 (25-13) | avg 3.6K ELO | Dust2 POV | Sep 3, 2026",
+    "channel": "lim",
+    "player": "mail09",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-06"
+  },
+  {
+    "id": "OkAI4wkfnA0",
+    "title": "\ud83d\udd25frozen vs donk | avg 3.6K ELO | Anubis POV | Sep 4, 2026",
+    "channel": "lim",
+    "player": "frozen",
+    "team": null,
+    "map": "anubis",
+    "published": "2026-09-06"
+  },
+  {
     "id": "SPLsO5prEEA",
     "title": "\ud83d\udd25donk (28-15) 1.49 Rating | avg 3.5K ELO | Ancient POV | Sep 4, 2026",
     "channel": "lim",
@@ -15,6 +96,51 @@
     "player": "m0nesy",
     "team": null,
     "map": "dust2",
+    "published": "2026-09-06"
+  },
+  {
+    "id": "RWF9937BFNc",
+    "title": "cs2 inferno truck smoke lineup",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-09-06"
+  },
+  {
+    "id": "RzPUlZXToPY",
+    "title": "KRIMBO 200 IQ FAKE DROP TRICK ON INFERNO",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-09-06"
+  },
+  {
+    "id": "pgHgs4ql6AY",
+    "title": "MOUZ PR has had ENOUGH of Dust2 \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-06"
+  },
+  {
+    "id": "SPwrdgPYb2I",
+    "title": "tN1R Ancient molotov for donk Banana Peek in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-06"
+  },
+  {
+    "id": "kwKayYfYV0o",
+    "title": "BEST Inferno Triple Molotov in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
     "published": "2026-09-06"
   },
   {
@@ -61920,15 +62046,6 @@
     "published": "2025-03-17"
   },
   {
-    "id": "pXrhaRudQMg",
-    "title": "CS2 POV Demo G2 m0NESY (24/13) vs MOUZ (de_inferno) @ ESL Pro League Season 21",
-    "channel": "pov_highlights",
-    "player": "m0nesy",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-03-16"
-  },
-  {
     "id": "95SxSyt_KFg",
     "title": "FaZe GENIUS Nuke Outside Smokes for CS2",
     "channel": "utility",
@@ -61945,77 +62062,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-03-16"
-  },
-  {
-    "id": "i4OyDi6C1r8",
-    "title": "EASY Mirage Palace Smoke Every CS2 Player MUST KNOW",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-03-16"
-  },
-  {
-    "id": "D9s4LOW-dWE",
-    "title": "EASY Utility Damage on Ancient Using These NADES",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-03-16"
-  },
-  {
-    "id": "2xvst5yprKY",
-    "title": "THE MOST IMPORTANT NUKE SMOKES IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-03-16"
-  },
-  {
-    "id": "5RBO1qTnK2M",
-    "title": "apEX Shows INSANE Nuke Nades for CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-03-16"
-  },
-  {
-    "id": "manyGia2LEg",
-    "title": "NUKE SMOKES TO WIN YOU MORE GAMES IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-03-16"
-  },
-  {
-    "id": "8R2kbDupGzI",
-    "title": "The ULTIMATE AWP Peek on Ancient in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-03-15"
-  },
-  {
-    "id": "8VFcvgzsqPo",
-    "title": "PRO DUST 2 TRICK TO GET EASY KILLS IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-03-15"
-  },
-  {
-    "id": "kxW7FpQAG28",
-    "title": "VITALITY GENIUS DUST 2 STRATEGY IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-03-15"
   }
 ]
