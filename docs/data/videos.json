@@ -1,11 +1,101 @@
 [
   {
+    "id": "R-g6fG5MvDI",
+    "title": "\ud83d\udd25r0se (38-12) 2.04 Rating | avg 3.4K ELO | Anubis POV | Sep 7, 2026",
+    "channel": "lim",
+    "player": "r0se",
+    "team": null,
+    "map": "anubis",
+    "published": "2026-09-08"
+  },
+  {
+    "id": "kfx4TRFtSVY",
+    "title": "FalleN shows Dust2 Mid Door Smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-08"
+  },
+  {
+    "id": "G77NZr9MyuY",
+    "title": "NiKo Inferno LONG smoke for fast arch push in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-09-08"
+  },
+  {
+    "id": "Ka0ZdCN_3p0",
+    "title": "NERTZ GENIUS INFERNO PLAY TO WIN BANANA",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-09-08"
+  },
+  {
+    "id": "8yzwk6xN0PI",
+    "title": "\ud83d\udd25b1t SoloQ vs mzinho/Techno | avg 3.2K ELO | Ancient POV | Sep 7, 2026",
+    "channel": "lim",
+    "player": "b1t",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-07"
+  },
+  {
+    "id": "Dfu7T6Gc2as",
+    "title": "\ud83d\udd25donk (17-13) 1.36 Rating | avg 3.5K ELO | Mirage POV | Sep 5, 2026",
+    "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-07"
+  },
+  {
+    "id": "cZiJPLEyvuI",
+    "title": "\ud83d\udd25jks (29-14) w/ALISTAIR/INS | Sydney Server | Ancient POV | Sep 7, 2026",
+    "channel": "lim",
+    "player": "jks",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-07"
+  },
+  {
     "id": "SUG-zN4HflQ",
     "title": "\ud83d\udd25cobrazera (28-6) 2.21 Rating | avg 2.7K ELO | Dust2 POV | Sep 6, 2026",
     "channel": "lim",
     "player": "cobrazera",
     "team": null,
     "map": "dust2",
+    "published": "2026-09-07"
+  },
+  {
+    "id": "oqFNYovF64I",
+    "title": "ANUBIS B SMOKE WALL IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-09-07"
+  },
+  {
+    "id": "bVa2xyE8WjM",
+    "title": "r1nkle Anubis molotov for dark in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-09-07"
+  },
+  {
+    "id": "XkSNZ7f-rPM",
+    "title": "r1nkle Inferno smoke for top banana control in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
     "published": "2026-09-07"
   },
   {
@@ -62026,41 +62116,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-03-17"
-  },
-  {
-    "id": "oZLXScq7uHM",
-    "title": "This Mirage Nade is 200 IQ \u2013 Must-Know for CS2!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-03-17"
-  },
-  {
-    "id": "vF1G3C9Cfrs",
-    "title": "MUST KNOW ANCIENT MOLOTOV FOR CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-03-17"
-  },
-  {
-    "id": "95SxSyt_KFg",
-    "title": "FaZe GENIUS Nuke Outside Smokes for CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-03-16"
-  },
-  {
-    "id": "jWyeSgY-deQ",
-    "title": "EASY MIRAGE TIP TO GET MORE KILLS IN CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-03-16"
   }
 ]
