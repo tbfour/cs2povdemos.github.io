@@ -1,9 +1,90 @@
 [
   {
+    "id": "JpwTsmSG64A",
+    "title": "\ud83d\udd25kyousuke (48-29) 1.29 Rating | avg 3.4K ELO | Mirage POV | Sep 12, 2026 [Fix repeat rounds]",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-13"
+  },
+  {
+    "id": "Kui_lOnXhFM",
+    "title": "\ud83d\udd25kyousuke (21-10) | avg 3.3K ELO | Ancient POV | Sep 12, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-13"
+  },
+  {
+    "id": "_TNGTPCqUE4",
+    "title": "YUURIH MIRAGE SMOKE TO DENY MID CONTROL",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-13"
+  },
+  {
+    "id": "Zsu1HAq42zU",
+    "title": "QUICK ANCIENT A SITE SMOKES IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-13"
+  },
+  {
+    "id": "bXKBNknhwvk",
+    "title": "cadynx Mirage A Site nades you need to know in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-13"
+  },
+  {
+    "id": "kvQfds2fVgM",
+    "title": "kyxsan Dust2 Position that never gets cleared",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-13"
+  },
+  {
     "id": "HN1vfPUEit4",
     "title": "S1MPLE Finds W0NDERFUL in Top FACEIT Lobby! s1mple POV with COMMs (Mirage)",
     "channel": "nebula",
     "player": "s1mple",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-12"
+  },
+  {
+    "id": "war9rr1voyQ",
+    "title": "flameZ Genius Nuke Door Play in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-09-12"
+  },
+  {
+    "id": "O3wqwYZpALY",
+    "title": "Learn this Ancient smoke to bait your team",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-12"
+  },
+  {
+    "id": "q6_v--Qa7z4",
+    "title": "INNER CIRCLE MIRAGE APPS SMOKE BREAK TACTIC",
+    "channel": "utility",
+    "player": null,
     "team": null,
     "map": "mirage",
     "published": "2026-09-12"
@@ -62341,68 +62422,5 @@
     "team": null,
     "map": "ancient",
     "published": "2025-03-22"
-  },
-  {
-    "id": "DDukm0Zp9rg",
-    "title": "malbsMd Shows INSANE Dust 2 A Cross Smoke in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-03-22"
-  },
-  {
-    "id": "N896oNCIdN4",
-    "title": "Spinx's PERFECT Dust 2 Mid Door Smoke for CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-03-22"
-  },
-  {
-    "id": "nnliBK7lXRI",
-    "title": "2 INFERNO PRO TRICKS YOU NEED TO KNOW",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-03-22"
-  },
-  {
-    "id": "QqIL2d9SFUQ",
-    "title": "CS2 POV Demo Spirit Donk (24/9) vs The Huns (de_dust2) @ BLAST Open Lisbon 2025",
-    "channel": "pov_highlights",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-03-21"
-  },
-  {
-    "id": "NnCi1YVSofA",
-    "title": "THE MOST INSANE INFERNO FLASH FOR CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-03-21"
-  },
-  {
-    "id": "QQoYZxMF2gE",
-    "title": "FaZe Clan\u2019s Unstoppable B Execute \u2013 Anubis Strat Explained",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-03-21"
-  },
-  {
-    "id": "upuLv8P6ah0",
-    "title": "TWISTZZ SHOWS INSANE INFERNO MOTO SMOKE FOR CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-03-21"
   }
 ]
