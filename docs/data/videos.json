@@ -1,5 +1,77 @@
 [
   {
+    "id": "W4GvqeGV350",
+    "title": "DONK gets 49 Kills vs his Friend in FACEIT! donk POV with COMMs (Dust 2)",
+    "channel": "nebula",
+    "player": "donk",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-24"
+  },
+  {
+    "id": "hdn_gTxOnmM",
+    "title": "NiKo Ancient smoke for m0NESY Mid Peek in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-24"
+  },
+  {
+    "id": "_RQANtvcp4I",
+    "title": "n1ssim INSANE Dust2 Molotov to Rush Short in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-24"
+  },
+  {
+    "id": "sPIv_TkclvM",
+    "title": "Vitality ropz flash to entry Long on Dust2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-24"
+  },
+  {
+    "id": "Bl2ChSMRKJs",
+    "title": "THE MONGOLZ DUST2 CT STRATEGY",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-24"
+  },
+  {
+    "id": "lxCtYoouCA8",
+    "title": "BEST DUST2 CT SETUP FOR SHORT",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-24"
+  },
+  {
+    "id": "9oM-Nk1P1uo",
+    "title": "\ud83d\udd25donk (23-12) | avg 3.4K ELO | Dust2 POV | Sep 23, 2026",
+    "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-23"
+  },
+  {
+    "id": "ufEjjvKXppU",
+    "title": "\ud83d\udd25molodoy (25-9) 5-Stack | avg 2.9K ELO | Inferno POV | Sep 22, 2026",
+    "channel": "lim",
+    "player": "molodoy",
+    "team": null,
+    "map": "inferno",
+    "published": "2026-09-23"
+  },
+  {
     "id": "mKvYGOEbiUQ",
     "title": "\ud83d\udd25b1t (31-8) 1.62 Rating | avg 2.5K ELO | Ancient POV | Sep 23, 2026",
     "channel": "lim",
@@ -15,6 +87,33 @@
     "player": "niko",
     "team": null,
     "map": "ancient",
+    "published": "2026-09-23"
+  },
+  {
+    "id": "AUan_Rckgko",
+    "title": "cobrazera Inferno Flash to Defend B Site in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-09-23"
+  },
+  {
+    "id": "m7RR8veYXAM",
+    "title": "frozen INSANE Anubis B Main Smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-09-23"
+  },
+  {
+    "id": "6oPow2zbVDk",
+    "title": "PRO MIRAGE BOOST TO HOLD A SITE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
     "published": "2026-09-23"
   },
   {
@@ -63295,50 +63394,5 @@
     "team": null,
     "map": "anubis",
     "published": "2025-04-02"
-  },
-  {
-    "id": "54nyZdrnyfg",
-    "title": "Hunter\u2019s INSANE B Lurk Smoke on Anubis! \ud83d\udca8\ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-02"
-  },
-  {
-    "id": "JhsDTEAacm4",
-    "title": "Lock Down A Site with This Pro Anubis CT Tactic! \ud83d\udeab\ud83d\udd25 (CS2)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-02"
-  },
-  {
-    "id": "ANB7OqBTd5s",
-    "title": "INSANE Anubis Nades from Eternal Fire You NEED to See! \ud83e\udd2f\ud83d\udd25 (CS2)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-02"
-  },
-  {
-    "id": "1pDNofyegIg",
-    "title": "m0NESY's INSANE Anubis Smoke for PERFECT B-Rush! \ud83d\udca5\ud83d\udd25 (CS2)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-01"
-  },
-  {
-    "id": "FfDiZbcuQOA",
-    "title": "CS2: Anubis Connector Molotov EVERY Pro Uses! \ud83d\udd25\ud83d\udca1",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-01"
   }
 ]
