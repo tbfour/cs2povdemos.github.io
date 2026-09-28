@@ -1,5 +1,212 @@
 [
   {
+    "id": "5d722zdDEWI",
+    "title": "\ud83d\udd25ZywOo (27-11) 5-Stack | avg 3.0K ELO | Dust2 POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": "zywoo",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "2_MXLv1kIpM",
+    "title": "\ud83d\udd25jcobbb (22-16) SoloQ +tudsoN/kRaSnaL | avg 3.5K ELO | Mirage POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": "jcobbb",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "YstXRWAURdw",
+    "title": "\ud83d\udd25donk w/Magnojezzz +amanek vs jcobbb | avg 3.9K ELO | Mirage POV | Sep 28, 2026",
+    "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "aOMdRT5PORY",
+    "title": "\ud83d\udd25s1mple SoloQ +NertZ | avg 3.4K ELO | Ancient POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": "s1mple",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "FRKtcBLQcfE",
+    "title": "\ud83d\udd25Vexite (24-14) w/INS | avg 3.0K ELO | Dust2 POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "I8tBKF_HeMI",
+    "title": "\ud83d\udd25ZywOo (21-13) 1.26 Rating | avg 3.0K ELO | Nuke POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": "zywoo",
+    "team": null,
+    "map": "nuke",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "C0v07ZXagbE",
+    "title": "\ud83d\udd25kyousuke (24-8) 1.82 Rating | avg 3.5K ELO | Ancient POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "1dp8JYCNzhQ",
+    "title": "CS2 ANCIENT CT SMOKE LINEUP FROM T SPAWN",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "QhS5KV6-hPc",
+    "title": "cs2 ancient long smoke lineup tutorial",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "1e5oO3aBEso",
+    "title": "MAX ANCIENT FLASH FOR BANANA PEEK IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "tQN4wKiLDQA",
+    "title": "magixx shows Pro Mirage Smokes for A Site in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "mB4Q8eDEOdE",
+    "title": "Astralis Anubis Pistol Strategy you need to copy in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "LHs4yez193s",
+    "title": "HUNTER INFERNO B SMOKES FROM MID FOR CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "xlNFoAGGz80",
+    "title": "CS2 ANCIENT B DOOR SMOKE LINEUP TUTORIAL",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-28"
+  },
+  {
+    "id": "QhqgLqMx6XI",
+    "title": "\ud83d\udd25s1mple (21-12) SoloQ | avg 3.2K ELO | Ancient POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": "s1mple",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-27"
+  },
+  {
+    "id": "shtHOLRW11s",
+    "title": "\ud83d\udd25s1mple 16-6 | avg 3.7K ELO | Mirage POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": "s1mple",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-27"
+  },
+  {
+    "id": "Kdx1KHMTC1U",
+    "title": "\ud83d\udd25TeSeS 19-7 | avg 3.3K ELO | Ancient POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": "teses",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-09-27"
+  },
+  {
+    "id": "NrzW8d_oJrQ",
+    "title": "\ud83d\udd25xKacpersky (26-14) 1.68 Rating | avg 3.3K ELO | Mirage POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-27"
+  },
+  {
+    "id": "iNJnkxY37gw",
+    "title": "\ud83d\udd25TeSeS 25-15 | avg 3.4K ELO | Inferno POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": "teses",
+    "team": null,
+    "map": "inferno",
+    "published": "2026-09-27"
+  },
+  {
+    "id": "-n8zcyCRFII",
+    "title": "\ud83d\udd25Bl4zE333 (24-9) 1.73 Rating | avg 3.2K ELO | Anubis POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-09-27"
+  },
+  {
+    "id": "AWsyNZnfzm8",
+    "title": "\ud83d\udd25kyousuke (29-13) 1.40 Rating | avg 3.4K ELO | Dust2 POV | Sep 27, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-27"
+  },
+  {
+    "id": "or7_w1gy2nQ",
+    "title": "\ud83d\udd25s1nside 33-12 | avg 3.3K ELO | Dust2 POV | Sep 25, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-09-27"
+  },
+  {
+    "id": "yradjyxPUCA",
+    "title": "Spirit Academy\ud83d\udd2517 y.o. k0gass | avg 3.5K ELO | Mirage POV | Sep 25, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-09-27"
+  },
+  {
     "id": "LWlW1YA4XJU",
     "title": "\ud83d\udd25kyousuke (16-6) 1.50 Rating | avg 3.5K ELO | Ancient POV | Sep 27, 2026",
     "channel": "lim",
@@ -33,6 +240,15 @@
     "player": "donk",
     "team": null,
     "map": "nuke",
+    "published": "2026-09-27"
+  },
+  {
+    "id": "rWikGNMl4hM",
+    "title": "CS2 DUST2 SMOKE FOR MID PEEK",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
     "published": "2026-09-27"
   },
   {
@@ -63592,86 +63808,5 @@
     "team": null,
     "map": "dust2",
     "published": "2025-04-07"
-  },
-  {
-    "id": "4GOUrvmi2gE",
-    "title": "CS2\u2019s New Nuke Smoke Meta is WILD",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-04-06"
-  },
-  {
-    "id": "1RIjpdp04Z8",
-    "title": "Dust 2 A Site Nades Every Pro Uses \u2013 CS2",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-04-06"
-  },
-  {
-    "id": "uNkwDCUSTtM",
-    "title": "EASY Connector Smoke from B Site \u2013 Anubis CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-06"
-  },
-  {
-    "id": "XLQ_UZkSr30",
-    "title": "Full Blind Every Time \u2013 Inferno Apartments Flash \ud83d\udca1",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-06"
-  },
-  {
-    "id": "CKdR-I3XZCo",
-    "title": "You NEED This Broky Smoke for Lower Site on Nuke!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-04-06"
-  },
-  {
-    "id": "NjJsfAtAxRA",
-    "title": "Rush B Like a PRO \u2013 Fast CT Smoke on Inferno! \ud83d\udca8\ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-06"
-  },
-  {
-    "id": "CDEjum0sg5U",
-    "title": "CS2 POV Demo Vitality flameZ (21/12) vs MOUZ (de_train) @ BLAST Open Lisbon 2025",
-    "channel": "pov_highlights",
-    "player": "flamez",
-    "team": null,
-    "map": null,
-    "published": "2025-04-05"
-  },
-  {
-    "id": "zFUwjQo4W04",
-    "title": "Staehr\u2019s Apartments Flash is a FREE Kill on Inferno \ud83d\udca1\ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-05"
-  },
-  {
-    "id": "G-EBj8ly9Rw",
-    "title": "MUST-KNOW Ancient A Smokes in CS2! \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-05"
   }
 ]
