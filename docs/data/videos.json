@@ -1,5 +1,113 @@
 [
   {
+    "id": "nTH4B0FMR0w",
+    "title": "\ud83d\udd25flameZ (26-13) 2.00 Rating | avg 3.0K ELO | Mirage POV | Oct 3, 2026",
+    "channel": "lim",
+    "player": "flamez",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "Tqn7MfxbIGE",
+    "title": "\ud83d\udd25m0NESY (35-22) w/TeSeS | avg 3.5K ELO | Ancient POV | Oct 3, 2026",
+    "channel": "lim",
+    "player": "m0nesy",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "OXkcCnWGRL4",
+    "title": "ANUBIS PLAY YOU NEED TO MAKE ON CT SIDE",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "9FFKBBRhlyQ",
+    "title": "DONK MIRAGE MOVEMENT YOU NEED TO COPY",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "9iWiUxguzRQ",
+    "title": "donk Mirage smoke for Ticket control in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "fTTSLeqq3nM",
+    "title": "PRO NUKE SMOKE WALL TO CROSS SECRET",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "fqbGpq9mXeA",
+    "title": "THIS INFERNO POSITION NEVER GETS CLEARED IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "fBXgb6i2q7M",
+    "title": "Spinx AGGRESSIVE Ancient Play to Peek B Site",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "UliPkv-v3t0",
+    "title": "\ud83d\udd25bLitz (27-18) 1.67 Rating | avg 2.7K ELO | Mirage POV | Sep 30, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-03"
+  },
+  {
+    "id": "fS5of8ZxB4M",
+    "title": "\ud83d\udd25kyousuke (27-7) 1.59 Rating | avg 3.6K ELO | Ancient POV | Oct 3, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-03"
+  },
+  {
+    "id": "PFXgDRi8mZQ",
+    "title": "\ud83d\udd25SunPayus 28-15 | avg 3.1K ELO | Ancient POV | Oct 2, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-03"
+  },
+  {
+    "id": "ntshOD0zXbs",
+    "title": "\ud83d\udd25JamYoung (13-9) 1.46 Rating | Mirage POV | Oct 2, 2026",
+    "channel": "lim",
+    "player": "jamyoung",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-03"
+  },
+  {
     "id": "tVWa2hSsrpI",
     "title": "\ud83d\udd25JamYoung (21-10) 1.67 Rating | Ancient POV | Oct 2, 2026",
     "channel": "lim",
@@ -33,6 +141,33 @@
     "player": "flamez",
     "team": null,
     "map": "nuke",
+    "published": "2026-10-03"
+  },
+  {
+    "id": "PLrQQFuv6Es",
+    "title": "CS2 NUKE TRICK FOR FAST YARD PEEK",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-03"
+  },
+  {
+    "id": "jwtlA_Ey-qU",
+    "title": "PRO NUKE BOOST TO GET FREE KILLS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-03"
+  },
+  {
+    "id": "Xqm3u7n2c9E",
+    "title": "BEST ANCIENT POSITION TO DEFEND CHEETAH IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
     "published": "2026-10-03"
   },
   {
@@ -64035,15 +64170,6 @@
     "published": "2025-04-12"
   },
   {
-    "id": "gwf-Pb-jRTE",
-    "title": "\ud83d\udd25donk vs cadiaN+jabbi+stavn (mirage) | Apr 11, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-12"
-  },
-  {
     "id": "bLt7S2NwdnQ",
     "title": "Pro Mirage Tip You NEED to Know (CS2)",
     "channel": "utility",
@@ -64069,131 +64195,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-04-12"
-  },
-  {
-    "id": "Zr2kFc7eMIg",
-    "title": "AZR\u2019s INSANE CT Mid Flash on Inferno \ud83d\ude31",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-12"
-  },
-  {
-    "id": "yRokU70U-ls",
-    "title": "Secret Pro Mirage Tip You Should Know (CS2)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-12"
-  },
-  {
-    "id": "cP9x44V8COM",
-    "title": "Pro CT Tip to SHUT DOWN A Site on Inferno \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-12"
-  },
-  {
-    "id": "efKtChufVKQ",
-    "title": "mezii\u2019s PERFECT Dust2 Long Smoke \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-04-12"
-  },
-  {
-    "id": "75QvVkfHZlE",
-    "title": "ZywOo\u2019s Anubis A Nades Are GOD TIER \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-12"
-  },
-  {
-    "id": "fqFFLKy-Am4",
-    "title": "FURIA\u2019s INSANE CT Mid Tactic on Inferno \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-12"
-  },
-  {
-    "id": "Msnjlhom460",
-    "title": "D0cC (61-28) Rating: 1.94 (Train) | FACEIT avg. 2800 | Apr 9, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": null,
-    "published": "2025-04-11"
-  },
-  {
-    "id": "V5FVN3HZV5A",
-    "title": "jL (36-13) Rating: 2.54 (Inferno) | FACEIT Ranked | April 7, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-11"
-  },
-  {
-    "id": "KD1xCQ9KSxQ",
-    "title": "NiKo (23-10) Falcons vs The MongolZ (Dust2) | PGL Bucharest 2025 | CS2 POV/demo",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-04-11"
-  },
-  {
-    "id": "gvn2_zQu9ps",
-    "title": "device\u2019s BRILLIANT Inferno CT Smoke \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-11"
-  },
-  {
-    "id": "07SbLMUXFj4",
-    "title": "How to COUNTER the B Lurk Smoke (Dust2)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-04-11"
-  },
-  {
-    "id": "qRoIe171b1s",
-    "title": "You NEED device\u2019s Mid Smoke on Inferno",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-11"
-  },
-  {
-    "id": "FS6rRDUuSCI",
-    "title": "200 IQ CT Setup on Dust2 You\u2019ve NEVER Seen \ud83e\udd2f",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-04-11"
-  },
-  {
-    "id": "uiS33VAd8ak",
-    "title": "INSANE Frozen HE Grenade on Anubis! \ud83d\udca5 #cs2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-11"
   }
 ]
