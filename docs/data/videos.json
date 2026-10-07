@@ -1,11 +1,101 @@
 [
   {
+    "id": "FcDs3W4ZLL4",
+    "title": "\ud83d\udd25donk (23-17) 1.30 Rating | avg 3.9K ELO | Ancient POV | Oct 5, 2026",
+    "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "V-3B0wjd-MI",
+    "title": "fast cs2 ancient donut smoke for a site rush",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "YeY71WFwzCg",
+    "title": "s1n Mirage smokes for Mid in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "r5ZkYo6KOqU",
+    "title": "FURIA Inferno Mid Rush Play in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "SPgR_Xe_V3A",
+    "title": "BELCHONOKK Inferno Banana smoke for Car peek in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "K3-x59OM4KY",
+    "title": "MOLODOY NUKE MOVEMENT TO PEEK OUTSIDE",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "dR9y-SAa5mM",
+    "title": "\ud83d\udd25xelex (21-8) w/torzsi | avg 3.5K ELO | Nuke POV | Oct 6, 2026",
+    "channel": "lim",
+    "player": "xelex",
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-06"
+  },
+  {
+    "id": "fS9_Bvo5uOI",
+    "title": "\ud83d\udd25s1mple (20-13) 1.38 Rating | avg 3.3K ELO | Dust2 POV | Oct 6, 2026",
+    "channel": "lim",
+    "player": "s1mple",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-06"
+  },
+  {
     "id": "XsXPRefDMqs",
     "title": "\ud83d\udd25donk 40Kills vs blameF | avg 3.4K ELO | Dust2 POV | Oct 5, 2026",
     "channel": "lim",
     "player": "donk",
     "team": null,
     "map": "dust2",
+    "published": "2026-10-06"
+  },
+  {
+    "id": "ipt5DSGFdTs",
+    "title": "LNZ INFERNO BANANA NADES FOR CAR CONTROL",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-06"
+  },
+  {
+    "id": "TPCwjk07f00",
+    "title": "FALLEN INFERNO A SMOKES FROM APPS",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
     "published": "2026-10-06"
   },
   {
@@ -64080,24 +64170,6 @@
     "published": "2025-04-15"
   },
   {
-    "id": "VCOpyeb2kSA",
-    "title": "m0NESY (31-8) w/HeavyGod Rating 2.8 (Anubis) | FACEIT 3300 ELO | April 9, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "c3g9aU9VtsQ",
-    "title": "\ud83d\udd25donk (26-8) w/suns1de Rating: 2.02 (Anubis) | Apr 14, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-15"
-  },
-  {
     "id": "5cgVMSW5otE",
     "title": "Master Ancient A with 3 Smokes from 1 Spot \ud83d\ude24",
     "channel": "utility",
@@ -64132,95 +64204,5 @@
     "team": null,
     "map": "nuke",
     "published": "2025-04-15"
-  },
-  {
-    "id": "7h6LsdhB4r8",
-    "title": "Falcons Ancient Strategy Breakdown \u2013 CS2 Pro Tactic Guide",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "d0nbxgjeoSs",
-    "title": "Best Upper Retake Flash on Nuke in CS2 \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "unkD7_7XQGE",
-    "title": "200 IQ Nuke Trick Every CS2 Player Should Know \ud83e\udde0",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "jL0T6_BySQ8",
-    "title": "How iM Smokes Connector on Mirage \u2013 Pro CS2 Trick \ud83d\udca3",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "cJO2GegxRXQ",
-    "title": "Pro Movement Tricks for Mirage Mid You NEED \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "8r9hY_nFsXo",
-    "title": "How Vitality Shuts Down T-Side Mid on Anubis \ud83d\udd12",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "7_wM4hE5Q60",
-    "title": "kyousuke (30-12) w/Mokuj1n/robo (Dust2) | FACEIT avg 3470 ELO | Apr 13, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-04-14"
-  },
-  {
-    "id": "l27866I3--8",
-    "title": "broky\u2019s GENIUS Pistol Drop Fake on Nuke \ud83d\ude31",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-04-14"
-  },
-  {
-    "id": "3lYqNCZJXxQ",
-    "title": "How to STOP the Fast Heaven Peek on Ancient \ud83d\udeab",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-14"
-  },
-  {
-    "id": "64xUgF-Mju8",
-    "title": "How NAF Takes Ramp on Ancient with These Nades \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-14"
   }
 ]
