@@ -1,9 +1,117 @@
 [
   {
+    "id": "-wk5Hgstvvg",
+    "title": "\ud83d\udd25donk (26-22) 1.21 Rating | avg 3.9K ELO | Cache POV | Oct 8, 2026",
+    "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": null,
+    "published": "2026-10-08"
+  },
+  {
+    "id": "BFpaJ2x16Wg",
+    "title": "m0NESY GENIUS Dust 2 AWP Angle at Long",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-08"
+  },
+  {
+    "id": "EmzP-oSQNjY",
+    "title": "NASTY INFERNO ANGLE TO DEFEND APPS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-08"
+  },
+  {
+    "id": "Qx3RSg09HpA",
+    "title": "yuurih shows easy Mirage stairs molotov",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-08"
+  },
+  {
+    "id": "UEUaJN8qX_M",
+    "title": "JIMPPHAT ANUBIS CAMERA SMOKE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-08"
+  },
+  {
+    "id": "1vrgaXzCxvE",
+    "title": "Magnojez Dust2 Nades for Mid Rush in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-08"
+  },
+  {
+    "id": "tVs3Hy45Uwk",
+    "title": "Falcons\u2019 PERFECT Inferno A Split Explained | CS2",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-08"
+  },
+  {
+    "id": "qGkQ_PyApto",
+    "title": "\ud83d\udd25kyousuke (21-9) 1.55 Rating | avg 3.4K ELO | Mirage POV | Oct 7, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "Vfd5ROiM7Uw",
+    "title": "\ud83d\udd25kyousuke (26-11) 1.74 Rating | avg 3.6K ELO | Ancient POV | Oct 7, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "sqtuphQ_EjA",
+    "title": "\ud83d\udd25zont1x (12-6) 1.33 Rating | avg 3.0K ELO | Mirage POV | Oct 7, 2026",
+    "channel": "lim",
+    "player": "zont1x",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-07"
+  },
+  {
     "id": "FcDs3W4ZLL4",
     "title": "\ud83d\udd25donk (23-17) 1.30 Rating | avg 3.9K ELO | Ancient POV | Oct 5, 2026",
     "channel": "lim",
     "player": "donk",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "9PHdtXvV5SY",
+    "title": "NRG INSANE INFERNO BOOST TO DEFEND B SITE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "QFaEuxKiAaE",
+    "title": "cs2 ancient position to defend cheetah",
+    "channel": "utility",
+    "player": null,
     "team": null,
     "map": "ancient",
     "published": "2026-10-07"
@@ -64105,104 +64213,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-04-16"
-  },
-  {
-    "id": "BcbulK4tNeA",
-    "title": "\ud83d\udd25donk (48-30) w/suns1de (Mirage) | Apr 15, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-16"
-  },
-  {
-    "id": "FSTWIirr73A",
-    "title": "\ud83d\udd25donk (24-8) w/Magnojez/suns1de (Dust2) | Apr 15, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-04-16"
-  },
-  {
-    "id": "tA3eJan70qo",
-    "title": "device (26-14) w/Staehr (mirage) | FACEIT avg 3200 ELO | Apr 11, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "device",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-16"
-  },
-  {
-    "id": "cJOlB2P2swI",
-    "title": "These Nades Make A-Site Anubis Rush EASY",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-16"
-  },
-  {
-    "id": "84u51w7OeUs",
-    "title": "How ZywOo Sets Up A-Site on Mirage with Nades \ud83d\udca3",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-16"
-  },
-  {
-    "id": "V8do11LsMp4",
-    "title": "This b1t Molotov Dominates B Site on Ancient \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-16"
-  },
-  {
-    "id": "_UTCNCwy2Qk",
-    "title": "\ud83d\udd25donk (33-13) w/suns1de Rating: 2.21 (Mirage) | Apr 15, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "5cgVMSW5otE",
-    "title": "Master Ancient A with 3 Smokes from 1 Spot \ud83d\ude24",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "LQcl72_MOwk",
-    "title": "Need B Site Nades on Ancient? Steal These from NEKIZ",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "JD8Hdvv8oLk",
-    "title": "r1nkle\u2019s A Main Smoke from CT on Anubis \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-15"
-  },
-  {
-    "id": "D72dxJAiIVs",
-    "title": "Nuke\u2019s Best Secret Off-Angle in CS2 \ud83d\udc40",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-04-15"
   }
 ]
