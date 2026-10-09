@@ -1,11 +1,101 @@
 [
   {
+    "id": "_YttNwE9io4",
+    "title": "\ud83d\udd25donk 28-16 | avg 3.8K ELO | Mirage POV | Oct 8, 2026",
+    "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-09"
+  },
+  {
+    "id": "2TXDg2CemT4",
+    "title": "\ud83d\udd25kyousuke (34-15) 1.69 Rating | avg 3.3K ELO | Mirage POV | Oct 8, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-09"
+  },
+  {
+    "id": "jwFRoZc6evk",
+    "title": "\ud83d\udd25NiKo (24-14) w/TeSeS | avg 3.6K ELO | Dust2 POV | Oct 8, 2026",
+    "channel": "lim",
+    "player": "niko",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-09"
+  },
+  {
+    "id": "oES6jMgsxrA",
+    "title": "ASTRALIS ANCIENT NADES FOR LANE RUSH IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-09"
+  },
+  {
+    "id": "pR1edOV6-hI",
+    "title": "CS2 MIRAGE UTILITY TO ENTRY A SITE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-09"
+  },
+  {
+    "id": "EaSQijapYwA",
+    "title": "mezii Anubis B Site molotov makes entrying out Cave easy",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-09"
+  },
+  {
+    "id": "4EM_WOl_vTE",
+    "title": "Vitality Anubis CT Setup to Hold A Site in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-09"
+  },
+  {
     "id": "-wk5Hgstvvg",
     "title": "\ud83d\udd25donk (26-22) 1.21 Rating | avg 3.9K ELO | Cache POV | Oct 8, 2026",
     "channel": "lim",
     "player": "donk",
     "team": null,
     "map": null,
+    "published": "2026-10-08"
+  },
+  {
+    "id": "W_BVaQkOfF4",
+    "title": "PUUHA NUKE UNBREAKABLE SMOKE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-08"
+  },
+  {
+    "id": "osLE3wn6JyY",
+    "title": "THIS INFERNO POSITION IS UNFAIR IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-08"
+  },
+  {
+    "id": "rC1NxsrEry4",
+    "title": "CS2 DUST 2 B TUNNEL LURK SMOKE",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
     "published": "2026-10-08"
   },
   {
@@ -55,7 +145,7 @@
   },
   {
     "id": "tVs3Hy45Uwk",
-    "title": "Falcons\u2019 PERFECT Inferno A Split Explained | CS2",
+    "title": "This Falcons Inferno A Split Is So Hard to Defend",
     "channel": "strategy",
     "player": null,
     "team": null,
@@ -64116,24 +64206,6 @@
     "published": "2025-04-17"
   },
   {
-    "id": "JjlgdRiZMPE",
-    "title": "m0NESY (27-9) w/kyousuke (Train) | FACEIT 3600 ELO | April 16, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": null,
-    "published": "2025-04-17"
-  },
-  {
-    "id": "thPPeK43IOg",
-    "title": "\ud83d\udd25donk (27-12) w/suns1de (Ancient) | Apr 15, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-17"
-  },
-  {
     "id": "jveMoAmwMQw",
     "title": "CS2 POV Demo Falcons NiKo (23/10) vs MongolZ (de_dust2) @ PGL Bucharest 2025",
     "channel": "pov_highlights",
@@ -64168,50 +64240,5 @@
     "team": null,
     "map": "anubis",
     "published": "2025-04-17"
-  },
-  {
-    "id": "SvKxnJ2IEB4",
-    "title": "This Ancient Mid Tip Wins Rounds \u2013 CS2 T Side",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-17"
-  },
-  {
-    "id": "br8rvpnpp5w",
-    "title": "ropz\u2019s Lane Molotov on Inferno is TOO GOOD \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-17"
-  },
-  {
-    "id": "-xNDlzBpL_c",
-    "title": "Win T Pistol Round Like Brollan \u2013 A Nades on Mirage \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-17"
-  },
-  {
-    "id": "kzcLWaKIhYA",
-    "title": "m0NESY (30-15) w/irbitka (mirage) | FACEIT 3000 ELO | April 16, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-16"
-  },
-  {
-    "id": "AWS3t8LAa2g",
-    "title": "zont1x (25-13) SoloQ (mirage) | FACEIT 3300 ELO | April 14, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "zont1x",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-16"
   }
 ]
