@@ -1,5 +1,77 @@
 [
   {
+    "id": "iYbH4QaMqpA",
+    "title": "FALCONS INSANE NUKE BOOST FOR FREE KILLS",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "wjZvNukKxVI",
+    "title": "ZywOo Mirage HE Nade to Break Window Smoke for Mid Peek in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "u-iL_ePnj5I",
+    "title": "flameZ 200 IQ Anubis molotov to push Mid in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "T_BCvhG6mZQ",
+    "title": "hypex Mirage smoke play to Peek Underpass in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "VCPw1Vb1WV4",
+    "title": "USE THE TRUCK ON INFERNO TO ENTRY UP SHORT",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "MxBDPdN90Lk",
+    "title": "KVEM SHOWS BEST ANGLE TO HOLD APPS ON INFERNO",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "gyyD1s_3o3Q",
+    "title": "\ud83d\udd25r0se (32-9) 1.92 Rating | avg 3.4K ELO | Mirage POV | Oct 11, 2026",
+    "channel": "lim",
+    "player": "r0se",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-11"
+  },
+  {
+    "id": "L9caw2a6MBQ",
+    "title": "\ud83d\udd25s1nside (28-14) 1.71 Rating | avg 3.7K ELO | Nuke POV | Oct 10, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-11"
+  },
+  {
     "id": "r2-MZjHHh2Q",
     "title": "\ud83d\udd25zweih (29-10) 2.31 Rating | avg 3.2K ELO | Anubis POV | Oct 10, 2026",
     "channel": "lim",
@@ -24,6 +96,15 @@
     "player": "s1mple",
     "team": null,
     "map": "mirage",
+    "published": "2026-10-11"
+  },
+  {
+    "id": "DGKtMVjOG1s",
+    "title": "cs2 inferno pro tip to dominate banana",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
     "published": "2026-10-11"
   },
   {
@@ -64143,15 +64224,6 @@
     "published": "2025-04-20"
   },
   {
-    "id": "bqVvuJ8WB7w",
-    "title": "Techno (23-11) SoloQ OCE FACEIT (mirage) | FACEIT avg 2700 ELO | Apr 19, 2025 | CS2 POV",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-20"
-  },
-  {
     "id": "CvA9RQnTgfk",
     "title": "Pro Molotov from flameZ to Control Mid \u2013 Inferno CS2",
     "channel": "utility",
@@ -64168,95 +64240,5 @@
     "team": null,
     "map": "inferno",
     "published": "2025-04-20"
-  },
-  {
-    "id": "2cMxSceLSdU",
-    "title": "Pro Cave Smoke You\u2019ve Never Seen \u2013 Ancient CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-20"
-  },
-  {
-    "id": "nzJHAr8IUBc",
-    "title": "Insane A Site Molotov on Inferno \u2013 Must Know!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-20"
-  },
-  {
-    "id": "5nn1etFOdHs",
-    "title": "This Is How Pros Take Aps on Mirage (CT Side)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-20"
-  },
-  {
-    "id": "PKt3hvVQ7D0",
-    "title": "2 Smokes You NEED to Retake B on Ancient \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-20"
-  },
-  {
-    "id": "GDpmwMp76ag",
-    "title": "Shut Down Heaven with Vini\u2019s Nuke Smoke!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-04-20"
-  },
-  {
-    "id": "FUmDwH3vLtQ",
-    "title": "\ud83d\udd25donk (33-16) w/suns1de (mirage) | Apr 19, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-19"
-  },
-  {
-    "id": "ijP8l6NisMM",
-    "title": "ZywOo\u2019s Flash to Destroy T Pushes on Inferno A",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-19"
-  },
-  {
-    "id": "Lf_22E8KuBs",
-    "title": "Ancient Doughnut Smoke for a Fast A Rush \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-19"
-  },
-  {
-    "id": "o9J6KuZbLAE",
-    "title": "The BEST CT Smoke on Ancient in CS2 \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-19"
-  },
-  {
-    "id": "ZMUb8O3xzjc",
-    "title": "Fluxo's PERFECT Dust 2 Pistol Rush Strategy \u2013 Easy Rounds!",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-04-19"
   }
 ]
