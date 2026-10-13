@@ -1,5 +1,158 @@
 [
   {
+    "id": "bH3GyCZfAsc",
+    "title": "\ud83d\udd25GeT_RiGhT (23-4) 2.01 Rating | avg 3.0K ELO | Dust2 POV | Oct 12, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "DrPbH7podOc",
+    "title": "\ud83d\udd25s1mple 24-8 | avg 3.2K ELO | Mirage POV | Oct 13, 2026",
+    "channel": "lim",
+    "player": "s1mple",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "3a917dmCZ5k",
+    "title": "CLUTCH NUKE FLASH TO ENTRY OUT SINGLE DOOR",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "L11IyktRJ1o",
+    "title": "100 THIEVES INSANE DUST2 BOOST IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "yRZ-fnLwROM",
+    "title": "KRIMBO SHOWS FAST NUKE TOP HUT MOLOTOV",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "Wx3_H-O3qoY",
+    "title": "FURIA INSANE DUST2 BOOST IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "iCiQSI63RYI",
+    "title": "CS2 NUKE TIP - YOU CAN SAVE LOWER WHEN PLANTING A",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "R6DxG6lwSVc",
+    "title": "HOW TO STOP ANUBIS B SITE PLANTS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "A1U-WuDmRqA",
+    "title": "cs2 nuke heaven smoke lineup",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "niJ33yOE12I",
+    "title": "ropz anubis position to hold a main in cs2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "FYvJY-OhJjk",
+    "title": "\ud83d\udd25zont1x (5-3) 1.14 Rating | avg 3.4K ELO | Dust2 POV | Oct 9, 2026",
+    "channel": "lim",
+    "player": "zont1x",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "WsohI9IWPwg",
+    "title": "\ud83d\udd25f0rest 25-12 | avg 3.3K ELO | Cache POV | Oct 12, 2026",
+    "channel": "lim",
+    "player": "f0rest",
+    "team": null,
+    "map": null,
+    "published": "2026-10-12"
+  },
+  {
+    "id": "u3JmtvTqpv0",
+    "title": "\ud83d\udd25s1nside 27-7 | avg 3.6K ELO | Ancient POV | Oct 12, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "ysMCQNogRW4",
+    "title": "\ud83d\udd25r0se (31-12) 1.88 Rating | avg 3.2K ELO | Mirage POV | Oct 11, 2026",
+    "channel": "lim",
+    "player": "r0se",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "zVJW8e0G9gY",
+    "title": "\ud83d\udd25electroNic | avg 3.3K ELO | Inferno POV | Oct 12, 2026",
+    "channel": "lim",
+    "player": "electronic",
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "jQcS0FMM5Fo",
+    "title": "INSANE CS2 MIRAGE BOOST TRICK PLAY",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-12"
+  },
+  {
+    "id": "ZnLAtMDX2Q8",
+    "title": "BROLLAN TAUGHT KRIMBO THIS ANCIENT MOLOTOV",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-12"
+  },
+  {
     "id": "iYbH4QaMqpA",
     "title": "FALCONS INSANE NUKE BOOST FOR FREE KILLS",
     "channel": "utility",
@@ -64107,42 +64260,6 @@
     "published": "2025-04-21"
   },
   {
-    "id": "cdW3gekY2Ms",
-    "title": "m0NESY w/TeSeS/magisk (Dust2) | FACEIT OCE | April 20, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-04-21"
-  },
-  {
-    "id": "BcDUkIS9QrY",
-    "title": "\ud83d\udd25donk (51-30) w/suns1de (Dust2) | Apr 20, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-04-21"
-  },
-  {
-    "id": "o0j_BD20kUE",
-    "title": "NiKo w/m0NESY/magisk vs jL/b1t/w0nderful (mirage) | FACEIT OCE | CS2 POV/demo",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-21"
-  },
-  {
-    "id": "_yZUOvZLZsU",
-    "title": "Falcons TRIO vs NaVi TRIO in Crazy FACEIT Game! Multiple POV with COMMs",
-    "channel": "nebula",
-    "player": null,
-    "team": null,
-    "map": null,
-    "published": "2025-04-21"
-  },
-  {
     "id": "S5eHDMx8-yI",
     "title": "This Inferno Smoke Lets You Help B From A Site! \u2705",
     "channel": "utility",
@@ -64168,77 +64285,5 @@
     "team": null,
     "map": "inferno",
     "published": "2025-04-21"
-  },
-  {
-    "id": "sf8cwyTphHQ",
-    "title": "FaZe\u2019s INSANE CT Boost on Inferno!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-21"
-  },
-  {
-    "id": "l8D45uvZN8w",
-    "title": "Genius Inferno CT Setup by NaVi \ud83d\ude31",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-21"
-  },
-  {
-    "id": "0tnG447W_wo",
-    "title": "This Flash Destroys Ramp Rushes on Mirage",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-21"
-  },
-  {
-    "id": "wRa0zeYxdj8",
-    "title": "You NEED to Know These Silent Drops (Inferno)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-21"
-  },
-  {
-    "id": "mjXKjYoGdn8",
-    "title": "16 y.o. FAZERY (31-24) vs m0NESY (Ancient) | FACEIT avg 3700 ELO | Mar 30, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-20"
-  },
-  {
-    "id": "TT-fsRiEKig",
-    "title": "ZywOo (28-11) w/apEX (Ancient) | FACEIT OCE avg.2800 ELO | Apr 20, 2025",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-04-20"
-  },
-  {
-    "id": "CvA9RQnTgfk",
-    "title": "Pro Molotov from flameZ to Control Mid \u2013 Inferno CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-20"
-  },
-  {
-    "id": "mOfXzrctPxk",
-    "title": "Insane CT Boost on Inferno \u2013 See Over the Smoke!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-20"
   }
 ]
