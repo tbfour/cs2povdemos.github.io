@@ -10,7 +10,6 @@
   },
   "players": {
     "b1t": "img/players/b1t.jpg",
-    "broky": "img/players/broky.jpg",
     "cobrazera": "img/players/cobrazera.jpg",
     "device": "img/players/device.jpg",
     "donk": "img/players/donk.jpg",
@@ -30,7 +29,6 @@
     "magnojez": "img/players/magnojez.jpg",
     "mail09": "img/players/mail09.jpg",
     "makazze": "img/players/makazze.jpg",
-    "mezii": "img/players/mezii.jpg",
     "molodoy": "img/players/molodoy.jpg",
     "niko": "img/players/niko.jpg",
     "rain": "img/players/rain.jpg",
@@ -49,7 +47,6 @@
     "yekindar": "img/players/yekindar.jpg",
     "z4kr": "img/players/z4kr.jpg",
     "zont1x": "img/players/zont1x.jpg",
-    "zweih": "img/players/zweih.jpg",
     "zywoo": "img/players/zywoo.jpg"
   }
 }
