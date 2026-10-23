@@ -1,5 +1,86 @@
 [
   {
+    "id": "NYNN1bO6KfY",
+    "title": "m0NESY throws Mirage smokes for A Site in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-23"
+  },
+  {
+    "id": "NSjpDsT9wI0",
+    "title": "apex anubis flash for b main push in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-23"
+  },
+  {
+    "id": "Az7BMPYQqwo",
+    "title": "TRY NUKE SMOKE WALL FOR CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-23"
+  },
+  {
+    "id": "Zh17K73dick",
+    "title": "HOW TO DEFEND MIRAGE A SITE LIKE FLAMEZ",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-23"
+  },
+  {
+    "id": "ucVsfj4eO1s",
+    "title": "WOXIC MIRAGE TOP CONNECTOR SMOKE LINE UP IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-23"
+  },
+  {
+    "id": "zCJaoBN6P1M",
+    "title": "\ud83d\udd25molodoy 28-16 | avg 3.3K ELO | Mirage POV | Oct 21, 2026",
+    "channel": "lim",
+    "player": "molodoy",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-22"
+  },
+  {
+    "id": "AGg4BJPewdE",
+    "title": "flameZ dust 2 he nade to punish short in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-22"
+  },
+  {
+    "id": "N8jpNzWfmhA",
+    "title": "apEX Anubis nades for A Site Execute in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-22"
+  },
+  {
+    "id": "FjkhB2ZZ8fs",
+    "title": "NIKO SHOWS EASY MOLOTOV TO CLEAR TETRIS ON MIRAGE",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-22"
+  },
+  {
     "id": "_4mEbfgoNzU",
     "title": "MAKAZZE INFERNO PIT MOLOTOV FOR RETAKE",
     "channel": "utility",
@@ -1173,7 +1254,7 @@
     "id": "r2-MZjHHh2Q",
     "title": "\ud83d\udd25zweih (29-10) 2.31 Rating | avg 3.2K ELO | Anubis POV | Oct 10, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "zweih",
     "team": null,
     "map": "anubis",
     "published": "2026-10-11"
@@ -2523,7 +2604,7 @@
     "id": "QElvtzjdvVU",
     "title": "\ud83d\udd25zweih (28-13) w/xeedo | avg 3.4K ELO | Mirage POV | Sep 28, 2026",
     "channel": "lim",
-    "player": null,
+    "player": "zweih",
     "team": null,
     "map": "mirage",
     "published": "2026-09-30"
@@ -27642,7 +27723,7 @@
     "id": "FllNwJgccn0",
     "title": "broky w/Twistzz VOICE COMMS (Ancient) | FACEIT avg 3100 Elo | Mar 12, 2026 #cs2 #broky #faze",
     "channel": "lim",
-    "player": null,
+    "player": "broky",
     "team": null,
     "map": "ancient",
     "published": "2026-03-13"
@@ -32664,7 +32745,7 @@
     "id": "rvPz4zn-E6I",
     "title": "\ud83d\udd25zweih (35-22) PV vs NAVI (Anubis) | IEM Krak\u00f3w 2026 #cs2 #zweih",
     "channel": "lim",
-    "player": null,
+    "player": "zweih",
     "team": null,
     "map": "anubis",
     "published": "2026-02-01"
@@ -34482,7 +34563,7 @@
     "id": "Eprl4tpdMPI",
     "title": "zweih (21-13) PV vs ENCE (Overpass) | BLAST Bounty 2026 Season 1 #cs2 #donk",
     "channel": "lim",
-    "player": null,
+    "player": "zweih",
     "team": null,
     "map": "overpass",
     "published": "2026-01-20"
@@ -34491,7 +34572,7 @@
     "id": "SxrY4kalvJA",
     "title": "zweih (17-4) PV vs Astralis (Dust2) | BLAST Bounty 2026 Season 1 #cs2 #donk",
     "channel": "lim",
-    "player": null,
+    "player": "zweih",
     "team": null,
     "map": "dust2",
     "published": "2026-01-20"
@@ -34518,7 +34599,7 @@
     "id": "aHJLxq3m3RY",
     "title": "zweih (19-11) PV vs Astralis (Ancient) | BLAST Bounty 2026 Season 1 #cs2 #donk",
     "channel": "lim",
-    "player": null,
+    "player": "zweih",
     "team": null,
     "map": "ancient",
     "published": "2026-01-20"
@@ -40026,7 +40107,7 @@
     "id": "yppT9DRv_lM",
     "title": "broky (23-11) FaZe vs MOUZ (Nuke) | StarLadder Budapest Major 2025 #cs2 #broky #faze",
     "channel": "lim",
-    "player": null,
+    "player": "broky",
     "team": null,
     "map": "nuke",
     "published": "2025-12-12"
@@ -40152,7 +40233,7 @@
     "id": "lZJtB0POvj0",
     "title": "zweih (21-9) Spirit vs Falcons (Nuke) | StarLadder Budapest Major 2025 #cs2 #zweih",
     "channel": "lim",
-    "player": null,
+    "player": "zweih",
     "team": null,
     "map": "nuke",
     "published": "2025-12-11"
@@ -40638,7 +40719,7 @@
     "id": "1P02SSTz_so",
     "title": "broky (20-12) FaZe vs PUA (Overpass) | StarLadder Budapest Major 2025 #cs2 #broky #faze",
     "channel": "lim",
-    "player": null,
+    "player": "broky",
     "team": null,
     "map": "overpass",
     "published": "2025-12-08"
@@ -40827,7 +40908,7 @@
     "id": "2iLEVxOUONM",
     "title": "broky (15-8) FaZe vs 3DMAX (Dust2) | StarLadder Budapest Major 2025 #cs2 #broky #faze",
     "channel": "lim",
-    "player": null,
+    "player": "broky",
     "team": null,
     "map": "dust2",
     "published": "2025-12-07"
@@ -45561,7 +45642,7 @@
     "id": "G2R22iWTbRI",
     "title": "\ud83d\udd25zweih w/sh1ro/baz vs donk/magixx/Magnojez +nicoodoz | avg. 4320 Elo | Oct 28, 2025 #cs2 #zweih",
     "channel": "lim",
-    "player": null,
+    "player": "zweih",
     "team": null,
     "map": null,
     "published": "2025-10-28"
@@ -51114,7 +51195,7 @@
     "id": "kEVNwjY5e48",
     "title": "broky (37-19) FaZe vs Vitality (nuke) | BLAST Open London 2025",
     "channel": "lim",
-    "player": null,
+    "player": "broky",
     "team": null,
     "map": "nuke",
     "published": "2025-09-04"
@@ -51123,7 +51204,7 @@
     "id": "pGyFF7oXIbo",
     "title": "broky (37-25) FaZe vs Vitality (Mirage) | BLAST Open London 2025",
     "channel": "lim",
-    "player": null,
+    "player": "broky",
     "team": null,
     "map": "mirage",
     "published": "2025-09-04"
@@ -56901,7 +56982,7 @@
     "id": "DbVHL1oJe2g",
     "title": "broky (26-24) SoloQ VOICE COMMS (Inferno) | FACEIT avg 3550 Elo | July 8, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": null,
+    "player": "broky",
     "team": null,
     "map": "inferno",
     "published": "2025-07-10"
@@ -57171,7 +57252,7 @@
     "id": "-T59oVPhqA0",
     "title": "zweih (30-9) w/n0rb3r7/alpha (mirage) | FACEIT avg 3900 Elo | July 7, 2025 | CS2 POV",
     "channel": "lim",
-    "player": null,
+    "player": "zweih",
     "team": null,
     "map": "mirage",
     "published": "2025-07-07"
@@ -57252,7 +57333,7 @@
     "id": "ECcKT4AMF9k",
     "title": "broky (25-15) SoloQ VOICE COMMS (mirage) | FACEIT avg 3348 Elo | July 5, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": null,
+    "player": "broky",
     "team": null,
     "map": "mirage",
     "published": "2025-07-06"
@@ -57340,20 +57421,20 @@
   },
   {
     "id": "bnVDl_-1wiQ",
-    "title": "Deleted video",
+    "title": "device (28-13) Ancient POV | FACEIT Ranked | July 4, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "device",
     "team": null,
-    "map": null,
+    "map": "ancient",
     "published": "2025-07-05"
   },
   {
     "id": "3lzf6U4tiQ0",
-    "title": "Deleted video",
+    "title": "m3wsu (30-9) w/r3salt (Mirage) | FACEIT 3500 Elo | Jun 28, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-07-05"
   },
   {
@@ -57421,47 +57502,47 @@
   },
   {
     "id": "6jSLWq_Lugk",
-    "title": "Deleted video",
+    "title": "broky + kyxsan vs Krimbo/tiziaN/redcs (Ancient) | FACEIT avg 3700 Elo | July 4, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "broky",
     "team": null,
-    "map": null,
+    "map": "ancient",
     "published": "2025-07-04"
   },
   {
     "id": "1rhTLwo4zLg",
-    "title": "Deleted video",
+    "title": "broky won a 1v4 with the AWP to secure the W #cs2#faze #broky",
     "channel": "lim",
-    "player": "deleted",
+    "player": "broky",
     "team": null,
     "map": null,
     "published": "2025-07-04"
   },
   {
     "id": "wi_3rEW0178",
-    "title": "Deleted video",
+    "title": "SPUNJ 29Kills! SoloQ + broky! (with Utility Camera) | July 2, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
     "map": null,
     "published": "2025-07-04"
   },
   {
     "id": "XTh5YiasSEU",
-    "title": "Deleted video",
+    "title": "device (37-13) Inferno POV | FACEIT Ranked | July 3, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "device",
     "team": null,
-    "map": null,
+    "map": "inferno",
     "published": "2025-07-04"
   },
   {
     "id": "8EQl07ckeiA",
-    "title": "Deleted video",
+    "title": "woxic (27-11) (Anubis) | FACEIT 2900 Elo | July 3, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "anubis",
     "published": "2025-07-04"
   },
   {
@@ -57529,38 +57610,38 @@
   },
   {
     "id": "TbiyoAUqKYw",
-    "title": "Deleted video",
+    "title": "jks ACE @FACEIT Ranked  #cs2 #jks #highlights",
     "channel": "lim",
-    "player": "deleted",
+    "player": "jks",
     "team": null,
     "map": null,
     "published": "2025-07-03"
   },
   {
     "id": "Mv9tXuHECb0",
-    "title": "Deleted video",
+    "title": "jks (24-11) w/SPUNJ/AZR + VOICE COMMS (Ancient) | FACEIT EU 3350 Elo | July 1, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "jks",
     "team": null,
-    "map": null,
+    "map": "ancient",
     "published": "2025-07-03"
   },
   {
     "id": "yYuDkM0hyck",
-    "title": "Deleted video",
+    "title": "broky (22-8) SoloQ VOICE COMMS (Dust2) | FACEIT avg 3200 Elo | July 2, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "broky",
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-07-03"
   },
   {
     "id": "L0KPUuvukJk",
-    "title": "Deleted video",
+    "title": "broky (27-10) SoloQ VOICE COMMS (nuke) | FACEIT avg 3200 Elo | July 2, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "broky",
     "team": null,
-    "map": null,
+    "map": "nuke",
     "published": "2025-07-03"
   },
   {
@@ -57673,56 +57754,56 @@
   },
   {
     "id": "Al1LvmxGzbE",
-    "title": "Deleted video",
+    "title": "broky (24-6) SoloQ VOICE COMMS (Dust2) | FACEIT avg 3040 Elo | July 2, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "broky",
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-07-02"
   },
   {
     "id": "aOpIGyimLe4",
-    "title": "Deleted video",
+    "title": "xKacpersky 29Kills SoloQ + sirah/Staehr/jabbi (Mirage) | FACEIT 3900 Elo\ud83d\udd25| Jun 26, 2025 #cs2 #pov",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-07-02"
   },
   {
     "id": "URh38nUzMkY",
-    "title": "Deleted video",
+    "title": "kyousuke (37-11) w/sh1nejezzz (mirage) | FACEIT 3300 Elo | July 1, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "kyousuke",
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-07-02"
   },
   {
     "id": "44jYeOM3JQs",
-    "title": "Deleted video",
+    "title": "z4kr 28Kills 2.07rating 5EPL (nuke) | 5EPL | July 1, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "z4kr",
     "team": null,
-    "map": null,
+    "map": "nuke",
     "published": "2025-07-02"
   },
   {
     "id": "2u5s_LhOmnA",
-    "title": "Deleted video",
+    "title": "broky (30-13) SoloQ VOICE COMMS (mirage) | FACEIT avg 2950 Elo | July 1, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "broky",
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-07-02"
   },
   {
     "id": "2eOfEaHmzew",
-    "title": "Deleted video",
+    "title": "zweih w/nafany/xeedo (Ancient) | FACEIT avg 3900 Elo | Jun 30, 2025 | CS2 POV",
     "channel": "lim",
-    "player": "deleted",
+    "player": "zweih",
     "team": null,
-    "map": null,
+    "map": "ancient",
     "published": "2025-07-02"
   },
   {
@@ -57781,20 +57862,20 @@
   },
   {
     "id": "0zUoIm9dKg0",
-    "title": "Deleted video",
+    "title": "b1t (27-13) SoloQ VOICE COMMS (Mirage) | FACEIT 3200 Elo | Jun 30, 2025 #cs2 #pov",
     "channel": "lim",
-    "player": "deleted",
+    "player": "b1t",
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-07-01"
   },
   {
     "id": "woKWDHfMP40",
-    "title": "Deleted video",
+    "title": "jks (28-13) w/SPUNJ/AZR + VOICE COMMS (Dust2) | FACEIT EU 3625 Elo | Jun 30, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "jks",
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-07-01"
   },
   {
@@ -57826,29 +57907,29 @@
   },
   {
     "id": "_voNtVEpxUE",
-    "title": "Deleted video",
+    "title": "EliGE (30-15) VOICE COMMS @ FACEIT NA 2800 Elo (mirage) | Jun 26, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-06-30"
   },
   {
     "id": "B4VD2t3pXj4",
-    "title": "Deleted video",
+    "title": "kyousuke (30-16) w/sh1nejezzz (Train) | FACEIT 3700 Elo | Jun 29, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "kyousuke",
     "team": null,
     "map": null,
     "published": "2025-06-30"
   },
   {
     "id": "jl6f7VsLQBw",
-    "title": "Deleted video",
+    "title": "kyousuke (25-10) w/sh1nejezzz (mirage) | FACEIT 3630 Elo | Jun 29, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "kyousuke",
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-06-30"
   },
   {
@@ -57934,38 +58015,38 @@
   },
   {
     "id": "cBoy_sWjOmU",
-    "title": "Deleted video",
+    "title": "\ud83d\udd25kyousuke (27-9) SoloQ VOICE COMMS (Dust2) | FACEIT 3425 Elo | Jun 28, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "kyousuke",
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-06-29"
   },
   {
     "id": "oyB5av-xCnQ",
-    "title": "Deleted video",
+    "title": "\ud83d\udd25kyousuke (35-17) SoloQ VOICE COMMS (Mirage) | FACEIT 3500 Elo | Jun 28, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "kyousuke",
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-06-29"
   },
   {
     "id": "Qq4tW8b8IWw",
-    "title": "Deleted video",
+    "title": "\ud83d\udd25kyousuke (41-18) SoloQ VOICE COMMS (Dust2) | FACEIT 3270 Elo | Jun 28, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "kyousuke",
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-06-29"
   },
   {
     "id": "UgqRaSZJhm8",
-    "title": "Deleted video",
+    "title": "device FACEIT POV w/Staehr & stavn (mirage) | FACEIT 3500 Elo | Jun 26, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "device",
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-06-29"
   },
   {
@@ -58024,20 +58105,20 @@
   },
   {
     "id": "DmpPTRYgatY",
-    "title": "Deleted video",
+    "title": "No Mercy! makazze (24-6) Destroys 3500 ELO FACEIT Lobby w/rigoN & Krabeni | Dust2 | CS2 POV",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-06-28"
   },
   {
     "id": "7UxmCFSXgbk",
-    "title": "Deleted video",
+    "title": "Maka (29-22) IGL+AWPER POV (Inferno) | IEM Dallas 2025 #cs2 #3dmax",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "inferno",
     "published": "2025-06-28"
   },
   {
@@ -58105,47 +58186,47 @@
   },
   {
     "id": "cIqsDBUbyT4",
-    "title": "Deleted video",
+    "title": "ropz (19-12) Vitality vs MOUZ (Train) | BLAST.tv Austin Major 2025 Semi-Final",
     "channel": "lim",
-    "player": "deleted",
+    "player": "ropz",
     "team": null,
     "map": null,
     "published": "2025-06-27"
   },
   {
     "id": "hiK5Di5p5t0",
-    "title": "Deleted video",
+    "title": "kyousuke (26-10) w/sh1nejezzz (Dust2) | FACEIT 3500 Elo | Jun 11, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "kyousuke",
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-06-27"
   },
   {
     "id": "P8Bk-lPtraU",
-    "title": "Deleted video",
+    "title": "ZywOo (21-10) Vitality vs MOUZ (Train) | BLAST.tv Austin Major 2025 Semi-Final",
     "channel": "lim",
-    "player": "deleted",
+    "player": "zywoo",
     "team": null,
     "map": null,
     "published": "2025-06-27"
   },
   {
     "id": "vw27Y65-SbQ",
-    "title": "Deleted video",
+    "title": "torzsi (18-6) MOUZ vs Vitality (Inferno) | BLAST.tv Austin Major 2025 Semi-Final",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "inferno",
     "published": "2025-06-27"
   },
   {
     "id": "i6AziIxN8E0",
-    "title": "Deleted video",
+    "title": "ropz (21-12) Vitality vs MOUZ (Mirage) | BLAST.tv Austin Major 2025 Semi-Final",
     "channel": "lim",
-    "player": "deleted",
+    "player": "ropz",
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-06-27"
   },
   {
@@ -58213,20 +58294,20 @@
   },
   {
     "id": "Nk_HF99Q6gY",
-    "title": "Deleted video",
+    "title": "kyousuke (26-12) w/sh1nejezzz (mirage) | FACEIT 3800 Elo | Jun 12, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "kyousuke",
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-06-26"
   },
   {
     "id": "1ilSiVuO7o0",
-    "title": "Deleted video",
+    "title": "jks (27-9) w/AZR/pekz + VOICE COMMS (Nuke) | FACEIT EU 3200 Elo | Jun 25, 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": "jks",
     "team": null,
-    "map": null,
+    "map": "nuke",
     "published": "2025-06-26"
   },
   {
@@ -58321,83 +58402,83 @@
   },
   {
     "id": "5dJnKafakQ0",
-    "title": "Deleted video",
+    "title": "ZywOo (10-10) Vitality vs The MongolZ (Inferno) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": "deleted",
+    "player": "zywoo",
     "team": null,
-    "map": null,
+    "map": "inferno",
     "published": "2025-06-25"
   },
   {
     "id": "txSkLT_8sL4",
-    "title": "Deleted video",
+    "title": "ropz (12-12) Vitality vs The MongolZ (Inferno) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": "deleted",
+    "player": "ropz",
     "team": null,
-    "map": null,
+    "map": "inferno",
     "published": "2025-06-25"
   },
   {
     "id": "HSq0MjRTHdg",
-    "title": "Deleted video",
+    "title": "mezii (21-12) Vitality vs The MongolZ (Inferno) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "inferno",
     "published": "2025-06-25"
   },
   {
     "id": "sREr-1xnb10",
-    "title": "Deleted video",
+    "title": "\ud83d\udd25flameZ (21-9) Vitality vs The MongolZ (Inferno) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": "deleted",
+    "player": "flamez",
     "team": null,
-    "map": null,
+    "map": "inferno",
     "published": "2025-06-25"
   },
   {
     "id": "6AOcNDuRKAw",
-    "title": "Deleted video",
+    "title": "apEX (17-11) Vitality vs The MongolZ (Inferno) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "inferno",
     "published": "2025-06-25"
   },
   {
     "id": "-VrAiTOE_OI",
-    "title": "Deleted video",
+    "title": "apEX (10-8) Vitality vs The MongolZ (Dust2) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-06-25"
   },
   {
     "id": "K9BYtwyE5qY",
-    "title": "Deleted video",
+    "title": "\ud83d\udd25flameZ (18-8) Vitality vs The MongolZ (Dust2) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": "deleted",
+    "player": "flamez",
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-06-25"
   },
   {
     "id": "-8ZJT9ZPeUU",
-    "title": "Deleted video",
+    "title": "ZywOo (18-8) Vitality vs The MongolZ (Dust2) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": "deleted",
+    "player": "zywoo",
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-06-25"
   },
   {
     "id": "t9GWgCkz7vE",
-    "title": "Deleted video",
+    "title": "ropz (17-11) Vitality vs The MongolZ (Dust2) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": "deleted",
+    "player": "ropz",
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-06-25"
   },
   {
@@ -58474,29 +58555,29 @@
   },
   {
     "id": "rA_pVQD9RF0",
-    "title": "Deleted video",
+    "title": "mezii (20-7) Vitality vs The MongolZ (Dust2) | BLAST.tv Austin Major 2025 Grand Finals",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "dust2",
     "published": "2025-06-24"
   },
   {
     "id": "7Tgg2zojnpA",
-    "title": "Deleted video",
+    "title": "Senzu (20-9) The MongolZ vs Vitality (Mirage) | BLAST.tv Austin Major 2025 Grand Finals | CS2 POV",
     "channel": "lim",
-    "player": "deleted",
+    "player": "senzu",
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-06-24"
   },
   {
     "id": "Ye-pKNZct9w",
-    "title": "Deleted video",
+    "title": "910 (20-14) The MongolZ vs Vitality (Mirage) | BLAST.tv Austin Major 2025 | CS2 POV/DEMO",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "mirage",
     "published": "2025-06-24"
   },
   {
@@ -58762,11 +58843,11 @@
   },
   {
     "id": "izRl0fs_xto",
-    "title": "Deleted video",
+    "title": "Spinx (27-13) MOUZ vs Spirit (Nuke) | BLAST.tv Austin Major 2025",
     "channel": "lim",
-    "player": "deleted",
+    "player": null,
     "team": null,
-    "map": null,
+    "map": "nuke",
     "published": "2025-06-20"
   },
   {
@@ -64305,42 +64386,6 @@
     "published": "2025-05-01"
   },
   {
-    "id": "1B_-HpTdRDk",
-    "title": "m0NESY (21-10) Falcons vs FaZe (Dust2) | BLAST Rivals 2025 Season 1 #cs2 #pov",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "ZlEaLtK8rcQ",
-    "title": "NiKo (24-14) Falcons vs FaZe (Ancient) | BLAST Rivals 2025 Season 1 #cs2 #pov",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "znQ1092cc-w",
-    "title": "donk(34-22) w/magixx (mirage) | FACEIT avg 3600 ELO | Apr 30, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "FMmJyrYdIaw",
-    "title": "CS2 POV Demo Vitality Mezii (24/10) vs Wildcard (de_inferno) @ BLAST Rivals 2025 Season 1",
-    "channel": "pov_highlights",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-01"
-  },
-  {
     "id": "__n1yfIV9s0",
     "title": "apex, ropz, and flameZ vs m0NESY in FACEIT! Apex POV with COMMs (Dust 2)",
     "channel": "nebula",
@@ -64366,59 +64411,5 @@
     "team": null,
     "map": "nuke",
     "published": "2025-05-01"
-  },
-  {
-    "id": "DUa97i5Ga3A",
-    "title": "Easy A Site Smokes by npl \u2013 Must Know Dust 2 Trick!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "dmfoJ5szdNY",
-    "title": "Pro Tricks You NEED on Nuke \u2013 CS2 Tips!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "Rtf7ZeKIaaM",
-    "title": "How jabbi Takes Ramp Control on Ancient (Pro Nades)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "oFB-aPJBGYU",
-    "title": "kyousuke (28-12) SoloQ VOICE COMMS (mirage) | FACEIT avg 3600 ELO | Apr 29, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-04-30"
-  },
-  {
-    "id": "asnzwi9Rwv8",
-    "title": "How NaVi Takes A Site from 3 Angles \u2013 Inferno Execute Breakdown",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-04-30"
-  },
-  {
-    "id": "2G-huFEtPzY",
-    "title": "Aleksib\u2019s Perfect B Main Flash on Anubis \u2013 Easy Push!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-04-30"
   }
 ]

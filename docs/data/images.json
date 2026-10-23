@@ -10,6 +10,7 @@
   },
   "players": {
     "b1t": "img/players/b1t.jpg",
+    "broky": "img/players/broky.jpg",
     "cobrazera": "img/players/cobrazera.jpg",
     "device": "img/players/device.jpg",
     "donk": "img/players/donk.jpg",
@@ -47,6 +48,7 @@
     "yekindar": "img/players/yekindar.jpg",
     "z4kr": "img/players/z4kr.jpg",
     "zont1x": "img/players/zont1x.jpg",
+    "zweih": "img/players/zweih.jpg",
     "zywoo": "img/players/zywoo.jpg"
   }
 }
