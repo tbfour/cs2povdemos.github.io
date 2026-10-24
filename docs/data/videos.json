@@ -1,5 +1,68 @@
 [
   {
+    "id": "0gXmAyXjP9c",
+    "title": "\ud83d\udd25JamYoung (22-9) 1.63 Rating | avg 2.7K ELO | Mirage POV | Oct 23, 2026",
+    "channel": "lim",
+    "player": "jamyoung",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-24"
+  },
+  {
+    "id": "q_jR7YiWyS4",
+    "title": "ELIGE ANCIENT MID CUBBY MOLOTOV LINE UP FOR CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-24"
+  },
+  {
+    "id": "3BI06Xuwc0Q",
+    "title": "MATYS Ancient nades to STOP B Push in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-24"
+  },
+  {
+    "id": "oE18n2Rkgn8",
+    "title": "LEGACY DUST2 TRICK PLAY FOR FREE KILLS",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-24"
+  },
+  {
+    "id": "ZJo7kGVw0qM",
+    "title": "\ud83d\udd25molodoy 27Kills | avg 3.3K ELO | Mirage POV | Oct 21, 2026",
+    "channel": "lim",
+    "player": "molodoy",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-23"
+  },
+  {
+    "id": "Cbqu9Kk4Ksk",
+    "title": "\ud83d\udd25kyousuke (21-15) 1.31 Rating | avg 3.1K ELO | Dust2 POV | Oct 22, 2026",
+    "channel": "lim",
+    "player": "kyousuke",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-23"
+  },
+  {
+    "id": "_Sjc9MmNQXs",
+    "title": "ZywOo Nuke molotov to Stop Outside Push in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-23"
+  },
+  {
     "id": "NYNN1bO6KfY",
     "title": "m0NESY throws Mirage smokes for A Site in CS2",
     "channel": "utility",
@@ -49149,15 +49212,6 @@
     "published": "2025-09-27"
   },
   {
-    "id": "R8ZkVGcMPeE",
-    "title": "space POV with Keystrokes Visualized | 38-6  rt:3.75\ud83d\ude2e | FACEIT SA (Ep.12)",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": null,
-    "published": "2025-09-26"
-  },
-  {
     "id": "8LGMg-cMXb8",
     "title": "s1mple (21-6) Rating 2.43 (Train) | FACEIT SoloQ #cs2 #s1mple",
     "channel": "lim",
@@ -49192,24 +49246,6 @@
     "team": null,
     "map": "mirage",
     "published": "2025-09-25"
-  },
-  {
-    "id": "Sp2YcHxSSzc",
-    "title": "m0NESY (36-18) +f0lya/sm3t (Mirage) | FACEIT 3780 Elo #cs2 #m0nesy",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-09-25"
-  },
-  {
-    "id": "ijFKDaxNwvs",
-    "title": "ZywOo (24-10) Rating: 2.06 (Inferno) | FACEIT 5-stack | Sep 23, 2025 #cs2 #zywoo",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-09-24"
   },
   {
     "id": "_Wqi0Fx-uNs",
@@ -49275,33 +49311,6 @@
     "published": "2025-09-24"
   },
   {
-    "id": "T6bP-uTRTZw",
-    "title": "kyousuke (30-15) FACEIT avg 3368 Elo (mirage) | #cs2 #kyousuke",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-09-23"
-  },
-  {
-    "id": "31XYbM1nFNE",
-    "title": "kl1m (23-3) MIBR vs 2GAME (Nuke) | ESL Challenger League S50 SA Cup 2 #kl1m #cs2 #mibr",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-09-23"
-  },
-  {
-    "id": "fThTePTs-HE",
-    "title": "kl1m (26-3) MIBR vs 2GAME (Train) | ESL Challenger League S50 SA Cup 2 #kl1m #cs2 #mibr",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": null,
-    "published": "2025-09-23"
-  },
-  {
     "id": "GgvAVRe77Es",
     "title": "The Most INSANE Dust 2 B Tunnel Smoke in CS2",
     "channel": "utility",
@@ -49365,48 +49374,12 @@
     "published": "2025-09-23"
   },
   {
-    "id": "F-4VZD0ZaOI",
-    "title": "YEKINDAR (25-16) FURIA vs The MongolZ (Nuke) | FISSURE Playground 2 #cs2 #furia #yekindar",
-    "channel": "lim",
-    "player": "yekindar",
-    "team": null,
-    "map": "nuke",
-    "published": "2025-09-22"
-  },
-  {
     "id": "CJ9CNNCUtM0",
     "title": "\ud83d\udd25donk (30-12) w/suns1de Rating: 2.66 (Mirage) | FACEIT EU | CS2 POV/demos",
     "channel": "lim",
     "player": "donk",
     "team": null,
     "map": "mirage",
-    "published": "2025-09-22"
-  },
-  {
-    "id": "6UE30EO6v0U",
-    "title": "YEKINDAR (19-11) FURIA vs The MongolZ (Dust2) | FISSURE Playground 2 #cs2 #furia #yekindar",
-    "channel": "lim",
-    "player": "yekindar",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-09-22"
-  },
-  {
-    "id": "VMtlnRmCMtw",
-    "title": "kyousuke POV with Keystrokes Visualized | 33-10  rt:3.09 | FACEIT avg 3400 Elo (Ep.11)",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": null,
-    "published": "2025-09-22"
-  },
-  {
-    "id": "f9w11fMfty0",
-    "title": "molodoy POV with Keystrokes Visualized | 28-16  rt:1.66 | FURIA vs The MongolZ (Ep.10)",
-    "channel": "lim",
-    "player": "molodoy",
-    "team": null,
-    "map": null,
     "published": "2025-09-22"
   },
   {
@@ -49482,15 +49455,6 @@
     "published": "2025-09-22"
   },
   {
-    "id": "uYrY7cxbW-o",
-    "title": "ZywOo POV with Keystrokes Visualized | 35-19  rt:2.23 (Ep.9)",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": null,
-    "published": "2025-09-21"
-  },
-  {
     "id": "q2kl6Iy-U7c",
     "title": "siuhy Shows EASY Mirage A Smokes From 1 Spot",
     "channel": "utility",
@@ -49561,15 +49525,6 @@
     "team": null,
     "map": "dust2",
     "published": "2025-09-21"
-  },
-  {
-    "id": "9UmJGd2i_Gw",
-    "title": "Twistzz POV with Keystrokes Visualized | 27-11  rt:2.23 (Ep.8)",
-    "channel": "lim",
-    "player": "twistzz",
-    "team": null,
-    "map": null,
-    "published": "2025-09-20"
   },
   {
     "id": "BHmyIODhNPg",
@@ -49716,15 +49671,6 @@
     "published": "2025-09-19"
   },
   {
-    "id": "B05Lk1GO-Lc",
-    "title": "nocries POV with Keystrokes Visualized | 31-13  rt:2.14 (Ep.7)",
-    "channel": "lim",
-    "player": "nocries",
-    "team": null,
-    "map": null,
-    "published": "2025-09-18"
-  },
-  {
     "id": "v3btqyueZjc",
     "title": "RAIN NUKE NADES TO STOP T'S OUTSIDE PUSH IN CS2",
     "channel": "utility",
@@ -49777,33 +49723,6 @@
     "team": null,
     "map": "inferno",
     "published": "2025-09-18"
-  },
-  {
-    "id": "RSbirloPYs8",
-    "title": "m0NESY (37-14) w/alpha/TeSeS (Dust2) | FACEIT 3700 Elo #cs2 #m0nesy",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-09-17"
-  },
-  {
-    "id": "nHRlUyPc6d0",
-    "title": "molodoy (19-8) FURIA vs paiN (Dust2) | FISSURE Playground 2 #cs2 #furia #molodoy",
-    "channel": "lim",
-    "player": "molodoy",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-09-17"
-  },
-  {
-    "id": "UWvYPD32HiY",
-    "title": "molodoy (17-9) FURIA vs paiN (Inferno) | FISSURE Playground 2 #cs2 #furia #molodoy",
-    "channel": "lim",
-    "player": "molodoy",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-09-17"
   },
   {
     "id": "AX1I1PTj-TE",
@@ -49887,33 +49806,6 @@
     "published": "2025-09-17"
   },
   {
-    "id": "zgp-ocL8cZI",
-    "title": "kyousuke+m0NESY+Magnojez vs magixx/Shr (Train) | FACEIT RANKED #cs2 #kyousuke",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": null,
-    "published": "2025-09-16"
-  },
-  {
-    "id": "A1-P3938DMg",
-    "title": "JamYoung (26-6) w/ATTACKER (Inferno) | FACEIT EU #cs2 #jamyoung #tyloo",
-    "channel": "lim",
-    "player": "jamyoung",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-09-16"
-  },
-  {
-    "id": "FauxLd1LJmI",
-    "title": "tN1R (22-5) Rating: 2.46 (Ancient) | FACEIT 3650 Elo | Sep 15, 2025 #cs2 #tn1r #spirit",
-    "channel": "lim",
-    "player": "tn1r",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-09-16"
-  },
-  {
     "id": "Hq36x6OBOPc",
     "title": "\ud83d\udd25donk (41-15) w/suns1de Rating: 2.15 (Nuke) | FACEIT EU | CS2 POV/demos",
     "channel": "lim",
@@ -49923,35 +49815,8 @@
     "published": "2025-09-16"
   },
   {
-    "id": "I1JJCaxTstU",
-    "title": "NA FACEIT #1 - nocries (39-6) Rating:3.95 (Dust2) | FACEIT NA | Sep 15, 2025 #cs2 #nocries #nacs",
-    "channel": "lim",
-    "player": "nocries",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-09-16"
-  },
-  {
-    "id": "sja5AITwS8k",
-    "title": "13:0! kyousuke+NiKo vs MaiL09+AMSALEM (Mirage) | FACEIT RANKED #cs2 #kyousuke",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-09-16"
-  },
-  {
     "id": "uOWRO3hNu1I",
     "title": "\ud83d\udd25donk (30-11) w/suns1de Rating: 1.86 (Mirage) | FACEIT EU | CS2 POV/demos",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-09-16"
-  },
-  {
-    "id": "yprHJwAq9Eo",
-    "title": "\ud83d\udd25donk (32-8) w/suns1de Rating: 2.65 (Mirage) | FACEIT EU | CS2 POV/demos",
     "channel": "lim",
     "player": "donk",
     "team": null,
@@ -50031,57 +49896,12 @@
     "published": "2025-09-16"
   },
   {
-    "id": "YYZ8oi_xgqU",
-    "title": "jcobbb (18-8) FaZe vs 3DMAX (Dust2) | FISSURE Playground 2 #cs2 #jcobbb  #faze",
-    "channel": "lim",
-    "player": "jcobbb",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-09-15"
-  },
-  {
-    "id": "RFcgd9kklb4",
-    "title": "rain (20-9) FaZe vs 3DMAX (Ancient) | FISSURE Playground 2 #cs2 #rain #faze",
-    "channel": "lim",
-    "player": "rain",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-09-15"
-  },
-  {
     "id": "pH5WZ1_iMzM",
     "title": "NiKo (31-18) w/TeSeS (Dust2) | FACEIT avg 3500 Elo | Sep 14, 2025",
     "channel": "lim",
     "player": "niko",
     "team": null,
     "map": "dust2",
-    "published": "2025-09-15"
-  },
-  {
-    "id": "caS5rAQmH0s",
-    "title": "NiKo (31-23) Falcons vs Legacy (Ancient) | FISSURE Playground 2 #cs2 #niko",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-09-15"
-  },
-  {
-    "id": "3K50awX1nOU",
-    "title": "NiKo (20-10) Rating1.95 Falcons vs Legacy (Inferno) | FISSURE Playground 2 #cs2 #niko",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-09-15"
-  },
-  {
-    "id": "5c6G2I9SqsM",
-    "title": "s1mple (24-8) Rating 1.68 BC.Game vs ESC (Mirage) | ESL CL S50 EU Cup 2",
-    "channel": "lim",
-    "player": "s1mple",
-    "team": null,
-    "map": "mirage",
     "published": "2025-09-15"
   },
   {
@@ -50166,39 +49986,12 @@
     "published": "2025-09-15"
   },
   {
-    "id": "LsnAwgMtyT4",
-    "title": "s1mple (31-14) Rating 1.78 BC.Game vs ESC (Dust2) | ESL CL S50 EU Cup 2",
-    "channel": "lim",
-    "player": "s1mple",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-09-14"
-  },
-  {
-    "id": "UlJH-B-acLk",
-    "title": "17 y.o. FAZERY (26-16) vs donk (Overpass) | FACEIT avg 3930 Elo",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "overpass",
-    "published": "2025-09-14"
-  },
-  {
     "id": "a9dPamEeXDg",
     "title": "donk POV with Keystrokes Visualized | 32-13  rt:1.9 (Ep.6)",
     "channel": "lim",
     "player": "donk",
     "team": null,
     "map": null,
-    "published": "2025-09-14"
-  },
-  {
-    "id": "er85hVPTWLk",
-    "title": "m0NESY (30-13) +kyousuke/TeSeS (Dust2) | FACEIT 4210 Elo #cs2 #m0nesy",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
     "published": "2025-09-14"
   },
   {
@@ -50292,46 +50085,10 @@
     "published": "2025-09-14"
   },
   {
-    "id": "8pfUWmMUIb8",
-    "title": "\ud83d\udd25donk (39-20) w/suns1de Rating: 1.8 (Ancient) | FACEIT EU | CS2 POV/demos",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-09-13"
-  },
-  {
-    "id": "noM9d-sMHJg",
-    "title": "kyousuke (17-7) Falcons vs VP (Mirage) | FISSURE Playground 2 #cs2 #kyousuke",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-09-13"
-  },
-  {
-    "id": "QDQOcVZQc6c",
-    "title": "m0NESY (17-4) Falcons vs VP (Mirage) | FISSURE Playground 2 #cs2 #m0nesy",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-09-13"
-  },
-  {
     "id": "8Kngw8MGttg",
     "title": "kyousuke (18-11) Rating 2.35 Falcons vs VP (Ancient) | FISSURE Playground 2 #cs2 #kyousuke",
     "channel": "lim",
     "player": "kyousuke",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-09-13"
-  },
-  {
-    "id": "z4BhkD1DOj0",
-    "title": "JamYoung (18-7) TYLOO vs GL (Ancient) | FISSURE Playground 2 #cs2 #jamyoung",
-    "channel": "lim",
-    "player": "jamyoung",
     "team": null,
     "map": "ancient",
     "published": "2025-09-13"
@@ -50391,46 +50148,10 @@
     "published": "2025-09-13"
   },
   {
-    "id": "DtjJIxkbhQU",
-    "title": "Jee (18-6) TYLOO vs GL (Inferno) | FISSURE Playground 2 #cs2 #Jee",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-09-12"
-  },
-  {
     "id": "KM8j6uD__HU",
     "title": "\ud83d\udd25donk (37-18) w/suns1de Rating: 2.05 (Train) | FACEIT EU | CS2 POV/demos",
     "channel": "lim",
     "player": "donk",
-    "team": null,
-    "map": null,
-    "published": "2025-09-12"
-  },
-  {
-    "id": "YDF9-XaCIYU",
-    "title": "s1mple (28-10) Rating 1.86 BC.Game vs OG (Ancient) | ESL CL S50 EU Cup 2",
-    "channel": "lim",
-    "player": "s1mple",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-09-12"
-  },
-  {
-    "id": "iMEjSzrUbAE",
-    "title": "s1mple (28-8) Rating 2.59 w/electroNic/FL4MUS (Dust2) | FACEIT 3580 Elo | Sep 11, 2025",
-    "channel": "lim",
-    "player": "s1mple",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-09-12"
-  },
-  {
-    "id": "eBLSfqPxt0U",
-    "title": "\ud83d\udd25m0NESY+NiKo+TeSeS vs malbsMd/SunPayus/NertZ (Train) | FACEIT avg. 3850 Elo | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "m0nesy",
     "team": null,
     "map": null,
     "published": "2025-09-12"
@@ -64269,33 +63990,6 @@
     "published": "2025-05-02"
   },
   {
-    "id": "KxRfLBXAl4s",
-    "title": "donk(19-9) Spirit vs Falcons (mirage) | BLAST Rivals 2025 Season 1 #cs2 #pov",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-02"
-  },
-  {
-    "id": "5aMyf74u6IY",
-    "title": "EliGE (34-24) FaZe vs FlyQuest (Nuke) | BLAST Rivals 2025 Season 1 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-02"
-  },
-  {
-    "id": "LkFHAlGW51M",
-    "title": "jks (35-14) rt:2.17 w/SPUNJ/JustHarry/Hugo/dona (Nuke) | FACEIT EU | May 1, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": "jks",
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-02"
-  },
-  {
     "id": "deeXFBkERYc",
     "title": "How jL Smokes Long Corner from Lower on Dust 2",
     "channel": "utility",
@@ -64321,95 +64015,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-05-02"
-  },
-  {
-    "id": "2Q-2R7vK9MM",
-    "title": "Insane A Site Wallbang on Dust 2 \u2013 Pro CS2 Trick",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-02"
-  },
-  {
-    "id": "_2wPdIbHT7w",
-    "title": "2 Pro Boosts on Mirage You Need to Know!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-02"
-  },
-  {
-    "id": "hcUpn9kYeyI",
-    "title": "2 Pro Locker Smokes on Nuke \u2013 CS2 Tricks!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-02"
-  },
-  {
-    "id": "44oD88byOQo",
-    "title": "jks (28-9) rt:2.31 w/SPUNJ/JustHarry/Hugo/dona (Dust2) | FACEIT EU | May 1, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": "jks",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "zbx_rBVlW68",
-    "title": "MaiL09 (30-15) SoloQ (mirage) | FACEIT avg 2900 ELO | Apr 23, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": "mail09",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "RLtkaioIhCs",
-    "title": "Neityu (25-7) Rating:2.25 (Inferno) | FACEIT avg 3200 ELO | Apr 25, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "iugpj-aT2Cw",
-    "title": "b1t (27-7) SoloQ VOICE COMMS (Anubis) | FACEIT avg 3200 ELO | Apr 29, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "b1t",
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "__n1yfIV9s0",
-    "title": "apex, ropz, and flameZ vs m0NESY in FACEIT! Apex POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "6V99TYrNuCk",
-    "title": "How Pros Smoke Connector \u2013 2 Easy Mirage Lineups!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-01"
-  },
-  {
-    "id": "kh-THEi0LKQ",
-    "title": "Win Outside Like the Pros \u2013 Nuke Smoke + Flash Setup!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-01"
   }
 ]
