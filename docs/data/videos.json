@@ -1,11 +1,92 @@
 [
   {
+    "id": "J5A3_8aojJ8",
+    "title": "\ud83d\udd25JamYoung (20-9) 1.37 Rating | avg 2.7K ELO | Inferno POV | Oct 26, 2026",
+    "channel": "lim",
+    "player": "jamyoung",
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-27"
+  },
+  {
+    "id": "JnXAUUAAqTM",
+    "title": "FALLEN INFERNO A SMOKES IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-27"
+  },
+  {
+    "id": "zpG90d6ZfOw",
+    "title": "CRAZY DUST2 BOOST TO HOLD A SITE",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-27"
+  },
+  {
+    "id": "FIbr52OVPRg",
+    "title": "VITALITY INSANE INFERNO BANANA BOOST IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-27"
+  },
+  {
+    "id": "BwxPucOvPnE",
+    "title": "HOOXI SMART DUST2 DECOY IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-27"
+  },
+  {
+    "id": "onsih3Y0JYo",
+    "title": "\ud83d\udd25cobrazera 31-12 | avg 2.8K ELO | Nuke POV | Oct 26, 2026",
+    "channel": "lim",
+    "player": "cobrazera",
+    "team": null,
+    "map": "nuke",
+    "published": "2026-10-26"
+  },
+  {
+    "id": "JPIFWB6o0Jo",
+    "title": "\ud83d\udd25JamYoung (20-7) 2.13 Rating | avg 2.7K ELO | Mirage POV | Oct 26, 2026",
+    "channel": "lim",
+    "player": "jamyoung",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-26"
+  },
+  {
     "id": "VIrrjc-5LAI",
     "title": "\ud83d\udd25zont1x (17-10) 1.30 Rating | avg 3.3K ELO | Mirage POV | Oct 23, 2026",
     "channel": "lim",
     "player": "zont1x",
     "team": null,
     "map": "mirage",
+    "published": "2026-10-26"
+  },
+  {
+    "id": "H6UTQv2G3RM",
+    "title": "NertZ Anubis B Smoke Wall in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-26"
+  },
+  {
+    "id": "OQcqPaAQ1uc",
+    "title": "cs2 nuke pro tip to get info",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
     "published": "2026-10-26"
   },
   {
@@ -64215,51 +64296,6 @@
     "published": "2025-05-05"
   },
   {
-    "id": "hPhBQCZaz_0",
-    "title": "\u26a1m0NESY (35-19) Falcons vs Vitality (Mirage) | BLAST Rivals 2025 Season 1 #cs2 #pov",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-05"
-  },
-  {
-    "id": "OqhudKlSFaM",
-    "title": "ropz (24-10) Vitality vs Falcons (Nuke) | BLAST Rivals 2025 Season 1 #cs2 #pov",
-    "channel": "lim",
-    "player": "ropz",
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-05"
-  },
-  {
-    "id": "7vtOhcmE3ZE",
-    "title": "flameZ (20-13) Vitality vs Falcons (Train) | BLAST Rivals 2025 Season 1 #cs2 #pov",
-    "channel": "lim",
-    "player": "flamez",
-    "team": null,
-    "map": null,
-    "published": "2025-05-05"
-  },
-  {
-    "id": "_-URjXe42ek",
-    "title": "ZywOo (17-10) Vitality vs Falcons (Dust2) | BLAST Rivals 2025 Season 1 #cs2 #pov",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-05"
-  },
-  {
-    "id": "pGKcT6t60SA",
-    "title": "\u26a1m0NESY (23-14) Falcons vs Vitality (Inferno) | BLAST Rivals 2025 Season 1 #cs2 #pov",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-05"
-  },
-  {
     "id": "P0LYOVo6VAQ",
     "title": "stanislaw\u2019s B Retake Nades on Dust 2 Are CLUTCH \ud83d\udd25",
     "channel": "utility",
@@ -64285,95 +64321,5 @@
     "team": null,
     "map": "dust2",
     "published": "2025-05-05"
-  },
-  {
-    "id": "RpokwcKOW7A",
-    "title": "Ramp Control on Nuke? LNZ Uses THIS Molotov",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-05"
-  },
-  {
-    "id": "alc517UGLY4",
-    "title": "INSANE Anubis B Post Plant Molotov from Mid \ud83d\udd253",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-05"
-  },
-  {
-    "id": "8o1lXBW-UYg",
-    "title": "Team Spirit BOOSTS Over the Smoke \ud83d\ude33 (Anubis Window)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-05"
-  },
-  {
-    "id": "yzPjjsV5MOQ",
-    "title": "HooXi Smokes Donut Like THIS on Ancient \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-05"
-  },
-  {
-    "id": "DnM8sJsPzEk",
-    "title": "Jame\u2019s Pro Nades for A Site on Dust 2 \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-05"
-  },
-  {
-    "id": "XRM-c1tUJLU",
-    "title": "CS2 POV Demo Spirit donk (19/9) vs Falcons (de_mirage) @ BLAST Rivals 2025 Season 1",
-    "channel": "pov_highlights",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-04"
-  },
-  {
-    "id": "stXm-vpphGU",
-    "title": "frozen\u2019s Fast Short Control Smokes on Dust 2 \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-04"
-  },
-  {
-    "id": "7lvL7F23o2c",
-    "title": "This Nuke Runboost is Actually Crazy \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-04"
-  },
-  {
-    "id": "STy-OM1y0A4",
-    "title": "Vitality\u2019s Genius Nuke Strategy: 4 Smokes to Fake Secret, Then Hit Upper",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-04"
-  },
-  {
-    "id": "6-NRgQwF840",
-    "title": "Anubis B Retake Smoke for Connector \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-04"
   }
 ]
