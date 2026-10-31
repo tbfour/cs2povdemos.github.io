@@ -1,11 +1,128 @@
 [
   {
+    "id": "HRS7_bxCeSw",
+    "title": "kyxsan Dust2 Mid to B Nades in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-31"
+  },
+  {
+    "id": "dFfu8cqPr3c",
+    "title": "maka Ancient CT smoke lineup from T Spawn",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-31"
+  },
+  {
+    "id": "eUKQsv9xfbg",
+    "title": "cs2 Ancient nades for B site execute",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-31"
+  },
+  {
+    "id": "H1xvBUFDQLk",
+    "title": "nicx Dust2 nades to defend B Rush in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-31"
+  },
+  {
+    "id": "6ve0QSX8vpw",
+    "title": "S1MPLE MIRAGE WINDOW SMOKE BREAK NADE LINEUP IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-31"
+  },
+  {
+    "id": "QSIGeIxesTI",
+    "title": "lake DUST2 B DOOR SMOKE FOR B RUSH",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-10-31"
+  },
+  {
+    "id": "6vmPorZaixQ",
+    "title": "17 y.o.\ud83d\udd25tired73 (28-12) 1.73 Rating | avg 3.3K ELO | Anubis POV | Oct 22, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-10-30"
+  },
+  {
     "id": "GOlKqewSsoU",
     "title": "\ud83d\udd25kyousuke (28-9) 1.63 Rating | avg 3.4K ELO | Dust2 POV | Oct 30, 2026",
     "channel": "lim",
     "player": "kyousuke",
     "team": null,
     "map": "dust2",
+    "published": "2026-10-30"
+  },
+  {
+    "id": "eMXZi02P4JI",
+    "title": "LIQUID JT INFERNO NADES FOR B IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-30"
+  },
+  {
+    "id": "Wn10gqUrGPs",
+    "title": "BetBoom\u2019s Ancient Mid Info Tactic - CS2 Strategy Breakdown",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-30"
+  },
+  {
+    "id": "cSikJAj-alE",
+    "title": "VITALITY INFERNO CT SETUP FOR APPS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-30"
+  },
+  {
+    "id": "t4ZZkSdfYFE",
+    "title": "TRAVIS INSANE ANCIENT DONUT SMOKE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-30"
+  },
+  {
+    "id": "pYjEgqhcKlc",
+    "title": "KARRIGAN INFERNO NADES FOR BANANA RETAKE",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-10-30"
+  },
+  {
+    "id": "PAMS34tgRso",
+    "title": "KRIMBO NUKE SMOKE WALL FOR CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
     "published": "2026-10-30"
   },
   {
@@ -64134,24 +64251,6 @@
     "published": "2025-05-09"
   },
   {
-    "id": "UkGk-M17SCA",
-    "title": "(ENG SUBS) s1mple SoloQ vs zweih/notineki/ArtFr0st (Dust2) avg 3700 ELO\ud83d\udd25 | May 8, 2025",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-09"
-  },
-  {
-    "id": "43Qcwl88NKs",
-    "title": "S1MPLE plays FACEIT with NEW TEAMMATES! s1mple POV with COMMs (Ancient)",
-    "channel": "nebula",
-    "player": "s1mple",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-09"
-  },
-  {
     "id": "MQOSoMcF7Zk",
     "title": "This INS Smoke Locks Down A Main From Site (Anubis)",
     "channel": "utility",
@@ -64177,77 +64276,5 @@
     "team": null,
     "map": "nuke",
     "published": "2025-05-09"
-  },
-  {
-    "id": "jErYH3wrH5Y",
-    "title": "Fastest B Long Smoke You\u2019ll See \u2013 EliGE on Ancient",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-09"
-  },
-  {
-    "id": "GjRLIBNwal4",
-    "title": "NaVi iM Throws PERFECT Upper Nades on Nuke \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-09"
-  },
-  {
-    "id": "lsOSGut0P1s",
-    "title": "FURIA\u2019s Nuke Smokes Are Absolutely INSANE \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-09"
-  },
-  {
-    "id": "QgdZso-IpBE",
-    "title": "2 Nuke Pro Tips You NEED to Know in CS2 \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-09"
-  },
-  {
-    "id": "z2wWjc8n0UI",
-    "title": "These Flashes Clear Nuke Lower Site Instantly \ud83d\udd26",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-09"
-  },
-  {
-    "id": "H0SuDoXAdK0",
-    "title": "\u26a1m0NESY (34-15) SoloQ VOICE COMMS (Dust2) | FACEIT avg 3100 ELO | May 7, 2025 #cs2 #m0nesy",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-08"
-  },
-  {
-    "id": "PDh9ba2eRTA",
-    "title": "Pro Dust 2 Long A Flashes You NEED to Learn \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-08"
-  },
-  {
-    "id": "HvHQCrCsdhY",
-    "title": "The Most INSANE Anubis Connector Smoke in CS2 \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-08"
   }
 ]
