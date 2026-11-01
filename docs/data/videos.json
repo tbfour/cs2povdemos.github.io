@@ -1,5 +1,104 @@
 [
   {
+    "id": "UIG5N0UPHBg",
+    "title": "\ud83d\udd25dem0n (32-14) 1.89 Rating | avg 3.6K ELO | Anubis POV | Nov 1, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-11-01"
+  },
+  {
+    "id": "wWpWG6tZoQc",
+    "title": "\ud83d\udd25sh1ro (26-15) 1.32 Rating | avg 3.5K ELO | Mirage POV | Nov 1, 2026",
+    "channel": "lim",
+    "player": "sh1ro",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-01"
+  },
+  {
+    "id": "Tp72udU15UA",
+    "title": "M0NESY Destroys PRO in FACEIT with a 6+ K/D! m0NESY POV with COMMs (Dust 2)",
+    "channel": "nebula",
+    "player": "m0nesy",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-01"
+  },
+  {
+    "id": "vND8oudRg8w",
+    "title": "DONK GENIUS DUST2 MOVEMENT FOR INFO IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-01"
+  },
+  {
+    "id": "UiyzTslS6g4",
+    "title": "NAVI Nuke Counter to Smoke Wall in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-11-01"
+  },
+  {
+    "id": "3nioof-Tamg",
+    "title": "This Mirage B Hit Is WAY Faster Than It Looks | CS2",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-01"
+  },
+  {
+    "id": "ZolUmypLtM4",
+    "title": "artfr0st Dust2 position to peek Lower in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-01"
+  },
+  {
+    "id": "hnFBWGFlzpc",
+    "title": "\ud83d\udd25donk w/magixx | avg 3.6K ELO | Ancient POV | Oct 31, 2026",
+    "channel": "lim",
+    "player": "donk",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-31"
+  },
+  {
+    "id": "L1mkMe-U6ec",
+    "title": "BELCHONOKK Ancient position to hold A Main in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-10-31"
+  },
+  {
+    "id": "KjdFOFk-pQA",
+    "title": "PR Mirage Nades to take A Site in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-31"
+  },
+  {
+    "id": "S9Q4ceScmWg",
+    "title": "r1nkle Mirage Ticket Position to Hold Ramp in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-10-31"
+  },
+  {
     "id": "HRS7_bxCeSw",
     "title": "kyxsan Dust2 Mid to B Nades in CS2",
     "channel": "utility",
@@ -64152,24 +64251,6 @@
     "published": "2025-05-11"
   },
   {
-    "id": "pu-szeq75UM",
-    "title": "donk (27-8) w/magixx (Anubis) | FACEIT avg 3600 ELO | May 8, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-10"
-  },
-  {
-    "id": "44_ZSanuFWw",
-    "title": "\ud83d\udd25s1mple w/neo/karrigan/GruBy/hypex (mirage) avg 3300 ELO | May 8, 2025 #cs2 #pov #s1mple",
-    "channel": "lim",
-    "player": "s1mple",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-10"
-  },
-  {
     "id": "gVSqwxa8ksA",
     "title": "m0NESY\u2019s Genius Dust 2 A Smoke from Mid \ud83d\udca8",
     "channel": "utility",
@@ -64195,86 +64276,5 @@
     "team": null,
     "map": "dust2",
     "published": "2025-05-10"
-  },
-  {
-    "id": "P0gKaLvemho",
-    "title": "EASIEST Nuke Top Main Smoke from T Spawn \ud83d\ude80",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-10"
-  },
-  {
-    "id": "zxRS3jHxPf4",
-    "title": "CT Mid Flash from Arch That Blinds Every T (Inferno)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-10"
-  },
-  {
-    "id": "YVcLzsSafGs",
-    "title": "Pro Level Mirage A Nades from FAME \u2013 Must Learn!",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-10"
-  },
-  {
-    "id": "yITiBqunNzY",
-    "title": "How to Smoke A Cross on Dust 2 Like a Pro \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-10"
-  },
-  {
-    "id": "gC_OoLCDvBg",
-    "title": "Jee (25-13) TYLOO vs FlyQuest (Inferno) | Hero Esports Asian Champions League 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-09"
-  },
-  {
-    "id": "9N8O7TI5q2M",
-    "title": "kyousuke (29-12) w/Mokuj1n/syph0 (Ancient) | FACEIT avg 3600 ELO | May 3, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-09"
-  },
-  {
-    "id": "MQOSoMcF7Zk",
-    "title": "This INS Smoke Locks Down A Main From Site (Anubis)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-09"
-  },
-  {
-    "id": "qQTmxPM30So",
-    "title": "Twistzz\u2019s T Side Molotov Takes Over A Short on Dust 2 \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-09"
-  },
-  {
-    "id": "5DTxT8ryA30",
-    "title": "SENZU\u2019s Nuke Door Trick \u2013 Pro Angle Abuse in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-09"
   }
 ]
