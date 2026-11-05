@@ -1,5 +1,59 @@
 [
   {
+    "id": "YCzmGRSrEzw",
+    "title": "\ud83d\udd25dem0n (30-10) 2.67 Rating | avg 3.7K ELO | Mirage POV | Nov 5, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-05"
+  },
+  {
+    "id": "zV_DsWzwL6s",
+    "title": "parivision SNEAKY Dust2 boost in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-05"
+  },
+  {
+    "id": "ZjmeDRMZdts",
+    "title": "brollan throws perfect inferno apps flash for CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-05"
+  },
+  {
+    "id": "jqcA1u19XXY",
+    "title": "zont1x Dust2 nades to push Short in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-05"
+  },
+  {
+    "id": "uL38PsWTcMk",
+    "title": "b8 show INSANE DUST2 BOOST FOR SHORT",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-05"
+  },
+  {
+    "id": "BIGV2XWNBDo",
+    "title": "LEGACY SMART DUST2 BOOST FOR SHORT IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-05"
+  },
+  {
     "id": "-iTZ-ILQmxY",
     "title": "\ud83d\udd25markeloff (27-13) 1.49 Rating | avg 2.1K ELO | Anubis POV | Nov 3, 2026",
     "channel": "lim",
@@ -13,6 +67,33 @@
     "title": "\ud83d\udd25donk (32-22) w/magixx | avg 3.9K ELO | Ancient POV | Nov 3, 2026",
     "channel": "lim",
     "player": "donk",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-04"
+  },
+  {
+    "id": "ZLnqVFWBG1A",
+    "title": "Legacy\u2019s PERFECT Mirage A Execute - CS2 Strategy Breakdown",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-04"
+  },
+  {
+    "id": "3I-D9oLCujo",
+    "title": "THE ULTIMATE ANCIENT CAVE SMOKE LINEUP FOR CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-04"
+  },
+  {
+    "id": "7FILC3Q1umU",
+    "title": "910 SHOWS INSANE ANCIENT B SITE FLASH IN CS2",
+    "channel": "utility",
+    "player": null,
     "team": null,
     "map": "ancient",
     "published": "2026-11-04"
@@ -64278,33 +64359,6 @@
     "published": "2025-05-15"
   },
   {
-    "id": "2MV_12nf18g",
-    "title": "(ENG SUBS/\u4e2d\u5b57) NiKo (29-17) w/m0NESY Rating: 1.84 (ANCIENT) | May 13, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-14"
-  },
-  {
-    "id": "Xq9QWJcQbrs",
-    "title": "\ud83e\udd23donk w/magixx/chopper vs sh1ro (Ancient) | FACEIT avg 3400 ELO | May 12, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-14"
-  },
-  {
-    "id": "WJ5kEk9u3MU",
-    "title": "kyousuke Makes Top FACEIT Look Easy! kyousuke POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "kyousuke",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-14"
-  },
-  {
     "id": "xq8SUGi0DLc",
     "title": "Brollan Shows EASY Nuke Top Mini Smoke For CS2",
     "channel": "utility",
@@ -64321,59 +64375,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-05-14"
-  },
-  {
-    "id": "6lqVznPIXes",
-    "title": "phzy Smokes Arch & Library from ONE Spot on Inferno \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-14"
-  },
-  {
-    "id": "WlBhKTYAijc",
-    "title": "karrigan Throws a SOLO Outside Smoke Wall on Nuke \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-14"
-  },
-  {
-    "id": "gdHw8Yy_I4g",
-    "title": "Solo Outside Smoke Wall \u2013 Nuke CS2 Pro Utility Guide",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-14"
-  },
-  {
-    "id": "R08x8Ox_s4E",
-    "title": "Win Inferno Pistols Like kyxsan \u2013 Pro T Nade Set \ud83d\udca3",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-14"
-  },
-  {
-    "id": "8DV40A-Tet8",
-    "title": "mezii\u2019s Moto Smoke on Inferno Is Clean and Easy \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-13"
-  },
-  {
-    "id": "8Cd9igMcIJw",
-    "title": "One Flash From Arch = Free Mid Fight (Inferno)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-13"
   }
 ]
