@@ -1,11 +1,56 @@
 [
   {
+    "id": "UNOqwOHeSBA",
+    "title": "\ud83d\udd25dem0n (32-14) 1.78 Rating | avg 3.5K ELO | Cache POV | Nov 6, 2026",
+    "channel": "lim",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2026-11-06"
+  },
+  {
+    "id": "oqG1qCzPcTI",
+    "title": "MAGNOJEZ DUST2 B NADES COMBO IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-06"
+  },
+  {
+    "id": "Z2KQERKzdcY",
+    "title": "PRO MIRAGE NADES A SITE COMBO IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-06"
+  },
+  {
     "id": "YCzmGRSrEzw",
     "title": "\ud83d\udd25dem0n (30-10) 2.67 Rating | avg 3.7K ELO | Mirage POV | Nov 5, 2026",
     "channel": "lim",
     "player": null,
     "team": null,
     "map": "mirage",
+    "published": "2026-11-05"
+  },
+  {
+    "id": "FoHW85EIaKI",
+    "title": "boombl4 shows essential ancient b site nades",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-05"
+  },
+  {
+    "id": "34yWMOlu9ik",
+    "title": "FROZEN SHOWS META ANCIENT MOLOTOV FOR B RUSH",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
     "published": "2026-11-05"
   },
   {
@@ -73,7 +118,7 @@
   },
   {
     "id": "ZLnqVFWBG1A",
-    "title": "Legacy\u2019s PERFECT Mirage A Execute - CS2 Strategy Breakdown",
+    "title": "Why Legacy\u2019s Mirage A Execute Is So Hard to Defend | CS2",
     "channel": "strategy",
     "player": null,
     "team": null,
@@ -64269,33 +64314,6 @@
     "published": "2025-05-15"
   },
   {
-    "id": "kRi9wMJFBqY",
-    "title": "E9 Trash (28-15) vs Shika (Inferno) | XSE Pro League Chengdu 2025 Closed Qualifier #cs2 #pov",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-15"
-  },
-  {
-    "id": "nukdVmU_b9o",
-    "title": "\ud83d\udd25donk (29-17) w/magixx  (mirage) VOICE COMMS | FACEIT avg 3500 ELO | May 14, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-15"
-  },
-  {
-    "id": "_jI2Zzk5SW0",
-    "title": "\ud83d\udd25donk (38-16) w/magixx  (Dust2) VOICE COMMS | FACEIT avg 3500 ELO | May 14, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-15"
-  },
-  {
     "id": "l52cGE-mWX8",
     "title": "CS2 POV Demo FURIA YEKINDAR (21/10) vs ODDIK (de_anubis) @ PGL Astana 2025",
     "channel": "pov_highlights",
@@ -64321,59 +64339,5 @@
     "team": null,
     "map": "dust2",
     "published": "2025-05-15"
-  },
-  {
-    "id": "TdWe1mRksvU",
-    "title": "m0NESY\u2019s Dust2 Smoke is TOO GOOD \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-15"
-  },
-  {
-    "id": "ril_GnrhdVI",
-    "title": "kyxsan Solo Smokes Mirage A Like a Pro",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-15"
-  },
-  {
-    "id": "C6b_QJcSywI",
-    "title": "apEX\u2019s Inferno Banana Control from Coffins (CT Side)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-15"
-  },
-  {
-    "id": "HTziY002Zuk",
-    "title": "CT Mid Retake Smoke From Moto \u2013 biguzera\u2019s Inferno Trick \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-15"
-  },
-  {
-    "id": "xq8SUGi0DLc",
-    "title": "Brollan Shows EASY Nuke Top Mini Smoke For CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-14"
-  },
-  {
-    "id": "um30Xs4A9Kw",
-    "title": "chopper Throws These From Ramp to Take A Site FAST (Mirage) \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-14"
   }
 ]
