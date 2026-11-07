@@ -1,11 +1,65 @@
 [
   {
+    "id": "saznoLalMAY",
+    "title": "FL1T DUST2 NADES TO TAKE LONG A IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-07"
+  },
+  {
+    "id": "w4RXDnF0l1E",
+    "title": "NiKo shows best Anubis B flash to defend site",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-11-07"
+  },
+  {
+    "id": "IhrwevnwHx4",
+    "title": "CS2 DUST 2 MID DOOR SMOKE LINEUP 2026",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-07"
+  },
+  {
+    "id": "605MC8EzhKA",
+    "title": "Why This Ancient B Execute Is So Hard to Defend | CS2",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-07"
+  },
+  {
+    "id": "8DmJG9HSpC4",
+    "title": "KSCERATO Ancient Banana Smoke from CT",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-07"
+  },
+  {
     "id": "UNOqwOHeSBA",
     "title": "\ud83d\udd25dem0n (32-14) 1.78 Rating | avg 3.5K ELO | Cache POV | Nov 6, 2026",
     "channel": "lim",
     "player": null,
     "team": null,
     "map": null,
+    "published": "2026-11-06"
+  },
+  {
+    "id": "rfgafwXr0Uk",
+    "title": "ESSENTIAL NUKE SMOKE WALL IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
     "published": "2026-11-06"
   },
   {
@@ -64233,15 +64287,6 @@
     "published": "2025-05-16"
   },
   {
-    "id": "ROVyn9uFjzQ",
-    "title": "ZywOo (26-10) w/huNter-/apEX (Dust2) | FACEIT 3200 ELO | May 15, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-16"
-  },
-  {
     "id": "yBLwGDfMBqo",
     "title": "NIKO and M0NESY Grinding Top 100 FACEIT! niko POV with COMMs (Ancient)",
     "channel": "nebula",
@@ -64267,77 +64312,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-05-16"
-  },
-  {
-    "id": "pVay5aPeX48",
-    "title": "Pro B Site Nades on Anubis \u2013 Temple Smoke + Connector Flash",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-16"
-  },
-  {
-    "id": "I8_JGgIgg6Q",
-    "title": "This Inferno Spot by Twistzz Is UNFLASHABLE \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-16"
-  },
-  {
-    "id": "DY9P97MoDEs",
-    "title": "How tabseN Flashes B on Inferno Without Blinding His Team",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-16"
-  },
-  {
-    "id": "QUhpJIzl6E8",
-    "title": "mezii Smokes Moto So His Team Can Explode A on Inferno",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-16"
-  },
-  {
-    "id": "37Tt472A6F4",
-    "title": "\u26a1m0NESY w/kyousuke/alpha vs b1t (mirage) | FACEIT avg 3730 ELO | May 14, 2025 #cs2 #m0nesy",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-15"
-  },
-  {
-    "id": "l52cGE-mWX8",
-    "title": "CS2 POV Demo FURIA YEKINDAR (21/10) vs ODDIK (de_anubis) @ PGL Astana 2025",
-    "channel": "pov_highlights",
-    "player": "yekindar",
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-15"
-  },
-  {
-    "id": "hVDCgWI6-9E",
-    "title": "apEX Throws the PERFECT Ramp Flash on Nuke",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-15"
-  },
-  {
-    "id": "we85pggxSTE",
-    "title": "JDC Throws the BEST Mid Door Smoke on Dust2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-15"
   }
 ]
