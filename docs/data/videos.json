@@ -1,5 +1,59 @@
 [
   {
+    "id": "HrlP1Y_ktFE",
+    "title": "This Ancient Boost Gives T Side FREE Kills in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-08"
+  },
+  {
+    "id": "laORZ3I7LNQ",
+    "title": "Magisk Ancient molotov to clear A Site Boost in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-08"
+  },
+  {
+    "id": "YLGkNRTy3zc",
+    "title": "TEAM LIQUID ANUBIS WINDOW BOOST IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-11-08"
+  },
+  {
+    "id": "4Bw6Hpn-z8k",
+    "title": "Why MOUZ\u2019s Ancient B Execute Is So Hard to Retake | CS2",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-08"
+  },
+  {
+    "id": "60tLiQuKE7g",
+    "title": "Wicadia Anubis Nades for A Main Retake in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-11-07"
+  },
+  {
+    "id": "T4EaddTYsCc",
+    "title": "cs2 ancient b door smoke lineup",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-07"
+  },
+  {
     "id": "saznoLalMAY",
     "title": "FL1T DUST2 NADES TO TAKE LONG A IN CS2",
     "channel": "utility",
@@ -64188,15 +64242,6 @@
     "published": "2025-05-17"
   },
   {
-    "id": "jnXLhlKP9u8",
-    "title": "JamYoung (TYLOO vs LVG) (Ancient) | Hero Esports Asian Champions League 2025 | CS2 POV/demo",
-    "channel": "lim",
-    "player": "jamyoung",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-17"
-  },
-  {
     "id": "YeZXF3zMAgE",
     "title": "3DMAX\u2019s Smoke Trick on Ancient Is Actually INSANE \ud83d\ude31",
     "channel": "utility",
@@ -64222,95 +64267,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-05-17"
-  },
-  {
-    "id": "TFm2DGGYguI",
-    "title": "One Flash to Win Fights in Canals (Anubis CS2)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-17"
-  },
-  {
-    "id": "JsqndN0GkXg",
-    "title": "This Fountain Flash Destroys A Main on Anubis \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-17"
-  },
-  {
-    "id": "xgGesrL94Z4",
-    "title": "How to Instantly Smoke Connector on Anubis (CS2 Lineup)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-17"
-  },
-  {
-    "id": "MKtsKWdVvuo",
-    "title": "Anubis A Main? GONE with This One Smoke \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-17"
-  },
-  {
-    "id": "Of7xTGFSxV0",
-    "title": "NAF\u2019s Flash DESTROYS CTs at B Door on Ancient \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-17"
-  },
-  {
-    "id": "b9aZXEZTLK0",
-    "title": "ZywOo (34-25) w/huNter-/apEX (Ancient) VOICE COMMS | FACEIT Ranked | May 15, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-16"
-  },
-  {
-    "id": "B0_Zm9nnlNg",
-    "title": "\ud83d\udd25donk 29 Kills SoloQ  (mirage) VOICE COMMS | FACEIT avg 3000 ELO | May 15, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-16"
-  },
-  {
-    "id": "yBLwGDfMBqo",
-    "title": "NIKO and M0NESY Grinding Top 100 FACEIT! niko POV with COMMs (Ancient)",
-    "channel": "nebula",
-    "player": "niko",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-16"
-  },
-  {
-    "id": "bc-YHV0xffg",
-    "title": "MOUZ\u2019s Ancient Run Boost Catches Mid Off Guard \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-16"
-  },
-  {
-    "id": "HVeezya8jbQ",
-    "title": "G2\u2019s Mid Smokes on Mirage Are NEXT LEVEL \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-16"
   }
 ]
