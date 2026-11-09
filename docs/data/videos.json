@@ -1,5 +1,86 @@
 [
   {
+    "id": "WZkzevYqTqQ",
+    "title": "9z inferno tactic for Mid peek in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-09"
+  },
+  {
+    "id": "qDI_ZyC-fB4",
+    "title": "blameF Mirage Short molotov for B SITE EXEUTE in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-09"
+  },
+  {
+    "id": "MqrsPIMOgaU",
+    "title": "m0NESY shows INSANE Dust2 trick to counter Long door smoke",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-09"
+  },
+  {
+    "id": "ZL35vfdFpLk",
+    "title": "molodoy Mirage movement to set up Mid peek",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-09"
+  },
+  {
+    "id": "bPugfuBzIKw",
+    "title": "FALLEN INFERNO NADES FOR COFFIN IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-09"
+  },
+  {
+    "id": "TxL6CskiYbI",
+    "title": "KARRIGAN THROWS 2 NUKE SMOKE WALLS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-11-09"
+  },
+  {
+    "id": "OLP2CtoVOeI",
+    "title": "How MOUZ Trick the CTs Into Reading Mirage Completely Wrong | CS2",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-09"
+  },
+  {
+    "id": "_myDN5iw_AE",
+    "title": "LIQUID DUST2 STRAT FOR MID PEEK ON CT SIDE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-08"
+  },
+  {
+    "id": "l46jd8rAg8k",
+    "title": "BEST MIRAGE POSITION TO DEFEND B SITE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-08"
+  },
+  {
     "id": "HrlP1Y_ktFE",
     "title": "This Ancient Boost Gives T Side FREE Kills in CS2",
     "channel": "utility",
@@ -28,7 +109,7 @@
   },
   {
     "id": "4Bw6Hpn-z8k",
-    "title": "Why MOUZ\u2019s Ancient B Execute Is So Hard to Retake | CS2",
+    "title": "MOUZ Found the PERFECT Way to Isolate Ancient B | CS2",
     "channel": "strategy",
     "player": null,
     "team": null,
@@ -477,6 +558,15 @@
     "published": "2026-11-02"
   },
   {
+    "id": "Rr0eX-KN7J4",
+    "title": "A History Of Sound In Counter Strike",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2026-11-02"
+  },
+  {
     "id": "KnR5U8T4YsE",
     "title": "FL4MUS MIRAGE GENIUS JUMP SPOT BAIT",
     "channel": "utility",
@@ -600,15 +690,6 @@
     "player": "sh1ro",
     "team": null,
     "map": "mirage",
-    "published": "2026-11-01"
-  },
-  {
-    "id": "Tp72udU15UA",
-    "title": "M0NESY UNSTOPPABLE WITH 6+ K/D VS PRO | m0NESY POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
     "published": "2026-11-01"
   },
   {
@@ -2475,6 +2556,15 @@
     "published": "2026-10-13"
   },
   {
+    "id": "p0EpTrY7SJc",
+    "title": "The History of Counter Strike Surf World Records",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2026-10-13"
+  },
+  {
     "id": "20GPY2QhXHg",
     "title": "FALCONS SMART NUKE RAMP TRICK PLAY IN CS2",
     "channel": "utility",
@@ -3888,15 +3978,6 @@
     "published": "2026-10-01"
   },
   {
-    "id": "nwajF_K-EUI",
-    "title": "FACEIT Level 10 Is Only HALF of donk\u2019s Elo | World #1 POV",
-    "channel": "nebula",
-    "player": null,
-    "team": null,
-    "map": null,
-    "published": "2026-10-01"
-  },
-  {
     "id": "dymRrYdUWyk",
     "title": "cs2 mirage connector smoke from apps",
     "channel": "utility",
@@ -4563,15 +4644,6 @@
     "published": "2026-09-27"
   },
   {
-    "id": "gLNqEf5yWiA",
-    "title": "DONK finds S1MPLE in Top FACEIT! donk POV with COMMs (Nuke)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "nuke",
-    "published": "2026-09-27"
-  },
-  {
     "id": "rWikGNMl4hM",
     "title": "CS2 DUST2 SMOKE FOR MID PEEK",
     "channel": "utility",
@@ -4878,6 +4950,15 @@
     "published": "2026-09-25"
   },
   {
+    "id": "T8AqIOgreZY",
+    "title": "The History of Counter Strike Speedrunning",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2026-09-25"
+  },
+  {
     "id": "ZGwR5d4hEaQ",
     "title": "bLitz Ancient A Site smokes from 1 spot in CS2",
     "channel": "utility",
@@ -4974,15 +5055,6 @@
     "player": "donk",
     "team": null,
     "map": "mirage",
-    "published": "2026-09-24"
-  },
-  {
-    "id": "W4GvqeGV350",
-    "title": "DONK gets 49 Kills vs his Friend in FACEIT! donk POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
     "published": "2026-09-24"
   },
   {
@@ -6507,15 +6579,6 @@
     "published": "2026-09-13"
   },
   {
-    "id": "HN1vfPUEit4",
-    "title": "S1MPLE Finds W0NDERFUL in Top FACEIT Lobby! s1mple POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "s1mple",
-    "team": null,
-    "map": "mirage",
-    "published": "2026-09-12"
-  },
-  {
     "id": "war9rr1voyQ",
     "title": "flameZ Genius Nuke Door Play in CS2",
     "channel": "utility",
@@ -7974,15 +8037,6 @@
     "published": "2026-09-01"
   },
   {
-    "id": "EjzHPyQ1ZS4",
-    "title": "What its Like to be Rank 1 on FACEIT! donk POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2026-09-01"
-  },
-  {
     "id": "wBsXbYSqn2A",
     "title": "The MongolZ INSANE Inferno Boost on CS2",
     "channel": "utility",
@@ -9369,15 +9423,6 @@
     "published": "2026-08-23"
   },
   {
-    "id": "4SYzLuvcdm8",
-    "title": "ZYWOO and MEZII Destroy FACEIT lvl 10! ZywOo POV with COMMs (Cache)",
-    "channel": "nebula",
-    "player": "zywoo",
-    "team": null,
-    "map": null,
-    "published": "2026-08-23"
-  },
-  {
     "id": "IIL3YThEKBA",
     "title": "CS2 ANUBIS FLASHES TO PEEK BRIDGE",
     "channel": "utility",
@@ -10197,15 +10242,6 @@
     "published": "2026-08-16"
   },
   {
-    "id": "X8vgga2kR10",
-    "title": "DONK vs Lobby of PROs in TOP FACEIT! donk POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
-    "published": "2026-08-16"
-  },
-  {
     "id": "5l2tGN-dsVo",
     "title": "Krimbo\u2019s full utility set for taking A on Mirage \ud83d\udc40",
     "channel": "utility",
@@ -10941,15 +10977,6 @@
     "player": "donk",
     "team": null,
     "map": "mirage",
-    "published": "2026-08-10"
-  },
-  {
-    "id": "legg4spYSDY",
-    "title": "DONK Plays Against JL on FACEIT! donk POV with COMMs (Cache)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": null,
     "published": "2026-08-10"
   },
   {
@@ -11922,15 +11949,6 @@
     "player": "zywoo",
     "team": null,
     "map": "anubis",
-    "published": "2026-08-02"
-  },
-  {
-    "id": "e9_xy22oICg",
-    "title": "ZYWOO Makes FACEIT Lvl 10 Look FREE! ZywOo POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "zywoo",
-    "team": null,
-    "map": "dust2",
     "published": "2026-08-02"
   },
   {
@@ -13248,6 +13266,15 @@
     "published": "2026-07-22"
   },
   {
+    "id": "I9lnqJEwlgk",
+    "title": "All the ways Valorant Changed Counter Strike.",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2026-07-22"
+  },
+  {
     "id": "8AWTnsrC1e8",
     "title": "xertioN Dust2 Flash to Peek Short in CS2",
     "channel": "utility",
@@ -13389,15 +13416,6 @@
     "player": "donk",
     "team": null,
     "map": "dust2",
-    "published": "2026-07-21"
-  },
-  {
-    "id": "YFJJLFB4diY",
-    "title": "DONK Shows Why He's FACEIT Rank #1 | donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
     "published": "2026-07-21"
   },
   {
@@ -14625,6 +14643,15 @@
     "published": "2026-07-11"
   },
   {
+    "id": "gOc80UXvcZA",
+    "title": "How Karrigan Extracts MORE From His Players",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2026-07-11"
+  },
+  {
     "id": "xZZZC4_g_EQ",
     "title": "Techno4k shows Inferno Grenade to do heavy utility damage on Banana",
     "channel": "utility",
@@ -14937,15 +14964,6 @@
     "player": null,
     "team": null,
     "map": "inferno",
-    "published": "2026-07-08"
-  },
-  {
-    "id": "8nVz3bxZ4Cw",
-    "title": "DONK Humbles PRO Player in FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
     "published": "2026-07-08"
   },
   {
@@ -15639,15 +15657,6 @@
     "player": null,
     "team": null,
     "map": "nuke",
-    "published": "2026-07-02"
-  },
-  {
-    "id": "Rho8pGHAGlc",
-    "title": "DONK Makes FACEIT Rank #1 Look EASY! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
     "published": "2026-07-02"
   },
   {
@@ -16692,15 +16701,6 @@
     "player": "xelex",
     "team": null,
     "map": "nuke",
-    "published": "2026-06-25"
-  },
-  {
-    "id": "Dm9cJLzNFTY",
-    "title": "M0NESY Looks like a Smurf vs FACEIT Level 10s! m0NESY POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": "anubis",
     "published": "2026-06-25"
   },
   {
@@ -17772,15 +17772,6 @@
     "player": "donk",
     "team": null,
     "map": "mirage",
-    "published": "2026-06-16"
-  },
-  {
-    "id": "9Zh25MpaUmo",
-    "title": "DONK Makes Top FACEIT Look EASY! donk POV with COMMs (Ancient)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "ancient",
     "published": "2026-06-16"
   },
   {
@@ -18906,15 +18897,6 @@
     "player": "kyousuke",
     "team": null,
     "map": "dust2",
-    "published": "2026-06-07"
-  },
-  {
-    "id": "t46tRLdNp6A",
-    "title": "m0NESY vs Twitch Streamer in Top FACEIT Lobby! m0NESY POV with COMMs",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": null,
     "published": "2026-06-07"
   },
   {
@@ -20160,15 +20142,6 @@
     "published": "2026-05-29"
   },
   {
-    "id": "6xDnZf-L1B4",
-    "title": "DONK & MAGIXX vs Eternal Fire DUO in Top FACEIT Lobby! donk POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2026-05-29"
-  },
-  {
     "id": "mEktBSd6z6A",
     "title": "magixx Shows Powerful Nuke Zeus Angle in CS2",
     "channel": "utility",
@@ -20541,15 +20514,6 @@
     "id": "3nacQIa2mxM",
     "title": "donk (21-13) w/Magnojez Dust2 POV | FACEIT avg 3.6k Elo | May 24, 2026",
     "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2026-05-25"
-  },
-  {
-    "id": "t9Tvn9Ec_0Y",
-    "title": "DONK Crushes PRO in Top FACEIT Lobby! donk POV with COMMs (Dust 2)",
-    "channel": "nebula",
     "player": "donk",
     "team": null,
     "map": "dust2",
@@ -21309,15 +21273,6 @@
     "player": "ropz",
     "team": null,
     "map": "mirage",
-    "published": "2026-05-17"
-  },
-  {
-    "id": "vboigiPJOOg",
-    "title": "ZYWOO is Basically SMURFING in NA FACEIT! ZywOo POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "zywoo",
-    "team": null,
-    "map": "dust2",
     "published": "2026-05-17"
   },
   {
@@ -22248,15 +22203,6 @@
     "published": "2026-05-08"
   },
   {
-    "id": "REN4cvvyFjs",
-    "title": "DONK Destroys PRO in Top FACEIT Lobby! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2026-05-08"
-  },
-  {
     "id": "l8o-CvqNRmc",
     "title": "AURORA SMART DUST 2 BAIT PLAY IN CS2",
     "channel": "utility",
@@ -22902,6 +22848,15 @@
     "player": "donk",
     "team": null,
     "map": "anubis",
+    "published": "2026-05-03"
+  },
+  {
+    "id": "znrSeVatRD4",
+    "title": "Counter-Strikes Most Insane Game Ever Played",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
     "published": "2026-05-03"
   },
   {
@@ -23607,15 +23562,6 @@
     "published": "2026-04-28"
   },
   {
-    "id": "gowCvm38frI",
-    "title": "DONK Destroys KYOUSUKE in Top FACEIT Lobby! donk POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2026-04-28"
-  },
-  {
     "id": "n68syoQwVSg",
     "title": "MATYS SMART DUST 2 TUNNEL MOLOTOV",
     "channel": "utility",
@@ -23904,15 +23850,6 @@
     "published": "2026-04-26"
   },
   {
-    "id": "J80-e7lArEU",
-    "title": "DONK Destroys PROs in High Elo FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2026-04-26"
-  },
-  {
     "id": "PNuK20y-SiQ",
     "title": "ROPZ DUST 2 SMOKE FOR TUNNELS IN CS2",
     "channel": "utility",
@@ -24054,15 +23991,6 @@
     "player": "donk",
     "team": null,
     "map": "mirage",
-    "published": "2026-04-25"
-  },
-  {
-    "id": "fkez3E7Q1PY",
-    "title": "S1MPLE'S First FACEIT Game on Cache! s1mple POV with COMMs (Cache)",
-    "channel": "nebula",
-    "player": "s1mple",
-    "team": null,
-    "map": null,
     "published": "2026-04-25"
   },
   {
@@ -24633,6 +24561,15 @@
     "published": "2026-04-20"
   },
   {
+    "id": "_Jll3OCf9fw",
+    "title": "Every Counter Strike Meta in History",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2026-04-20"
+  },
+  {
     "id": "iootS1V3Zdc",
     "title": "ArtFr0st VAC MIRAGE SHOT IN CS2",
     "channel": "utility",
@@ -24891,15 +24828,6 @@
     "player": "sh1ro",
     "team": null,
     "map": "dust2",
-    "published": "2026-04-18"
-  },
-  {
-    "id": "bUo8CVdLNFw",
-    "title": "That one time DONK played NA FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": null,
-    "team": null,
-    "map": "mirage",
     "published": "2026-04-18"
   },
   {
@@ -26154,15 +26082,6 @@
     "published": "2026-04-09"
   },
   {
-    "id": "7DZmaS7lRnA",
-    "title": "ZYWOO Makes FACEIT Level 10s Look like Silver! ZywOo POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": "zywoo",
-    "team": null,
-    "map": "anubis",
-    "published": "2026-04-09"
-  },
-  {
     "id": "GEbU6XxkSF4",
     "title": "STOP BREAKING THIS POT ON MIRAGE",
     "channel": "utility",
@@ -27351,15 +27270,6 @@
     "published": "2026-03-30"
   },
   {
-    "id": "RSzmRmN7U3M",
-    "title": "DONK Looks like a Smurf vs Top FACEIT Lobby! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2026-03-30"
-  },
-  {
     "id": "hAJ4P0MCjsM",
     "title": "Twistzz Inferno Smoke for Banana Control in CS2",
     "channel": "utility",
@@ -27627,6 +27537,15 @@
     "player": "s1mple",
     "team": null,
     "map": "dust2",
+    "published": "2026-03-28"
+  },
+  {
+    "id": "nE3i7SAdKvY",
+    "title": "The Entire History of Counter Strikes Utility Usage.",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
     "published": "2026-03-28"
   },
   {
@@ -28050,15 +27969,6 @@
     "player": "heavygod",
     "team": null,
     "map": "mirage",
-    "published": "2026-03-25"
-  },
-  {
-    "id": "Si20sPhVCQg",
-    "title": "ZYWOO Looks like a Smurf in FACEIT Level 10! ZywOo POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "zywoo",
-    "team": null,
-    "map": "dust2",
     "published": "2026-03-25"
   },
   {
@@ -28584,15 +28494,6 @@
     "published": "2026-03-19"
   },
   {
-    "id": "fVmJqoDN0Jw",
-    "title": "DONK and MAGIXX Destroy PROs in FACEIT! donk POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2026-03-19"
-  },
-  {
     "id": "YMy50_Mxxr0",
     "title": "PRO OVERPASS SMOKE TO PUSH MONSTER SAFELY IN CS2",
     "channel": "utility",
@@ -28779,6 +28680,15 @@
     "player": "donk",
     "team": null,
     "map": "anubis",
+    "published": "2026-03-17"
+  },
+  {
+    "id": "dVJtdYTU1N8",
+    "title": "The Golden Age of Tier 2 Counter Strike is HERE. (2026)",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
     "published": "2026-03-17"
   },
   {
@@ -29040,15 +28950,6 @@
     "player": "xelex",
     "team": null,
     "map": "nuke",
-    "published": "2026-03-14"
-  },
-  {
-    "id": "IJPxeUlrWhg",
-    "title": "m0NESY Matches Against KYOUSUKE in Top FACEIT Lobby! m0NESY POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": "mirage",
     "published": "2026-03-14"
   },
   {
@@ -29610,15 +29511,6 @@
     "published": "2026-03-10"
   },
   {
-    "id": "2lZ5QqHbQPo",
-    "title": "DONK Hits 5000 ELO On FACEIT After Destroying Pro Player! donk POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
-    "published": "2026-03-10"
-  },
-  {
     "id": "QYBRMKmTO_o",
     "title": "biguzera Mirage Nades to Win Mid Control on CT",
     "channel": "utility",
@@ -30051,15 +29943,6 @@
     "published": "2026-03-06"
   },
   {
-    "id": "xk58xu4ht6k",
-    "title": "KYOUSUKE Destroys Ex-Number 1 FACEIT Player MaiL09! kyousuke POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "kyousuke",
-    "team": null,
-    "map": "mirage",
-    "published": "2026-03-06"
-  },
-  {
     "id": "ADZdfDfmSpM",
     "title": "INSANE ANCIENT 3 MAN BOOST IN CS2",
     "channel": "utility",
@@ -30393,15 +30276,6 @@
     "published": "2026-03-03"
   },
   {
-    "id": "m-YJNPP6Z_I",
-    "title": "NOCRIES Gets 75 Kills vs Top 500 FACEIT Players! nocries POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "nocries",
-    "team": null,
-    "map": "dust2",
-    "published": "2026-03-03"
-  },
-  {
     "id": "3GXp6NowWW0",
     "title": "arT 200 IQ Position to WIN Postplants on Inferno",
     "channel": "utility",
@@ -30630,15 +30504,6 @@
     "id": "2snotPFqqOQ",
     "title": "donk 95 KILLS SoloQ + VOICE COMMS (Anubis) | FACEIT EU 3800 ELO | Full Match POV",
     "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
-    "published": "2026-03-01"
-  },
-  {
-    "id": "qpKwEadkXhw",
-    "title": "DONK Shatters His FACEIT Kill Record with 95 Kills! donk POV with COMMs (Anubis)",
-    "channel": "nebula",
     "player": "donk",
     "team": null,
     "map": "anubis",
@@ -31194,15 +31059,6 @@
     "published": "2026-02-25"
   },
   {
-    "id": "Bu_mD7e81bE",
-    "title": "DONK Makes 4000 Elo FACEIT Look Too Easy! donk POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2026-02-25"
-  },
-  {
     "id": "HsmiZ0CklQ8",
     "title": "PRO ANCIENT A SMOKES IN CS2",
     "channel": "utility",
@@ -31608,15 +31464,6 @@
     "published": "2026-02-22"
   },
   {
-    "id": "ktEabyWrt7Q",
-    "title": "DONK plays FACEIT vs m0NESY and b1t! donk POV with COMMs (Ancient)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "ancient",
-    "published": "2026-02-22"
-  },
-  {
     "id": "XtFNB_vsVDQ",
     "title": "nocries Mirage Flash to Peek Connector in CS2",
     "channel": "utility",
@@ -31989,15 +31836,6 @@
     "id": "3uCZDeogD9k",
     "title": "kyousuke (28-14) Rating: 1.91 w/Mokuj1n avg 3660 Elo (Mirage) | Feb 18, 2026 #cs2 #kyousuke",
     "channel": "lim",
-    "player": "kyousuke",
-    "team": null,
-    "map": "mirage",
-    "published": "2026-02-19"
-  },
-  {
-    "id": "qF6GDn2yMjs",
-    "title": "KYOUSUKE Plays vs NIKO in Top 500 FACEIT Lobby! kyousuke POV with COMMs (Mirage)",
-    "channel": "nebula",
     "player": "kyousuke",
     "team": null,
     "map": "mirage",
@@ -32440,15 +32278,6 @@
     "title": "CS2 POV Demo Aurora XANTARES (33/17) vs FUT (de_anubis) @ PGL Cluj-Napoca 2026",
     "channel": "pov_highlights",
     "player": "xantares",
-    "team": null,
-    "map": "anubis",
-    "published": "2026-02-15"
-  },
-  {
-    "id": "c3hXxYkxhH8",
-    "title": "NOCRIES Gets 5+ K/D vs Top FACEIT Players! nocries POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": "nocries",
     "team": null,
     "map": "anubis",
     "published": "2026-02-15"
@@ -33111,15 +32940,6 @@
     "published": "2026-02-09"
   },
   {
-    "id": "cZqNDeCt4ww",
-    "title": "M0NESY Gets 51k vs PRO in Hard FACEIT Game! m0NESY POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": "anubis",
-    "published": "2026-02-09"
-  },
-  {
     "id": "Gx_CFEAbSas",
     "title": "XANTARES EASY DUST2 MID DOOR SMOKE",
     "channel": "utility",
@@ -33624,15 +33444,6 @@
     "published": "2026-02-05"
   },
   {
-    "id": "46y1O_FZnj8",
-    "title": "DONK vs KYOUSUKE in 4800 ELO FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2026-02-05"
-  },
-  {
     "id": "xx40MjzivP4",
     "title": "Falcons GENIUS Mirage Smoke Boost at IEM Krakow 2026",
     "channel": "utility",
@@ -33891,15 +33702,6 @@
     "player": "donk",
     "team": null,
     "map": "ancient",
-    "published": "2026-02-03"
-  },
-  {
-    "id": "K1lx5aeuPg4",
-    "title": "DONK Gets 40k vs Pro in 4600 Elo FACEIT! donk POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
     "published": "2026-02-03"
   },
   {
@@ -34416,6 +34218,15 @@
     "published": "2026-01-31"
   },
   {
+    "id": "abOwr1lKd7A",
+    "title": "Counter Strike Takes That Have Aged Like Milk",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
+    "published": "2026-01-31"
+  },
+  {
     "id": "xW641xhbB7E",
     "title": "VITALITY INSANE MIRAGE MID SMOKE BREAK STRATEGY",
     "channel": "utility",
@@ -34746,15 +34557,6 @@
     "player": "donk",
     "team": null,
     "map": "overpass",
-    "published": "2026-01-29"
-  },
-  {
-    "id": "A0GB2RhZjeo",
-    "title": "NIKO Carries with 67 Kills in High Elo FACEIT! niko POV with COMMs (Ancient)",
-    "channel": "nebula",
-    "player": "niko",
-    "team": null,
-    "map": "ancient",
     "published": "2026-01-29"
   },
   {
@@ -35361,15 +35163,6 @@
     "published": "2026-01-25"
   },
   {
-    "id": "rUtEPA2ffqE",
-    "title": "DONK and MAGIXX Crush Top FACEIT Players! donk POV with COMMs (Overpass)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "overpass",
-    "published": "2026-01-25"
-  },
-  {
     "id": "sn958xKg4jU",
     "title": "HOW PROS PUSH JUNGLE ON MIRAGE IN CS2",
     "channel": "utility",
@@ -35740,7 +35533,7 @@
   },
   {
     "id": "K3DxVYN6Bms",
-    "title": "KSCERATO (21-3) w/FalleN/yuurih Rating: 4.69 (Dust2) | FACEIT SA Server #cs2 #KSCERATO",
+    "title": "KSCERATO (21-3) w/FalleN/yuurih Rating: 4.69 (Dust2) | FACEIT EU #cs2 #KSCERATO",
     "channel": "lim",
     "player": "kscerato",
     "team": null,
@@ -35925,15 +35718,6 @@
     "player": "donk",
     "team": null,
     "map": "ancient",
-    "published": "2026-01-21"
-  },
-  {
-    "id": "pmPCa-7t_pE",
-    "title": "DONK Top FACEIT Rounds of 2025! donk POV with COMMs",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": null,
     "published": "2026-01-21"
   },
   {
@@ -36465,15 +36249,6 @@
     "player": null,
     "team": null,
     "map": "ancient",
-    "published": "2026-01-18"
-  },
-  {
-    "id": "plcV6KAzFbI",
-    "title": "DONK and MAGIXX Destroy FACEIT on Anubis! donk and magixx POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
     "published": "2026-01-18"
   },
   {
@@ -37411,15 +37186,6 @@
     "team": null,
     "map": "mirage",
     "published": "2026-01-13"
-  },
-  {
-    "id": "W6RwYLsXk2A",
-    "title": "DONK First FACEIT Game Back on Anubis! donk POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
-    "published": "2026-01-12"
   },
   {
     "id": "n121AyW0quI",
@@ -38367,15 +38133,6 @@
     "published": "2026-01-06"
   },
   {
-    "id": "YmN_yryX6jM",
-    "title": "NOCRIES gets 57 Kills vs Top FACEIT Players! nocries POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "nocries",
-    "team": null,
-    "map": "dust2",
-    "published": "2026-01-06"
-  },
-  {
     "id": "9EXgBNpdPqU",
     "title": "THE MOST META INFERNO HE NADES FOR BANANA",
     "channel": "utility",
@@ -38715,6 +38472,15 @@
     "player": null,
     "team": null,
     "map": "mirage",
+    "published": "2026-01-04"
+  },
+  {
+    "id": "JEtjNnfWXIw",
+    "title": "The Story of FalleN. The Professor of CS. (2026)",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
     "published": "2026-01-04"
   },
   {
@@ -40266,15 +40032,6 @@
     "published": "2025-12-23"
   },
   {
-    "id": "hPMbQcFAwZc",
-    "title": "DONK vs JCOBBB in High-ELO FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-12-23"
-  },
-  {
     "id": "2aFIJpv-Lqw",
     "title": "Ancient Short + Long Smoked From One Place",
     "channel": "utility",
@@ -41409,15 +41166,6 @@
     "published": "2025-12-14"
   },
   {
-    "id": "eIT16VDBDBc",
-    "title": "DONK Destroys Solo Queue FACEIT! donk POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-12-14"
-  },
-  {
     "id": "qIfxPas8nFU",
     "title": "apEX FAST Banana Smoke on Inferno",
     "channel": "utility",
@@ -41739,15 +41487,6 @@
     "player": null,
     "team": null,
     "map": "nuke",
-    "published": "2025-12-11"
-  },
-  {
-    "id": "4JCTAZjlTl0",
-    "title": "NOCRIES vs DONK in Top FACEIT Lobby! nocries POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "nocries",
-    "team": null,
-    "map": "mirage",
     "published": "2025-12-11"
   },
   {
@@ -42399,15 +42138,6 @@
     "published": "2025-12-07"
   },
   {
-    "id": "yssHIAWAsis",
-    "title": "NOCRIES Carries CS:GO Prodigy SWAG in FACEIT! nocries POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "nocries",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-12-07"
-  },
-  {
     "id": "uQwFWh4S4zw",
     "title": "BELCHONOKK SHOWS INSANE DUST 2 MID DOOR SMOKE IN CS2",
     "channel": "utility",
@@ -42975,15 +42705,6 @@
     "published": "2025-12-02"
   },
   {
-    "id": "U4ROp5roM-s",
-    "title": "DONK Crushes the #4 FACEIT Player! donk POV with COMMs (Ancient)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-12-02"
-  },
-  {
     "id": "jmoBnX6p_Gw",
     "title": "XANTARES 200 IQ Mirage Trick Play",
     "channel": "utility",
@@ -43339,15 +43060,6 @@
     "title": "NiKo (26-8) SoloQ + VOICE COMMS (Train) | FACEIT EU avg 3033 Elo #cs2 #niko",
     "channel": "lim",
     "player": "niko",
-    "team": null,
-    "map": null,
-    "published": "2025-11-29"
-  },
-  {
-    "id": "r4-rSuVGrNw",
-    "title": "DONK Carries CSGO Legend Olofmeister in High Elo FACEIT! donk POV with COMMs (Train)",
-    "channel": "nebula",
-    "player": "donk",
     "team": null,
     "map": null,
     "published": "2025-11-29"
@@ -43728,15 +43440,6 @@
     "player": "donk",
     "team": null,
     "map": "nuke",
-    "published": "2025-11-25"
-  },
-  {
-    "id": "G8DXoDaDLm8",
-    "title": "JL is Back to Destroying FACEIT Level 10! jL POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": null,
-    "team": null,
-    "map": "dust2",
     "published": "2025-11-25"
   },
   {
@@ -44271,15 +43974,6 @@
     "published": "2025-11-21"
   },
   {
-    "id": "ogv1PnW6HtQ",
-    "title": "NOCRIES Solo Queues 4300 ELO FACEIT and Carries! nocries POV with COMMs (Ancient)",
-    "channel": "nebula",
-    "player": "nocries",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-11-20"
-  },
-  {
     "id": "DsZxFbz9_r8",
     "title": "ZywOo\u2019s Inferno Arch Smoke Every Player Should Copy",
     "channel": "utility",
@@ -44694,15 +44388,6 @@
     "published": "2025-11-16"
   },
   {
-    "id": "-DaVOOeq33E",
-    "title": "DONK Calmly Gets 41k vs Top FACEIT Players! donk POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-11-16"
-  },
-  {
     "id": "6RvwwTEn-yo",
     "title": "200 IQ INFERNO MOLOTOV TO WIN B POSTPLANTS IN CS2",
     "channel": "utility",
@@ -45067,15 +44752,6 @@
     "title": "ZywOo (14-7) Vitality vs TYLOO (Overpass) | BLAST Rivals 2025 Season 2 #cs2 #zywoo",
     "channel": "lim",
     "player": "zywoo",
-    "team": null,
-    "map": "overpass",
-    "published": "2025-11-13"
-  },
-  {
-    "id": "p2GtKHMQgPY",
-    "title": "NOCRIES Solo Queues to 4200 ELO FACEIT! nocries POV with COMMs (Overpass)",
-    "channel": "nebula",
-    "player": "nocries",
     "team": null,
     "map": "overpass",
     "published": "2025-11-13"
@@ -45472,15 +45148,6 @@
     "title": "m0NESY (17-10) Falcons vs MOUZ (mirage) | IEM Chengdu 2025 #cs2 #m0nesy",
     "channel": "lim",
     "player": "m0nesy",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-11-10"
-  },
-  {
-    "id": "RdZUxa8zw7s",
-    "title": "NIKO Destroys Top FACEIT Players! niko POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "niko",
     "team": null,
     "map": "mirage",
     "published": "2025-11-10"
@@ -46152,15 +45819,6 @@
     "published": "2025-11-05"
   },
   {
-    "id": "zmOk-Tj5Ak4",
-    "title": "NOCRIES Drops 44 Kills vs Stewie2K in FACEIT! nocries POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "nocries",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-11-05"
-  },
-  {
     "id": "UwrKRwUdfj8",
     "title": "CRAZY DUST 2 B BOOST TO SEE MID ON CS2",
     "channel": "utility",
@@ -46593,15 +46251,6 @@
     "published": "2025-11-02"
   },
   {
-    "id": "-kZD0_RC-EU",
-    "title": "KYOUSUKE Gets 39k vs 4000 ELO FACEIT! kyousuke POV with COMMs (Ancient)",
-    "channel": "nebula",
-    "player": "kyousuke",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-11-02"
-  },
-  {
     "id": "8el9HG9jgjs",
     "title": "Maka CS2 INFERNO SMOKE FOR MID CONTROL",
     "channel": "utility",
@@ -47031,15 +46680,6 @@
     "player": "jks",
     "team": null,
     "map": "inferno",
-    "published": "2025-10-29"
-  },
-  {
-    "id": "PJkwsBgr67Y",
-    "title": "DONK Destroys while 4700 ELO In FACEIT! donk POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
     "published": "2025-10-29"
   },
   {
@@ -47565,15 +47205,6 @@
     "published": "2025-10-24"
   },
   {
-    "id": "4Cq2N9lUoYc",
-    "title": "DONK plays vs Sh1ro and Zweih in 4900 ELO FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-10-24"
-  },
-  {
     "id": "iX-wHnOaMJA",
     "title": "KSCERATO Nuke Nades STOPS Door Rush in CS2",
     "channel": "utility",
@@ -47875,15 +47506,6 @@
     "title": "jcobbb (28-12) Rating: 1.94 (mirage) | FACEIT avg 3400 Elo | Oct 20, 2025 #cs2 #faze #jcobbb",
     "channel": "lim",
     "player": "jcobbb",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-10-21"
-  },
-  {
-    "id": "JbMxywMLYso",
-    "title": "S1MPLE drops an INSANE 7.0 K/D in High Elo FACEIT! s1mple POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "s1mple",
     "team": null,
     "map": "mirage",
     "published": "2025-10-21"
@@ -48987,15 +48609,6 @@
     "published": "2025-10-11"
   },
   {
-    "id": "AKmZL0coybk",
-    "title": "DONK Carries in High Elo FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-10-11"
-  },
-  {
     "id": "sSZCUoSkodQ",
     "title": "Martinezsa\u2019s PERFECT Inferno B Retake Flashes \ud83d\udca5",
     "channel": "utility",
@@ -49542,15 +49155,6 @@
     "player": "niko",
     "team": null,
     "map": "mirage",
-    "published": "2025-10-06"
-  },
-  {
-    "id": "3V8B0x5mYE4",
-    "title": "NIKO + m0NESY Destroy Pros in 4000 elo FACEIT! Dual POV with COMMs (Train)",
-    "channel": "nebula",
-    "player": "niko",
-    "team": null,
-    "map": null,
     "published": "2025-10-06"
   },
   {
@@ -50157,15 +49761,6 @@
     "published": "2025-10-01"
   },
   {
-    "id": "RJwBS_s0dpM",
-    "title": "NOCRIES Carries From FACEIT HQ! nocries POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "nocries",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-10-01"
-  },
-  {
     "id": "hW5c7y-rEM4",
     "title": "WIN INFERNO B RETAKES WITH THIS SMOKE",
     "channel": "utility",
@@ -50643,15 +50238,6 @@
     "published": "2025-09-26"
   },
   {
-    "id": "poIMXJpwLgI",
-    "title": "DONK gets 55k while 4400 ELO on FACEIT! donk POV with COMMs (Nuke)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "nuke",
-    "published": "2025-09-26"
-  },
-  {
     "id": "oOqshSqFd8Y",
     "title": "nocries (27-13) Rating:1.97 (Mirage) | FACEIT NA | Sep 24, 2025 #cs2 #nocries #faceit",
     "channel": "lim",
@@ -51120,15 +50706,6 @@
     "published": "2025-09-20"
   },
   {
-    "id": "lpqUQsA21UM",
-    "title": "DONK Carries vs 4600 elo PRO on FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-09-19"
-  },
-  {
     "id": "jWOuY3aZIjk",
     "title": "Maka Dust 2 Mid Door Smoke From B in CS2",
     "channel": "utility",
@@ -51279,6 +50856,15 @@
     "player": "niko",
     "team": null,
     "map": "inferno",
+    "published": "2025-09-17"
+  },
+  {
+    "id": "bFbDycQbXoY",
+    "title": "Counter Strike's BIGGEST Major Choker",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
     "published": "2025-09-17"
   },
   {
@@ -51549,15 +51135,6 @@
     "player": "s1mple",
     "team": null,
     "map": "mirage",
-    "published": "2025-09-15"
-  },
-  {
-    "id": "0h0GL9oeO2o",
-    "title": "S1MPLE drops 3.5 K/D vs High Elo FACEIT! s1mple POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "s1mple",
-    "team": null,
-    "map": "dust2",
     "published": "2025-09-15"
   },
   {
@@ -52110,15 +51687,6 @@
     "published": "2025-09-10"
   },
   {
-    "id": "fc0zqBssOME",
-    "title": "DONK and SUNS1DE Crush TOP 500 FACEIT Lobby! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-09-10"
-  },
-  {
     "id": "tZjvGr09gjQ",
     "title": "NEW DUST 2 MID DOOR SMOKE YOU NEED TO LEARN IN CS2",
     "channel": "utility",
@@ -52467,15 +52035,6 @@
     "player": "donk",
     "team": null,
     "map": "ancient",
-    "published": "2025-09-06"
-  },
-  {
-    "id": "3f6dgYfcC3w",
-    "title": "NIKO Destroys PRO in FACEIT! niko POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "niko",
-    "team": null,
-    "map": "mirage",
     "published": "2025-09-06"
   },
   {
@@ -52839,15 +52398,6 @@
     "published": "2025-09-02"
   },
   {
-    "id": "rh6-DVNSC8I",
-    "title": "DONK Matches Against W0NDERFUL in Top FACEIT Lobby! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-09-02"
-  },
-  {
     "id": "MffhNzU7y9c",
     "title": "EASY A Split Smoke on Ancient in CS2",
     "channel": "utility",
@@ -52926,6 +52476,15 @@
     "player": "jamyoung",
     "team": null,
     "map": "ancient",
+    "published": "2025-09-01"
+  },
+  {
+    "id": "ik59FNdjXxk",
+    "title": "Donk.exe",
+    "channel": "nebula",
+    "player": "donk",
+    "team": null,
+    "map": null,
     "published": "2025-09-01"
   },
   {
@@ -53131,15 +52690,6 @@
     "title": "CS2 POV Demo Spirit donk (25/11) vs FlyQuest (de_dust2) @ BLAST Open London 2025",
     "channel": "pov_highlights",
     "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-08-30"
-  },
-  {
-    "id": "wHOfKS82Afw",
-    "title": "m0NESY plays 4500 elo FACEIT with alpha! m0NESY POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "m0nesy",
     "team": null,
     "map": "dust2",
     "published": "2025-08-30"
@@ -53493,15 +53043,6 @@
     "player": "senzu",
     "team": null,
     "map": "nuke",
-    "published": "2025-08-27"
-  },
-  {
-    "id": "5tr5Tx327X8",
-    "title": "DONK vs CSGO Legend ScreaM in High ELO FACEIT! donk POV with COMMs",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": null,
     "published": "2025-08-27"
   },
   {
@@ -54045,12 +53586,12 @@
     "published": "2025-08-23"
   },
   {
-    "id": "leFl7SOFFDQ",
-    "title": "DONK vs PRO while Grinding for FACEIT #1! donk POV with COMMs (Mirage)",
+    "id": "BuTu4OHkIP4",
+    "title": "The 7 Deadly Sins as Counter Strike Players",
     "channel": "nebula",
-    "player": "donk",
+    "player": null,
     "team": null,
-    "map": "mirage",
+    "map": null,
     "published": "2025-08-23"
   },
   {
@@ -54630,15 +54171,6 @@
     "published": "2025-08-18"
   },
   {
-    "id": "d3bH-e8FQ20",
-    "title": "DONK and ZWEIH carry their Coach vs Three Pros in FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-08-18"
-  },
-  {
     "id": "MPQ8gpQTDLU",
     "title": "INSANE Ancient Molotov to DENY CT Aggression",
     "channel": "utility",
@@ -54868,15 +54400,6 @@
     "title": "CS2 POV Demo Vitality ZywOo (23/5) vs NRG (de_mirage) @ BLAST Bounty 2025 Season 2",
     "channel": "pov_highlights",
     "player": "zywoo",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-08-15"
-  },
-  {
-    "id": "99BmX2OujC0",
-    "title": "M0NESY and KYOUSUKE destroy Hard FACEIT Lobby! m0NESY POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "m0nesy",
     "team": null,
     "map": "mirage",
     "published": "2025-08-15"
@@ -55458,15 +54981,6 @@
     "published": "2025-08-10"
   },
   {
-    "id": "T58jYVVPiOc",
-    "title": "DONK and ZWEIH are Unstoppable in High Elo FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-08-10"
-  },
-  {
     "id": "PX1MwmN8XFw",
     "title": "Most INSANE Mid Smoke on Inferno in CS2",
     "channel": "utility",
@@ -55944,15 +55458,6 @@
     "published": "2025-08-06"
   },
   {
-    "id": "l5E-x_U8qFQ",
-    "title": "M0NESY + B1T play FACEIT vs Three PROs! m0NESY POV with COMMs (Ancient)",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-08-05"
-  },
-  {
     "id": "QWDoA7hsdK4",
     "title": "How broky Retakes A Site on Ancient",
     "channel": "utility",
@@ -56085,6 +55590,15 @@
     "player": "donk",
     "team": null,
     "map": "mirage",
+    "published": "2025-08-03"
+  },
+  {
+    "id": "AtZL6mddehY",
+    "title": "The RISE of Mongolian Counter Strike. (and China too)",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
     "published": "2025-08-03"
   },
   {
@@ -56245,15 +55759,6 @@
     "title": "CS2 POV Demo Vitality ZywOo (23/9) vs The MongolZ (de_mirage) @ IEM Cologne 2025",
     "channel": "pov_highlights",
     "player": "zywoo",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-07-31"
-  },
-  {
-    "id": "_YtkjkllP78",
-    "title": "DONK and his New Teammate DESTROY Hard FACEIT Lobby! dual POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
     "team": null,
     "map": "mirage",
     "published": "2025-07-31"
@@ -56634,15 +56139,6 @@
     "player": null,
     "team": null,
     "map": "overpass",
-    "published": "2025-07-26"
-  },
-  {
-    "id": "lAYB2kDicyU",
-    "title": "niko DESTROYS 4900 ELO FACEIT ! niko and m0nesy POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "niko",
-    "team": null,
-    "map": "mirage",
     "published": "2025-07-26"
   },
   {
@@ -57048,15 +56544,6 @@
     "player": "niko",
     "team": null,
     "map": "mirage",
-    "published": "2025-07-22"
-  },
-  {
-    "id": "_s5G_YllQKs",
-    "title": "DONK plays OVERPASS on FACEIT with NEW Teammate! donk POV with COMMs",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "overpass",
     "published": "2025-07-22"
   },
   {
@@ -57717,15 +57204,6 @@
     "published": "2025-07-17"
   },
   {
-    "id": "sR7WvKvAd3o",
-    "title": "S1MPLE's first Overpass game on FACEIT since update! s1mple POV with COMMs (Overpass)",
-    "channel": "nebula",
-    "player": "s1mple",
-    "team": null,
-    "map": "overpass",
-    "published": "2025-07-17"
-  },
-  {
     "id": "-gpc5Raf7zk",
     "title": "This Mirage Post-Plant Combo Shuts Down the B Retake",
     "channel": "utility",
@@ -57946,15 +57424,6 @@
     "title": "\u26a1m0NESY 1v4 Clutch \ud83d\ude2e",
     "channel": "lim",
     "player": "m0nesy",
-    "team": null,
-    "map": null,
-    "published": "2025-07-15"
-  },
-  {
-    "id": "C66r7T1_BIw",
-    "title": "NIKO vs S1MPLE in FACEIT! niko POV with COMMs",
-    "channel": "nebula",
-    "player": "niko",
     "team": null,
     "map": null,
     "published": "2025-07-15"
@@ -58189,15 +57658,6 @@
     "title": "s1mple SoloQ +VOICE COMMS  (mirage) | FACEIT 3650 Elo | July 12, 2025 | CS2 POV/DEMO",
     "channel": "lim",
     "player": "s1mple",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-07-13"
-  },
-  {
-    "id": "Mo9thQ9siGQ",
-    "title": "DONK Carries his Team vs PRO in FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
     "team": null,
     "map": "mirage",
     "published": "2025-07-13"
@@ -58554,15 +58014,6 @@
     "published": "2025-07-09"
   },
   {
-    "id": "iI8jV7Ya5zo",
-    "title": "niko and m0NESY vs FURIA Trio in FACEIT! Voice On (Mirage)",
-    "channel": "nebula",
-    "player": "niko",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-07-09"
-  },
-  {
     "id": "SnEtTuVMwjU",
     "title": "This Dust2 Smoke by 910 Makes Mid Doors Useless",
     "channel": "utility",
@@ -58812,15 +58263,6 @@
     "player": null,
     "team": null,
     "map": "mirage",
-    "published": "2025-07-06"
-  },
-  {
-    "id": "dmtYzjNcCtA",
-    "title": "m0NESY and alpha destroy High Elo FACEIT! m0NESY POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
     "published": "2025-07-06"
   },
   {
@@ -59121,15 +58563,6 @@
     "published": "2025-07-03"
   },
   {
-    "id": "ioQnBpJoUoE",
-    "title": "KYOUSUKE Destroys Tier 1 PROS in FACEIT! kyousuke POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "kyousuke",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-07-03"
-  },
-  {
     "id": "XwcBdZA2M78",
     "title": "Pro Mirage Window Smoke You NEED to Learn!",
     "channel": "utility",
@@ -59404,15 +58837,6 @@
     "title": "CS2 POV Demo Vitality ZywOo (21/10) vs MOUZ (de_train) @ BLAST.tv Austin Major 2025",
     "channel": "pov_highlights",
     "player": "zywoo",
-    "team": null,
-    "map": null,
-    "published": "2025-06-30"
-  },
-  {
-    "id": "Dy6xwogrnXk",
-    "title": "jL carries w0nderful and Manager in 3500 ELO FACEIT! jL POV with COMMs",
-    "channel": "nebula",
-    "player": null,
     "team": null,
     "map": null,
     "published": "2025-06-30"
@@ -59946,15 +59370,6 @@
     "player": "ropz",
     "team": null,
     "map": "dust2",
-    "published": "2025-06-25"
-  },
-  {
-    "id": "8P8BgD4sQoM",
-    "title": "DONK drops 45k in a FACEIT game! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
     "published": "2025-06-25"
   },
   {
@@ -60966,15 +60381,6 @@
     "published": "2025-06-14"
   },
   {
-    "id": "LIODI24DAlk",
-    "title": "DONK goes 33 - 9 against FREAKAZOID on FACEIT! donk POV with COMMs (Anubis)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
-    "published": "2025-06-14"
-  },
-  {
     "id": "SIdFynLiBLE",
     "title": "saadzin\u2019s Flash + Smoke = Easy Inferno B Site Push",
     "channel": "utility",
@@ -61407,15 +60813,6 @@
     "published": "2025-06-11"
   },
   {
-    "id": "mhC6oc7dqSU",
-    "title": "EliGE carries his friends in FACEIT! EliGE POV with COMMs (Inferno)",
-    "channel": "nebula",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-06-11"
-  },
-  {
     "id": "tGJhLBosBIw",
     "title": "Take Cave Instantly with These Nades \u2013 Ancient T Side",
     "channel": "utility",
@@ -61746,15 +61143,6 @@
     "player": null,
     "team": null,
     "map": "nuke",
-    "published": "2025-06-08"
-  },
-  {
-    "id": "hU36f-pIuBc",
-    "title": "S1MPLE gets 44k vs Mongolz Trio in FACEIT! s1mple POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "s1mple",
-    "team": null,
-    "map": "mirage",
     "published": "2025-06-08"
   },
   {
@@ -62163,15 +61551,6 @@
     "published": "2025-06-05"
   },
   {
-    "id": "VDOl0odCGXo",
-    "title": "M0NESY BREAKS HIS FACEIT RECORD! m0NESY POV with COMMs (Dust 2)",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-06-04"
-  },
-  {
     "id": "c0ASo-XqxO4",
     "title": "rain\u2019s 200 IQ Smoke Push \u2013 Ancient B Site CS2",
     "channel": "utility",
@@ -62322,15 +61701,6 @@
     "player": null,
     "team": null,
     "map": "dust2",
-    "published": "2025-06-03"
-  },
-  {
-    "id": "hqyYsNEyDFQ",
-    "title": "DONK vs HeavyGod in FACEIT! donk POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
     "published": "2025-06-03"
   },
   {
@@ -62676,15 +62046,6 @@
     "published": "2025-05-31"
   },
   {
-    "id": "ltgcmwuahyg",
-    "title": "m0NESY and NIKO vs S1MPLE in FACEIT! m0NESY & niko POV with COMMs (Mirage)",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-31"
-  },
-  {
     "id": "vBHr4PuOrVw",
     "title": "How apEX Smokes Short from Spawn - Mirage",
     "channel": "utility",
@@ -62988,15 +62349,6 @@
     "player": "niko",
     "team": null,
     "map": "dust2",
-    "published": "2025-05-28"
-  },
-  {
-    "id": "zSIqunBY3YI",
-    "title": "m0NESY against Stewie2k in FACEIT Match! m0NESY POV with COMMs",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": null,
     "published": "2025-05-28"
   },
   {
@@ -63378,15 +62730,6 @@
     "published": "2025-05-25"
   },
   {
-    "id": "3sYeC3n5NW4",
-    "title": "S1MPLE Solo Queues NA FACEIT at 3500 ELO! s1mple POV with COMMs",
-    "channel": "nebula",
-    "player": "s1mple",
-    "team": null,
-    "map": null,
-    "published": "2025-05-25"
-  },
-  {
     "id": "5a9fZKFCHRo",
     "title": "EmiliaQAQ\u2019s Nades for A Main Control on Anubis \ud83d\udca5",
     "channel": "utility",
@@ -63699,6 +63042,15 @@
     "player": "ropz",
     "team": null,
     "map": "mirage",
+    "published": "2025-05-22"
+  },
+  {
+    "id": "2eIoMaHPR8Q",
+    "title": "The History of Half Buying in CS",
+    "channel": "nebula",
+    "player": null,
+    "team": null,
+    "map": null,
     "published": "2025-05-22"
   },
   {
@@ -64125,33 +63477,6 @@
     "published": "2025-05-18"
   },
   {
-    "id": "TCqqN3uvTFs",
-    "title": "\ud83d\udd25NiKo (31-9) w/TeSeS Rating: 2.79 (ANCIENT) | FACEIT NA 2800 ELO | May 17, 2025 #cs2 #pov",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-18"
-  },
-  {
-    "id": "HqrCs6Wr5Vc",
-    "title": "Aleksib (32-14) Rt:2.05 (Dust2) | FACEIT 5-Stack | May 11, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-18"
-  },
-  {
-    "id": "Op0e3RyGhQ0",
-    "title": "\ud83d\udd25donk (27-11) Spirit vs FURIA  (mirage) PGL Astana 2025 | May 17, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-18"
-  },
-  {
     "id": "d4U51VMbs2Q",
     "title": "3DMAX\u2019s Ramp Boost on Ancient Is 200 IQ \ud83d\ude33",
     "channel": "utility",
@@ -64168,104 +63493,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-05-18"
-  },
-  {
-    "id": "T0xV9tdOFUs",
-    "title": "These Mirage Flashes Let You OWN Underpass from CT Side \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-18"
-  },
-  {
-    "id": "4e5bvc2pi0E",
-    "title": "Vitality's Insane Fast A Tactic on Inferno - Catches CTs Completely Off Guard!",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-18"
-  },
-  {
-    "id": "kILpGvDGjtE",
-    "title": "CT Ramp Push Made Easy - Pro Nades on Nuke \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-18"
-  },
-  {
-    "id": "k-5p4oOFMPg",
-    "title": "Want to Entry A from Con? Use These Mirage Nades",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-18"
-  },
-  {
-    "id": "7bskxQHhN8k",
-    "title": "These Nades Let You OWN Outside on Nuke \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-18"
-  },
-  {
-    "id": "eguLZJi47aA",
-    "title": "This Flash Makes A Site FREE on Anubis \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-18"
-  },
-  {
-    "id": "aHIBZkv3m2M",
-    "title": "No One Can Stop You on B Site After These Anubis Tips",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-18"
-  },
-  {
-    "id": "gV74wjTynNU",
-    "title": "device (20-7) Rating 2.13 Astralis vs Aurora (Train) | PGL Astana 2025 #dev1ce #cs2 #pov",
-    "channel": "lim",
-    "player": "device",
-    "team": null,
-    "map": null,
-    "published": "2025-05-17"
-  },
-  {
-    "id": "YeZXF3zMAgE",
-    "title": "3DMAX\u2019s Smoke Trick on Ancient Is Actually INSANE \ud83d\ude31",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-17"
-  },
-  {
-    "id": "eZ_wrjtVYxg",
-    "title": "XANTARES\u2019 200 IQ Mirage Trick MELTS the Enemy Brain \ud83e\udde0",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-17"
-  },
-  {
-    "id": "PGSK1xCteK8",
-    "title": "mzinho\u2019s 200 IQ Movement on Mirage is INSANE \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-17"
   }
 ]
