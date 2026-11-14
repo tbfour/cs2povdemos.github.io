@@ -1,5 +1,68 @@
 [
   {
+    "id": "R1OWcKjUdGg",
+    "title": "9z Nuke Smoke Wall You Need to Know for CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-11-14"
+  },
+  {
+    "id": "Cm9mrZ_5daM",
+    "title": "magixx Anubis HE Nade to Punish Cave in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-11-14"
+  },
+  {
+    "id": "66dxyP6U_74",
+    "title": "FALCONS DUST2 CT SETUP TO DEFEND SHORT",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-14"
+  },
+  {
+    "id": "pl7Lr34qefg",
+    "title": "Magnojez shows solo queue play on Ancient in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-14"
+  },
+  {
+    "id": "TgY6hVcxbXY",
+    "title": "karrigan Anubis Window Smoke Lineup for CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-11-13"
+  },
+  {
+    "id": "tewW4GAugQc",
+    "title": "m0NESY DUST 2 BOOST IS INSANE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-13"
+  },
+  {
+    "id": "A1qOo85oT7A",
+    "title": "How MIBR Use Mid to Make Their Mirage A Execute So Dangerous | CS2",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-13"
+  },
+  {
     "id": "UdYPorpHUCw",
     "title": "INSANE DUST2 BOOST TO COUNTER LONG DOOR SMOKE",
     "channel": "utility",
@@ -63873,24 +63936,6 @@
     "published": "2025-05-23"
   },
   {
-    "id": "dn6YDIx-krQ",
-    "title": "ropz Inferno POV (Vitality vs The Mongolz) | IEM Dallas 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "ropz",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-23"
-  },
-  {
-    "id": "p1AIm8vcUEo",
-    "title": "CS2 POV Demo Falcons m0NESY (22/9) vs HEROIC (de_dust2) @ IEM Dallas 2025",
-    "channel": "pov_highlights",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-23"
-  },
-  {
     "id": "y7NsseKgNbY",
     "title": "NiKo\u2019s Inferno Nades STOP the B Push Cold \ud83d\udca5",
     "channel": "utility",
@@ -63907,68 +63952,5 @@
     "team": null,
     "map": "ancient",
     "published": "2025-05-23"
-  },
-  {
-    "id": "mRBYNXzhtxc",
-    "title": "These Retake Nades by TeSeS are INSANE (Ancient A Site) \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-23"
-  },
-  {
-    "id": "xdg0zRkqwTg",
-    "title": "Vitality\u2019s Aggressive A Setup on Anubis is PRO LEVEL",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-23"
-  },
-  {
-    "id": "Dx0AHa9u578",
-    "title": "donk FACEIT Highlights #cs2 #donk",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": null,
-    "published": "2025-05-22"
-  },
-  {
-    "id": "4XGuxBjpgjo",
-    "title": "\ud83d\udd25donk (30-15) Full VOICE COMMS (Dust2) | FACEIT avg 3700 ELO | May 22, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-22"
-  },
-  {
-    "id": "v6p0e1dL5zI",
-    "title": "XANTAREST Inferno POV (Aurora vs Liquid) | IEM Dallas 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-22"
-  },
-  {
-    "id": "jIL_ylmWUsM",
-    "title": "m0NESY (22-9) Falcons vs Heroic (Dust2) | IEM Dallas 2025 | May 20, 2025",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-22"
-  },
-  {
-    "id": "eXJ_JhEGS9Y",
-    "title": "VAC Moment? m0NESY No-Scope Wallbang + 1v2 Clutch | ENG Subtitles",
-    "channel": "lim",
-    "player": null,
-    "team": null,
-    "map": null,
-    "published": "2025-05-22"
   }
 ]
