@@ -1,5 +1,77 @@
 [
   {
+    "id": "rQGi2Po73_8",
+    "title": "KYXSAN SHOWS EASY DUST2 FLASH FOR B RETAKE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-15"
+  },
+  {
+    "id": "hf05wTmiyjE",
+    "title": "meyern 200 IQ Dust2 Molotov in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-15"
+  },
+  {
+    "id": "zN7kFrjYRGs",
+    "title": "tN1R shows solo Anubis Queue play for CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-11-15"
+  },
+  {
+    "id": "NmwPSP_9dHg",
+    "title": "JBOEN NUKE NADES FOR T PISTOL ROUND IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-11-15"
+  },
+  {
+    "id": "swJzj3i0_Qc",
+    "title": "\ud83d\udd25zont1x (23-10) SoloQ | avg 2.8K ELO | Cache POV | Nov 13, 2026",
+    "channel": "lim",
+    "player": "zont1x",
+    "team": null,
+    "map": null,
+    "published": "2026-11-14"
+  },
+  {
+    "id": "Z61rv9kSMMw",
+    "title": "molodoy Mirage Movement for MID Peek in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-14"
+  },
+  {
+    "id": "q1R5dKqNwq8",
+    "title": "s1mple shows META Nuke Boost for CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-11-14"
+  },
+  {
+    "id": "IJjPycOdv9M",
+    "title": "Wicadia shows BEST Mirage Position to Hold B Site in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-14"
+  },
+  {
     "id": "R1OWcKjUdGg",
     "title": "9z Nuke Smoke Wall You Need to Know for CS2",
     "channel": "utility",
@@ -63846,24 +63918,6 @@
     "published": "2025-05-24"
   },
   {
-    "id": "uv8QMh0MZls",
-    "title": "NiKo Inferno POV (Falcons vs GL) | IEM Dallas 2025 | May 23, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-24"
-  },
-  {
-    "id": "_uCLritemfg",
-    "title": "NiKo (23-15) w/TeSeS (Dust2) | FACEIT NA 3170 ELO | May 23, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-24"
-  },
-  {
     "id": "5JYnQwLkfL0",
     "title": "This Molotov by frozen Controls Top Hut on Nuke \ud83d\udca5",
     "channel": "utility",
@@ -63880,77 +63934,5 @@
     "team": null,
     "map": "inferno",
     "published": "2025-05-24"
-  },
-  {
-    "id": "FbYiWQUEcws",
-    "title": "m0NESY Throws the Fastest Door Smoke on Nuke \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-24"
-  },
-  {
-    "id": "R7EOX2OQ1S0",
-    "title": "How Aleksib Smokes Off Nuke Yard Like a Pro \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-24"
-  },
-  {
-    "id": "Z9jMLOVJI34",
-    "title": "NAF Throws a Donut Smoke from B Main on Ancient \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-24"
-  },
-  {
-    "id": "W_USyZKqb48",
-    "title": "b1t Breaks the Meta with This B Long Smoke Play (Ancient)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-24"
-  },
-  {
-    "id": "NqT0OZV62Zw",
-    "title": "NiKo (25-7) w/TeSeS Rating: 2.15 (Mirage) | FACEIT NA 2800 ELO | May 23, 2025",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-23"
-  },
-  {
-    "id": "V2zONKQWGLg",
-    "title": "\ud83d\udd25s1mple (20-5) w/neo/frozen/karrigan (Mirage) | FACEIT NA 3200 ELO #cs2 #pov #s1mple",
-    "channel": "lim",
-    "player": "s1mple",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-23"
-  },
-  {
-    "id": "y7NsseKgNbY",
-    "title": "NiKo\u2019s Inferno Nades STOP the B Push Cold \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-23"
-  },
-  {
-    "id": "uEtPs2FCy_c",
-    "title": "m0NESY Stands in a Molly to Peek Mid?! \ud83d\ude33 (Ancient Trick)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-23"
   }
 ]
