@@ -1,5 +1,59 @@
 [
   {
+    "id": "mJWgnUkHlr0",
+    "title": "BIG CLAN INFERNO APPS DOUBLE PEEK IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-17"
+  },
+  {
+    "id": "UOgUJuDl38A",
+    "title": "d1Ledez VAC MIRAGE WALL BANG IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-17"
+  },
+  {
+    "id": "qvKW_-rfSJ4",
+    "title": "200 IQ NUKE MOLOTOV TO STOP SMOKE WALL",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-11-17"
+  },
+  {
+    "id": "y_5nDB2AbjU",
+    "title": "NAVI Nuke Boost to Peek Lower in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-11-17"
+  },
+  {
+    "id": "Nd-910XR4Bc",
+    "title": "MERCURY 200 IQ ANCIENT LONG SMOKE BREAK",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-17"
+  },
+  {
+    "id": "O_MF4eG8obQ",
+    "title": "Liquid JT Ancient Flash for Elbow Peek in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-17"
+  },
+  {
     "id": "miXv_acCkOw",
     "title": "\ud83d\udd25s1mple (13-4) 1.60 Rating | avg 3.3K ELO | Dust2 POV | Nov 7, 2026",
     "channel": "lim",
@@ -15,6 +69,24 @@
     "player": "s1mple",
     "team": null,
     "map": "mirage",
+    "published": "2026-11-16"
+  },
+  {
+    "id": "wR8zfBCORvE",
+    "title": "LEGACY INSANE DUST2 BOOST ON CT SIDE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-16"
+  },
+  {
+    "id": "JjJYETJVqlk",
+    "title": "KYXSAN INFERNO UTILITY FOR CT BANANA CONTROL",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
     "published": "2026-11-16"
   },
   {
@@ -24021,6 +24093,96 @@
     "published": "2026-04-29"
   },
   {
+    "id": "1JVsAVs_rI4",
+    "title": "Snappi Ancient Red Smoke and CT Smoke From Heaven in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-04-29"
+  },
+  {
+    "id": "1Yh9bf2v1tM",
+    "title": "xKacpersky Ancient Nades DESTROY Mid in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-04-29"
+  },
+  {
+    "id": "LMSed6jBtMY",
+    "title": "saadzin Inferno Peek DELETES ZywoO in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-04-29"
+  },
+  {
+    "id": "AJ1A-32JiBg",
+    "title": "SNAPPI NUKE MAIN DROP ZEUS PLAY IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-04-29"
+  },
+  {
+    "id": "JGL8AJOb2do",
+    "title": "MAXXKOR INSANE ANCIENT MID FLASH IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-04-29"
+  },
+  {
+    "id": "sBe1oHGaWQQ",
+    "title": "blameF Shows BEST Overpass A Stairs Smoke in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2026-04-29"
+  },
+  {
+    "id": "kAfYvulgQgk",
+    "title": "ZYWOO NUKE TRICK FOR FREE KILLS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-04-29"
+  },
+  {
+    "id": "wb1Z7gYrHb4",
+    "title": "G2 SMART DUST 2 MOLOTOV IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-29"
+  },
+  {
+    "id": "8RQ51J-c2Cc",
+    "title": "How m0NESY Holds A on Ancient in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-04-29"
+  },
+  {
+    "id": "-bqdwB14OGA",
+    "title": "PRO DUST 2 BOOST TO SEE WINDOW IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-29"
+  },
+  {
     "id": "brr_Akn5ado",
     "title": "YEKINDAR (31-9) FACEIT NA vs n0thing (Dust2) with Keystrokes/Custom Radar",
     "channel": "lim",
@@ -24063,6 +24225,96 @@
     "player": "donk",
     "team": null,
     "map": "dust2",
+    "published": "2026-04-28"
+  },
+  {
+    "id": "n68syoQwVSg",
+    "title": "MATYS SMART DUST 2 TUNNEL MOLOTOV",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-28"
+  },
+  {
+    "id": "wvJOu-GjzoQ",
+    "title": "FAZE INFERNO TRICK TO PEEK MID IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-04-28"
+  },
+  {
+    "id": "aIJIOkgFNts",
+    "title": "TRY DUST 2 TRICKTO PEEK MID IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-28"
+  },
+  {
+    "id": "pL9X0xcz8HI",
+    "title": "FALCONS MIRAGE MOLOTOV PEEK PLAY IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-04-28"
+  },
+  {
+    "id": "D3ukujgFm4o",
+    "title": "Astralis Ancient Fake B\u2026 Then Take A for Free (CS2)",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-04-28"
+  },
+  {
+    "id": "eJHikJ-4ZuM",
+    "title": "HEN1 INSANE DUST 2 PEEK IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-28"
+  },
+  {
+    "id": "kclW_8kolCg",
+    "title": "G2 DUST 2 LONG NADE PEEK IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-28"
+  },
+  {
+    "id": "Yg3s8v2vpQ8",
+    "title": "OVERPASS RUN BOOST YOU NEED TO USE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2026-04-28"
+  },
+  {
+    "id": "fxyaW-eotPY",
+    "title": "m0NESY MIRAGE PEEK YOU NEED TO USE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-04-28"
+  },
+  {
+    "id": "HZAdHr2SLhI",
+    "title": "MOLODOY SMART MIRAGE POSITION TO BLOCK WINDOW SMOKE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
     "published": "2026-04-28"
   },
   {
@@ -24117,6 +24369,87 @@
     "player": "jks",
     "team": null,
     "map": "ancient",
+    "published": "2026-04-27"
+  },
+  {
+    "id": "2LSDzz2xGVk",
+    "title": "ZywOo Mirage A Smoke to Entry Connector in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-04-27"
+  },
+  {
+    "id": "P8o7LfKr6V0",
+    "title": "3dmax SMART Inferno Boost in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-04-27"
+  },
+  {
+    "id": "aQQ2d3Wyz_4",
+    "title": "acoR Smart Nuke Positioning to Hold Ramp in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-04-27"
+  },
+  {
+    "id": "iGxg-5zKK4E",
+    "title": "VINI GENIUS Dust 2 Jump Play in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-27"
+  },
+  {
+    "id": "O2_M-xFJVm8",
+    "title": "FURIA INSANE INFERNO BOOST FOR FREE KILLS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-04-27"
+  },
+  {
+    "id": "V3RHpIpMVXA",
+    "title": "ZywOo INSANE Nuke Wallbang in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-04-27"
+  },
+  {
+    "id": "cPzR6Zsj7wU",
+    "title": "Magisk Dust 2 Flashes to Entry A From Long in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-27"
+  },
+  {
+    "id": "A0fRpE7sUo8",
+    "title": "FaZe Insane Mirage Top Mid Smoke Break Tactic in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-04-27"
+  },
+  {
+    "id": "zRCLbUwh_dc",
+    "title": "mail09 GENIUS Nuke Flash in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
     "published": "2026-04-27"
   },
   {
@@ -24192,6 +24525,87 @@
     "published": "2026-04-26"
   },
   {
+    "id": "PNuK20y-SiQ",
+    "title": "ROPZ DUST 2 SMOKE FOR TUNNELS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-26"
+  },
+  {
+    "id": "AGQqIAc3SoY",
+    "title": "INSANE NUKE SMOKE TO RUSH VENT IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-04-26"
+  },
+  {
+    "id": "kco1K2gimxY",
+    "title": "broky Ancient A Main Flash From broky in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-04-26"
+  },
+  {
+    "id": "cFzuydixY6s",
+    "title": "NIP Nuke Tactic That DELETES Every Position in CS2",
+    "channel": "strategy",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-04-26"
+  },
+  {
+    "id": "Kn9rKgh6cCM",
+    "title": "ESSENTIAL MIRAGE SMOKES FOR A SITE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-04-26"
+  },
+  {
+    "id": "tCbc4J5he6M",
+    "title": "SENZU Insane Mirage Smoke Bang in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-04-26"
+  },
+  {
+    "id": "eX9M9ItTCA4",
+    "title": "Pro Dust 2 Smoke to Peek Long in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-26"
+  },
+  {
+    "id": "254_Hg0Stwk",
+    "title": "JAME Insane Ancient Boost in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-04-26"
+  },
+  {
+    "id": "_g_-JDxuXVI",
+    "title": "FAST Dust2 Smokes to Rush B in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-04-26"
+  },
+  {
     "id": "noYtZoTVg0w",
     "title": "\ud83d\udd25s1mple SoloQ (23-8) Rating: 1.75 on Dust2! FACEIT New Season",
     "channel": "lim",
@@ -24264,6 +24678,87 @@
     "published": "2026-04-25"
   },
   {
+    "id": "N8_ad3QpWHA",
+    "title": "Krimbo SMART Inferno Fake Drop Play in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-04-25"
+  },
+  {
+    "id": "BlV9X0rmp-c",
+    "title": "karrigan Ancient HE Nade for Lane in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-04-25"
+  },
+  {
+    "id": "e0reFrrse6c",
+    "title": "The MongolZ Insane Ancient Run Boost in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-04-25"
+  },
+  {
+    "id": "_wNnMY2ulXo",
+    "title": "nqz Insane Overpass Smoke for Monster Control in CT",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2026-04-25"
+  },
+  {
+    "id": "-wk_dgzfZBg",
+    "title": "apEX Overpass Smoke to Pressure B in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "overpass",
+    "published": "2026-04-25"
+  },
+  {
+    "id": "YB-EmA2wvWs",
+    "title": "m0NESY Inferno Boost to PEEK Mid in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-04-25"
+  },
+  {
+    "id": "_fi4gAdwUjE",
+    "title": "CS2 MIRAGE CT SMOKE LINEUP 2026",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-04-25"
+  },
+  {
+    "id": "V7VWciWFWow",
+    "title": "m0NESY Mirage Jungle Smoke and A Flashes in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-04-25"
+  },
+  {
+    "id": "FNVit827aEI",
+    "title": "ropz Ancient A Smokes in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-04-25"
+  },
+  {
     "id": "8PcupjowVuk",
     "title": "s1zzi (36-22) FACEIT GamePlay (Mirage) POV | Seaon 8 | Apr 23, 2026",
     "channel": "lim",
@@ -24297,6 +24792,15 @@
     "player": "xelex",
     "team": null,
     "map": "dust2",
+    "published": "2026-04-24"
+  },
+  {
+    "id": "Hm7sg2bTqC0",
+    "title": "The MongolZ 200 IQ Inferno Molotov in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
     "published": "2026-04-24"
   },
   {
@@ -63279,69 +63783,6 @@
     "published": "2025-05-27"
   },
   {
-    "id": "QINWDHS6TXA",
-    "title": "ZywOo ACE in IEM Dallas 2025 Grand Finals | CS2 Highlight",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": null,
-    "published": "2025-05-26"
-  },
-  {
-    "id": "ftjz5VjKWtQ",
-    "title": "ZywOo Dust2 POV (Vitality vs MOUZ) | IEM Dallas 2025 Grand Finals | May 25, 2025",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-26"
-  },
-  {
-    "id": "MNHIRqsa51w",
-    "title": "ZywOo Inferno POV (Vitality vs MOUZ) | IEM Dallas 2025 Grand Finals | May 25, 2025",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-26"
-  },
-  {
-    "id": "_3pMRodwGYM",
-    "title": "ropz Dust2 POV (Vitality vs MOUZ) | IEM Dallas 2025 Grand Finals | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "ropz",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-26"
-  },
-  {
-    "id": "BR1-mabSoYw",
-    "title": "ZywOo Mirage POV (Vitality vs MOUZ) | IEM Dallas 2025 Grand Finals | May 25, 2025",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-26"
-  },
-  {
-    "id": "6Lx0CXkxxmg",
-    "title": "\ud83d\udd25donk avg 3800 ELO Matchup - Full VOICE COMMS (Train) | May 25, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": null,
-    "published": "2025-05-26"
-  },
-  {
-    "id": "sdWc1MjY04E",
-    "title": "CS2 POV Demo Vitality ZywOo (25/12) vs MOUZ (de_mirage) @ IEM Dallas 2025",
-    "channel": "pov_highlights",
-    "player": "zywoo",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-26"
-  },
-  {
     "id": "yJQEXYURscc",
     "title": "chopper\u2019s Meta Mid Door Smoke on Dust 2 \ud83d\udca8",
     "channel": "utility",
@@ -63367,86 +63808,5 @@
     "team": null,
     "map": "dust2",
     "published": "2025-05-26"
-  },
-  {
-    "id": "bJkQeUcjKcQ",
-    "title": "Pros Run Boost Mid on Anubis for a Fast AWP Peek \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-26"
-  },
-  {
-    "id": "dYv8mEvX6M8",
-    "title": "kscerato Smokes A Main for T Control on Anubis \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-26"
-  },
-  {
-    "id": "FbxTTTH7ikI",
-    "title": "Moto Smoke from Pit on Inferno? Clean and Easy \ud83d\udca8",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-26"
-  },
-  {
-    "id": "XTlVr896a94",
-    "title": "Anubis A Main is SHUT DOWN by This CT Spawn Smoke \ud83d\ude33",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-26"
-  },
-  {
-    "id": "B0wurSEwP-0",
-    "title": "Vitality Locks Down Mid on Anubis with This CT Setup \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-26"
-  },
-  {
-    "id": "GzIoqtQxB5E",
-    "title": "Twistzz Sets Up a Clean B Rush on Mirage with These Smokes \ud83d\udd25",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-26"
-  },
-  {
-    "id": "3sYeC3n5NW4",
-    "title": "S1MPLE Solo Queues NA FACEIT at 3500 ELO! s1mple POV with COMMs",
-    "channel": "nebula",
-    "player": "s1mple",
-    "team": null,
-    "map": null,
-    "published": "2025-05-25"
-  },
-  {
-    "id": "5a9fZKFCHRo",
-    "title": "EmiliaQAQ\u2019s Nades for A Main Control on Anubis \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-25"
-  },
-  {
-    "id": "9M46o9R2F5c",
-    "title": "kaze Flashes Mid to Set Up CT Push on Ancient \ud83d\udca5",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-25"
   }
 ]
