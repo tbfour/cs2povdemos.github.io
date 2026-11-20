@@ -1,11 +1,92 @@
 [
   {
+    "id": "Eirtam5LydU",
+    "title": "\ud83d\udd25xelex 32-11 | avg 3.5K ELO | Ancient POV | Nov 19, 2026",
+    "channel": "lim",
+    "player": "xelex",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "u9smc7bgUho",
+    "title": "FURIA INFERNO MID SMOKE BREAK TACTIC IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "kYawN89niYg",
+    "title": "FURIA INFERNO CT ECO TACTIC IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "6oQ-xU9tkrQ",
+    "title": "r1nkle Dust2 Aggressive AWP Peek Mid in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "oYV0Fl1MTdk",
+    "title": "sh1ro Mirage Jungle smoke from Mid in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "AYd6xh_hdeM",
+    "title": "Genius Nuke Door push trick in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "wCpxc7II1qs",
+    "title": "\ud83d\udd25makazze (38-15) 1.85 Rating | avg 1.7K ELO | Mirage POV | Nov 19, 2026",
+    "channel": "lim",
+    "player": "makazze",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-19"
+  },
+  {
     "id": "7HtdjsR_C9Y",
     "title": "\ud83d\udd25jcobbb (21-7) 5-Stack | avg 3.4K ELO | Mirage POV | Nov 18, 2026",
     "channel": "lim",
     "player": "jcobbb",
     "team": null,
     "map": "mirage",
+    "published": "2026-11-19"
+  },
+  {
+    "id": "Pz5R4cxNYcE",
+    "title": "cs2 nuke nades to execute a site in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "nuke",
+    "published": "2026-11-19"
+  },
+  {
+    "id": "7uzQuD0iY3k",
+    "title": "FalleN Ancient CT Smoke From T Spawn in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
     "published": "2026-11-19"
   },
   {
@@ -63648,15 +63729,6 @@
     "published": "2025-05-30"
   },
   {
-    "id": "OayU5dECm2k",
-    "title": "\ud83d\udd25donk (39-20) Full VOICE COMMS (Mirage) | May 28, 2025 | CS2 POV/DEMO",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-29"
-  },
-  {
     "id": "Ym-RWww3YeM",
     "title": "How apEX Smokes B Site Right Side Like a Pro (Anubis)",
     "channel": "utility",
@@ -63682,104 +63754,5 @@
     "team": null,
     "map": "inferno",
     "published": "2025-05-29"
-  },
-  {
-    "id": "8YtBYNfx2AA",
-    "title": "Vitality\u2019s Mirage B Tactic Was UNSTOPPABLE \u2013 INSANE CS2 Strategy",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-29"
-  },
-  {
-    "id": "RMdHkSi7oz8",
-    "title": "The Go-To T Pistol Smoke on Nuke",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-05-29"
-  },
-  {
-    "id": "g6CJFE254YY",
-    "title": "200 IQ Mid Nades on Anubis (CT Side)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-29"
-  },
-  {
-    "id": "XkNC8Y3halo",
-    "title": "torzsi\u2019s Smoke Trick to Beat the Car Molly on Inferno",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-29"
-  },
-  {
-    "id": "nES0I-_YEXw",
-    "title": "This Flash by s1mple BLINDS Connector Instantly (Anubis)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-29"
-  },
-  {
-    "id": "6mJBd8Xoqog",
-    "title": "siuhy Dust 2 A Cross Smoke is PERFECT in CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-29"
-  },
-  {
-    "id": "3XnUdRzAdpQ",
-    "title": "NiKo vs s1mple (VOICE COMMS Multi Angle POV) | FACEIT NA | May 28, 2025",
-    "channel": "lim",
-    "player": "niko",
-    "team": null,
-    "map": null,
-    "published": "2025-05-28"
-  },
-  {
-    "id": "zSIqunBY3YI",
-    "title": "m0NESY against Stewie2k in FACEIT Match! m0NESY POV with COMMs",
-    "channel": "nebula",
-    "player": "m0nesy",
-    "team": null,
-    "map": null,
-    "published": "2025-05-28"
-  },
-  {
-    "id": "pQ5sa_LfPL8",
-    "title": "How FalleN Smokes Short from Apartments (Mirage Pro Trick)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-28"
-  },
-  {
-    "id": "_wwT9trKkB0",
-    "title": "MAJ3R Throws 2 B Smokes from ONE Spot (Anubis CS2)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-28"
-  },
-  {
-    "id": "fyYEPj-ekrs",
-    "title": "How chopper Smokes Mid Doors Like a Pro (Dust2)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-28"
   }
 ]
