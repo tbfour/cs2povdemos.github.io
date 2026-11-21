@@ -1,11 +1,128 @@
 [
   {
+    "id": "XE9LbtJjGo8",
+    "title": "\ud83d\udd25molodoy (25-15) 1.20 Rating | avg 3.8K ELO | Dust2 POV | Nov 20, 2026",
+    "channel": "lim",
+    "player": "molodoy",
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-21"
+  },
+  {
+    "id": "P5iMmczMm74",
+    "title": "\ud83d\udd25b1t (22-9) w/m0NESY | avg 3.8K ELO | Mirage POV | Nov 20, 2026",
+    "channel": "lim",
+    "player": "b1t",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-21"
+  },
+  {
+    "id": "x_ZGsADizg4",
+    "title": "\ud83d\udd25m0NESY (27-14) 1.65 Rating | avg 3.4K ELO | Ancient POV | Nov 20, 2026",
+    "channel": "lim",
+    "player": "m0nesy",
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-21"
+  },
+  {
+    "id": "uBvyGLdMuBo",
+    "title": "LIQUID JT INFERNO NADES FOR BANANA CONTROL IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-21"
+  },
+  {
+    "id": "LZnEptw-lZM",
+    "title": "zont1x shows must know Mirage movement for B players in cs2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-21"
+  },
+  {
+    "id": "OYH4pYCiHb4",
+    "title": "VITALITY INFERNO MID PUSH STRAT IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-21"
+  },
+  {
+    "id": "HibaHwoc2lI",
+    "title": "VITALITY INFERNO DUO PLAY FOR CT SIDE",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-21"
+  },
+  {
+    "id": "sctr9gjTWjY",
+    "title": "\ud83d\udd25ZywOo (26-11) 1.72 Rating | avg 2.8K ELO | Nuke POV | Nov 20, 2026",
+    "channel": "lim",
+    "player": "zywoo",
+    "team": null,
+    "map": "nuke",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "xlH81WQiOb8",
+    "title": "\ud83d\udd25ZywOo 34Kills on FACEIT | avg 2.9K ELO | Anubis POV | Nov 19, 2026",
+    "channel": "lim",
+    "player": "zywoo",
+    "team": null,
+    "map": "anubis",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "7sCqypHITEg",
+    "title": "\ud83d\udd25flameZ (28-6) | avg 3.1K ELO | Mirage POV | Nov 19, 2026",
+    "channel": "lim",
+    "player": "flamez",
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-20"
+  },
+  {
     "id": "Eirtam5LydU",
     "title": "\ud83d\udd25xelex 32-11 | avg 3.5K ELO | Ancient POV | Nov 19, 2026",
     "channel": "lim",
     "player": "xelex",
     "team": null,
     "map": "ancient",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "wjbObncIvOM",
+    "title": "NAVI DUST2 CT SETUP SHUTS DOWN MID",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "lrU2HdSDBLM",
+    "title": "HOW PROS DEFEND MID ON ANUBIS IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "anubis",
+    "published": "2026-11-20"
+  },
+  {
+    "id": "UQKxciLCUqU",
+    "title": "YEKINDAR INFERNO HE NADE ONTO BANANA IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
     "published": "2026-11-20"
   },
   {
@@ -63630,42 +63747,6 @@
     "published": "2025-05-30"
   },
   {
-    "id": "ovG_PQis2jA",
-    "title": "ZywOo (24-9) rating:1.91 w/apEX/hNt-/Graviti/bodyy (Train) | FACEIT EU | May 29, 2025",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": null,
-    "published": "2025-05-30"
-  },
-  {
-    "id": "0WxUjFxLgNQ",
-    "title": "ZywOo (20-3) rating:2.58 w/apEX/hNt-/Graviti/bodyy (Dust2) | FACEIT EU | May 29, 2025",
-    "channel": "lim",
-    "player": "zywoo",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-30"
-  },
-  {
-    "id": "jUhIsYc7Rks",
-    "title": "m0NESY (30-13) w/magisk/TeSeS (Mirage) | FACEIT avg 3200 ELO | May 29, 2025",
-    "channel": "lim",
-    "player": "m0nesy",
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-30"
-  },
-  {
-    "id": "7Mq87FrWfyM",
-    "title": "CS2 POV Demo Vitality Ropz (23/14) vs MOUZ (de_dust2) @ IEM Dallas 2025",
-    "channel": "pov_highlights",
-    "player": "ropz",
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-30"
-  },
-  {
     "id": "MnLMEM1pjO8",
     "title": "How nafany Smokes Top Con - Mirage T Side",
     "channel": "utility",
@@ -63673,86 +63754,5 @@
     "team": null,
     "map": "mirage",
     "published": "2025-05-30"
-  },
-  {
-    "id": "IMjM_EAuCzg",
-    "title": "How siuhy Smokes the Cross from Long - Dust2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-30"
-  },
-  {
-    "id": "Kgst9sXbvWY",
-    "title": "How Aleksib Smokes Connector on Anubis - T Side Trick",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-30"
-  },
-  {
-    "id": "bEQWPNKVH_U",
-    "title": "Smart Long A Boost Spots Car Player - Dust2 CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-30"
-  },
-  {
-    "id": "gyiCPbrlAOU",
-    "title": "Twistzz\u2019s Lurk Smoke for A Main - Ancient CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-05-30"
-  },
-  {
-    "id": "JwoR5sycEXQ",
-    "title": "GODLIKE Palace Smoke by ZywOo \u2013 Mirage CT",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-30"
-  },
-  {
-    "id": "slVdcHG6T5U",
-    "title": "Don\u2019t Push A Without These Nades \u2013 maj3r on Dust 2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-05-30"
-  },
-  {
-    "id": "Ym-RWww3YeM",
-    "title": "How apEX Smokes B Site Right Side Like a Pro (Anubis)",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-05-29"
-  },
-  {
-    "id": "CBAIe47xVsk",
-    "title": "Blitz SOLO Smokes Mirage A Site Like a Pro",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "mirage",
-    "published": "2025-05-29"
-  },
-  {
-    "id": "ebmKhCI6rQ4",
-    "title": "ztr\u2019s Inferno Smoke Lets Teammates Jump Out Apps",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-05-29"
   }
 ]
