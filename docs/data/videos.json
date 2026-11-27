@@ -1,5 +1,59 @@
 [
   {
+    "id": "A3pi_J30o24",
+    "title": "MOLODOY MIRAGE PALACE SMOKE FROM CT",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-27"
+  },
+  {
+    "id": "mSHQLQp15Tk",
+    "title": "blameF Inferno flash for Top Banana control in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-27"
+  },
+  {
+    "id": "BLkRN4PF5nc",
+    "title": "starry shows easy flash to defend a site on inferno",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "inferno",
+    "published": "2026-11-27"
+  },
+  {
+    "id": "IwC6jVkAknk",
+    "title": "FURIA ANCIENT UTILITY FOR B SITE IN CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "ancient",
+    "published": "2026-11-27"
+  },
+  {
+    "id": "e0yKomoDVgs",
+    "title": "r1nkle Window Mirage Smoke Lineup in CS2",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "mirage",
+    "published": "2026-11-27"
+  },
+  {
+    "id": "nFnnugj9854",
+    "title": "\ud83d\udd25electroNic (30-15) 5-Stack | avg 3.0K ELO | Cache POV | Nov 26, 2026",
+    "channel": "lim",
+    "player": "electronic",
+    "team": null,
+    "map": null,
+    "published": "2026-11-26"
+  },
+  {
     "id": "ZA2ixz8uXY4",
     "title": "\ud83d\udd25kyousuke (24-11) 1.39 Rating | avg 3.6K ELO | Ancient POV | Nov 25, 2026",
     "channel": "lim",
@@ -15,6 +69,15 @@
     "player": "zywoo",
     "team": null,
     "map": "nuke",
+    "published": "2026-11-26"
+  },
+  {
+    "id": "AWoyfL1HuNA",
+    "title": "pain dust2 tactic to surprise push tunnels",
+    "channel": "utility",
+    "player": null,
+    "team": null,
+    "map": "dust2",
     "published": "2026-11-26"
   },
   {
@@ -63486,24 +63549,6 @@
     "published": "2025-06-06"
   },
   {
-    "id": "rf2XgPiV5uI",
-    "title": "donk's Drops 33-11 w/magixx (Anubis) | 3600 Elo | June 4, 2025",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "anubis",
-    "published": "2025-06-05"
-  },
-  {
-    "id": "cWZ93XuQtGM",
-    "title": "donk's First FACEIT Match on Inferno since CS2! Drops 30-10 w/ magixx | 3600 Elo | June 4, 2025",
-    "channel": "lim",
-    "player": "donk",
-    "team": null,
-    "map": "inferno",
-    "published": "2025-06-05"
-  },
-  {
     "id": "YuFjbGD-RAc",
     "title": "CS2 POV Demo OG nicoodoz (33/6) vs Complexity (de_ancient) @ BLAST.tv Austin Major 2025 Stage 1",
     "channel": "pov_highlights",
@@ -63529,77 +63574,5 @@
     "team": null,
     "map": "dust2",
     "published": "2025-06-05"
-  },
-  {
-    "id": "DtEjH7KZ6nA",
-    "title": "Molotov to Stop the Defuse \u2013 Anubis B Site CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-06-05"
-  },
-  {
-    "id": "ay89o3jb0qc",
-    "title": "Vitality\u2019s INSANE Dust 2 Strategy vs MOUZ \u2013 A Site Execute Breakdown",
-    "channel": "strategy",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-06-05"
-  },
-  {
-    "id": "6e2JwmE4RC8",
-    "title": "Insane A Main Smoke \u2013 Thrown from B Site on Ancient",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-06-05"
-  },
-  {
-    "id": "k0gtDhuX7Kk",
-    "title": "Consistent Newbox Molotov You NEED \u2013 Inferno CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "inferno",
-    "published": "2025-06-05"
-  },
-  {
-    "id": "m3D1NMzRuvM",
-    "title": "INSANE DUST 2 WALLBANG YOU NEVER SEEN BEFORE",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "dust2",
-    "published": "2025-06-05"
-  },
-  {
-    "id": "9Hrtf6-ztZo",
-    "title": "Pro CT Setup for Anubis A \u2013 CS2 Guide",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "anubis",
-    "published": "2025-06-05"
-  },
-  {
-    "id": "wgnsbasxzjY",
-    "title": "m0NESY\u2019s Silent Heaven Drop \u2013 Nuke CS2 Trick",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "nuke",
-    "published": "2025-06-05"
-  },
-  {
-    "id": "c0ASo-XqxO4",
-    "title": "rain\u2019s 200 IQ Smoke Push \u2013 Ancient B Site CS2",
-    "channel": "utility",
-    "player": null,
-    "team": null,
-    "map": "ancient",
-    "published": "2025-06-04"
   }
 ]
